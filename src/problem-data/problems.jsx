@@ -1,5679 +1,6577 @@
 const data = [
   {
-    "problemName": "User Input / Output",
-    "problemLink": "https://takeuforward.org/c/c-basic-input-output/",
-    "resourceLinks": [
+    id: 1,
+    problemName: "User Input / Output",
+    problemLink: "https://takeuforward.org/c/c-basic-input-output/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/input-output?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/input-output?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=EAR7De6Goz4&t=250s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=EAR7De6Goz4&t=250s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Data Types",
-    "problemLink": "https://takeuforward.org/data-structure/data-types",
-    "resourceLinks": [
-      {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/cpp"
-      }
+    id: 2,
+    problemName: "Data Types",
+    problemLink: "https://takeuforward.org/data-structure/data-types",
+    resourceLinks: [
+      { text: "", href: "https://takeuforward.org/plus/dsa/problems/cpp" },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=EAR7De6Goz4&t=755s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=EAR7De6Goz4&t=755s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "If Else statements",
-    "problemLink": "https://takeuforward.org/if-else/if-else-statements/",
-    "resourceLinks": [
+    id: 3,
+    problemName: "If Else statements",
+    problemLink: "https://takeuforward.org/if-else/if-else-statements/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/if-elseif?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/if-elseif?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=EAR7De6Goz4&t=1259s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=EAR7De6Goz4&t=1259s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Switch Statement",
-    "problemLink": "https://takeuforward.org/switch-case/switch-case-statements/",
-    "resourceLinks": [
+    id: 4,
+    problemName: "Switch Statement",
+    problemLink: "https://takeuforward.org/switch-case/switch-case-statements/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/switch-case?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/switch-case?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=EAR7De6Goz4",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=EAR7De6Goz4",
+    difficulty: "Easy",
   },
   {
-    "problemName": "What are arrays, strings?",
-    "problemLink": "https://takeuforward.org/data-structure/what-are-arrays-strings",
-    "resourceLinks": [
-      {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/cpp"
-      }
+    id: 5,
+    problemName: "What are arrays, strings?",
+    problemLink:
+      "https://takeuforward.org/data-structure/what-are-arrays-strings",
+    resourceLinks: [
+      { text: "", href: "https://takeuforward.org/plus/dsa/problems/cpp" },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=EAR7De6Goz4&t=2415s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=EAR7De6Goz4&t=2415s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "For loops",
-    "problemLink": "https://takeuforward.org/for-loop/understanding-for-loop/",
-    "resourceLinks": [
-      {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/cpp"
-      }
+    id: 6,
+    problemName: "For loops",
+    problemLink: "https://takeuforward.org/for-loop/understanding-for-loop/",
+    resourceLinks: [
+      { text: "", href: "https://takeuforward.org/plus/dsa/problems/cpp" },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=EAR7De6Goz4&t=3096s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=EAR7De6Goz4&t=3096s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "While loops",
-    "problemLink": "https://takeuforward.org/while-loop/while-loops-in-programming/",
-    "resourceLinks": [
-      {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/cpp"
-      }
+    id: 7,
+    problemName: "While loops",
+    problemLink:
+      "https://takeuforward.org/while-loop/while-loops-in-programming/",
+    resourceLinks: [
+      { text: "", href: "https://takeuforward.org/plus/dsa/problems/cpp" },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=EAR7De6Goz4&t=3459s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=EAR7De6Goz4&t=3459s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Functions (Pass by Reference and Value)",
-    "problemLink": "https://takeuforward.org/data-structure/functions-pass-by-reference-and-value",
-    "resourceLinks": [
-      {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/cpp"
-      }
+    id: 8,
+    problemName: "Functions (Pass by Reference and Value)",
+    problemLink:
+      "https://takeuforward.org/data-structure/functions-pass-by-reference-and-value",
+    resourceLinks: [
+      { text: "", href: "https://takeuforward.org/plus/dsa/problems/cpp" },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=EAR7De6Goz4&t=3677s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=EAR7De6Goz4&t=3677s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Time Complexity [Learn Basics, and then analyse in next Steps]",
-    "problemLink": "https://takeuforward.org/time-complexity/time-and-space-complexity-strivers-a2z-dsa-course/",
-    "resourceLinks": [
+    id: 9,
+    problemName:
+      "Time Complexity [Learn Basics, and then analyse in next Steps]",
+    problemLink:
+      "https://takeuforward.org/time-complexity/time-and-space-complexity-strivers-a2z-dsa-course/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/theory-with-examples"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/theory-with-examples",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=FPu9Uld7W-E",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=FPu9Uld7W-E",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Patterns",
-    "problemLink": "https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/",
-    "resourceLinks": [
+    id: 10,
+    problemName: "Patterns",
+    problemLink:
+      "https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/easy-and-medium?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/easy-and-medium?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=tNm_NNSB3_w",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=tNm_NNSB3_w",
+    difficulty: "Easy",
   },
   {
-    "problemName": "C++ STL",
-    "problemLink": "https://takeuforward.org/c/c-stl-tutorial-most-frequent-used-stl-containers/",
-    "resourceLinks": [
-      {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/stl"
-      }
+    id: 11,
+    problemName: "C++ STL",
+    problemLink:
+      "https://takeuforward.org/c/c-stl-tutorial-most-frequent-used-stl-containers/",
+    resourceLinks: [
+      { text: "", href: "https://takeuforward.org/plus/dsa/problems/stl" },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=RRVYpIET_RU",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=RRVYpIET_RU",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Java Collections",
-    "problemLink": "https://takeuforward.org/data-structure/java-collections",
-    "resourceLinks": [
+    id: 12,
+    problemName: "Java Collections",
+    problemLink: "https://takeuforward.org/data-structure/java-collections",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/java-collections"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/java-collections",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Count Digits",
-    "problemLink": "https://takeuforward.org/data-structure/count-digits-in-a-number/",
-    "resourceLinks": [
+    id: 13,
+    problemName: "Count Digits",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-digits-in-a-number/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-all-digits-of-a-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-all-digits-of-a-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=1xNbjMdbjug",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=1xNbjMdbjug",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Reverse a Number",
-    "problemLink": "https://takeuforward.org/maths/reverse-digits-of-a-number",
-    "resourceLinks": [
+    id: 14,
+    problemName: "Reverse a Number",
+    problemLink: "https://takeuforward.org/maths/reverse-digits-of-a-number",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/reverse-a-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/reverse-a-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/reverse-integer/",
-    "ytLink": "https://www.youtube.com/watch?v=1xNbjMdbjug&t=930s",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/reverse-integer/",
+    ytLink: "https://www.youtube.com/watch?v=1xNbjMdbjug&t=930s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Check Palindrome",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-a-number-is-palindrome-or-not/",
-    "resourceLinks": [
+    id: 15,
+    problemName: "Check Palindrome",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-a-number-is-palindrome-or-not/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/palindrome-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/palindrome-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/palindrome-number/",
-    "ytLink": "https://www.youtube.com/watch?v=1xNbjMdbjug&t=1230s",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/palindrome-number/",
+    ytLink: "https://www.youtube.com/watch?v=1xNbjMdbjug&t=1230s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "GCD Or HCF",
-    "problemLink": "https://takeuforward.org/data-structure/find-gcd-of-two-numbers/",
-    "resourceLinks": [
+    id: 16,
+    problemName: "GCD Or HCF",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-gcd-of-two-numbers/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/gcd-of-two-numbers?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/gcd-of-two-numbers?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=1xNbjMdbjug&t=2684s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=1xNbjMdbjug&t=2684s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Armstrong Numbers",
-    "problemLink": "https://takeuforward.org/maths/check-if-a-number-is-armstrong-number-or-not/",
-    "resourceLinks": [
+    id: 17,
+    problemName: "Armstrong Numbers",
+    problemLink:
+      "https://takeuforward.org/maths/check-if-a-number-is-armstrong-number-or-not/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-if-the-number-if-armstrong?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-if-the-number-if-armstrong?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/armstrong-number/",
-    "ytLink": "https://www.youtube.com/watch?v=1xNbjMdbjug&t=1418s",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/armstrong-number/",
+    ytLink: "https://www.youtube.com/watch?v=1xNbjMdbjug&t=1418s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Print all Divisors",
-    "problemLink": "https://takeuforward.org/data-structure/print-all-divisors-of-a-given-number/",
-    "resourceLinks": [
+    id: 18,
+    problemName: "Print all Divisors",
+    problemLink:
+      "https://takeuforward.org/data-structure/print-all-divisors-of-a-given-number/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/divisors-of-a-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/divisors-of-a-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=1xNbjMdbjug&t=1580s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=1xNbjMdbjug&t=1580s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Check for Prime",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-a-number-is-prime-or-not/",
-    "resourceLinks": [
+    id: 19,
+    problemName: "Check for Prime",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-a-number-is-prime-or-not/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-for-prime-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-for-prime-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=1xNbjMdbjug&t=2381s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=1xNbjMdbjug&t=2381s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Understand recursion by print something N times",
-    "problemLink": "https://takeuforward.org/recursion/introduction-to-recursion-understand-recursion-by-printing-something-n-times/",
-    "resourceLinks": [
+    id: 20,
+    problemName: "Understand recursion by print something N times",
+    problemLink:
+      "https://takeuforward.org/recursion/introduction-to-recursion-understand-recursion-by-printing-something-n-times/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/recursion-theory"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/recursion-theory",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=yVdKa8dnKiE",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=yVdKa8dnKiE",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Print name N times using recursion",
-    "problemLink": "https://takeuforward.org/recursion/print-name-n-times-using-recursion/",
-    "resourceLinks": [
+    id: 21,
+    problemName: "Print name N times using recursion",
+    problemLink:
+      "https://takeuforward.org/recursion/print-name-n-times-using-recursion/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/recursion-theory"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/recursion-theory",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=un6PLygfXrA",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=un6PLygfXrA",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Print 1 to N using recursion",
-    "problemLink": "https://takeuforward.org/recursion/print-1-to-n-using-recursion/",
-    "resourceLinks": [
+    id: 22,
+    problemName: "Print 1 to N using recursion",
+    problemLink:
+      "https://takeuforward.org/recursion/print-1-to-n-using-recursion/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/print-1-to-n-using-recursion?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/print-1-to-n-using-recursion?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=un6PLygfXrA",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=un6PLygfXrA",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Print N to 1 using recursion",
-    "problemLink": "https://takeuforward.org/recursion/print-n-to-1-using-recursion/",
-    "resourceLinks": [
+    id: 23,
+    problemName: "Print N to 1 using recursion",
+    problemLink:
+      "https://takeuforward.org/recursion/print-n-to-1-using-recursion/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/print-n-to-1-using-recursion?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/print-n-to-1-using-recursion?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=un6PLygfXrA",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=un6PLygfXrA",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Sum of first N numbers",
-    "problemLink": "https://takeuforward.org/data-structure/sum-of-first-n-natural-numbers/",
-    "resourceLinks": [
+    id: 24,
+    problemName: "Sum of first N numbers",
+    problemLink:
+      "https://takeuforward.org/data-structure/sum-of-first-n-natural-numbers/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/sum-of-first-n-numbers?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/sum-of-first-n-numbers?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=69ZCDFy-OUo",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=69ZCDFy-OUo",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Factorial of N numbers",
-    "problemLink": "https://takeuforward.org/data-structure/factorial-of-a-number-iterative-and-recursive/",
-    "resourceLinks": [
+    id: 25,
+    problemName: "Factorial of N numbers",
+    problemLink:
+      "https://takeuforward.org/data-structure/factorial-of-a-number-iterative-and-recursive/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/factorial-of-a-given-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/factorial-of-a-given-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=69ZCDFy-OUo",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=69ZCDFy-OUo",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Reverse an array",
-    "problemLink": "https://takeuforward.org/data-structure/reverse-a-given-array/",
-    "resourceLinks": [
+    id: 26,
+    problemName: "Reverse an array",
+    problemLink:
+      "https://takeuforward.org/data-structure/reverse-a-given-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/reverse-an-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/reverse-an-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=twuC1F6gLI8",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=twuC1F6gLI8",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Check if a string is palindrome or not",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-the-given-string-is-palindrome-or-not/",
-    "resourceLinks": [
+    id: 27,
+    problemName: "Check if a string is palindrome or not",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-the-given-string-is-palindrome-or-not/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-if-string-is-palindrome-or-not-?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-if-string-is-palindrome-or-not-?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/valid-palindrome/",
-    "ytLink": "https://www.youtube.com/watch?v=twuC1F6gLI8",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/valid-palindrome/",
+    ytLink: "https://www.youtube.com/watch?v=twuC1F6gLI8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Fibonacci Number",
-    "problemLink": "https://takeuforward.org/arrays/print-fibonacci-series-up-to-nth-term/",
-    "resourceLinks": [
+    id: 28,
+    problemName: "Fibonacci Number",
+    problemLink:
+      "https://takeuforward.org/arrays/print-fibonacci-series-up-to-nth-term/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/fibonacci-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/fibonacci-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/fibonacci-number/",
-    "ytLink": "https://www.youtube.com/watch?v=kvRjNm4rVBE",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/fibonacci-number/",
+    ytLink: "https://www.youtube.com/watch?v=kvRjNm4rVBE",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Hashing Theory",
-    "problemLink": "https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course/",
-    "resourceLinks": [
+    id: 29,
+    problemName: "Hashing Theory",
+    problemLink:
+      "https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/basic-hashing"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/basic-hashing",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=KEs5UyBJ39g",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=KEs5UyBJ39g",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Counting frequencies of array elements",
-    "problemLink": "https://takeuforward.org/data-structure/count-frequency-of-each-element-in-the-array/",
-    "resourceLinks": [
+    id: 30,
+    problemName: "Counting frequencies of array elements",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-frequency-of-each-element-in-the-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/counting-frequencies-of-array-elements?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/counting-frequencies-of-array-elements?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Find the highest/lowest frequency element",
-    "problemLink": "https://takeuforward.org/arrays/find-the-highest-lowest-frequency-element/",
-    "resourceLinks": [
+    id: 31,
+    problemName: "Find the highest/lowest frequency element",
+    problemLink:
+      "https://takeuforward.org/arrays/find-the-highest-lowest-frequency-element/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/highest-occurring-element-in-an-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/highest-occurring-element-in-an-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/frequency-of-the-most-frequent-element/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Selection Sort",
-    "problemLink": "https://takeuforward.org/sorting/selection-sort-algorithm/",
-    "resourceLinks": [
+    id: 32,
+    problemName: "Selection Sort",
+    problemLink: "https://takeuforward.org/sorting/selection-sort-algorithm/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/selection-sort?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/selection-sort?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=HGk_ypEuS24&t=167s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=HGk_ypEuS24&t=167s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Bubble Sort",
-    "problemLink": "https://takeuforward.org/data-structure/bubble-sort-algorithm/",
-    "resourceLinks": [
+    id: 33,
+    problemName: "Bubble Sort",
+    problemLink:
+      "https://takeuforward.org/data-structure/bubble-sort-algorithm/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/bubble-sort?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/bubble-sort?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=HGk_ypEuS24&t=1061s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=HGk_ypEuS24&t=1061s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Insertion Sort",
-    "problemLink": "https://takeuforward.org/data-structure/insertion-sort-algorithm/",
-    "resourceLinks": [
+    id: 34,
+    problemName: "Insertion Sort",
+    problemLink:
+      "https://takeuforward.org/data-structure/insertion-sort-algorithm/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/insertion-sorting?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/insertion-sorting?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=HGk_ypEuS24&t=1900s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=HGk_ypEuS24&t=1900s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Merge Sort",
-    "problemLink": "https://takeuforward.org/data-structure/merge-sort-algorithm/",
-    "resourceLinks": [
+    id: 35,
+    problemName: "Merge Sort",
+    problemLink:
+      "https://takeuforward.org/data-structure/merge-sort-algorithm/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/merge-sorting?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/merge-sorting?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=ogjf7ORKfd8",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=ogjf7ORKfd8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Recursive Bubble Sort",
-    "problemLink": "https://takeuforward.org/arrays/recursive-bubble-sort-algorithm/",
-    "resourceLinks": [
+    id: 36,
+    problemName: "Recursive Bubble Sort",
+    problemLink:
+      "https://takeuforward.org/arrays/recursive-bubble-sort-algorithm/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/recursive-bubble-sort?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/recursive-bubble-sort?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Recursive Insertion Sort",
-    "problemLink": "https://takeuforward.org/arrays/recursive-insertion-sort-algorithm/",
-    "resourceLinks": [
+    id: 37,
+    problemName: "Recursive Insertion Sort",
+    problemLink:
+      "https://takeuforward.org/arrays/recursive-insertion-sort-algorithm/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/recursive-insertion-sort?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/recursive-insertion-sort?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Quick Sort",
-    "problemLink": "https://takeuforward.org/data-structure/quick-sort-algorithm/",
-    "resourceLinks": [
+    id: 38,
+    problemName: "Quick Sort",
+    problemLink:
+      "https://takeuforward.org/data-structure/quick-sort-algorithm/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/quick-sorting?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/quick-sorting?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=WIrA4YexLRQ",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=WIrA4YexLRQ",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Largest Element in an Array",
-    "problemLink": "https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/",
-    "resourceLinks": [
+    id: 39,
+    problemName: "Largest Element in an Array",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-the-largest-element-in-an-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/largest-element?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/largest-element?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=37E9ckMDdTk&t=526s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=37E9ckMDdTk&t=526s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Second Largest Element in an Array without sorting",
-    "problemLink": "https://takeuforward.org/data-structure/find-second-smallest-and-second-largest-element-in-an-array/",
-    "resourceLinks": [
+    id: 40,
+    problemName: "Second Largest Element in an Array without sorting",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-second-smallest-and-second-largest-element-in-an-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/second-largest-element?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/second-largest-element?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=37E9ckMDdTk&t=810s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=37E9ckMDdTk&t=810s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Check if the array is sorted",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-an-array-is-sorted/",
-    "resourceLinks": [
+    id: 41,
+    problemName: "Check if the array is sorted",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-an-array-is-sorted/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-if-the-array-is-sorted?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-if-the-array-is-sorted?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/#:~:text=Input%3A%20nums%20%3D%20%5B2%2C,no%20rotation)%20to%20make%20nums.",
-    "ytLink": "https://www.youtube.com/watch?v=37E9ckMDdTk&t=17224s",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/#:~:text=Input%3A%20nums%20%3D%20%5B2%2C,no%20rotation)%20to%20make%20nums.",
+    ytLink: "https://www.youtube.com/watch?v=37E9ckMDdTk&t=17224s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Remove duplicates from Sorted array",
-    "problemLink": "https://takeuforward.org/data-structure/remove-duplicates-in-place-from-sorted-array/",
-    "resourceLinks": [
+    id: 42,
+    problemName: "Remove duplicates from Sorted array",
+    problemLink:
+      "https://takeuforward.org/data-structure/remove-duplicates-in-place-from-sorted-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/remove-duplicates-from-sorted-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/remove-duplicates-from-sorted-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/#:~:text=Input%3A%20nums%20%3D%20%5B0%2C,%2C%203%2C%20and%204%20respectively.",
-    "ytLink": "https://www.youtube.com/watch?v=37E9ckMDdTk&t=1887s",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/remove-duplicates-from-sorted-array/#:~:text=Input%3A%20nums%20%3D%20%5B0%2C,%2C%203%2C%20and%204%20respectively.",
+    ytLink: "https://www.youtube.com/watch?v=37E9ckMDdTk&t=1887s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Left Rotate an array by one place",
-    "problemLink": "https://takeuforward.org/data-structure/left-rotate-the-array-by-one/",
-    "resourceLinks": [
+    id: 43,
+    problemName: "Left Rotate an array by one place",
+    problemLink:
+      "https://takeuforward.org/data-structure/left-rotate-the-array-by-one/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/left-rotate-array-by-one?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/left-rotate-array-by-one?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/rotate-array/",
-    "ytLink": "https://www.youtube.com/watch?v=wvcQg43_V8U&t=61s",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/rotate-array/",
+    ytLink: "https://www.youtube.com/watch?v=wvcQg43_V8U&t=61s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Left rotate an array by D places",
-    "problemLink": "https://takeuforward.org/data-structure/rotate-array-by-k-elements/",
-    "resourceLinks": [
+    id: 44,
+    problemName: "Left rotate an array by D places",
+    problemLink:
+      "https://takeuforward.org/data-structure/rotate-array-by-k-elements/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/left-rotate-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/left-rotate-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/rotate-array/",
-    "ytLink": "https://www.youtube.com/watch?v=wvcQg43_V8U&t=485s",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/rotate-array/",
+    ytLink: "https://www.youtube.com/watch?v=wvcQg43_V8U&t=485s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Move Zeros to end",
-    "problemLink": "https://takeuforward.org/data-structure/move-all-zeros-to-the-end-of-the-array/",
-    "resourceLinks": [
+    id: 45,
+    problemName: "Move Zeros to end",
+    problemLink:
+      "https://takeuforward.org/data-structure/move-all-zeros-to-the-end-of-the-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/move-zeros-to-end?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/move-zeros-to-end?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/move-zeroes/",
-    "ytLink": "https://www.youtube.com/watch?v=wvcQg43_V8U&t=1633s",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/move-zeroes/",
+    ytLink: "https://www.youtube.com/watch?v=wvcQg43_V8U&t=1633s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Linear Search",
-    "problemLink": "https://takeuforward.org/data-structure/linear-search-in-c/",
-    "resourceLinks": [
+    id: 46,
+    problemName: "Linear Search",
+    problemLink: "https://takeuforward.org/data-structure/linear-search-in-c/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/linear-search?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/linear-search?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=wvcQg43_V8U&t=2465s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=wvcQg43_V8U&t=2465s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Find the Union",
-    "problemLink": "https://takeuforward.org/data-structure/union-of-two-sorted-arrays/",
-    "resourceLinks": [
+    id: 47,
+    problemName: "Find the Union",
+    problemLink:
+      "https://takeuforward.org/data-structure/union-of-two-sorted-arrays/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/union-of-two-sorted-arrays?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/union-of-two-sorted-arrays?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=wvcQg43_V8U&t=2584s",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=wvcQg43_V8U&t=2584s",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find missing number in an array",
-    "problemLink": "https://takeuforward.org/arrays/find-the-missing-number-in-an-array/",
-    "resourceLinks": [
+    id: 48,
+    problemName: "Find missing number in an array",
+    problemLink:
+      "https://takeuforward.org/arrays/find-the-missing-number-in-an-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-missing-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-missing-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/missing-number/",
-    "ytLink": "https://www.youtube.com/watch?v=bYWLJb3vCWY&t=57s",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/missing-number/",
+    ytLink: "https://www.youtube.com/watch?v=bYWLJb3vCWY&t=57s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Maximum Consecutive Ones",
-    "problemLink": "https://takeuforward.org/data-structure/count-maximum-consecutive-ones-in-the-array/",
-    "resourceLinks": [
+    id: 49,
+    problemName: "Maximum Consecutive Ones",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-maximum-consecutive-ones-in-the-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/maximum-consecutive-ones?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/maximum-consecutive-ones?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/max-consecutive-ones/",
-    "ytLink": "https://www.youtube.com/watch?v=bYWLJb3vCWY&t=1124s",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/max-consecutive-ones/",
+    ytLink: "https://www.youtube.com/watch?v=bYWLJb3vCWY&t=1124s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Find the number that appears once, and other numbers twice.",
-    "problemLink": "https://takeuforward.org/arrays/find-the-number-that-appears-once-and-the-other-numbers-twice/",
-    "resourceLinks": [
+    id: 50,
+    problemName: "Find the number that appears once, and other numbers twice.",
+    problemLink:
+      "https://takeuforward.org/arrays/find-the-number-that-appears-once-and-the-other-numbers-twice/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/single-number---i?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/single-number---i?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/single-number/",
-    "ytLink": "https://www.youtube.com/watch?v=bYWLJb3vCWY&t=1369s",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/single-number/",
+    ytLink: "https://www.youtube.com/watch?v=bYWLJb3vCWY&t=1369s",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Longest subarray with given sum K(positives)",
-    "problemLink": "https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k/",
-    "resourceLinks": [
+    id: 51,
+    problemName: "Longest subarray with given sum K(positives)",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-subarray-with-sum-k?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-subarray-with-sum-k?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=frf7qxiN2qU",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=frf7qxiN2qU",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Longest subarray with sum K (Positives + Negatives)",
-    "problemLink": "https://takeuforward.org/arrays/longest-subarray-with-sum-k-postives-and-negatives/",
-    "resourceLinks": [
+    id: 52,
+    problemName: "Longest subarray with sum K (Positives + Negatives)",
+    problemLink:
+      "https://takeuforward.org/arrays/longest-subarray-with-sum-k-postives-and-negatives/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-subarray-with-sum-k?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-subarray-with-sum-k?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=frf7qxiN2qU",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=frf7qxiN2qU",
+    difficulty: "Medium",
   },
   {
-    "problemName": "2Sum Problem",
-    "problemLink": "https://takeuforward.org/data-structure/two-sum-check-if-a-pair-with-given-sum-exists-in-array/",
-    "resourceLinks": [
+    id: 53,
+    problemName: "2Sum Problem",
+    problemLink:
+      "https://takeuforward.org/data-structure/two-sum-check-if-a-pair-with-given-sum-exists-in-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/two-sum?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/two-sum?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/two-sum/",
-    "ytLink": "https://www.youtube.com/watch?v=UXDSeD9mN-k",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/two-sum/",
+    ytLink: "https://www.youtube.com/watch?v=UXDSeD9mN-k",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Sort an array of 0's 1's and 2's",
-    "problemLink": "https://takeuforward.org/data-structure/sort-an-array-of-0s-1s-and-2s/",
-    "resourceLinks": [
+    id: 54,
+    problemName: "Sort an array of 0's 1's and 2's",
+    problemLink:
+      "https://takeuforward.org/data-structure/sort-an-array-of-0s-1s-and-2s/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/sort-an-array-of-0's-1's-and-2's?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/sort-an-array-of-0's-1's-and-2's?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/sort-colors/",
-    "ytLink": "https://www.youtube.com/watch?v=tp8JIuCXBaU",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/sort-colors/",
+    ytLink: "https://www.youtube.com/watch?v=tp8JIuCXBaU",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Majority Element (>n/2 times)",
-    "problemLink": "https://takeuforward.org/data-structure/find-the-majority-element-that-occurs-more-than-n-2-times/",
-    "resourceLinks": [
+    id: 55,
+    problemName: "Majority Element (>n/2 times)",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-the-majority-element-that-occurs-more-than-n-2-times/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/majority-element-i?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/majority-element-i?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/majority-element/",
-    "ytLink": "https://www.youtube.com/watch?v=nP_ns3uSh80",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/majority-element/",
+    ytLink: "https://www.youtube.com/watch?v=nP_ns3uSh80",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Kadane's Algorithm, maximum subarray sum",
-    "problemLink": "https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/",
-    "resourceLinks": [
+    id: 56,
+    problemName: "Kadane's Algorithm, maximum subarray sum",
+    problemLink:
+      "https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/kadane's-algorithm?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/kadane's-algorithm?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/maximum-subarray/",
-    "ytLink": "https://www.youtube.com/watch?v=AHZpyENo7k4",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/maximum-subarray/",
+    ytLink: "https://www.youtube.com/watch?v=AHZpyENo7k4",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Print subarray with maximum subarray sum (extended version of above problem)",
-    "problemLink": "https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/",
-    "resourceLinks": [
+    id: 57,
+    problemName:
+      "Print subarray with maximum subarray sum (extended version of above problem)",
+    problemLink:
+      "https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/kadane's-algorithm?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/kadane's-algorithm?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=AHZpyENo7k4",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=AHZpyENo7k4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Stock Buy and Sell",
-    "problemLink": "https://takeuforward.org/data-structure/stock-buy-and-sell/",
-    "resourceLinks": [
+    id: 58,
+    problemName: "Stock Buy and Sell",
+    problemLink: "https://takeuforward.org/data-structure/stock-buy-and-sell/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/best-time-to-buy-and-sell-stock?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/best-time-to-buy-and-sell-stock?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
-    "ytLink": "https://www.youtube.com/watch?v=excAOvwF_Wk",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    ytLink: "https://www.youtube.com/watch?v=excAOvwF_Wk",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Rearrange the array in alternating positive and negative items",
-    "problemLink": "https://takeuforward.org/arrays/rearrange-array-elements-by-sign/",
-    "resourceLinks": [
+    id: 59,
+    problemName:
+      "Rearrange the array in alternating positive and negative items",
+    problemLink:
+      "https://takeuforward.org/arrays/rearrange-array-elements-by-sign/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/rearrange-array-elements-by-sign?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/rearrange-array-elements-by-sign?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
-    "ytLink": "https://www.youtube.com/watch?v=h4aBagy4Uok",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
+    ytLink: "https://www.youtube.com/watch?v=h4aBagy4Uok",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Next Permutation",
-    "problemLink": "https://takeuforward.org/data-structure/next_permutation-find-next-lexicographically-greater-permutation/",
-    "resourceLinks": [
+    id: 60,
+    problemName: "Next Permutation",
+    problemLink:
+      "https://takeuforward.org/data-structure/next_permutation-find-next-lexicographically-greater-permutation/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/next-permutation?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/next-permutation?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/next-permutation/",
-    "ytLink": "https://www.youtube.com/watch?v=JDOXKqF60RQ",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/next-permutation/",
+    ytLink: "https://www.youtube.com/watch?v=JDOXKqF60RQ",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Leaders in an Array problem",
-    "problemLink": "https://takeuforward.org/data-structure/leaders-in-an-array/",
-    "resourceLinks": [
+    id: 61,
+    problemName: "Leaders in an Array problem",
+    problemLink: "https://takeuforward.org/data-structure/leaders-in-an-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/leaders-in-an-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/leaders-in-an-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=cHrH9CQ8pmY",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=cHrH9CQ8pmY",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Longest Consecutive Sequence in an Array",
-    "problemLink": "https://takeuforward.org/data-structure/longest-consecutive-sequence-in-an-array/",
-    "resourceLinks": [
+    id: 62,
+    problemName: "Longest Consecutive Sequence in an Array",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-consecutive-sequence-in-an-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-consecutive-sequence-in-an-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-consecutive-sequence-in-an-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/longest-consecutive-sequence/solution/",
-    "ytLink": "https://www.youtube.com/watch?v=oO5uLE7EUlM",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/longest-consecutive-sequence/solution/",
+    ytLink: "https://www.youtube.com/watch?v=oO5uLE7EUlM",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Set Matrix Zeros",
-    "problemLink": "https://takeuforward.org/data-structure/set-matrix-zero/",
-    "resourceLinks": [
+    id: 63,
+    problemName: "Set Matrix Zeros",
+    problemLink: "https://takeuforward.org/data-structure/set-matrix-zero/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/set-matrix-zeroes?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/set-matrix-zeroes?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/set-matrix-zeroes/",
-    "ytLink": "https://www.youtube.com/watch?v=N0MgLvceX7M",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/set-matrix-zeroes/",
+    ytLink: "https://www.youtube.com/watch?v=N0MgLvceX7M",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Rotate Matrix by 90 degrees",
-    "problemLink": "https://takeuforward.org/data-structure/rotate-image-by-90-degree/",
-    "resourceLinks": [
+    id: 64,
+    problemName: "Rotate Matrix by 90 degrees",
+    problemLink:
+      "https://takeuforward.org/data-structure/rotate-image-by-90-degree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/rotate-matrix-by-90-degrees?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/rotate-matrix-by-90-degrees?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/rotate-image/",
-    "ytLink": "https://www.youtube.com/watch?v=Z0R2u6gd3GU",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/rotate-image/",
+    ytLink: "https://www.youtube.com/watch?v=Z0R2u6gd3GU",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Print the matrix in spiral manner",
-    "problemLink": "https://takeuforward.org/data-structure/spiral-traversal-of-matrix/",
-    "resourceLinks": [
+    id: 65,
+    problemName: "Print the matrix in spiral manner",
+    problemLink:
+      "https://takeuforward.org/data-structure/spiral-traversal-of-matrix/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/print-the-matrix-in-spiral-manner?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/print-the-matrix-in-spiral-manner?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/spiral-matrix/",
-    "ytLink": "https://www.youtube.com/watch?v=3Zv-s9UUrFM",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/spiral-matrix/",
+    ytLink: "https://www.youtube.com/watch?v=3Zv-s9UUrFM",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Count subarrays with given sum",
-    "problemLink": "https://takeuforward.org/arrays/count-subarray-sum-equals-k/",
-    "resourceLinks": [
+    id: 66,
+    problemName: "Count subarrays with given sum",
+    problemLink: "https://takeuforward.org/arrays/count-subarray-sum-equals-k/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-subarrays-with-given-sum?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-subarrays-with-given-sum?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/subarray-sum-equals-k/",
-    "ytLink": "https://www.youtube.com/watch?v=xvNwoz-ufXA",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/subarray-sum-equals-k/",
+    ytLink: "https://www.youtube.com/watch?v=xvNwoz-ufXA",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Pascal's Triangle",
-    "problemLink": "https://takeuforward.org/data-structure/program-to-generate-pascals-triangle/",
-    "resourceLinks": [
+    id: 67,
+    problemName: "Pascal's Triangle",
+    problemLink:
+      "https://takeuforward.org/data-structure/program-to-generate-pascals-triangle/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/pascal's-triangle?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/pascal's-triangle?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/pascals-triangle/",
-    "ytLink": "https://www.youtube.com/watch?v=bR7mQgwQ_o8",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/pascals-triangle/",
+    ytLink: "https://www.youtube.com/watch?v=bR7mQgwQ_o8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Majority Element (n/3 times)",
-    "problemLink": "https://takeuforward.org/data-structure/majority-elementsn-3-times-find-the-elements-that-appears-more-than-n-3-times-in-the-array/",
-    "resourceLinks": [
+    id: 68,
+    problemName: "Majority Element (n/3 times)",
+    problemLink:
+      "https://takeuforward.org/data-structure/majority-elementsn-3-times-find-the-elements-that-appears-more-than-n-3-times-in-the-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/majority-element-ii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/majority-element-ii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/majority-element-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=vwZj1K0e9U8",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/majority-element-ii/",
+    ytLink: "https://www.youtube.com/watch?v=vwZj1K0e9U8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "3-Sum Problem",
-    "problemLink": "https://takeuforward.org/data-structure/3-sum-find-triplets-that-add-up-to-a-zero/",
-    "resourceLinks": [
+    id: 69,
+    problemName: "3-Sum Problem",
+    problemLink:
+      "https://takeuforward.org/data-structure/3-sum-find-triplets-that-add-up-to-a-zero/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/3-sum?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/3-sum?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/3sum/",
-    "ytLink": "https://www.youtube.com/watch?v=DhFh8Kw7ymk",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/3sum/",
+    ytLink: "https://www.youtube.com/watch?v=DhFh8Kw7ymk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "4-Sum Problem",
-    "problemLink": "https://takeuforward.org/data-structure/4-sum-find-quads-that-add-up-to-a-target-value/",
-    "resourceLinks": [
+    id: 70,
+    problemName: "4-Sum Problem",
+    problemLink:
+      "https://takeuforward.org/data-structure/4-sum-find-quads-that-add-up-to-a-target-value/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/4-sum?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/4-sum?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/4sum/",
-    "ytLink": "https://www.youtube.com/watch?v=eD95WRfh81c",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/4sum/",
+    ytLink: "https://www.youtube.com/watch?v=eD95WRfh81c",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Largest Subarray with 0 Sum",
-    "problemLink": "https://takeuforward.org/data-structure/length-of-the-longest-subarray-with-zero-sum/",
-    "resourceLinks": [
+    id: 71,
+    problemName: "Largest Subarray with 0 Sum",
+    problemLink:
+      "https://takeuforward.org/data-structure/length-of-the-longest-subarray-with-zero-sum/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/largest-subarray-with-sum-0?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/largest-subarray-with-sum-0?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=xmguZ6GbatA",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=xmguZ6GbatA",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Count number of subarrays with given xor K",
-    "problemLink": "https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/",
-    "resourceLinks": [
+    id: 72,
+    problemName: "Count number of subarrays with given xor K",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-the-number-of-subarrays-with-given-xor-k/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-subarrays-with-given-xor-k?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-subarrays-with-given-xor-k?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=eZr-6p0B7ME",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=eZr-6p0B7ME",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Merge Overlapping Subintervals",
-    "problemLink": "https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/",
-    "resourceLinks": [
+    id: 73,
+    problemName: "Merge Overlapping Subintervals",
+    problemLink:
+      "https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/merge-overlapping-subintervals?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/merge-overlapping-subintervals?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/merge-intervals/",
-    "ytLink": "https://www.youtube.com/watch?v=IexN60k62jo",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/merge-intervals/",
+    ytLink: "https://www.youtube.com/watch?v=IexN60k62jo",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Merge two sorted arrays without extra space",
-    "problemLink": "https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space/",
-    "resourceLinks": [
+    id: 74,
+    problemName: "Merge two sorted arrays without extra space",
+    problemLink:
+      "https://takeuforward.org/data-structure/merge-two-sorted-arrays-without-extra-space/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/merge-two-sorted-arrays-without-extra-space?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/merge-two-sorted-arrays-without-extra-space?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/merge-sorted-array/",
-    "ytLink": "https://www.youtube.com/watch?v=n7uwj04E0I4",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/merge-sorted-array/",
+    ytLink: "https://www.youtube.com/watch?v=n7uwj04E0I4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find the repeating and missing number",
-    "problemLink": "https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/",
-    "resourceLinks": [
+    id: 75,
+    problemName: "Find the repeating and missing number",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-the-repeating-and-missing-numbers/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-the-repeating-and-missing-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-the-repeating-and-missing-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=2D0D8HE6uak",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=2D0D8HE6uak",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Count Inversions",
-    "problemLink": "https://takeuforward.org/data-structure/count-inversions-in-an-array/",
-    "resourceLinks": [
+    id: 76,
+    problemName: "Count Inversions",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-inversions-in-an-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-inversions?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-inversions?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=AseUmwVNaoY",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=AseUmwVNaoY",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Reverse Pairs",
-    "problemLink": "https://takeuforward.org/data-structure/count-reverse-pairs/",
-    "resourceLinks": [
+    id: 77,
+    problemName: "Reverse Pairs",
+    problemLink: "https://takeuforward.org/data-structure/count-reverse-pairs/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/reverse-pairs?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/reverse-pairs?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/reverse-pairs/",
-    "ytLink": "https://www.youtube.com/watch?v=0e4bZaP3MDI",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/reverse-pairs/",
+    ytLink: "https://www.youtube.com/watch?v=0e4bZaP3MDI",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Maximum Product Subarray",
-    "problemLink": "https://takeuforward.org/data-structure/maximum-product-subarray-in-an-array/",
-    "resourceLinks": [
+    id: 78,
+    problemName: "Maximum Product Subarray",
+    problemLink:
+      "https://takeuforward.org/data-structure/maximum-product-subarray-in-an-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/maximum-product-subarray-in-an-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/maximum-product-subarray-in-an-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/maximum-product-subarray/",
-    "ytLink": "https://www.youtube.com/watch?v=hnswaLJvr6g",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/maximum-product-subarray/",
+    ytLink: "https://www.youtube.com/watch?v=hnswaLJvr6g",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Binary Search to find X in sorted array",
-    "problemLink": "https://takeuforward.org/data-structure/binary-search-explained/",
-    "resourceLinks": [
+    id: 79,
+    problemName: "Binary Search to find X in sorted array",
+    problemLink:
+      "https://takeuforward.org/data-structure/binary-search-explained/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/search-x-in-sorted-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/search-x-in-sorted-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-search/",
-    "ytLink": "https://www.youtube.com/watch?v=MHf6awe89xw",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/binary-search/",
+    ytLink: "https://www.youtube.com/watch?v=MHf6awe89xw",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Implement Lower Bound",
-    "problemLink": "https://takeuforward.org/arrays/implement-lower-bound-bs-2/",
-    "resourceLinks": [
+    id: 80,
+    problemName: "Implement Lower Bound",
+    problemLink: "https://takeuforward.org/arrays/implement-lower-bound-bs-2/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/lower-bound-?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/lower-bound-?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=6zhGS79oQ4k",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=6zhGS79oQ4k",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Implement Upper Bound",
-    "problemLink": "https://takeuforward.org/arrays/implement-upper-bound/",
-    "resourceLinks": [
+    id: 81,
+    problemName: "Implement Upper Bound",
+    problemLink: "https://takeuforward.org/arrays/implement-upper-bound/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/upper-bound?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/upper-bound?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=6zhGS79oQ4k",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=6zhGS79oQ4k",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Search Insert Position",
-    "problemLink": "https://takeuforward.org/arrays/search-insert-position/",
-    "resourceLinks": [
+    id: 82,
+    problemName: "Search Insert Position",
+    problemLink: "https://takeuforward.org/arrays/search-insert-position/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/search-insert-position?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/search-insert-position?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/search-insert-position/#:~:text=Search%20Insert%20Position%20%2D%20LeetCode&text=Given%20a%20sorted%20array%20of,(log%20n)%20runtime%20complexity.",
-    "ytLink": "https://www.youtube.com/watch?v=6zhGS79oQ4k",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/search-insert-position/#:~:text=Search%20Insert%20Position%20%2D%20LeetCode&text=Given%20a%20sorted%20array%20of,(log%20n)%20runtime%20complexity.",
+    ytLink: "https://www.youtube.com/watch?v=6zhGS79oQ4k",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Floor/Ceil in Sorted Array",
-    "problemLink": "https://takeuforward.org/arrays/floor-and-ceil-in-sorted-array/",
-    "resourceLinks": [
+    id: 83,
+    problemName: "Floor/Ceil in Sorted Array",
+    problemLink:
+      "https://takeuforward.org/arrays/floor-and-ceil-in-sorted-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/floor-and-ceil-in-sorted-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/floor-and-ceil-in-sorted-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=6zhGS79oQ4k",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=6zhGS79oQ4k",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find the first or last occurrence of a given number in a sorted array",
-    "problemLink": "https://takeuforward.org/data-structure/last-occurrence-in-a-sorted-array/",
-    "resourceLinks": [
+    id: 84,
+    problemName:
+      "Find the first or last occurrence of a given number in a sorted array",
+    problemLink:
+      "https://takeuforward.org/data-structure/last-occurrence-in-a-sorted-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/first-and-last-occurrence?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/first-and-last-occurrence?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
-    "ytLink": "https://www.youtube.com/watch?v=hjR1IYVx9lY",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    ytLink: "https://www.youtube.com/watch?v=hjR1IYVx9lY",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Count occurrences of a number in a sorted array with duplicates",
-    "problemLink": "https://takeuforward.org/data-structure/count-occurrences-in-sorted-array/",
-    "resourceLinks": [
+    id: 85,
+    problemName:
+      "Count occurrences of a number in a sorted array with duplicates",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-occurrences-in-sorted-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-occurrences-in-a-sorted-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-occurrences-in-a-sorted-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=hjR1IYVx9lY",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=hjR1IYVx9lY",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Search in Rotated Sorted Array I",
-    "problemLink": "https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/",
-    "resourceLinks": [
+    id: 86,
+    problemName: "Search in Rotated Sorted Array I",
+    problemLink:
+      "https://takeuforward.org/data-structure/search-element-in-a-rotated-sorted-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/search-in-rotated-sorted-array-i?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/search-in-rotated-sorted-array-i?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
-    "ytLink": "https://www.youtube.com/watch?v=5qGrJbHhqFs",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    ytLink: "https://www.youtube.com/watch?v=5qGrJbHhqFs",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Search in Rotated Sorted Array II",
-    "problemLink": "https://takeuforward.org/arrays/search-element-in-rotated-sorted-array-ii/",
-    "resourceLinks": [
+    id: 87,
+    problemName: "Search in Rotated Sorted Array II",
+    problemLink:
+      "https://takeuforward.org/arrays/search-element-in-rotated-sorted-array-ii/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/search-in-rotated-sorted-array-ii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/search-in-rotated-sorted-array-ii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=w2G2W8l__pc",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+    ytLink: "https://www.youtube.com/watch?v=w2G2W8l__pc",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find minimum in Rotated Sorted Array",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-in-rotated-sorted-array/",
-    "resourceLinks": [
+    id: 88,
+    problemName: "Find minimum in Rotated Sorted Array",
+    problemLink:
+      "https://takeuforward.org/data-structure/minimum-in-rotated-sorted-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-minimum-in-rotated-sorted-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-minimum-in-rotated-sorted-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
-    "ytLink": "https://www.youtube.com/watch?v=nhEMDKMB44g",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    ytLink: "https://www.youtube.com/watch?v=nhEMDKMB44g",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find out how many times has an array been rotated",
-    "problemLink": "https://takeuforward.org/arrays/find-out-how-many-times-the-array-has-been-rotated/",
-    "resourceLinks": [
+    id: 89,
+    problemName: "Find out how many times has an array been rotated",
+    problemLink:
+      "https://takeuforward.org/arrays/find-out-how-many-times-the-array-has-been-rotated/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-out-how-many-times-the-array-is-rotated?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-out-how-many-times-the-array-is-rotated?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=jtSiWTPLwd0",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=jtSiWTPLwd0",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Single element in a Sorted Array",
-    "problemLink": "https://takeuforward.org/data-structure/search-single-element-in-a-sorted-array/",
-    "resourceLinks": [
+    id: 90,
+    problemName: "Single element in a Sorted Array",
+    problemLink:
+      "https://takeuforward.org/data-structure/search-single-element-in-a-sorted-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/single-element-in-sorted-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/single-element-in-sorted-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
-    "ytLink": "https://www.youtube.com/watch?v=AZOmHuHadxQ",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+    ytLink: "https://www.youtube.com/watch?v=AZOmHuHadxQ",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Find peak element",
-    "problemLink": "https://takeuforward.org/data-structure/peak-element-in-array/",
-    "resourceLinks": [
+    id: 91,
+    problemName: "Find peak element",
+    problemLink:
+      "https://takeuforward.org/data-structure/peak-element-in-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-peak-element?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-peak-element?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks.",
-    "ytLink": "https://www.youtube.com/watch?v=cXxmbemS6XM",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks.",
+    ytLink: "https://www.youtube.com/watch?v=cXxmbemS6XM",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Find square root of a number in log n",
-    "problemLink": "https://takeuforward.org/binary-search/finding-sqrt-of-a-number-using-binary-search/",
-    "resourceLinks": [
+    id: 92,
+    problemName: "Find square root of a number in log n",
+    problemLink:
+      "https://takeuforward.org/binary-search/finding-sqrt-of-a-number-using-binary-search/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-square-root-of-a-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-square-root-of-a-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=Bsv3FPUX_BA",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=Bsv3FPUX_BA",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find the Nth root of a number using binary search",
-    "problemLink": "https://takeuforward.org/data-structure/nth-root-of-a-number-using-binary-search/",
-    "resourceLinks": [
+    id: 93,
+    problemName: "Find the Nth root of a number using binary search",
+    problemLink:
+      "https://takeuforward.org/data-structure/nth-root-of-a-number-using-binary-search/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-nth-root-of-a-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-nth-root-of-a-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=rjEJeYCasHs",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=rjEJeYCasHs",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Koko Eating Bananas",
-    "problemLink": "https://takeuforward.org/binary-search/koko-eating-bananas/",
-    "resourceLinks": [
+    id: 94,
+    problemName: "Koko Eating Bananas",
+    problemLink: "https://takeuforward.org/binary-search/koko-eating-bananas/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/koko-eating-bananas?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/koko-eating-bananas?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/koko-eating-bananas/",
-    "ytLink": "https://www.youtube.com/watch?v=qyfekrNni90",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/koko-eating-bananas/",
+    ytLink: "https://www.youtube.com/watch?v=qyfekrNni90",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Minimum days to make M bouquets",
-    "problemLink": "https://takeuforward.org/arrays/minimum-days-to-make-m-bouquets/",
-    "resourceLinks": [
+    id: 95,
+    problemName: "Minimum days to make M bouquets",
+    problemLink:
+      "https://takeuforward.org/arrays/minimum-days-to-make-m-bouquets/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-days-to-make-m-bouquets?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-days-to-make-m-bouquets?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
-    "ytLink": "https://www.youtube.com/watch?v=TXAuxeYBTdg",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+    ytLink: "https://www.youtube.com/watch?v=TXAuxeYBTdg",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Find the smallest Divisor",
-    "problemLink": "https://takeuforward.org/arrays/find-the-smallest-divisor-given-a-threshold/",
-    "resourceLinks": [
+    id: 96,
+    problemName: "Find the smallest Divisor",
+    problemLink:
+      "https://takeuforward.org/arrays/find-the-smallest-divisor-given-a-threshold/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-the-smallest-divisor?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-the-smallest-divisor?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
-    "ytLink": "https://www.youtube.com/watch?v=UvBKTVaG6U8",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+    ytLink: "https://www.youtube.com/watch?v=UvBKTVaG6U8",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Capacity to Ship Packages within D Days",
-    "problemLink": "https://takeuforward.org/arrays/capacity-to-ship-packages-within-d-days/",
-    "resourceLinks": [
+    id: 97,
+    problemName: "Capacity to Ship Packages within D Days",
+    problemLink:
+      "https://takeuforward.org/arrays/capacity-to-ship-packages-within-d-days/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/capacity-to-ship-packages-within-d-days?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/capacity-to-ship-packages-within-d-days?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
-    "ytLink": "https://www.youtube.com/watch?v=MG-Ac4TAvTY",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+    ytLink: "https://www.youtube.com/watch?v=MG-Ac4TAvTY",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Kth Missing Positive Number",
-    "problemLink": "https://takeuforward.org/arrays/kth-missing-positive-number/",
-    "resourceLinks": [
+    id: 98,
+    problemName: "Kth Missing Positive Number",
+    problemLink: "https://takeuforward.org/arrays/kth-missing-positive-number/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/kth-missing-positive-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/kth-missing-positive-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/kth-missing-positive-number/#:~:text=Given%20an%20array%20arr%20of,13%2C...%5D.",
-    "ytLink": "https://www.youtube.com/watch?v=uZ0N_hZpyps",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/kth-missing-positive-number/#:~:text=Given%20an%20array%20arr%20of,13%2C...%5D.",
+    ytLink: "https://www.youtube.com/watch?v=uZ0N_hZpyps",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Aggressive Cows",
-    "problemLink": "https://takeuforward.org/data-structure/aggressive-cows-detailed-solution/",
-    "resourceLinks": [
+    id: 99,
+    problemName: "Aggressive Cows",
+    problemLink:
+      "https://takeuforward.org/data-structure/aggressive-cows-detailed-solution/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/aggressive-cows?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/aggressive-cows?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=R_Mfw4ew-Vo",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=R_Mfw4ew-Vo",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Book Allocation Problem",
-    "problemLink": "https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/",
-    "resourceLinks": [
+    id: 100,
+    problemName: "Book Allocation Problem",
+    problemLink:
+      "https://takeuforward.org/data-structure/allocate-minimum-number-of-pages/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/book-allocation-problem?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/book-allocation-problem?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=Z0hwjftStI4",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=Z0hwjftStI4",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Split array - Largest Sum",
-    "problemLink": "https://takeuforward.org/arrays/split-array-largest-sum/",
-    "resourceLinks": [
+    id: 101,
+    problemName: "Split array - Largest Sum",
+    problemLink: "https://takeuforward.org/arrays/split-array-largest-sum/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/split-array---largest-sum?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/split-array---largest-sum?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/split-array-largest-sum/",
-    "ytLink": "https://www.youtube.com/watch?v=thUd_WJn6wk",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/split-array-largest-sum/",
+    ytLink: "https://www.youtube.com/watch?v=thUd_WJn6wk",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Painter's partition",
-    "problemLink": "https://takeuforward.org/arrays/painters-partition-problem/",
-    "resourceLinks": [
+    id: 102,
+    problemName: "Painter's partition",
+    problemLink: "https://takeuforward.org/arrays/painters-partition-problem/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/painters-partition?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/painters-partition?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=thUd_WJn6wk",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=thUd_WJn6wk",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Minimize Max Distance to Gas Station",
-    "problemLink": "https://takeuforward.org/arrays/minimise-maximum-distance-between-gas-stations/",
-    "resourceLinks": [
+    id: 103,
+    problemName: "Minimize Max Distance to Gas Station",
+    problemLink:
+      "https://takeuforward.org/arrays/minimise-maximum-distance-between-gas-stations/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimise-max-distance-to-gas-stations?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimise-max-distance-to-gas-stations?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/",
-    "ytLink": "https://www.youtube.com/watch?v=kMSBvlZ-_HA",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/minimize-max-distance-to-gas-station/",
+    ytLink: "https://www.youtube.com/watch?v=kMSBvlZ-_HA",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Median of 2 sorted arrays",
-    "problemLink": "https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes/",
-    "resourceLinks": [
+    id: 104,
+    problemName: "Median of 2 sorted arrays",
+    problemLink:
+      "https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/median-of-2-sorted-arrays?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/median-of-2-sorted-arrays?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
-    "ytLink": "https://www.youtube.com/watch?v=C2rRzz-JDk8",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    ytLink: "https://www.youtube.com/watch?v=C2rRzz-JDk8",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Kth element of 2 sorted arrays",
-    "problemLink": "https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/",
-    "resourceLinks": [
+    id: 105,
+    problemName: "Kth element of 2 sorted arrays",
+    problemLink:
+      "https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/kth-element-of-2-sorted-arrays?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/kth-element-of-2-sorted-arrays?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=D1oDwWCq50g",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=D1oDwWCq50g",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find the row with maximum number of 1's",
-    "problemLink": "https://takeuforward.org/arrays/find-the-row-with-maximum-number-of-1s/",
-    "resourceLinks": [
+    id: 106,
+    problemName: "Find the row with maximum number of 1's",
+    problemLink:
+      "https://takeuforward.org/arrays/find-the-row-with-maximum-number-of-1s/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-row-with-maximum-1's?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-row-with-maximum-1's?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=SCz-1TtYxDI",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=SCz-1TtYxDI",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Search in a 2 D matrix",
-    "problemLink": "https://takeuforward.org/data-structure/search-in-a-sorted-2d-matrix/",
-    "resourceLinks": [
+    id: 107,
+    problemName: "Search in a 2 D matrix",
+    problemLink:
+      "https://takeuforward.org/data-structure/search-in-a-sorted-2d-matrix/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/search-in-a-2d-matrix?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/search-in-a-2d-matrix?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/search-a-2d-matrix/",
-    "ytLink": "https://www.youtube.com/watch?v=JXU4Akft7yk",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/search-a-2d-matrix/",
+    ytLink: "https://www.youtube.com/watch?v=JXU4Akft7yk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Search in a row and column wise sorted matrix",
-    "problemLink": "https://takeuforward.org/arrays/search-in-a-row-and-column-wise-sorted-matrix/",
-    "resourceLinks": [
+    id: 108,
+    problemName: "Search in a row and column wise sorted matrix",
+    problemLink:
+      "https://takeuforward.org/arrays/search-in-a-row-and-column-wise-sorted-matrix/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/search-in-2d-matrix-ii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/search-in-2d-matrix-ii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=9ZbB397jU4k",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    ytLink: "https://www.youtube.com/watch?v=9ZbB397jU4k",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find Peak Element (2D Matrix)",
-    "problemLink": "https://takeuforward.org/data-structure/find-peak-element-2d-matrix",
-    "resourceLinks": [
+    id: 109,
+    problemName: "Find Peak Element (2D Matrix)",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-peak-element-2d-matrix",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-peak-element?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-peak-element?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/find-a-peak-element-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=nGGp5XBzC4g",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/find-a-peak-element-ii/",
+    ytLink: "https://www.youtube.com/watch?v=nGGp5XBzC4g",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Matrix Median",
-    "problemLink": "https://takeuforward.org/data-structure/median-of-row-wise-sorted-matrix/",
-    "resourceLinks": [
+    id: 110,
+    problemName: "Matrix Median",
+    problemLink:
+      "https://takeuforward.org/data-structure/median-of-row-wise-sorted-matrix/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/matrix-median?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/matrix-median?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=Q9wXgdxJq48",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=Q9wXgdxJq48",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Remove outermost Paranthesis",
-    "problemLink": "https://takeuforward.org/data-structure/remove-outermost-parentheses",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/remove-outermost-parentheses/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    id: 111,
+    problemName: "Remove outermost Paranthesis",
+    problemLink:
+      "https://takeuforward.org/data-structure/remove-outermost-parentheses",
+    resourceLinks: [],
+    leetCodeLink: "https://leetcode.com/problems/remove-outermost-parentheses/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Reverse words in a given string / Palindrome Check",
-    "problemLink": "https://takeuforward.org/data-structure/reverse-words-in-a-string/",
-    "resourceLinks": [
+    id: 112,
+    problemName: "Reverse words in a given string / Palindrome Check",
+    problemLink:
+      "https://takeuforward.org/data-structure/reverse-words-in-a-string/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/reverse-every-word-in-a-string?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/reverse-every-word-in-a-string?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/reverse-words-in-a-string/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/reverse-words-in-a-string/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Largest odd number in a string",
-    "problemLink": "https://takeuforward.org/data-structure/largest-odd-number-in-a-string",
-    "resourceLinks": [
+    id: 113,
+    problemName: "Largest odd number in a string",
+    problemLink:
+      "https://takeuforward.org/data-structure/largest-odd-number-in-a-string",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/largest-odd-number-in-a-string?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/largest-odd-number-in-a-string?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/largest-odd-number-in-string/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/largest-odd-number-in-string/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Longest Common Prefix",
-    "problemLink": "https://takeuforward.org/data-structure/longest-common-prefix",
-    "resourceLinks": [
+    id: 114,
+    problemName: "Longest Common Prefix",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-common-prefix",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-happy-prefix?tab=editorialhttps://takeuforward.org/plus/dsa/problems/longest-common-prefix?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-happy-prefix?tab=editorialhttps://takeuforward.org/plus/dsa/problems/longest-common-prefix?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/longest-common-prefix/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/longest-common-prefix/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Isomorphic String",
-    "problemLink": "https://takeuforward.org/data-structure/isomorphic-string",
-    "resourceLinks": [
+    id: 115,
+    problemName: "Isomorphic String",
+    problemLink: "https://takeuforward.org/data-structure/isomorphic-string",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/isomorphic-string?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/isomorphic-string?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/isomorphic-strings/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/isomorphic-strings/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "check whether one string is a rotation of another",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-one-string-is-rotation-of-another",
-    "resourceLinks": [
+    id: 116,
+    problemName: "check whether one string is a rotation of another",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-one-string-is-rotation-of-another",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/rotate-string?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/rotate-string?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/rotate-string/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/rotate-string/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Check if two strings are anagram of each other",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-two-strings-are-anagrams-of-each-other/",
-    "resourceLinks": [
+    id: 117,
+    problemName: "Check if two strings are anagram of each other",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-two-strings-are-anagrams-of-each-other/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/valid-anagram?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/valid-anagram?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/valid-anagram/#:~:text=Given%20two%20strings%20s%20and,the%20original%20letters%20exactly%20once.&text=Constraints%3A,.length%20%3C%3D%205%20*%2010",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/valid-anagram/#:~:text=Given%20two%20strings%20s%20and,the%20original%20letters%20exactly%20once.&text=Constraints%3A,.length%20%3C%3D%205%20*%2010",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Sort Characters by frequency",
-    "problemLink": "https://takeuforward.org/data-structure/sort-characters-by-frequency",
-    "resourceLinks": [
+    id: 118,
+    problemName: "Sort Characters by frequency",
+    problemLink:
+      "https://takeuforward.org/data-structure/sort-characters-by-frequency",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/sort-characters-by-frequency?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/sort-characters-by-frequency?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/sort-characters-by-frequency/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/sort-characters-by-frequency/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Maximum Nesting Depth of Paranthesis",
-    "problemLink": "https://takeuforward.org/data-structure/maximum-nesting-depth-of-parenthesis",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    id: 119,
+    problemName: "Maximum Nesting Depth of Paranthesis",
+    problemLink:
+      "https://takeuforward.org/data-structure/maximum-nesting-depth-of-parenthesis",
+    resourceLinks: [],
+    leetCodeLink:
+      "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Roman Number to Integer and vice versa",
-    "problemLink": "https://takeuforward.org/data-structure/roman-numerals-to-integer",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/roman-to-integer/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    id: 120,
+    problemName: "Roman Number to Integer and vice versa",
+    problemLink:
+      "https://takeuforward.org/data-structure/roman-numerals-to-integer",
+    resourceLinks: [],
+    leetCodeLink: "https://leetcode.com/problems/roman-to-integer/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Implement Atoi",
-    "problemLink": "https://takeuforward.org/data-structure/implement-atoi",
-    "resourceLinks": [
+    id: 121,
+    problemName: "Implement Atoi",
+    problemLink: "https://takeuforward.org/data-structure/implement-atoi",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/string-to-integer-atoi?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/string-to-integer-atoi?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/string-to-integer-atoi/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/string-to-integer-atoi/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Count Number of Substrings",
-    "problemLink": "https://takeuforward.org/data-structure/count-number-of-substrings",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    id: 122,
+    problemName: "Count Number of Substrings",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-number-of-substrings",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Longest Palindromic Substring[Do it without DP]",
-    "problemLink": "https://takeuforward.org/data-structure/longest-palindromic-substring",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/longest-palindromic-substring/",
-    "ytLink": "",
-    "difficulty": "Hard"
+    id: 123,
+    problemName: "Longest Palindromic Substring[Do it without DP]",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-palindromic-substring",
+    resourceLinks: [],
+    leetCodeLink:
+      "https://leetcode.com/problems/longest-palindromic-substring/",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Sum of Beauty of all substring",
-    "problemLink": "https://takeuforward.org/data-structure/sum-of-beauty-of-all-substring",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    id: 124,
+    problemName: "Sum of Beauty of all substring",
+    problemLink:
+      "https://takeuforward.org/data-structure/sum-of-beauty-of-all-substring",
+    resourceLinks: [],
+    leetCodeLink:
+      "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Reverse Every Word in A String",
-    "problemLink": "https://takeuforward.org/data-structure/reverse-every-word-in-a-string",
-    "resourceLinks": [
+    id: 125,
+    problemName: "Reverse Every Word in A String",
+    problemLink:
+      "https://takeuforward.org/data-structure/reverse-every-word-in-a-string",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/reverse-every-word-in-a-string?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/reverse-every-word-in-a-string?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/reverse-words-in-a-string/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/reverse-words-in-a-string/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Introduction to LinkedList, learn about struct, and how is node represented",
-    "problemLink": "https://takeuforward.org/linked-list/linked-list-introduction",
-    "resourceLinks": [
+    id: 126,
+    problemName:
+      "Introduction to LinkedList, learn about struct, and how is node represented",
+    problemLink:
+      "https://takeuforward.org/linked-list/linked-list-introduction",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/introduction-to-singly-linkedlist"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/introduction-to-singly-linkedlist",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=Nq7ok-OyEpg",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=Nq7ok-OyEpg",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Inserting a node in LinkedList",
-    "problemLink": "https://takeuforward.org/linked-list/insert-at-the-head-of-a-linked-list",
-    "resourceLinks": [
+    id: 127,
+    problemName: "Inserting a node in LinkedList",
+    problemLink:
+      "https://takeuforward.org/linked-list/insert-at-the-head-of-a-linked-list",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/insertion-at-the-head-of-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/insertion-at-the-head-of-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=VaECK03Dz-g",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=VaECK03Dz-g",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Deleting a node in LinkedList",
-    "problemLink": "https://takeuforward.org/data-structure/delete-last-node-of-linked-list/",
-    "resourceLinks": [
+    id: 128,
+    problemName: "Deleting a node in LinkedList",
+    problemLink:
+      "https://takeuforward.org/data-structure/delete-last-node-of-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/deletion-of-the-head-of-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/deletion-of-the-head-of-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
-    "ytLink": "https://www.youtube.com/watch?v=VaECK03Dz-g",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/delete-node-in-a-linked-list/",
+    ytLink: "https://www.youtube.com/watch?v=VaECK03Dz-g",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find the length of the linkedlist [learn traversal]",
-    "problemLink": "https://takeuforward.org/linked-list/find-the-length-of-a-linked-list",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=Nq7ok-OyEpg",
-    "difficulty": "Easy"
+    id: 129,
+    problemName: "Find the length of the linkedlist [learn traversal]",
+    problemLink:
+      "https://takeuforward.org/linked-list/find-the-length-of-a-linked-list",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=Nq7ok-OyEpg",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Search an element in the LL",
-    "problemLink": "https://takeuforward.org/linked-list/search-an-element-in-a-linked-list",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=Nq7ok-OyEpg",
-    "difficulty": "Easy"
+    id: 130,
+    problemName: "Search an element in the LL",
+    problemLink:
+      "https://takeuforward.org/linked-list/search-an-element-in-a-linked-list",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=Nq7ok-OyEpg",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Introduction to DLL, learn about struct, and how is node represented",
-    "problemLink": "https://takeuforward.org/linked-list/introduction-to-doubly-linked-list",
-    "resourceLinks": [
+    id: 131,
+    problemName:
+      "Introduction to DLL, learn about struct, and how is node represented",
+    problemLink:
+      "https://takeuforward.org/linked-list/introduction-to-doubly-linked-list",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/introduction-to-doubly-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/introduction-to-doubly-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=0eKMU10uEDI",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=0eKMU10uEDI",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Insert a node in DLL",
-    "problemLink": "https://takeuforward.org/data-structure/insert-at-end-of-doubly-linked-list/",
-    "resourceLinks": [
+    id: 132,
+    problemName: "Insert a node in DLL",
+    problemLink:
+      "https://takeuforward.org/data-structure/insert-at-end-of-doubly-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/insert-node-before-head-in-dll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/insert-node-before-head-in-dll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=0eKMU10uEDI",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=0eKMU10uEDI",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Delete a node in DLL",
-    "problemLink": "https://takeuforward.org/data-structure/delete-last-node-of-a-doubly-linked-list/",
-    "resourceLinks": [
+    id: 133,
+    problemName: "Delete a node in DLL",
+    problemLink:
+      "https://takeuforward.org/data-structure/delete-last-node-of-a-doubly-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/delete-head-of-dll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/delete-head-of-dll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=0eKMU10uEDI",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=0eKMU10uEDI",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Reverse a DLL",
-    "problemLink": "https://takeuforward.org/data-structure/reverse-a-doubly-linked-list/",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=u3WUW2qe6ww",
-    "difficulty": "Medium"
+    id: 134,
+    problemName: "Reverse a DLL",
+    problemLink:
+      "https://takeuforward.org/data-structure/reverse-a-doubly-linked-list/",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=u3WUW2qe6ww",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Middle of a LinkedList [TortoiseHare Method]",
-    "problemLink": "https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/",
-    "resourceLinks": [
+    id: 135,
+    problemName: "Middle of a LinkedList [TortoiseHare Method]",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-middle-element-in-a-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-middle-of-linked-list?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-middle-of-linked-list?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/middle-of-the-linked-list/",
-    "ytLink": "https://www.youtube.com/watch?v=7LjQ57RqgEc",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/middle-of-the-linked-list/",
+    ytLink: "https://www.youtube.com/watch?v=7LjQ57RqgEc",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Reverse a LinkedList [Iterative]",
-    "problemLink": "https://takeuforward.org/data-structure/reverse-a-linked-list/",
-    "resourceLinks": [
+    id: 136,
+    problemName: "Reverse a LinkedList [Iterative]",
+    problemLink:
+      "https://takeuforward.org/data-structure/reverse-a-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/reverse-a-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/reverse-a-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/reverse-linked-list/",
-    "ytLink": "https://www.youtube.com/watch?v=D2vI2DNJGd8",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/reverse-linked-list/",
+    ytLink: "https://www.youtube.com/watch?v=D2vI2DNJGd8",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Reverse a LL [Recursive]",
-    "problemLink": "https://takeuforward.org/data-structure/reverse-a-linked-list/",
-    "resourceLinks": [
+    id: 137,
+    problemName: "Reverse a LL [Recursive]",
+    problemLink:
+      "https://takeuforward.org/data-structure/reverse-a-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/reverse-a-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/reverse-a-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/reverse-linked-list/",
-    "ytLink": "https://www.youtube.com/watch?v=D2vI2DNJGd8",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/reverse-linked-list/",
+    ytLink: "https://www.youtube.com/watch?v=D2vI2DNJGd8",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Detect a loop in LL",
-    "problemLink": "https://takeuforward.org/data-structure/detect-a-cycle-in-a-linked-list/",
-    "resourceLinks": [
+    id: 138,
+    problemName: "Detect a loop in LL",
+    problemLink:
+      "https://takeuforward.org/data-structure/detect-a-cycle-in-a-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/detect-a-loop-in-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/detect-a-loop-in-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/linked-list-cycle/",
-    "ytLink": "https://www.youtube.com/watch?v=wiOo4DC5GGA",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/linked-list-cycle/",
+    ytLink: "https://www.youtube.com/watch?v=wiOo4DC5GGA",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find the starting point in LL",
-    "problemLink": "https://takeuforward.org/data-structure/starting-point-of-loop-in-a-linked-list/",
-    "resourceLinks": [
+    id: 139,
+    problemName: "Find the starting point in LL",
+    problemLink:
+      "https://takeuforward.org/data-structure/starting-point-of-loop-in-a-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-the-starting-point-in-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-the-starting-point-in-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/linked-list-cycle-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=2Kd0KKmmHFc",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/linked-list-cycle-ii/",
+    ytLink: "https://www.youtube.com/watch?v=2Kd0KKmmHFc",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Length of Loop in LL",
-    "problemLink": "https://takeuforward.org/linked-list/length-of-loop-in-linked-list",
-    "resourceLinks": [
+    id: 140,
+    problemName: "Length of Loop in LL",
+    problemLink:
+      "https://takeuforward.org/linked-list/length-of-loop-in-linked-list",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/length-of-loop-in-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/length-of-loop-in-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=I4g1qbkTPus",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=I4g1qbkTPus",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Check if LL is palindrome or not",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-given-linked-list-is-plaindrome/",
-    "resourceLinks": [
+    id: 141,
+    problemName: "Check if LL is palindrome or not",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-given-linked-list-is-plaindrome/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-if-ll-is-palindrome-or-not?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-if-ll-is-palindrome-or-not?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/palindrome-linked-list/",
-    "ytLink": "https://www.youtube.com/watch?v=lRY_G-u_8jk",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/palindrome-linked-list/",
+    ytLink: "https://www.youtube.com/watch?v=lRY_G-u_8jk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Segrregate odd and even nodes in LL",
-    "problemLink": "https://takeuforward.org/data-structure/segregate-even-and-odd-nodes-in-linkedlist",
-    "resourceLinks": [
+    id: 142,
+    problemName: "Segrregate odd and even nodes in LL",
+    problemLink:
+      "https://takeuforward.org/data-structure/segregate-even-and-odd-nodes-in-linkedlist",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/segregate-odd-and-even-nodes-in-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/segregate-odd-and-even-nodes-in-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/odd-even-linked-list/",
-    "ytLink": "https://www.youtube.com/watch?v=qf6qp7GzD5Q",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/odd-even-linked-list/",
+    ytLink: "https://www.youtube.com/watch?v=qf6qp7GzD5Q",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Remove Nth node from the back of the LL",
-    "problemLink": "https://takeuforward.org/data-structure/remove-n-th-node-from-the-end-of-a-linked-list/",
-    "resourceLinks": [
+    id: 143,
+    problemName: "Remove Nth node from the back of the LL",
+    problemLink:
+      "https://takeuforward.org/data-structure/remove-n-th-node-from-the-end-of-a-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/remove-nth-node-from-the-back-of-the-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/remove-nth-node-from-the-back-of-the-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
-    "ytLink": "https://www.youtube.com/watch?v=3kMKYQ2wNIU",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+    ytLink: "https://www.youtube.com/watch?v=3kMKYQ2wNIU",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Delete the middle node of LL",
-    "problemLink": "https://takeuforward.org/linked-list/delete-the-middle-node-of-the-linked-list",
-    "resourceLinks": [
+    id: 144,
+    problemName: "Delete the middle node of LL",
+    problemLink:
+      "https://takeuforward.org/linked-list/delete-the-middle-node-of-the-linked-list",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/delete-the-middle-node-in-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/delete-the-middle-node-in-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/#:~:text=You%20are%20given%20the%20head,than%20or%20equal%20to%20x%20.",
-    "ytLink": "https://www.youtube.com/watch?v=ePpV-_pfOeI",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/#:~:text=You%20are%20given%20the%20head,than%20or%20equal%20to%20x%20.",
+    ytLink: "https://www.youtube.com/watch?v=ePpV-_pfOeI",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Sort LL",
-    "problemLink": "https://takeuforward.org/linked-list/sort-a-linked-list",
-    "resourceLinks": [
+    id: 145,
+    problemName: "Sort LL",
+    problemLink: "https://takeuforward.org/linked-list/sort-a-linked-list",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/sort-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/sort-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/sort-list/",
-    "ytLink": "https://www.youtube.com/watch?v=8ocB7a_c-Cc",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/sort-list/",
+    ytLink: "https://www.youtube.com/watch?v=8ocB7a_c-Cc",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Sort a LL of 0's 1's and 2's by changing links",
-    "problemLink": "https://takeuforward.org/strivers-a2z-dsa-course/Sort%20a%20LL%20of%200's%201's%20and%202's%20by%20changing%20links",
-    "resourceLinks": [
+    id: 146,
+    problemName: "Sort a LL of 0's 1's and 2's by changing links",
+    problemLink:
+      "https://takeuforward.org/strivers-a2z-dsa-course/Sort%20a%20LL%20of%200's%201's%20and%202's%20by%20changing%20links",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/sort-a-ll-of-0's-1's-and-2's?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/sort-a-ll-of-0's-1's-and-2's?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=gRII7LhdJWc",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=gRII7LhdJWc",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find the intersection point of Y LL",
-    "problemLink": "https://takeuforward.org/data-structure/find-intersection-of-two-linked-lists/",
-    "resourceLinks": [
+    id: 147,
+    problemName: "Find the intersection point of Y LL",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-intersection-of-two-linked-lists/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-the-intersection-point-of-y-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-the-intersection-point-of-y-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
-    "ytLink": "https://www.youtube.com/watch?v=0DYoPz2Tpt4",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+    ytLink: "https://www.youtube.com/watch?v=0DYoPz2Tpt4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Add 1 to a number represented by LL",
-    "problemLink": "https://takeuforward.org/data-structure/add-1-to-a-number-represented-by-ll",
-    "resourceLinks": [
+    id: 148,
+    problemName: "Add 1 to a number represented by LL",
+    problemLink:
+      "https://takeuforward.org/data-structure/add-1-to-a-number-represented-by-ll",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/add-one-to-a-number-represented-by-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/add-one-to-a-number-represented-by-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=aXQWhbvT3w0",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=aXQWhbvT3w0",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Add 2 numbers in LL",
-    "problemLink": "https://takeuforward.org/data-structure/add-two-numbers-represented-as-linked-lists/",
-    "resourceLinks": [
+    id: 149,
+    problemName: "Add 2 numbers in LL",
+    problemLink:
+      "https://takeuforward.org/data-structure/add-two-numbers-represented-as-linked-lists/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/add-two-numbers-in-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/add-two-numbers-in-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/add-two-numbers/",
-    "ytLink": "https://www.youtube.com/watch?v=XmRrGzR6udg",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/add-two-numbers/",
+    ytLink: "https://www.youtube.com/watch?v=XmRrGzR6udg",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Delete all occurrences of a key in DLL",
-    "problemLink": "https://takeuforward.org/strivers-a2z-dsa-course/Delete%20all%20occurrences%20of%20a%20key%20in%20DLL",
-    "resourceLinks": [
+    id: 150,
+    problemName: "Delete all occurrences of a key in DLL",
+    problemLink:
+      "https://takeuforward.org/strivers-a2z-dsa-course/Delete%20all%20occurrences%20of%20a%20key%20in%20DLL",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/delete-all-occurrences-of-a-key-in-dll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/delete-all-occurrences-of-a-key-in-dll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=Mh0NH_SD92k",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=Mh0NH_SD92k",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find pairs with given sum in DLL",
-    "problemLink": "https://takeuforward.org/data-structure/find-pairs-with-given-sum-in-doubly-linked-list",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=YitR4dQsddE",
-    "difficulty": "Medium"
+    id: 151,
+    problemName: "Find pairs with given sum in DLL",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-pairs-with-given-sum-in-doubly-linked-list",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=YitR4dQsddE",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Remove duplicates from sorted DLL",
-    "problemLink": "https://takeuforward.org/data-structure/remove-duplicates-from-sorted-dll",
-    "resourceLinks": [
+    id: 152,
+    problemName: "Remove duplicates from sorted DLL",
+    problemLink:
+      "https://takeuforward.org/data-structure/remove-duplicates-from-sorted-dll",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/remove-duplicated-from-sorted-dll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/remove-duplicated-from-sorted-dll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=YJKVTnOJXSY",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=YJKVTnOJXSY",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Reverse LL in group of given size K",
-    "problemLink": "https://takeuforward.org/data-structure/reverse-linked-list-in-groups-of-size-k/",
-    "resourceLinks": [
+    id: 153,
+    problemName: "Reverse LL in group of given size K",
+    problemLink:
+      "https://takeuforward.org/data-structure/reverse-linked-list-in-groups-of-size-k/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/reverse-ll-in-group-of-given-size-k?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/reverse-ll-in-group-of-given-size-k?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
-    "ytLink": "https://www.youtube.com/watch?v=lIar1skcQYI",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+    ytLink: "https://www.youtube.com/watch?v=lIar1skcQYI",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Rotate a LL",
-    "problemLink": "https://takeuforward.org/data-structure/rotate-a-linked-list/",
-    "resourceLinks": [
+    id: 154,
+    problemName: "Rotate a LL",
+    problemLink:
+      "https://takeuforward.org/data-structure/rotate-a-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/rotate-a-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/rotate-a-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/rotate-list/description/",
-    "ytLink": "https://www.youtube.com/watch?v=uT7YI7XbTY8",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/rotate-list/description/",
+    ytLink: "https://www.youtube.com/watch?v=uT7YI7XbTY8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Flattening of LL",
-    "problemLink": "https://takeuforward.org/data-structure/flattening-a-linked-list/",
-    "resourceLinks": [
+    id: 155,
+    problemName: "Flattening of LL",
+    problemLink:
+      "https://takeuforward.org/data-structure/flattening-a-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/flattening-of-ll?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/flattening-of-ll?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=ykelywHJWLg",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=ykelywHJWLg",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Clone a Linked List with random and next pointer",
-    "problemLink": "https://takeuforward.org/data-structure/clone-linked-list-with-random-and-next-pointer/",
-    "resourceLinks": [
+    id: 156,
+    problemName: "Clone a Linked List with random and next pointer",
+    problemLink:
+      "https://takeuforward.org/data-structure/clone-linked-list-with-random-and-next-pointer/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/clone-a-ll-with-random-and-next-pointer?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/clone-a-ll-with-random-and-next-pointer?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/copy-list-with-random-pointer/",
-    "ytLink": "https://www.youtube.com/watch?v=q570bKdrnlw",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    ytLink: "https://www.youtube.com/watch?v=q570bKdrnlw",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Recursive Implementation of atoi()",
-    "problemLink": "https://takeuforward.org/data-structure/recursive-implementation-of-atoi",
-    "resourceLinks": [
+    id: 157,
+    problemName: "Recursive Implementation of atoi()",
+    problemLink:
+      "https://takeuforward.org/data-structure/recursive-implementation-of-atoi",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/string-to-integer-atoi?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/string-to-integer-atoi?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/string-to-integer-atoi/",
-    "ytLink": "",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/string-to-integer-atoi/",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Pow(x, n)",
-    "problemLink": "https://takeuforward.org/data-structure/implement-powxn-x-raised-to-the-power-n/",
-    "resourceLinks": [
+    id: 158,
+    problemName: "Pow(x, n)",
+    problemLink:
+      "https://takeuforward.org/data-structure/implement-powxn-x-raised-to-the-power-n/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/pow(x,n)?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/pow(x,n)?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/powx-n/",
-    "ytLink": "https://www.youtube.com/watch?v=l0YC3876qxg",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/powx-n/",
+    ytLink: "https://www.youtube.com/watch?v=l0YC3876qxg",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Count Good numbers",
-    "problemLink": "https://takeuforward.org/data-structure/count-good-numbers",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/count-good-numbers/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    id: 159,
+    problemName: "Count Good numbers",
+    problemLink: "https://takeuforward.org/data-structure/count-good-numbers",
+    resourceLinks: [],
+    leetCodeLink: "https://leetcode.com/problems/count-good-numbers/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Sort a stack using recursion",
-    "problemLink": "https://takeuforward.org/data-structure/sort-a-stack",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    id: 160,
+    problemName: "Sort a stack using recursion",
+    problemLink: "https://takeuforward.org/data-structure/sort-a-stack",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Reverse a stack using recursion",
-    "problemLink": "https://takeuforward.org/data-structure/reverse-a-stack-using-recursion",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Easy"
+    id: 161,
+    problemName: "Reverse a stack using recursion",
+    problemLink:
+      "https://takeuforward.org/data-structure/reverse-a-stack-using-recursion",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Generate all binary strings",
-    "problemLink": "https://takeuforward.org/data-structure/generate-all-binary-strings",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    id: 162,
+    problemName: "Generate all binary strings",
+    problemLink:
+      "https://takeuforward.org/data-structure/generate-all-binary-strings",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Generate Paranthesis",
-    "problemLink": "https://takeuforward.org/data-structure/generate-parenthesis",
-    "resourceLinks": [
+    id: 163,
+    problemName: "Generate Paranthesis",
+    problemLink: "https://takeuforward.org/data-structure/generate-parenthesis",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/generate-parentheses?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/generate-parentheses?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/generate-parentheses/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/generate-parentheses/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Print all subsequences/Power Set",
-    "problemLink": "https://takeuforward.org/data-structure/power-set-print-all-the-possible-subsequences-of-the-string/",
-    "resourceLinks": [
+    id: 164,
+    problemName: "Print all subsequences/Power Set",
+    problemLink:
+      "https://takeuforward.org/data-structure/power-set-print-all-the-possible-subsequences-of-the-string/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/power-set?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/power-set?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/subsets/",
-    "ytLink": "https://www.youtube.com/watch?v=b7AYbpM5YrE",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/subsets/",
+    ytLink: "https://www.youtube.com/watch?v=b7AYbpM5YrE",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Learn All Patterns of Subsequences (Theory)",
-    "problemLink": "https://takeuforward.org/data-structure/learn-all-patterns-of-subsequences-theory",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=eQCS_v3bw0Q",
-    "difficulty": "Medium"
+    id: 165,
+    problemName: "Learn All Patterns of Subsequences (Theory)",
+    problemLink:
+      "https://takeuforward.org/data-structure/learn-all-patterns-of-subsequences-theory",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=eQCS_v3bw0Q",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Count all subsequences with sum K",
-    "problemLink": "https://takeuforward.org/data-structure/count-all-subsequences-with-sum-k",
-    "resourceLinks": [
+    id: 166,
+    problemName: "Count all subsequences with sum K",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-all-subsequences-with-sum-k",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-all-subsequences-with-sum-k?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-all-subsequences-with-sum-k?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Check if there exists a subsequence with sum K",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-there-exists-a-subsequence-with-sum-k",
-    "resourceLinks": [
+    id: 167,
+    problemName: "Check if there exists a subsequence with sum K",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-there-exists-a-subsequence-with-sum-k",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-if-there-exists-a-subsequence-with-sum-k?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-if-there-exists-a-subsequence-with-sum-k?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Combination Sum",
-    "problemLink": "https://takeuforward.org/data-structure/combination-sum-1/",
-    "resourceLinks": [
+    id: 168,
+    problemName: "Combination Sum",
+    problemLink: "https://takeuforward.org/data-structure/combination-sum-1/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/combination-sum?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/combination-sum?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/combination-sum/",
-    "ytLink": "https://www.youtube.com/watch?v=OyZFFqQtu98",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/combination-sum/",
+    ytLink: "https://www.youtube.com/watch?v=OyZFFqQtu98",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Combination Sum-II",
-    "problemLink": "https://takeuforward.org/data-structure/combination-sum-ii-find-all-unique-combinations/",
-    "resourceLinks": [
+    id: 169,
+    problemName: "Combination Sum-II",
+    problemLink:
+      "https://takeuforward.org/data-structure/combination-sum-ii-find-all-unique-combinations/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/combination-sum-ii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/combination-sum-ii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/combination-sum-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=G1fRTGRxXU8",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/combination-sum-ii/",
+    ytLink: "https://www.youtube.com/watch?v=G1fRTGRxXU8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Subset Sum-I",
-    "problemLink": "https://takeuforward.org/data-structure/subset-sum-sum-of-all-subsets/",
-    "resourceLinks": [
+    id: 170,
+    problemName: "Subset Sum-I",
+    problemLink:
+      "https://takeuforward.org/data-structure/subset-sum-sum-of-all-subsets/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/subsets-i?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/subsets-i?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=rYkfBRtMJr8",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=rYkfBRtMJr8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Subset Sum-II",
-    "problemLink": "https://takeuforward.org/data-structure/subset-ii-print-all-the-unique-subsets/",
-    "resourceLinks": [
+    id: 171,
+    problemName: "Subset Sum-II",
+    problemLink:
+      "https://takeuforward.org/data-structure/subset-ii-print-all-the-unique-subsets/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/subsets-ii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/subsets-ii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/subsets-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=RIn3gOkbhQE",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/subsets-ii/",
+    ytLink: "https://www.youtube.com/watch?v=RIn3gOkbhQE",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Combination Sum - III",
-    "problemLink": "https://takeuforward.org/data-structure/combination-sum-iii",
-    "resourceLinks": [
+    id: 172,
+    problemName: "Combination Sum - III",
+    problemLink: "https://takeuforward.org/data-structure/combination-sum-iii",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/combination-sum-iii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/combination-sum-iii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/combination-sum-iii/",
-    "ytLink": "",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/combination-sum-iii/",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Letter Combinations of a Phone number",
-    "problemLink": "https://takeuforward.org/data-structure/letter-combinations-of-a-phone-number",
-    "resourceLinks": [
+    id: 173,
+    problemName: "Letter Combinations of a Phone number",
+    problemLink:
+      "https://takeuforward.org/data-structure/letter-combinations-of-a-phone-number",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/letter-combinations-of-a-phone-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/letter-combinations-of-a-phone-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Palindrome Partitioning",
-    "problemLink": "https://takeuforward.org/data-structure/palindrome-partitioning/",
-    "resourceLinks": [
+    id: 174,
+    problemName: "Palindrome Partitioning",
+    problemLink:
+      "https://takeuforward.org/data-structure/palindrome-partitioning/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/palindrome-partitioning?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/palindrome-partitioning?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/palindrome-partitioning/",
-    "ytLink": "https://www.youtube.com/watch?v=WBgsABoClE0",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/palindrome-partitioning/",
+    ytLink: "https://www.youtube.com/watch?v=WBgsABoClE0",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Word Search",
-    "problemLink": "https://takeuforward.org/data-structure/word-search-leetcode/",
-    "resourceLinks": [
+    id: 175,
+    problemName: "Word Search",
+    problemLink:
+      "https://takeuforward.org/data-structure/word-search-leetcode/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/word-search?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/word-search?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/word-search/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/word-search/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "N Queen",
-    "problemLink": "https://takeuforward.org/data-structure/n-queen-problem-return-all-distinct-solutions-to-the-n-queens-puzzle/",
-    "resourceLinks": [
+    id: 176,
+    problemName: "N Queen",
+    problemLink:
+      "https://takeuforward.org/data-structure/n-queen-problem-return-all-distinct-solutions-to-the-n-queens-puzzle/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/n-queen?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/n-queen?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/n-queens/",
-    "ytLink": "https://www.youtube.com/watch?v=i05Ju7AftcM",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/n-queens/",
+    ytLink: "https://www.youtube.com/watch?v=i05Ju7AftcM",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Rat in a Maze",
-    "problemLink": "https://takeuforward.org/data-structure/rat-in-a-maze/",
-    "resourceLinks": [
+    id: 177,
+    problemName: "Rat in a Maze",
+    problemLink: "https://takeuforward.org/data-structure/rat-in-a-maze/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/rat-in-a-maze?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/rat-in-a-maze?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=bLGZhJlt4y0",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=bLGZhJlt4y0",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Word Break",
-    "problemLink": "https://takeuforward.org/data-structure/word-break",
-    "resourceLinks": [
+    id: 178,
+    problemName: "Word Break",
+    problemLink: "https://takeuforward.org/data-structure/word-break",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/word-break?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/word-break?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/word-break/",
-    "ytLink": "",
-    "difficulty": ""
+    leetCodeLink: "https://leetcode.com/problems/word-break/",
+    ytLink: "",
+    difficulty: "",
   },
   {
-    "problemName": "M Coloring Problem",
-    "problemLink": "https://takeuforward.org/data-structure/m-coloring-problem/",
-    "resourceLinks": [
+    id: 179,
+    problemName: "M Coloring Problem",
+    problemLink: "https://takeuforward.org/data-structure/m-coloring-problem/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/m-coloring-problem?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/m-coloring-problem?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=wuVwUK25Rfc",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=wuVwUK25Rfc",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Sudoko Solver",
-    "problemLink": "https://takeuforward.org/data-structure/sudoku-solver/",
-    "resourceLinks": [
+    id: 180,
+    problemName: "Sudoko Solver",
+    problemLink: "https://takeuforward.org/data-structure/sudoku-solver/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/sudoko-solver?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/sudoko-solver?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/sudoku-solver/",
-    "ytLink": "https://www.youtube.com/watch?v=FWAIf_EVUKE",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/sudoku-solver/",
+    ytLink: "https://www.youtube.com/watch?v=FWAIf_EVUKE",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Expression Add Operators",
-    "problemLink": "https://takeuforward.org/data-structure/expression-add-operators",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/expression-add-operators/",
-    "ytLink": "",
-    "difficulty": "Hard"
+    id: 181,
+    problemName: "Expression Add Operators",
+    problemLink:
+      "https://takeuforward.org/data-structure/expression-add-operators",
+    resourceLinks: [],
+    leetCodeLink: "https://leetcode.com/problems/expression-add-operators/",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Introduction to Bit Manipulation [Theory]",
-    "problemLink": "https://takeuforward.org/data-structure/introduction-to-bit-manipulation-theory",
-    "resourceLinks": [
+    id: 182,
+    problemName: "Introduction to Bit Manipulation [Theory]",
+    problemLink:
+      "https://takeuforward.org/data-structure/introduction-to-bit-manipulation-theory",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/introduction-to-bits-and-tricks?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/introduction-to-bits-and-tricks?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=qQd-ViW7bfk",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=qQd-ViW7bfk",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Check if the i-th bit is set or not",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-the-i-th-bit-is-set-or-not",
-    "resourceLinks": [
+    id: 183,
+    problemName: "Check if the i-th bit is set or not",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-the-i-th-bit-is-set-or-not",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-if-the-i-th-bit-is-set-or-not?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-if-the-i-th-bit-is-set-or-not?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=nttpF8kwgd4",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=nttpF8kwgd4",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Check if a number is odd or not",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-a-number-is-odd-or-not",
-    "resourceLinks": [
+    id: 184,
+    problemName: "Check if a number is odd or not",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-a-number-is-odd-or-not",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-if-a-number-is-odd-or-not?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-if-a-number-is-odd-or-not?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=nttpF8kwgd4",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=nttpF8kwgd4",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Check if a number is power of 2 or not",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-a-number-is-power-of-2-or-not",
-    "resourceLinks": [
+    id: 185,
+    problemName: "Check if a number is power of 2 or not",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-a-number-is-power-of-2-or-not",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-if-a-number-is-power-of-2-or-not?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-if-a-number-is-power-of-2-or-not?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/power-of-two/",
-    "ytLink": "https://www.youtube.com/watch?v=nttpF8kwgd4",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/power-of-two/",
+    ytLink: "https://www.youtube.com/watch?v=nttpF8kwgd4",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Count the number of set bits",
-    "problemLink": "https://takeuforward.org/data-structure/count-the-number-of-set-bits",
-    "resourceLinks": [
+    id: 186,
+    problemName: "Count the number of set bits",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-the-number-of-set-bits",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-the-number-of-set-bits?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-the-number-of-set-bits?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=nttpF8kwgd4",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=nttpF8kwgd4",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Set/Unset the rightmost unset bit",
-    "problemLink": "https://takeuforward.org/data-structure/set-the-rightmost-bit",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=nttpF8kwgd4",
-    "difficulty": "Easy"
+    id: 187,
+    problemName: "Set/Unset the rightmost unset bit",
+    problemLink:
+      "https://takeuforward.org/data-structure/set-the-rightmost-bit",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=nttpF8kwgd4",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Swap two numbers",
-    "problemLink": "https://takeuforward.org/data-structure/swap-two-numbers",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=nttpF8kwgd4",
-    "difficulty": "Easy"
+    id: 188,
+    problemName: "Swap two numbers",
+    problemLink: "https://takeuforward.org/data-structure/swap-two-numbers",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=nttpF8kwgd4",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Divide two integers without using multiplication, division and mod operator",
-    "problemLink": "https://takeuforward.org/data-structure/divide-two-integers-without-using-multiplication-division-and-mod-operator",
-    "resourceLinks": [
+    id: 189,
+    problemName:
+      "Divide two integers without using multiplication, division and mod operator",
+    problemLink:
+      "https://takeuforward.org/data-structure/divide-two-integers-without-using-multiplication-division-and-mod-operator",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/divide-two-numbers-without-multiplication-and-division?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/divide-two-numbers-without-multiplication-and-division?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/divide-two-integers/",
-    "ytLink": "https://www.youtube.com/watch?v=pBD4B1tzgVc",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/divide-two-integers/",
+    ytLink: "https://www.youtube.com/watch?v=pBD4B1tzgVc",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Count number of bits to be flipped to convert A to B",
-    "problemLink": "https://takeuforward.org/data-structure/count-number-of-bits-to-be-flipped-to-convert-a-to-b",
-    "resourceLinks": [
+    id: 190,
+    problemName: "Count number of bits to be flipped to convert A to B",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-number-of-bits-to-be-flipped-to-convert-a-to-b",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-bit-flips-to-convert-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-bit-flips-to-convert-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
-    "ytLink": "https://www.youtube.com/watch?v=OOdrmcfZXd8",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/",
+    ytLink: "https://www.youtube.com/watch?v=OOdrmcfZXd8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find the number that appears odd number of times",
-    "problemLink": "https://takeuforward.org/data-structure/find-the-number-that-appears-odd-number-of-times",
-    "resourceLinks": [
+    id: 191,
+    problemName: "Find the number that appears odd number of times",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-the-number-that-appears-odd-number-of-times",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/single-number---i?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/single-number---i?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/single-number/",
-    "ytLink": "https://www.youtube.com/watch?v=sFBCAl8yBfE",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/single-number/",
+    ytLink: "https://www.youtube.com/watch?v=sFBCAl8yBfE",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Power Set",
-    "problemLink": "https://takeuforward.org/bit-manipulation/power-set-bit-manipulation",
-    "resourceLinks": [
+    id: 192,
+    problemName: "Power Set",
+    problemLink:
+      "https://takeuforward.org/bit-manipulation/power-set-bit-manipulation",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/power-set-bit-manipulation?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/power-set-bit-manipulation?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/subsets/",
-    "ytLink": "https://www.youtube.com/watch?v=LqKaUv1G3_I",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/subsets/",
+    ytLink: "https://www.youtube.com/watch?v=LqKaUv1G3_I",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find xor of numbers from L to R",
-    "problemLink": "https://takeuforward.org/data-structure/find-xor-of-numbers-from-l-to-r",
-    "resourceLinks": [
+    id: 193,
+    problemName: "Find xor of numbers from L to R",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-xor-of-numbers-from-l-to-r",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/xor-of-numbers-in-a-given-range?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/xor-of-numbers-in-a-given-range?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=WqGb7159h7Q",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=WqGb7159h7Q",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Find the two numbers appearing odd number of times",
-    "problemLink": "https://takeuforward.org/data-structure/find-the-two-numbers-appearing-odd-number-of-times",
-    "resourceLinks": [
+    id: 194,
+    problemName: "Find the two numbers appearing odd number of times",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-the-two-numbers-appearing-odd-number-of-times",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/single-number---iii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/single-number---iii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=UA5JnV1J2sI",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=UA5JnV1J2sI",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Print Prime Factors of a Number",
-    "problemLink": "https://takeuforward.org/data-structure/find-the-two-numbers-appearing-odd-number-of-times",
-    "resourceLinks": [
+    id: 195,
+    problemName: "Print Prime Factors of a Number",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-the-two-numbers-appearing-odd-number-of-times",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/prime-factorisation-of-a-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/prime-factorisation-of-a-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=LT7XhVdeRyg",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=LT7XhVdeRyg",
+    difficulty: "Easy",
   },
   {
-    "problemName": "All Divisors of a Number",
-    "problemLink": "https://takeuforward.org/data-structure/all-divisors-of-a-number",
-    "resourceLinks": [
+    id: 196,
+    problemName: "All Divisors of a Number",
+    problemLink:
+      "https://takeuforward.org/data-structure/all-divisors-of-a-number",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/divisors-of-a-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/divisors-of-a-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=Ae_Ag_saG9s",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=Ae_Ag_saG9s",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Sieve of Eratosthenes",
-    "problemLink": "https://takeuforward.org/data-structure/sieve-of-eratosthenes",
-    "resourceLinks": [
+    id: 197,
+    problemName: "Sieve of Eratosthenes",
+    problemLink:
+      "https://takeuforward.org/data-structure/sieve-of-eratosthenes",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-primes-in-range-l-to-r?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-primes-in-range-l-to-r?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/count-primes/",
-    "ytLink": "https://www.youtube.com/watch?v=g5Fuxn_AvSk",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/count-primes/",
+    ytLink: "https://www.youtube.com/watch?v=g5Fuxn_AvSk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find Prime Factorisation of a Number using Sieve",
-    "problemLink": "https://takeuforward.org/data-structure/find-prime-factorisation-of-a-number-using-sieve",
-    "resourceLinks": [
+    id: 198,
+    problemName: "Find Prime Factorisation of a Number using Sieve",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-prime-factorisation-of-a-number-using-sieve",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/prime-factorisation-of-a-number?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/prime-factorisation-of-a-number?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=glKWkmKFlMw",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=glKWkmKFlMw",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Power(n, x)",
-    "problemLink": "https://takeuforward.org/data-structure/power-n-x",
-    "resourceLinks": [
+    id: 199,
+    problemName: "Power(n, x)",
+    problemLink: "https://takeuforward.org/data-structure/power-n-x",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/pow(x,n)?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/pow(x,n)?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/powx-n/",
-    "ytLink": "https://www.youtube.com/watch?v=hFWckDXE-K8",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/powx-n/",
+    ytLink: "https://www.youtube.com/watch?v=hFWckDXE-K8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Implement Stack using Arrays",
-    "problemLink": "https://takeuforward.org/data-structure/implement-stack-using-array/",
-    "resourceLinks": [
+    id: 200,
+    problemName: "Implement Stack using Arrays",
+    problemLink:
+      "https://takeuforward.org/data-structure/implement-stack-using-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/implement-stack-using-arrays?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/implement-stack-using-arrays?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=tqQ5fTamIN4",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=tqQ5fTamIN4",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Implement Queue using Arrays",
-    "problemLink": "https://takeuforward.org/data-structure/implement-queue-using-array/",
-    "resourceLinks": [
+    id: 201,
+    problemName: "Implement Queue using Arrays",
+    problemLink:
+      "https://takeuforward.org/data-structure/implement-queue-using-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/implement-queue-using-arrays?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/implement-queue-using-arrays?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=tqQ5fTamIN4",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=tqQ5fTamIN4",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Implement Stack using Queue",
-    "problemLink": "https://takeuforward.org/data-structure/implement-stack-using-single-queue/",
-    "resourceLinks": [
+    id: 202,
+    problemName: "Implement Stack using Queue",
+    problemLink:
+      "https://takeuforward.org/data-structure/implement-stack-using-single-queue/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/implement-stack-using-queue?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/implement-stack-using-queue?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/implement-stack-using-queues/",
-    "ytLink": "https://www.youtube.com/watch?v=tqQ5fTamIN4",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/implement-stack-using-queues/",
+    ytLink: "https://www.youtube.com/watch?v=tqQ5fTamIN4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Implement Queue using Stack",
-    "problemLink": "https://takeuforward.org/data-structure/implement-queue-using-stack/",
-    "resourceLinks": [
+    id: 203,
+    problemName: "Implement Queue using Stack",
+    problemLink:
+      "https://takeuforward.org/data-structure/implement-queue-using-stack/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/implement-queue-using-stack?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/implement-queue-using-stack?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/implement-queue-using-stacks/",
-    "ytLink": "https://www.youtube.com/watch?v=tqQ5fTamIN4",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/implement-queue-using-stacks/",
+    ytLink: "https://www.youtube.com/watch?v=tqQ5fTamIN4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Implement stack using Linkedlist",
-    "problemLink": "https://takeuforward.org/data-structure/implement-stack-using-linked-list/",
-    "resourceLinks": [
+    id: 204,
+    problemName: "Implement stack using Linkedlist",
+    problemLink:
+      "https://takeuforward.org/data-structure/implement-stack-using-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/implement-stack-using-linkedlist?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/implement-stack-using-linkedlist?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=tqQ5fTamIN4",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=tqQ5fTamIN4",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Implement queue using Linkedlist",
-    "problemLink": "https://takeuforward.org/data-structure/implement-queue-using-linked-list/",
-    "resourceLinks": [
+    id: 205,
+    problemName: "Implement queue using Linkedlist",
+    problemLink:
+      "https://takeuforward.org/data-structure/implement-queue-using-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/implement-queue-using-linkedlist?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/implement-queue-using-linkedlist?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=tqQ5fTamIN4",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=tqQ5fTamIN4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Check for balanced paranthesis",
-    "problemLink": "https://takeuforward.org/data-structure/check-for-balanced-parentheses/",
-    "resourceLinks": [
+    id: 206,
+    problemName: "Check for balanced paranthesis",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-for-balanced-parentheses/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/balanced-paranthesis?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/balanced-paranthesis?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/valid-parentheses/",
-    "ytLink": "https://www.youtube.com/watch?v=xwjS0iZhw4I",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/valid-parentheses/",
+    ytLink: "https://www.youtube.com/watch?v=xwjS0iZhw4I",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Implement Min Stack",
-    "problemLink": "https://takeuforward.org/data-structure/implement-min-stack-o2n-and-on-space-complexity/",
-    "resourceLinks": [
+    id: 207,
+    problemName: "Implement Min Stack",
+    problemLink:
+      "https://takeuforward.org/data-structure/implement-min-stack-o2n-and-on-space-complexity/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/implement-min-stack?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/implement-min-stack?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/min-stack/",
-    "ytLink": "https://www.youtube.com/watch?v=NdDIaH91P0g",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/min-stack/",
+    ytLink: "https://www.youtube.com/watch?v=NdDIaH91P0g",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Infix to Postfix Conversion using Stack",
-    "problemLink": "https://takeuforward.org/data-structure/infix-to-postfix/",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=4pIc9UBHJtk",
-    "difficulty": "Medium"
+    id: 208,
+    problemName: "Infix to Postfix Conversion using Stack",
+    problemLink: "https://takeuforward.org/data-structure/infix-to-postfix/",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=4pIc9UBHJtk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Prefix to Infix Conversion",
-    "problemLink": "https://takeuforward.org/data-structure/prefix-to-infix-conversion",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=4pIc9UBHJtk",
-    "difficulty": "Medium"
+    id: 209,
+    problemName: "Prefix to Infix Conversion",
+    problemLink:
+      "https://takeuforward.org/data-structure/prefix-to-infix-conversion",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=4pIc9UBHJtk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Prefix to Postfix Conversion",
-    "problemLink": "https://takeuforward.org/data-structure/prefix-to-postfix-conversion",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=4pIc9UBHJtk",
-    "difficulty": "Medium"
+    id: 210,
+    problemName: "Prefix to Postfix Conversion",
+    problemLink:
+      "https://takeuforward.org/data-structure/prefix-to-postfix-conversion",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=4pIc9UBHJtk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Postfix to Prefix Conversion",
-    "problemLink": "https://takeuforward.org/data-structure/postfix-to-prefix-conversion",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=4pIc9UBHJtk",
-    "difficulty": "Medium"
+    id: 211,
+    problemName: "Postfix to Prefix Conversion",
+    problemLink:
+      "https://takeuforward.org/data-structure/postfix-to-prefix-conversion",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=4pIc9UBHJtk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Postfix to Infix",
-    "problemLink": "https://takeuforward.org/data-structure/postfix-to-infix",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=4pIc9UBHJtk",
-    "difficulty": "Medium"
+    id: 212,
+    problemName: "Postfix to Infix",
+    problemLink: "https://takeuforward.org/data-structure/postfix-to-infix",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=4pIc9UBHJtk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Convert Infix To Prefix Notation",
-    "problemLink": "https://takeuforward.org/data-structure/infix-to-prefix/",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=4pIc9UBHJtk",
-    "difficulty": "Medium"
+    id: 213,
+    problemName: "Convert Infix To Prefix Notation",
+    problemLink: "https://takeuforward.org/data-structure/infix-to-prefix/",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=4pIc9UBHJtk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Next Greater Element",
-    "problemLink": "https://takeuforward.org/data-structure/next-greater-element-using-stack/",
-    "resourceLinks": [
+    id: 214,
+    problemName: "Next Greater Element",
+    problemLink:
+      "https://takeuforward.org/data-structure/next-greater-element-using-stack/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/next-greater-element?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/next-greater-element?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/next-greater-element-i/",
-    "ytLink": "https://www.youtube.com/watch?v=e7XQLtOQM3I",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/next-greater-element-i/",
+    ytLink: "https://www.youtube.com/watch?v=e7XQLtOQM3I",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Next Greater Element 2",
-    "problemLink": "https://takeuforward.org/data-structure/next-greater-element-2",
-    "resourceLinks": [
+    id: 215,
+    problemName: "Next Greater Element 2",
+    problemLink:
+      "https://takeuforward.org/data-structure/next-greater-element-2",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/next-greater-element---2?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/next-greater-element---2?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/next-greater-element-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=7PrncD7v9YQ",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/next-greater-element-ii/",
+    ytLink: "https://www.youtube.com/watch?v=7PrncD7v9YQ",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Next Smaller Element",
-    "problemLink": "https://takeuforward.org/data-structure/next-smaller-element",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Easy"
+    id: 216,
+    problemName: "Next Smaller Element",
+    problemLink: "https://takeuforward.org/data-structure/next-smaller-element",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Number of NGEs to the right",
-    "problemLink": "https://takeuforward.org/data-structure/number-of-nges-to-the-right",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    id: 217,
+    problemName: "Number of NGEs to the right",
+    problemLink:
+      "https://takeuforward.org/data-structure/number-of-nges-to-the-right",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Trapping Rainwater",
-    "problemLink": "https://takeuforward.org/data-structure/trapping-rainwater/",
-    "resourceLinks": [
+    id: 218,
+    problemName: "Trapping Rainwater",
+    problemLink: "https://takeuforward.org/data-structure/trapping-rainwater/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/trapping-rainwater?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/trapping-rainwater?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/trapping-rain-water/",
-    "ytLink": "https://www.youtube.com/watch?v=1_5VuquLbXg",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/trapping-rain-water/",
+    ytLink: "https://www.youtube.com/watch?v=1_5VuquLbXg",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Sum of subarray minimum",
-    "problemLink": "https://takeuforward.org/data-structure/sum-of-subarray-minimums",
-    "resourceLinks": [
+    id: 219,
+    problemName: "Sum of subarray minimum",
+    problemLink:
+      "https://takeuforward.org/data-structure/sum-of-subarray-minimums",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/sum-of-subarray-minimums?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/sum-of-subarray-minimums?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/sum-of-subarray-minimums/",
-    "ytLink": "https://www.youtube.com/watch?v=v0e8p9JCgRc",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/sum-of-subarray-minimums/",
+    ytLink: "https://www.youtube.com/watch?v=v0e8p9JCgRc",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Asteroid Collision",
-    "problemLink": "https://takeuforward.org/data-structure/asteroid-collision",
-    "resourceLinks": [
+    id: 220,
+    problemName: "Asteroid Collision",
+    problemLink: "https://takeuforward.org/data-structure/asteroid-collision",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/asteroid-collision?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/asteroid-collision?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/asteroid-collision/",
-    "ytLink": "https://www.youtube.com/watch?v=_eYGqw_VDR4",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/asteroid-collision/",
+    ytLink: "https://www.youtube.com/watch?v=_eYGqw_VDR4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Sum of subarray ranges",
-    "problemLink": "https://takeuforward.org/data-structure/sum-of-subarray-ranges",
-    "resourceLinks": [
+    id: 221,
+    problemName: "Sum of subarray ranges",
+    problemLink:
+      "https://takeuforward.org/data-structure/sum-of-subarray-ranges",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/sum-of-subarray-ranges?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/sum-of-subarray-ranges?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/sum-of-subarray-ranges/",
-    "ytLink": "https://www.youtube.com/watch?v=gIrMptNPf5M",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/sum-of-subarray-ranges/",
+    ytLink: "https://www.youtube.com/watch?v=gIrMptNPf5M",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Remove k Digits",
-    "problemLink": "https://takeuforward.org/data-structure/remove-k-digits",
-    "resourceLinks": [
+    id: 222,
+    problemName: "Remove k Digits",
+    problemLink: "https://takeuforward.org/data-structure/remove-k-digits",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/remove-k-digits?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/remove-k-digits?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/remove-k-digits/",
-    "ytLink": "https://www.youtube.com/watch?v=jmbuRzYPGrg",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/remove-k-digits/",
+    ytLink: "https://www.youtube.com/watch?v=jmbuRzYPGrg",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Largest rectangle in a histogram",
-    "problemLink": "https://takeuforward.org/data-structure/area-of-largest-rectangle-in-histogram/",
-    "resourceLinks": [
+    id: 223,
+    problemName: "Largest rectangle in a histogram",
+    problemLink:
+      "https://takeuforward.org/data-structure/area-of-largest-rectangle-in-histogram/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/largest-rectangle-in-a-histogram?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/largest-rectangle-in-a-histogram?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
-    "ytLink": "https://www.youtube.com/watch?v=Bzat9vgD0fs",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    ytLink: "https://www.youtube.com/watch?v=Bzat9vgD0fs",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Maximal Rectangles",
-    "problemLink": "https://takeuforward.org/data-structure/maximal-rectangles",
-    "resourceLinks": [
+    id: 224,
+    problemName: "Maximal Rectangles",
+    problemLink: "https://takeuforward.org/data-structure/maximal-rectangles",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/maximum-rectangles?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/maximum-rectangles?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/maximal-rectangle/",
-    "ytLink": "https://www.youtube.com/watch?v=ttVu6G7Ayik",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/maximal-rectangle/",
+    ytLink: "https://www.youtube.com/watch?v=ttVu6G7Ayik",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Sliding Window maximum",
-    "problemLink": "https://takeuforward.org/data-structure/sliding-window-maximum/",
-    "resourceLinks": [
+    id: 225,
+    problemName: "Sliding Window maximum",
+    problemLink:
+      "https://takeuforward.org/data-structure/sliding-window-maximum/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/sliding-window-maximum?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/sliding-window-maximum?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/sliding-window-maximum/",
-    "ytLink": "https://www.youtube.com/watch?v=NwBvene4Imo",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/sliding-window-maximum/",
+    ytLink: "https://www.youtube.com/watch?v=NwBvene4Imo",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Stock span problem",
-    "problemLink": "https://takeuforward.org/data-structure/stock-span-problem",
-    "resourceLinks": [
+    id: 226,
+    problemName: "Stock span problem",
+    problemLink: "https://takeuforward.org/data-structure/stock-span-problem",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/stock-span-problem?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/stock-span-problem?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/online-stock-span/",
-    "ytLink": "https://www.youtube.com/watch?v=eay-zoSRkVc",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/online-stock-span/",
+    ytLink: "https://www.youtube.com/watch?v=eay-zoSRkVc",
+    difficulty: "Medium",
   },
   {
-    "problemName": "The Celebrity Problem",
-    "problemLink": "https://takeuforward.org/data-structure/celebrity-problem",
-    "resourceLinks": [
+    id: 227,
+    problemName: "The Celebrity Problem",
+    problemLink: "https://takeuforward.org/data-structure/celebrity-problem",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/celebrity-problem?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/celebrity-problem?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/",
-    "ytLink": "https://www.youtube.com/watch?v=cEadsbTeze4",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/",
+    ytLink: "https://www.youtube.com/watch?v=cEadsbTeze4",
+    difficulty: "Hard",
   },
   {
-    "problemName": "LRU cache (IMPORTANT)",
-    "problemLink": "https://takeuforward.org/data-structure/implement-lru-cache/",
-    "resourceLinks": [
+    id: 228,
+    problemName: "LRU cache (IMPORTANT)",
+    problemLink: "https://takeuforward.org/data-structure/implement-lru-cache/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/lru-cache?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/lru-cache?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/lru-cache/",
-    "ytLink": "https://www.youtube.com/watch?v=z9bJUPxzFOw",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/lru-cache/",
+    ytLink: "https://www.youtube.com/watch?v=z9bJUPxzFOw",
+    difficulty: "Hard",
   },
   {
-    "problemName": "LFU cache",
-    "problemLink": "https://takeuforward.org/data-structure/lfu-cache",
-    "resourceLinks": [
+    id: 229,
+    problemName: "LFU cache",
+    problemLink: "https://takeuforward.org/data-structure/lfu-cache",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/lfu-cache?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/lfu-cache?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/lfu-cache/",
-    "ytLink": "https://www.youtube.com/watch?v=0PSB9y8ehbk",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/lfu-cache/",
+    ytLink: "https://www.youtube.com/watch?v=0PSB9y8ehbk",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Longest Substring Without Repeating Characters",
-    "problemLink": "https://takeuforward.org/data-structure/length-of-longest-substring-without-any-repeating-character/",
-    "resourceLinks": [
+    id: 230,
+    problemName: "Longest Substring Without Repeating Characters",
+    problemLink:
+      "https://takeuforward.org/data-structure/length-of-longest-substring-without-any-repeating-character/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-substring-without-repeating-characters?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-substring-without-repeating-characters?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
-    "ytLink": "https://www.youtube.com/watch?v=-zSxTJkcdAo",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    ytLink: "https://www.youtube.com/watch?v=-zSxTJkcdAo",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Max Consecutive Ones III",
-    "problemLink": "https://takeuforward.org/data-structure/max-consecutive-ones-iii",
-    "resourceLinks": [
+    id: 231,
+    problemName: "Max Consecutive Ones III",
+    problemLink:
+      "https://takeuforward.org/data-structure/max-consecutive-ones-iii",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/max-consecutive-ones-iii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/max-consecutive-ones-iii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/max-consecutive-ones-iii/",
-    "ytLink": "https://www.youtube.com/watch?v=3E4JBHSLpYk",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/max-consecutive-ones-iii/",
+    ytLink: "https://www.youtube.com/watch?v=3E4JBHSLpYk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Fruit Into Baskets",
-    "problemLink": "https://takeuforward.org/data-structure/fruit-into-baskets",
-    "resourceLinks": [
+    id: 232,
+    problemName: "Fruit Into Baskets",
+    problemLink: "https://takeuforward.org/data-structure/fruit-into-baskets",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/fruit-into-baskets?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/fruit-into-baskets?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=e3bs0uA1NhQ",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=e3bs0uA1NhQ",
+    difficulty: "Medium",
   },
   {
-    "problemName": "longest repeating character replacement",
-    "problemLink": "https://takeuforward.org/data-structure/longest-repeating-character-replacement",
-    "resourceLinks": [
+    id: 233,
+    problemName: "longest repeating character replacement",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-repeating-character-replacement",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-repeating-character-replacement?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-repeating-character-replacement?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/longest-repeating-character-replacement/",
-    "ytLink": "https://www.youtube.com/watch?v=_eNhaDCr6P0",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/longest-repeating-character-replacement/",
+    ytLink: "https://www.youtube.com/watch?v=_eNhaDCr6P0",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Binary subarray with sum",
-    "problemLink": "https://takeuforward.org/data-structure/binary-subarray-with-sum",
-    "resourceLinks": [
+    id: 234,
+    problemName: "Binary subarray with sum",
+    problemLink:
+      "https://takeuforward.org/data-structure/binary-subarray-with-sum",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/binary-subarrays-with-sum?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/binary-subarrays-with-sum?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-subarrays-with-sum/",
-    "ytLink": "https://www.youtube.com/watch?v=XnMdNUkX6VM",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/binary-subarrays-with-sum/",
+    ytLink: "https://www.youtube.com/watch?v=XnMdNUkX6VM",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Count number of nice subarrays",
-    "problemLink": "https://takeuforward.org/data-structure/count-number-of-nice-subarrays",
-    "resourceLinks": [
+    id: 235,
+    problemName: "Count number of nice subarrays",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-number-of-nice-subarrays",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-number-of-nice-subarrays?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-number-of-nice-subarrays?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/count-number-of-nice-subarrays/",
-    "ytLink": "https://www.youtube.com/watch?v=j_QOv9OT9Og",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/count-number-of-nice-subarrays/",
+    ytLink: "https://www.youtube.com/watch?v=j_QOv9OT9Og",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Number of substring containing all three characters",
-    "problemLink": "https://takeuforward.org/data-structure/number-of-substring-containing-all-three-characters",
-    "resourceLinks": [
+    id: 236,
+    problemName: "Number of substring containing all three characters",
+    problemLink:
+      "https://takeuforward.org/data-structure/number-of-substring-containing-all-three-characters",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/number-of-substrings-containing-all-three-characters?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/number-of-substrings-containing-all-three-characters?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
-    "ytLink": "https://www.youtube.com/watch?v=xtqN4qlgr8s",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+    ytLink: "https://www.youtube.com/watch?v=xtqN4qlgr8s",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Maximum point you can obtain from cards",
-    "problemLink": "https://takeuforward.org/data-structure/maximum-point-you-can-obtain-from-cards",
-    "resourceLinks": [
+    id: 237,
+    problemName: "Maximum point you can obtain from cards",
+    problemLink:
+      "https://takeuforward.org/data-structure/maximum-point-you-can-obtain-from-cards",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/maximum-points-you-can-obtain-from-cards-?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/maximum-points-you-can-obtain-from-cards-?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
-    "ytLink": "https://www.youtube.com/watch?v=pBWCOCS636U",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+    ytLink: "https://www.youtube.com/watch?v=pBWCOCS636U",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Longest Substring with At Most K Distinct Characters",
-    "problemLink": "https://takeuforward.org/data-structure/longest-substring-with-at-most-k-distinct-characters",
-    "resourceLinks": [
+    id: 238,
+    problemName: "Longest Substring with At Most K Distinct Characters",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-substring-with-at-most-k-distinct-characters",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-substring-with-at-most-k-distinct-characters?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-substring-with-at-most-k-distinct-characters?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
-    "ytLink": "https://www.youtube.com/watch?v=teM9ZsVRQyc",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+    ytLink: "https://www.youtube.com/watch?v=teM9ZsVRQyc",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Subarray with k different integers",
-    "problemLink": "https://takeuforward.org/data-structure/subarray-with-k-different-integers",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
-    "ytLink": "https://www.youtube.com/watch?v=7wYGbV_LsX4",
-    "difficulty": "Hard"
+    id: 239,
+    problemName: "Subarray with k different integers",
+    problemLink:
+      "https://takeuforward.org/data-structure/subarray-with-k-different-integers",
+    resourceLinks: [],
+    leetCodeLink:
+      "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+    ytLink: "https://www.youtube.com/watch?v=7wYGbV_LsX4",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Minimum Window Substring",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 240,
+    problemName: "Minimum Window Substring",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-window-substring-?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-window-substring-?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/minimum-window-substring/",
-    "ytLink": "https://www.youtube.com/watch?v=WJaij9ffOIY",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/minimum-window-substring/",
+    ytLink: "https://www.youtube.com/watch?v=WJaij9ffOIY",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Minimum Window Subsequence",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 241,
+    problemName: "Minimum Window Subsequence",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-window-subsequence?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-window-subsequence?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/minimum-window-subsequence/",
-    "ytLink": "",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/minimum-window-subsequence/",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Introduction to Priority Queues using Binary Heaps",
-    "problemLink": "https://takeuforward.org/data-structure/introduction-to-priority-queues-using-binary-heaps",
-    "resourceLinks": [
+    id: 242,
+    problemName: "Introduction to Priority Queues using Binary Heaps",
+    problemLink:
+      "https://takeuforward.org/data-structure/introduction-to-priority-queues-using-binary-heaps",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/heaps-theory"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/heaps-theory",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Min Heap and Max Heap Implementation",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 243,
+    problemName: "Min Heap and Max Heap Implementation",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/implement-min-heap?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/implement-min-heap?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Check if an array represents a min-heap or not",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-an-array-represents-a-min-heap",
-    "resourceLinks": [
+    id: 244,
+    problemName: "Check if an array represents a min-heap or not",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-an-array-represents-a-min-heap",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-if-an-array-represents-a-min-heap-?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-if-an-array-represents-a-min-heap-?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Convert min Heap to max Heap",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 245,
+    problemName: "Convert min Heap to max Heap",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/convert-min-heap-to-max-heap?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/convert-min-heap-to-max-heap?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Kth largest element in an array [use priority queue]",
-    "problemLink": "https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/",
-    "resourceLinks": [
+    id: 246,
+    problemName: "Kth largest element in an array [use priority queue]",
+    problemLink:
+      "https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/k-th-largest-element-in-an-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/k-th-largest-element-in-an-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Kth smallest element in an array [use priority queue]",
-    "problemLink": "https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Easy"
+    id: 247,
+    problemName: "Kth smallest element in an array [use priority queue]",
+    problemLink:
+      "https://takeuforward.org/data-structure/kth-largest-smallest-element-in-an-array/",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Sort K sorted array",
-    "problemLink": "https://takeuforward.org/data-structure/sort-k-sorted-array",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Easy"
+    id: 248,
+    problemName: "Sort K sorted array",
+    problemLink: "https://takeuforward.org/data-structure/sort-k-sorted-array",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Merge M sorted Lists",
-    "problemLink": "https://takeuforward.org/data-structure/merge-m-sorted-lists",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/merge-k-sorted-lists/",
-    "ytLink": "",
-    "difficulty": "Hard"
+    id: 249,
+    problemName: "Merge M sorted Lists",
+    problemLink: "https://takeuforward.org/data-structure/merge-m-sorted-lists",
+    resourceLinks: [],
+    leetCodeLink: "https://leetcode.com/problems/merge-k-sorted-lists/",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Replace each array element by its corresponding rank",
-    "problemLink": "https://takeuforward.org/data-structure/replace-elements-by-its-rank-in-the-array/",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Easy"
+    id: 250,
+    problemName: "Replace each array element by its corresponding rank",
+    problemLink:
+      "https://takeuforward.org/data-structure/replace-elements-by-its-rank-in-the-array/",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Task Scheduler",
-    "problemLink": "https://takeuforward.org/data-structure/task-scheduler",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/task-scheduler/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    id: 251,
+    problemName: "Task Scheduler",
+    problemLink: "https://takeuforward.org/data-structure/task-scheduler",
+    resourceLinks: [],
+    leetCodeLink: "https://leetcode.com/problems/task-scheduler/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Hands of Straights",
-    "problemLink": "https://takeuforward.org/data-structure/hands-of-straights",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/hand-of-straights/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    id: 252,
+    problemName: "Hands of Straights",
+    problemLink: "https://takeuforward.org/data-structure/hands-of-straights",
+    resourceLinks: [],
+    leetCodeLink: "https://leetcode.com/problems/hand-of-straights/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Design twitter",
-    "problemLink": "https://takeuforward.org/data-structure/design-twitter",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/design-twitter/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    id: 253,
+    problemName: "Design twitter",
+    problemLink: "https://takeuforward.org/data-structure/design-twitter",
+    resourceLinks: [],
+    leetCodeLink: "https://leetcode.com/problems/design-twitter/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Connect `n` ropes with minimal cost",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-cost-to-connect-sticks",
-    "resourceLinks": [
+    id: 254,
+    problemName: "Connect `n` ropes with minimal cost",
+    problemLink:
+      "https://takeuforward.org/data-structure/minimum-cost-to-connect-sticks",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-cost-to-connect-sticks?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-cost-to-connect-sticks?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Kth largest element in a stream of running integers",
-    "problemLink": "https://takeuforward.org/data-structure/kth-largest-element-in-a-stream-of-running-integers",
-    "resourceLinks": [
+    id: 255,
+    problemName: "Kth largest element in a stream of running integers",
+    problemLink:
+      "https://takeuforward.org/data-structure/kth-largest-element-in-a-stream-of-running-integers",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/kth-largest-element-in-a-stream-of-running-integers?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/kth-largest-element-in-a-stream-of-running-integers?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/kth-largest-element-in-a-stream/#:~:text=Implement%20KthLargest%20class%3A,largest%20element%20in%20the%20stream.",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/kth-largest-element-in-a-stream/#:~:text=Implement%20KthLargest%20class%3A,largest%20element%20in%20the%20stream.",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Maximum Sum Combination",
-    "problemLink": "https://takeuforward.org/data-structure/maximum-sum-combination",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    id: 256,
+    problemName: "Maximum Sum Combination",
+    problemLink:
+      "https://takeuforward.org/data-structure/maximum-sum-combination",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find Median from Data Stream",
-    "problemLink": "https://takeuforward.org/data-structure/find-median-from-data-stream",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/find-median-from-data-stream/",
-    "ytLink": "",
-    "difficulty": "Hard"
+    id: 257,
+    problemName: "Find Median from Data Stream",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-median-from-data-stream",
+    resourceLinks: [],
+    leetCodeLink: "https://leetcode.com/problems/find-median-from-data-stream/",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "K most frequent elements",
-    "problemLink": "https://takeuforward.org/data-structure/top-k-frequent-elements",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/top-k-frequent-elements/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    id: 258,
+    problemName: "K most frequent elements",
+    problemLink:
+      "https://takeuforward.org/data-structure/top-k-frequent-elements",
+    resourceLinks: [],
+    leetCodeLink: "https://leetcode.com/problems/top-k-frequent-elements/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Assign Cookies",
-    "problemLink": "https://takeuforward.org/data-structure/assign-cookies",
-    "resourceLinks": [
+    id: 259,
+    problemName: "Assign Cookies",
+    problemLink: "https://takeuforward.org/data-structure/assign-cookies",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/assign-cookies?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/assign-cookies?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/assign-cookies/",
-    "ytLink": "https://www.youtube.com/watch?v=DIX2p7vb9co",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/assign-cookies/",
+    ytLink: "https://www.youtube.com/watch?v=DIX2p7vb9co",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Fractional Knapsack Problem",
-    "problemLink": "https://takeuforward.org/data-structure/fractional-knapsack-problem-greedy-approach/",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=1ibsQrnuEEg",
-    "difficulty": "Medium"
+    id: 260,
+    problemName: "Fractional Knapsack Problem",
+    problemLink:
+      "https://takeuforward.org/data-structure/fractional-knapsack-problem-greedy-approach/",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=1ibsQrnuEEg",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Greedy algorithm to find minimum number of coins",
-    "problemLink": "https://takeuforward.org/data-structure/find-minimum-number-of-coins/",
-    "resourceLinks": [
+    id: 261,
+    problemName: "Greedy algorithm to find minimum number of coins",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-minimum-number-of-coins/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-coins?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-coins?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=mVg9CfJvayM",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=mVg9CfJvayM",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Lemonade Change",
-    "problemLink": "https://takeuforward.org/Greedy/lemonade-change",
-    "resourceLinks": [
+    id: 262,
+    problemName: "Lemonade Change",
+    problemLink: "https://takeuforward.org/Greedy/lemonade-change",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/lemonade-change?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/lemonade-change?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/lemonade-change/",
-    "ytLink": "https://www.youtube.com/watch?v=n_tmibEhO6Q",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/lemonade-change/",
+    ytLink: "https://www.youtube.com/watch?v=n_tmibEhO6Q",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Valid Paranthesis Checker",
-    "problemLink": "https://takeuforward.org/data-structure/valid-paranthesis-checker",
-    "resourceLinks": [
+    id: 263,
+    problemName: "Valid Paranthesis Checker",
+    problemLink:
+      "https://takeuforward.org/data-structure/valid-paranthesis-checker",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/valid-paranthesis-checker?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/valid-paranthesis-checker?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/valid-parenthesis-string/",
-    "ytLink": "https://www.youtube.com/watch?v=cHT6sG_hUZI",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/valid-parenthesis-string/",
+    ytLink: "https://www.youtube.com/watch?v=cHT6sG_hUZI",
+    difficulty: "Medium",
   },
   {
-    "problemName": "N meetings in one room",
-    "problemLink": "https://takeuforward.org/data-structure/n-meetings-in-one-room/",
-    "resourceLinks": [
+    id: 264,
+    problemName: "N meetings in one room",
+    problemLink:
+      "https://takeuforward.org/data-structure/n-meetings-in-one-room/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/n-meetings-in-one-room?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/n-meetings-in-one-room?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=mKfhTotEguk",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=mKfhTotEguk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Jump Game",
-    "problemLink": "https://takeuforward.org/Greedy/jump-game-i",
-    "resourceLinks": [
+    id: 265,
+    problemName: "Jump Game",
+    problemLink: "https://takeuforward.org/Greedy/jump-game-i",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/jump-game---i?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/jump-game---i?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/jump-game/",
-    "ytLink": "https://www.youtube.com/watch?v=tZAa_jJ3SwQ",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/jump-game/",
+    ytLink: "https://www.youtube.com/watch?v=tZAa_jJ3SwQ",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Jump Game 2",
-    "problemLink": "https://takeuforward.org/data-structure/jump-game-2",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/jump-game-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=7SBVnw7GSTk",
-    "difficulty": "Medium"
+    id: 266,
+    problemName: "Jump Game 2",
+    problemLink: "https://takeuforward.org/data-structure/jump-game-2",
+    resourceLinks: [],
+    leetCodeLink: "https://leetcode.com/problems/jump-game-ii/",
+    ytLink: "https://www.youtube.com/watch?v=7SBVnw7GSTk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Minimum number of platforms required for a railway",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-number-of-platforms-required-for-a-railway/",
-    "resourceLinks": [
+    id: 267,
+    problemName: "Minimum number of platforms required for a railway",
+    problemLink:
+      "https://takeuforward.org/data-structure/minimum-number-of-platforms-required-for-a-railway/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-number-of-platforms-required-for-a-railway?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-number-of-platforms-required-for-a-railway?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=AsGzwR_FWok",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=AsGzwR_FWok",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Job sequencing Problem",
-    "problemLink": "https://takeuforward.org/data-structure/job-sequencing-problem/",
-    "resourceLinks": [
+    id: 268,
+    problemName: "Job sequencing Problem",
+    problemLink:
+      "https://takeuforward.org/data-structure/job-sequencing-problem/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/job-sequencing-problem?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/job-sequencing-problem?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=QbwltemZbRg",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=QbwltemZbRg",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Candy",
-    "problemLink": "https://takeuforward.org/data-structure/candy",
-    "resourceLinks": [
+    id: 269,
+    problemName: "Candy",
+    problemLink: "https://takeuforward.org/data-structure/candy",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/candy?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/candy?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/candy/",
-    "ytLink": "https://www.youtube.com/watch?v=IIqVFvKE6RY",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/candy/",
+    ytLink: "https://www.youtube.com/watch?v=IIqVFvKE6RY",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Program for Shortest Job First (or SJF) CPU Scheduling",
-    "problemLink": "https://takeuforward.org/Greedy/shortest-job-first-or-sjf-cpu-scheduling",
-    "resourceLinks": [
+    id: 270,
+    problemName: "Program for Shortest Job First (or SJF) CPU Scheduling",
+    problemLink:
+      "https://takeuforward.org/Greedy/shortest-job-first-or-sjf-cpu-scheduling",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/shortest-job-first?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/shortest-job-first?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=3-QbX1iDbXs",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=3-QbX1iDbXs",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Program for Least Recently Used (LRU) Page Replacement Algorithm",
-    "problemLink": "https://takeuforward.org/data-structure/program-for-least-recently-used-lru-page-replacement-algorithm",
-    "resourceLinks": [
+    id: 271,
+    problemName:
+      "Program for Least Recently Used (LRU) Page Replacement Algorithm",
+    problemLink:
+      "https://takeuforward.org/data-structure/program-for-least-recently-used-lru-page-replacement-algorithm",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/lru-cache?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/lru-cache?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Insert Interval",
-    "problemLink": "https://takeuforward.org/?s=Insert+Interval",
-    "resourceLinks": [
+    id: 272,
+    problemName: "Insert Interval",
+    problemLink: "https://takeuforward.org/?s=Insert+Interval",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/insert-interval?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/insert-interval?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/insert-interval/",
-    "ytLink": "https://www.youtube.com/watch?v=xxRE-46OCC8",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/insert-interval/",
+    ytLink: "https://www.youtube.com/watch?v=xxRE-46OCC8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Merge Intervals",
-    "problemLink": "https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/merge-intervals/",
-    "ytLink": "https://www.youtube.com/watch?v=2JzRBPFYbKE",
-    "difficulty": "Medium"
+    id: 273,
+    problemName: "Merge Intervals",
+    problemLink:
+      "https://takeuforward.org/data-structure/merge-overlapping-sub-intervals/",
+    resourceLinks: [],
+    leetCodeLink: "https://leetcode.com/problems/merge-intervals/",
+    ytLink: "https://www.youtube.com/watch?v=2JzRBPFYbKE",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Non-overlapping Intervals",
-    "problemLink": "https://takeuforward.org/data-structure/non-overlapping-intervals",
-    "resourceLinks": [
+    id: 274,
+    problemName: "Non-overlapping Intervals",
+    problemLink:
+      "https://takeuforward.org/data-structure/non-overlapping-intervals",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/non-overlapping-intervals?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/non-overlapping-intervals?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/non-overlapping-intervals/",
-    "ytLink": "https://www.youtube.com/watch?v=HDHQ8lAWakY",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/non-overlapping-intervals/",
+    ytLink: "https://www.youtube.com/watch?v=HDHQ8lAWakY",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Introduction to Trees",
-    "problemLink": "https://takeuforward.org/binary-tree/introduction-to-trees/",
-    "resourceLinks": [
+    id: 275,
+    problemName: "Introduction to Trees",
+    problemLink: "https://takeuforward.org/binary-tree/introduction-to-trees/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/introduction-"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/introduction-",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=_ANrF3FJm7I",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=_ANrF3FJm7I",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Binary Tree Representation in C++",
-    "problemLink": "https://takeuforward.org/binary-tree/binary-tree-representation-in-c/",
-    "resourceLinks": [
+    id: 276,
+    problemName: "Binary Tree Representation in C++",
+    problemLink:
+      "https://takeuforward.org/binary-tree/binary-tree-representation-in-c/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/introduction-"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/introduction-",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=ctCpP0RFDFc",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=ctCpP0RFDFc",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Binary Tree Representation in Java",
-    "problemLink": "https://takeuforward.org/binary-tree/binary-tree-representation-in-java/",
-    "resourceLinks": [
+    id: 277,
+    problemName: "Binary Tree Representation in Java",
+    problemLink:
+      "https://takeuforward.org/binary-tree/binary-tree-representation-in-java/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/introduction-"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/introduction-",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=hyLyW7rP24I",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=hyLyW7rP24I",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Binary Tree Traversals in Binary Tree",
-    "problemLink": "https://takeuforward.org/binary-tree/binary-tree-traversal-inorder-preorder-postorder/",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=jmy0LaGET1I",
-    "difficulty": "Easy"
+    id: 278,
+    problemName: "Binary Tree Traversals in Binary Tree",
+    problemLink:
+      "https://takeuforward.org/binary-tree/binary-tree-traversal-inorder-preorder-postorder/",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=jmy0LaGET1I",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Preorder Traversal of Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/",
-    "resourceLinks": [
+    id: 279,
+    problemName: "Preorder Traversal of Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/preorder-traversal-of-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/preorder-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/preorder-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=RlUu72JrOCQ",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=RlUu72JrOCQ",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Inorder Traversal of Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/",
-    "resourceLinks": [
+    id: 280,
+    problemName: "Inorder Traversal of Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/inorder-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/inorder-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=Z_NEgBgbRVI",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=Z_NEgBgbRVI",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Post-order Traversal of Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/",
-    "resourceLinks": [
+    id: 281,
+    problemName: "Post-order Traversal of Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/postorder-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/postorder-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=COQOU6klsBg",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=COQOU6klsBg",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Level order Traversal / Level order traversal in spiral form",
-    "problemLink": "https://takeuforward.org/data-structure/level-order-traversal-of-a-binary-tree/",
-    "resourceLinks": [
+    id: 282,
+    problemName: "Level order Traversal / Level order traversal in spiral form",
+    problemLink:
+      "https://takeuforward.org/data-structure/level-order-traversal-of-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/level-order-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/level-order-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=EoAsWbO7sqg",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=EoAsWbO7sqg",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Iterative Preorder Traversal of Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/iterative-preorder-traversal-of-binary-tree",
-    "resourceLinks": [
+    id: 283,
+    problemName: "Iterative Preorder Traversal of Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/iterative-preorder-traversal-of-binary-tree",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/preorder-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/preorder-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=Bfqd8BsPVuw",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=Bfqd8BsPVuw",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Iterative Inorder Traversal of Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/",
-    "resourceLinks": [
+    id: 284,
+    problemName: "Iterative Inorder Traversal of Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/inorder-traversal-of-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/inorder-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/inorder-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=lxTGsVXjwvM",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=lxTGsVXjwvM",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Post-order Traversal of Binary Tree using 2 stack",
-    "problemLink": "https://takeuforward.org/data-structure/iterative-postorder-traversal-of-binary-tree-using-2-stack",
-    "resourceLinks": [
+    id: 285,
+    problemName: "Post-order Traversal of Binary Tree using 2 stack",
+    problemLink:
+      "https://takeuforward.org/data-structure/iterative-postorder-traversal-of-binary-tree-using-2-stack",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/postorder-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/postorder-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=2YBhNLodD8Q",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=2YBhNLodD8Q",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Post-order Traversal of Binary Tree using 1 stack",
-    "problemLink": "https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/",
-    "resourceLinks": [
+    id: 286,
+    problemName: "Post-order Traversal of Binary Tree using 1 stack",
+    problemLink:
+      "https://takeuforward.org/data-structure/post-order-traversal-of-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/postorder-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/postorder-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=NzIGLLwZBS8",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=NzIGLLwZBS8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Preorder, Inorder, and Postorder Traversal in one Traversal",
-    "problemLink": "https://takeuforward.org/data-structure/preorder-inorder-postorder-traversals-in-one-traversal/",
-    "resourceLinks": [
+    id: 287,
+    problemName: "Preorder, Inorder, and Postorder Traversal in one Traversal",
+    problemLink:
+      "https://takeuforward.org/data-structure/preorder-inorder-postorder-traversals-in-one-traversal/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/pre,-post,-inorder-in-one-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/pre,-post,-inorder-in-one-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=ySp2epYvgTE",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=ySp2epYvgTE",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Height of a Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/maximum-depth-of-a-binary-tree/",
-    "resourceLinks": [
+    id: 288,
+    problemName: "Height of a Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/maximum-depth-of-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/maximum-depth-in-bt?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/maximum-depth-in-bt?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=eD3tmO66aBA",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    ytLink: "https://www.youtube.com/watch?v=eD3tmO66aBA",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Check if the Binary tree is height-balanced or not",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-the-binary-tree-is-balanced-binary-tree/",
-    "resourceLinks": [
+    id: 289,
+    problemName: "Check if the Binary tree is height-balanced or not",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-the-binary-tree-is-balanced-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-for-balanced-binary-tree?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-for-balanced-binary-tree?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/balanced-binary-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=Yt50Jfbd8Po",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/balanced-binary-tree/",
+    ytLink: "https://www.youtube.com/watch?v=Yt50Jfbd8Po",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Diameter of Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/calculate-the-diameter-of-a-binary-tree/",
-    "resourceLinks": [
+    id: 290,
+    problemName: "Diameter of Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/calculate-the-diameter-of-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/diameter-of-binary-tree?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/diameter-of-binary-tree?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/diameter-of-binary-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=Rezetez59Nk",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/diameter-of-binary-tree/",
+    ytLink: "https://www.youtube.com/watch?v=Rezetez59Nk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Maximum path sum",
-    "problemLink": "https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/",
-    "resourceLinks": [
+    id: 291,
+    problemName: "Maximum path sum",
+    problemLink:
+      "https://takeuforward.org/data-structure/maximum-sum-path-in-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/maximum-path-sum-?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/maximum-path-sum-?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
-    "ytLink": "https://www.youtube.com/watch?v=WszrfSwMz58",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+    ytLink: "https://www.youtube.com/watch?v=WszrfSwMz58",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Check if two trees are identical or not",
-    "problemLink": "https://takeuforward.org/data-structure/check-if-two-trees-are-identical/",
-    "resourceLinks": [
+    id: 292,
+    problemName: "Check if two trees are identical or not",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-if-two-trees-are-identical/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-if-two-trees-are-identical-or-not?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-if-two-trees-are-identical-or-not?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/same-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=BhuvF_-PWS0",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/same-tree/",
+    ytLink: "https://www.youtube.com/watch?v=BhuvF_-PWS0",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Zig Zag Traversal of Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/zig-zag-traversal-of-binary-tree/",
-    "resourceLinks": [
+    id: 293,
+    problemName: "Zig Zag Traversal of Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/zig-zag-traversal-of-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/zig-zag-or-spiral-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/zig-zag-or-spiral-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=3OXWEdlIGl4",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=3OXWEdlIGl4",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Boundary Traversal of Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/boundary-traversal-of-a-binary-tree/",
-    "resourceLinks": [
+    id: 294,
+    problemName: "Boundary Traversal of Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/boundary-traversal-of-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/boundary-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/boundary-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/boundary-of-binary-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=0ca1nvR0be4",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/boundary-of-binary-tree/",
+    ytLink: "https://www.youtube.com/watch?v=0ca1nvR0be4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Vertical Order Traversal of Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/vertical-order-traversal-of-binary-tree/",
-    "resourceLinks": [
+    id: 295,
+    problemName: "Vertical Order Traversal of Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/vertical-order-traversal-of-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/vertical-order-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/vertical-order-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=q_a6lpbKJdw",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+    ytLink: "https://www.youtube.com/watch?v=q_a6lpbKJdw",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Top View of Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/top-view-of-a-binary-tree/",
-    "resourceLinks": [
+    id: 296,
+    problemName: "Top View of Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/top-view-of-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/top-view-of-bt?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/top-view-of-bt?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=Et9OCDNvJ78",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=Et9OCDNvJ78",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Bottom View of Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/bottom-view-of-a-binary-tree/",
-    "resourceLinks": [
+    id: 297,
+    problemName: "Bottom View of Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/bottom-view-of-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/bottom-view-of-bt?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/bottom-view-of-bt?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=0FtVY6I4pB8",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=0FtVY6I4pB8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Right/Left View of Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/right-left-view-of-binary-tree/",
-    "resourceLinks": [
+    id: 298,
+    problemName: "Right/Left View of Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/right-left-view-of-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/right-left-view-of-bt?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/right-left-view-of-bt?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-right-side-view/",
-    "ytLink": "https://www.youtube.com/watch?v=KV4mRzTjlAk",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/binary-tree-right-side-view/",
+    ytLink: "https://www.youtube.com/watch?v=KV4mRzTjlAk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Symmetric Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/check-for-symmetrical-binary-tree/",
-    "resourceLinks": [
+    id: 299,
+    problemName: "Symmetric Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-for-symmetrical-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-for-symmetrical-bts?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-for-symmetrical-bts?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/symmetric-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=nKggiEpBE",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/symmetric-tree/",
+    ytLink: "https://www.youtube.com/watch?v=nKggiEpBE",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Root to Node Path in Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/print-root-to-node-path-in-a-binary-tree/",
-    "resourceLinks": [
+    id: 300,
+    problemName: "Root to Node Path in Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/print-root-to-node-path-in-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/print-root-to-note-path-in-bt?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/print-root-to-note-path-in-bt?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=fmflMqVOC7k",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=fmflMqVOC7k",
+    difficulty: "Medium",
   },
   {
-    "problemName": "LCA in Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/lowest-common-ancestor-for-two-given-nodes/",
-    "resourceLinks": [
+    id: 301,
+    problemName: "LCA in Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/lowest-common-ancestor-for-two-given-nodes/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/lca-in-bt?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/lca-in-bt?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=_-QHfMDde90",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    ytLink: "https://www.youtube.com/watch?v=_-QHfMDde90",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Maximum width of a Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/maximum-width-of-a-binary-tree/",
-    "resourceLinks": [
+    id: 302,
+    problemName: "Maximum width of a Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/maximum-width-of-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/maximum-width-of-bt?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/maximum-width-of-bt?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=ZbybYvcVLks",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/maximum-width-of-binary-tree/",
+    ytLink: "https://www.youtube.com/watch?v=ZbybYvcVLks",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Check for Children Sum Property",
-    "problemLink": "https://takeuforward.org/data-structure/check-for-children-sum-property-in-a-binary-tree/",
-    "resourceLinks": [
+    id: 303,
+    problemName: "Check for Children Sum Property",
+    problemLink:
+      "https://takeuforward.org/data-structure/check-for-children-sum-property-in-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/children-sum-property-in-binary-tree?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/children-sum-property-in-binary-tree?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=fnmisPM6cVo",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=fnmisPM6cVo",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Print all the Nodes at a distance of K in a Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/print-all-the-nodes-at-a-distance-of-k-in-a-binary-tree",
-    "resourceLinks": [
+    id: 304,
+    problemName: "Print all the Nodes at a distance of K in a Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/print-all-the-nodes-at-a-distance-of-k-in-a-binary-tree",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/print-all-nodes-at-a-distance-of-k-in-bt?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/print-all-nodes-at-a-distance-of-k-in-bt?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=i9ORlEy6EsI",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+    ytLink: "https://www.youtube.com/watch?v=i9ORlEy6EsI",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Minimum time taken to BURN the Binary Tree from a Node",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-time-taken-to-burn-the-binary-tree-from-a-node",
-    "resourceLinks": [
+    id: 305,
+    problemName: "Minimum time taken to BURN the Binary Tree from a Node",
+    problemLink:
+      "https://takeuforward.org/data-structure/minimum-time-taken-to-burn-the-binary-tree-from-a-node",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-time-taken-to-burn-the-bt-from-a-given-node?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-time-taken-to-burn-the-bt-from-a-given-node?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=2r5wLmQfD6g",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=2r5wLmQfD6g",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Count total Nodes in a COMPLETE Binary Tree",
-    "problemLink": "https://takeuforward.org/binary-tree/count-number-of-nodes-in-a-binary-tree/",
-    "resourceLinks": [
+    id: 306,
+    problemName: "Count total Nodes in a COMPLETE Binary Tree",
+    problemLink:
+      "https://takeuforward.org/binary-tree/count-number-of-nodes-in-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-total-nodes-in-a-complete-bt?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-total-nodes-in-a-complete-bt?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/count-complete-tree-nodes/",
-    "ytLink": "https://www.youtube.com/watch?v=u-yWemKGWO0",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/count-complete-tree-nodes/",
+    ytLink: "https://www.youtube.com/watch?v=u-yWemKGWO0",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Requirements needed to construct a Unique Binary Tree | Theory",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 307,
+    problemName:
+      "Requirements needed to construct a Unique Binary Tree | Theory",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/requirements-needed-to-construct-a-unique-bt?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/requirements-needed-to-construct-a-unique-bt?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=9GMECGQgWrQ",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=9GMECGQgWrQ",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Construct Binary Tree from inorder and preorder",
-    "problemLink": "https://takeuforward.org/data-structure/construct-a-binary-tree-from-inorder-and-preorder-traversal/",
-    "resourceLinks": [
+    id: 308,
+    problemName: "Construct Binary Tree from inorder and preorder",
+    problemLink:
+      "https://takeuforward.org/data-structure/construct-a-binary-tree-from-inorder-and-preorder-traversal/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/construct-a-bt-from-preorder-and-inorder?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/construct-a-bt-from-preorder-and-inorder?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=aZNaLrVebKQ",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=aZNaLrVebKQ",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Construct the Binary Tree from Postorder and Inorder Traversal",
-    "problemLink": "https://takeuforward.org/data-structure/construct-binary-tree-from-inorder-and-postorder-traversal/",
-    "resourceLinks": [
+    id: 309,
+    problemName:
+      "Construct the Binary Tree from Postorder and Inorder Traversal",
+    problemLink:
+      "https://takeuforward.org/data-structure/construct-binary-tree-from-inorder-and-postorder-traversal/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/construct-a-bt-from-postorder-and-inorder?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/construct-a-bt-from-postorder-and-inorder?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=LgLRTaEMRVc",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=LgLRTaEMRVc",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Serialize and deserialize Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/serialize-and-deserialize-a-binary-tree/",
-    "resourceLinks": [
+    id: 310,
+    problemName: "Serialize and deserialize Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/serialize-and-deserialize-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/serialize-and-de-serialize-bt?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/serialize-and-de-serialize-bt?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=-YbXySKJsX8",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+    ytLink: "https://www.youtube.com/watch?v=-YbXySKJsX8",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Morris Preorder Traversal of a Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/morris-preorder-traversal-of-a-binary-tree/",
-    "resourceLinks": [
+    id: 311,
+    problemName: "Morris Preorder Traversal of a Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/morris-preorder-traversal-of-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/morris-preorder-traversal-?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/morris-preorder-traversal-?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=80Zug6D1_r4",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=80Zug6D1_r4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Morris Inorder Traversal of a Binary Tree",
-    "problemLink": "https://takeuforward.org/data-structure/morris-inorder-traversal-of-a-binary-tree/",
-    "resourceLinks": [
+    id: 312,
+    problemName: "Morris Inorder Traversal of a Binary Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/morris-inorder-traversal-of-a-binary-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/morris-inorder-traversal-?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/morris-inorder-traversal-?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=80Zug6D1_r4",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=80Zug6D1_r4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Flatten Binary Tree to LinkedList",
-    "problemLink": "https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/",
-    "resourceLinks": [
+    id: 313,
+    problemName: "Flatten Binary Tree to LinkedList",
+    problemLink:
+      "https://takeuforward.org/data-structure/flatten-binary-tree-to-linked-list/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/flatten-binary-tree-to-linked-list?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/flatten-binary-tree-to-linked-list?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
-    "ytLink": "https://www.youtube.com/watch?v=sWf7k1x9XR4",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+    ytLink: "https://www.youtube.com/watch?v=sWf7k1x9XR4",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Introduction to Binary Search Tree",
-    "problemLink": "https://takeuforward.org/binary-search-tree/introduction-to-binary-search-trees/",
-    "resourceLinks": [
+    id: 314,
+    problemName: "Introduction to Binary Search Tree",
+    problemLink:
+      "https://takeuforward.org/binary-search-tree/introduction-to-binary-search-trees/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/introduction-to-bst"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/introduction-to-bst",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=p7-9UvDQZ3w",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=p7-9UvDQZ3w",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Search in a Binary Search Tree",
-    "problemLink": "https://takeuforward.org/data-structure/search-in-a-binary-search-tree-2/",
-    "resourceLinks": [
+    id: 315,
+    problemName: "Search in a Binary Search Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/search-in-a-binary-search-tree-2/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/search-in-bst?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/search-in-bst?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=KcNt6v_56cc",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/search-in-a-binary-search-tree/",
+    ytLink: "https://www.youtube.com/watch?v=KcNt6v_56cc",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Find Min/Max in BST",
-    "problemLink": "https://takeuforward.org/data-structure/find-minmax-in-a-bst",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    id: 316,
+    problemName: "Find Min/Max in BST",
+    problemLink: "https://takeuforward.org/data-structure/find-minmax-in-a-bst",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Ceil in a Binary Search Tree",
-    "problemLink": "https://takeuforward.org/binary-search-tree/ceil-in-a-binary-search-tree/",
-    "resourceLinks": [
+    id: 317,
+    problemName: "Ceil in a Binary Search Tree",
+    problemLink:
+      "https://takeuforward.org/binary-search-tree/ceil-in-a-binary-search-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/floor-and-ceil-in-a-bst?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/floor-and-ceil-in-a-bst?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=KSsk8AhdOZA",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=KSsk8AhdOZA",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Floor in a Binary Search Tree",
-    "problemLink": "https://takeuforward.org/binary-search-tree/floor-in-a-binary-search-tree/",
-    "resourceLinks": [
+    id: 318,
+    problemName: "Floor in a Binary Search Tree",
+    problemLink:
+      "https://takeuforward.org/binary-search-tree/floor-in-a-binary-search-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/floor-and-ceil-in-a-bst?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/floor-and-ceil-in-a-bst?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=xm_W1ub-K-w",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=xm_W1ub-K-w",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Insert a given Node in Binary Search Tree",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 319,
+    problemName: "Insert a given Node in Binary Search Tree",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/insert-a-given-node-in-bst?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/insert-a-given-node-in-bst?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=FiFiNvM29ps",
-    "difficulty": "Easy"
+    leetCodeLink:
+      "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
+    ytLink: "https://www.youtube.com/watch?v=FiFiNvM29ps",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Delete a Node in Binary Search Tree",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 320,
+    problemName: "Delete a Node in Binary Search Tree",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/delete-a-node-in-bst?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/delete-a-node-in-bst?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/delete-node-in-a-bst/",
-    "ytLink": "https://www.youtube.com/watch?v=kouxiP_H5WE",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/delete-node-in-a-bst/",
+    ytLink: "https://www.youtube.com/watch?v=kouxiP_H5WE",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Find K-th smallest/largest element in BST",
-    "problemLink": "https://takeuforward.org/data-structure/kth-largest-smallest-element-in-binary-search-tree/",
-    "resourceLinks": [
+    id: 321,
+    problemName: "Find K-th smallest/largest element in BST",
+    problemLink:
+      "https://takeuforward.org/data-structure/kth-largest-smallest-element-in-binary-search-tree/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/kth-smallest-and-largest-element-in-bst?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/kth-smallest-and-largest-element-in-bst?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
-    "ytLink": "https://www.youtube.com/watch?v=9TJYWh0adfk",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+    ytLink: "https://www.youtube.com/watch?v=9TJYWh0adfk",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Check if a tree is a BST or BT",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 322,
+    problemName: "Check if a tree is a BST or BT",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/check-if-a-tree-is-a-bst-or-not?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/check-if-a-tree-is-a-bst-or-not?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/validate-binary-search-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=f-sj7I5oXEI",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/validate-binary-search-tree/",
+    ytLink: "https://www.youtube.com/watch?v=f-sj7I5oXEI",
+    difficulty: "Medium",
   },
   {
-    "problemName": "LCA in Binary Search Tree",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 323,
+    problemName: "LCA in Binary Search Tree",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/lca-in-bst?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/lca-in-bst?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=cX_kPV_foZc",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+    ytLink: "https://www.youtube.com/watch?v=cX_kPV_foZc",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Construct a BST from a preorder traversal",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 324,
+    problemName: "Construct a BST from a preorder traversal",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/construct-a-bst-from-a-preorder-traversal?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/construct-a-bst-from-a-preorder-traversal?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/",
-    "ytLink": "https://www.youtube.com/watch?v=UmJT3j26t1I",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/",
+    ytLink: "https://www.youtube.com/watch?v=UmJT3j26t1I",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Inorder Successor/Predecessor in BST",
-    "problemLink": "https://takeuforward.org/data-structure/inorder-successorpredecessor-in-bst",
-    "resourceLinks": [
+    id: 325,
+    problemName: "Inorder Successor/Predecessor in BST",
+    problemLink:
+      "https://takeuforward.org/data-structure/inorder-successorpredecessor-in-bst",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/inorder-successor-and-predecessor-in-bst?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/inorder-successor-and-predecessor-in-bst?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/inorder-successor-in-bst/",
-    "ytLink": "https://www.youtube.com/watch?v=SXKAD2svfmI",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/inorder-successor-in-bst/",
+    ytLink: "https://www.youtube.com/watch?v=SXKAD2svfmI",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Merge 2 BST's",
-    "problemLink": "https://takeuforward.org/data-structure/bst-iterator",
-    "resourceLinks": [
+    id: 326,
+    problemName: "Merge 2 BST's",
+    problemLink: "https://takeuforward.org/data-structure/bst-iterator",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/bst-iterator?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/bst-iterator?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/binary-search-tree-iterator/",
-    "ytLink": "https://www.youtube.com/watch?v=D2jMcmxU4bs",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/binary-search-tree-iterator/",
+    ytLink: "https://www.youtube.com/watch?v=D2jMcmxU4bs",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Two Sum In BST | Check if there exists a pair with Sum K",
-    "problemLink": "https://takeuforward.org/data-structure/two-sum-in-bst-check-if-there-exists-a-pair-with-sum-k",
-    "resourceLinks": [
+    id: 327,
+    problemName: "Two Sum In BST | Check if there exists a pair with Sum K",
+    problemLink:
+      "https://takeuforward.org/data-structure/two-sum-in-bst-check-if-there-exists-a-pair-with-sum-k",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/two-sum-in-bst?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/two-sum-in-bst?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
-    "ytLink": "https://www.youtube.com/watch?v=ssL3sHwPeb4",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/",
+    ytLink: "https://www.youtube.com/watch?v=ssL3sHwPeb4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Recover BST | Correct BST with two nodes swapped",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 328,
+    problemName: "Recover BST | Correct BST with two nodes swapped",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/correct-bst-with-two-nodes-swapped?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/correct-bst-with-two-nodes-swapped?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/recover-binary-search-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=ZWGW7FminDM",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/recover-binary-search-tree/",
+    ytLink: "https://www.youtube.com/watch?v=ZWGW7FminDM",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Largest BST in Binary Tree",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 329,
+    problemName: "Largest BST in Binary Tree",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/largest-bst-in-binary-tree?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/largest-bst-in-binary-tree?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=X0oXMdtUDwo",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=X0oXMdtUDwo",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Graph and Types",
-    "problemLink": "https://takeuforward.org/graph/introduction-to-graph/",
-    "resourceLinks": [
+    id: 330,
+    problemName: "Graph and Types",
+    problemLink: "https://takeuforward.org/graph/introduction-to-graph/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/introduction-to-graph?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/introduction-to-graph?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=M3_pLsDdeuU",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=M3_pLsDdeuU",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Graph Representation | C++",
-    "problemLink": "https://takeuforward.org/graph/graph-representation-in-c/",
-    "resourceLinks": [
+    id: 331,
+    problemName: "Graph Representation | C++",
+    problemLink: "https://takeuforward.org/graph/graph-representation-in-c/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/introduction-to-graph?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/introduction-to-graph?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=3oI-34aPMWM",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=3oI-34aPMWM",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Graph Representation | Java",
-    "problemLink": "https://takeuforward.org/data-structure/graph-representation-in-java",
-    "resourceLinks": [
+    id: 332,
+    problemName: "Graph Representation | Java",
+    problemLink:
+      "https://takeuforward.org/data-structure/graph-representation-in-java",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/introduction-to-graph?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/introduction-to-graph?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=3oI-34aPMWM",
-    "difficulty": "Easy"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=3oI-34aPMWM",
+    difficulty: "Easy",
   },
   {
-    "problemName": "Connected Components | Logic Explanation",
-    "problemLink": "https://takeuforward.org/graph/connected-components-in-graphs/",
-    "resourceLinks": [
+    id: 333,
+    problemName: "Connected Components | Logic Explanation",
+    problemLink:
+      "https://takeuforward.org/graph/connected-components-in-graphs/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/connected-components?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/connected-components?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
-    "ytLink": "https://www.youtube.com/watch?v=lea-Wl_uWXY",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+    ytLink: "https://www.youtube.com/watch?v=lea-Wl_uWXY",
+    difficulty: "Hard",
   },
   {
-    "problemName": "BFS",
-    "problemLink": "https://takeuforward.org/graph/breadth-first-search-bfs-level-order-traversal/",
-    "resourceLinks": [
+    id: 334,
+    problemName: "BFS",
+    problemLink:
+      "https://takeuforward.org/graph/breadth-first-search-bfs-level-order-traversal/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/traversal-techniques?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/traversal-techniques?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=-tgVpUgsQ5k",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=-tgVpUgsQ5k",
+    difficulty: "Medium",
   },
   {
-    "problemName": "DFS",
-    "problemLink": "https://takeuforward.org/data-structure/depth-first-search-dfs/",
-    "resourceLinks": [
+    id: 335,
+    problemName: "DFS",
+    problemLink:
+      "https://takeuforward.org/data-structure/depth-first-search-dfs/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/traversal-techniques?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/traversal-techniques?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=Qzf1a--rhp8",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=Qzf1a--rhp8",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Number of provinces (leetcode)",
-    "problemLink": "https://takeuforward.org/data-structure/number-of-provinces/",
-    "resourceLinks": [
+    id: 336,
+    problemName: "Number of provinces (leetcode)",
+    problemLink: "https://takeuforward.org/data-structure/number-of-provinces/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/number-of-provinces?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/number-of-provinces?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/number-of-provinces/#:~:text=A%20province%20is%20a%20group,the%20total%20number%20of%20provinces.",
-    "ytLink": "https://www.youtube.com/watch?v=ACzkVtewUYA",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/number-of-provinces/#:~:text=A%20province%20is%20a%20group,the%20total%20number%20of%20provinces.",
+    ytLink: "https://www.youtube.com/watch?v=ACzkVtewUYA",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Connected Components Problem in Matrix",
-    "problemLink": "https://takeuforward.org/data-structure/connected-components",
-    "resourceLinks": [
+    id: 337,
+    problemName: "Connected Components Problem in Matrix",
+    problemLink: "https://takeuforward.org/data-structure/connected-components",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/connected-components?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/connected-components?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Rotten Oranges",
-    "problemLink": "https://takeuforward.org/data-structure/rotten-oranges-min-time-to-rot-all-oranges-bfs/",
-    "resourceLinks": [
+    id: 338,
+    problemName: "Rotten Oranges",
+    problemLink:
+      "https://takeuforward.org/data-structure/rotten-oranges-min-time-to-rot-all-oranges-bfs/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/rotten-oranges?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/rotten-oranges?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/rotting-oranges/",
-    "ytLink": "https://www.youtube.com/watch?v=yf3oUhkvqA0",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/rotting-oranges/",
+    ytLink: "https://www.youtube.com/watch?v=yf3oUhkvqA0",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Flood fill",
-    "problemLink": "https://takeuforward.org/graph/flood-fill-algorithm-graphs/",
-    "resourceLinks": [
+    id: 339,
+    problemName: "Flood fill",
+    problemLink: "https://takeuforward.org/graph/flood-fill-algorithm-graphs/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/flood-fill-algorithm?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/flood-fill-algorithm?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/flood-fill/",
-    "ytLink": "https://www.youtube.com/watch?v=C-2_uSRli8o",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/flood-fill/",
+    ytLink: "https://www.youtube.com/watch?v=C-2_uSRli8o",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Cycle Detection in unirected Graph (bfs)",
-    "problemLink": "https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/",
-    "resourceLinks": [
+    id: 340,
+    problemName: "Cycle Detection in unirected Graph (bfs)",
+    problemLink:
+      "https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-bfs/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/detect-a-cycle-in-an-undirected-graph?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/detect-a-cycle-in-an-undirected-graph?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=BPlrALf1LDU",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=BPlrALf1LDU",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Cycle Detection in undirected Graph (dfs)",
-    "problemLink": "https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-dfs/",
-    "resourceLinks": [
+    id: 341,
+    problemName: "Cycle Detection in undirected Graph (dfs)",
+    problemLink:
+      "https://takeuforward.org/data-structure/detect-cycle-in-an-undirected-graph-using-dfs/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/detect-a-cycle-in-an-undirected-graph?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/detect-a-cycle-in-an-undirected-graph?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=zQ3zgFypzX4",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=zQ3zgFypzX4",
+    difficulty: "Hard",
   },
   {
-    "problemName": "0/1 Matrix (Bfs Problem)",
-    "problemLink": "https://takeuforward.org/graph/distance-of-nearest-cell-having-1/",
-    "resourceLinks": [
+    id: 342,
+    problemName: "0/1 Matrix (Bfs Problem)",
+    problemLink:
+      "https://takeuforward.org/graph/distance-of-nearest-cell-having-1/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/distance-of-nearest-cell-having-one?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/distance-of-nearest-cell-having-one?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/01-matrix/",
-    "ytLink": "https://www.youtube.com/watch?v=edXdVwkYHF8",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/01-matrix/",
+    ytLink: "https://www.youtube.com/watch?v=edXdVwkYHF8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Surrounded Regions (dfs)",
-    "problemLink": "https://takeuforward.org/graph/surrounded-regions-replace-os-with-xs/",
-    "resourceLinks": [
+    id: 343,
+    problemName: "Surrounded Regions (dfs)",
+    problemLink:
+      "https://takeuforward.org/graph/surrounded-regions-replace-os-with-xs/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/surrounded-regions?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/surrounded-regions?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/surrounded-regions/",
-    "ytLink": "https://www.youtube.com/watch?v=BtdgAys4yMk",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/surrounded-regions/",
+    ytLink: "https://www.youtube.com/watch?v=BtdgAys4yMk",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Number of Enclaves [flood fill implementation - multisource]",
-    "problemLink": "https://takeuforward.org/graph/number-of-enclaves/",
-    "resourceLinks": [
+    id: 344,
+    problemName: "Number of Enclaves [flood fill implementation - multisource]",
+    problemLink: "https://takeuforward.org/graph/number-of-enclaves/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/number-of-enclaves?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/number-of-enclaves?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/number-of-enclaves/",
-    "ytLink": "https://www.youtube.com/watch?v=rxKcepXQgU4",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/number-of-enclaves/",
+    ytLink: "https://www.youtube.com/watch?v=rxKcepXQgU4",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Word ladder - 1",
-    "problemLink": "https://takeuforward.org/graph/word-ladder-i-g-29/",
-    "resourceLinks": [
+    id: 345,
+    problemName: "Word ladder - 1",
+    problemLink: "https://takeuforward.org/graph/word-ladder-i-g-29/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/word-ladder-i?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/word-ladder-i?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/word-ladder/",
-    "ytLink": "https://www.youtube.com/watch?v=tRPda0rcf8E",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/word-ladder/",
+    ytLink: "https://www.youtube.com/watch?v=tRPda0rcf8E",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Word ladder - 2",
-    "problemLink": "https://takeuforward.org/graph/g-30-word-ladder-ii/",
-    "resourceLinks": [
+    id: 346,
+    problemName: "Word ladder - 2",
+    problemLink: "https://takeuforward.org/graph/g-30-word-ladder-ii/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/word-ladder-ii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/word-ladder-ii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/word-ladder-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=AD4SFl7tu7I",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/word-ladder-ii/",
+    ytLink: "https://www.youtube.com/watch?v=AD4SFl7tu7I",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Number of Distinct Islands [dfs multisource]",
-    "problemLink": "https://takeuforward.org/data-structure/number-of-islands/",
-    "resourceLinks": [
+    id: 347,
+    problemName: "Number of Distinct Islands [dfs multisource]",
+    problemLink: "https://takeuforward.org/data-structure/number-of-islands/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/number-of-distinct-islands?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/number-of-distinct-islands?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/number-of-distinct-islands-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=muncqlKJrH0",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/number-of-distinct-islands-ii/",
+    ytLink: "https://www.youtube.com/watch?v=muncqlKJrH0",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Bipartite Graph (DFS)",
-    "problemLink": "https://takeuforward.org/graph/bipartite-graph-dfs-implementation/",
-    "resourceLinks": [
+    id: 348,
+    problemName: "Bipartite Graph (DFS)",
+    problemLink:
+      "https://takeuforward.org/graph/bipartite-graph-dfs-implementation/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/bipartite-graph?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/bipartite-graph?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/is-graph-bipartite/",
-    "ytLink": "https://www.youtube.com/watch?v=KG5YFfR0j8A",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/is-graph-bipartite/",
+    ytLink: "https://www.youtube.com/watch?v=KG5YFfR0j8A",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Cycle Detection in Directed Graph (DFS)",
-    "problemLink": "https://takeuforward.org/data-structure/detect-cycle-in-a-directed-graph-using-dfs-g-19/",
-    "resourceLinks": [
+    id: 349,
+    problemName: "Cycle Detection in Directed Graph (DFS)",
+    problemLink:
+      "https://takeuforward.org/data-structure/detect-cycle-in-a-directed-graph-using-dfs-g-19/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/detect-a-cycle-in-a-directed-graph?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/detect-a-cycle-in-a-directed-graph?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/course-schedule-ii/discuss/293048/detecting-cycle-in-directed-graph-problem",
-    "ytLink": "https://www.youtube.com/watch?v=9twcmtQj4DU",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/course-schedule-ii/discuss/293048/detecting-cycle-in-directed-graph-problem",
+    ytLink: "https://www.youtube.com/watch?v=9twcmtQj4DU",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Topo Sort",
-    "problemLink": "https://takeuforward.org/data-structure/topological-sort-algorithm-dfs-g-21/",
-    "resourceLinks": [
+    id: 350,
+    problemName: "Topo Sort",
+    problemLink:
+      "https://takeuforward.org/data-structure/topological-sort-algorithm-dfs-g-21/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/topological-sort-or-kahns-algorithm?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/topological-sort-or-kahns-algorithm?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=5lZ0iJMrUMk",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=5lZ0iJMrUMk",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Kahn's Algorithm",
-    "problemLink": "https://takeuforward.org/data-structure/kahns-algorithm-topological-sort-algorithm-bfs-g-22/",
-    "resourceLinks": [
+    id: 351,
+    problemName: "Kahn's Algorithm",
+    problemLink:
+      "https://takeuforward.org/data-structure/kahns-algorithm-topological-sort-algorithm-bfs-g-22/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/topological-sort-or-kahns-algorithm?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/topological-sort-or-kahns-algorithm?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=73sneFXuTEg",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=73sneFXuTEg",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Cycle Detection in Directed Graph (BFS)",
-    "problemLink": "https://takeuforward.org/data-structure/detect-a-cycle-in-a-directed-graph",
-    "resourceLinks": [
+    id: 352,
+    problemName: "Cycle Detection in Directed Graph (BFS)",
+    problemLink:
+      "https://takeuforward.org/data-structure/detect-a-cycle-in-a-directed-graph",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/detect-a-cycle-in-a-directed-graph?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/detect-a-cycle-in-a-directed-graph?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=iTBaI90lpDQ",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=iTBaI90lpDQ",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Course Schedule - I",
-    "problemLink": "https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/",
-    "resourceLinks": [
+    id: 353,
+    problemName: "Course Schedule - I",
+    problemLink:
+      "https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/course-schedule-i?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/course-schedule-i?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/course-schedule/",
-    "ytLink": "https://www.youtube.com/watch?v=WAOfKpxYHR8",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/course-schedule/",
+    ytLink: "https://www.youtube.com/watch?v=WAOfKpxYHR8",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Course Schedule - II",
-    "problemLink": "https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/",
-    "resourceLinks": [
+    id: 354,
+    problemName: "Course Schedule - II",
+    problemLink:
+      "https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/course-schedule-ii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/course-schedule-ii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/course-schedule-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=WAOfKpxYHR8",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/course-schedule-ii/",
+    ytLink: "https://www.youtube.com/watch?v=WAOfKpxYHR8",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Find eventual safe states",
-    "problemLink": "https://takeuforward.org/data-structure/find-eventual-safe-states-bfs-topological-sort-g-25/",
-    "resourceLinks": [
+    id: 355,
+    problemName: "Find eventual safe states",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-eventual-safe-states-bfs-topological-sort-g-25/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-eventual-safe-states?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-eventual-safe-states?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/find-eventual-safe-states/",
-    "ytLink": "https://www.youtube.com/watch?v=2gtg3VsDGyc",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/find-eventual-safe-states/",
+    ytLink: "https://www.youtube.com/watch?v=2gtg3VsDGyc",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Alien dictionary",
-    "problemLink": "https://takeuforward.org/data-structure/alien-dictionary-topological-sort-g-26/",
-    "resourceLinks": [
+    id: 356,
+    problemName: "Alien dictionary",
+    problemLink:
+      "https://takeuforward.org/data-structure/alien-dictionary-topological-sort-g-26/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/alient-dictionary?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/alient-dictionary?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/alien-dictionary/solution/",
-    "ytLink": "https://www.youtube.com/watch?v=U3N_je7tWAs",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/alien-dictionary/solution/",
+    ytLink: "https://www.youtube.com/watch?v=U3N_je7tWAs",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Shortest Path in UG with unit weights",
-    "problemLink": "https://takeuforward.org/data-structure/shortest-path-in-undirected-graph-with-unit-distance-g-28/",
-    "resourceLinks": [
+    id: 357,
+    problemName: "Shortest Path in UG with unit weights",
+    problemLink:
+      "https://takeuforward.org/data-structure/shortest-path-in-undirected-graph-with-unit-distance-g-28/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/shortest-path-in-undirected-graph-with-unit-weights?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/shortest-path-in-undirected-graph-with-unit-weights?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=C4gxoTaI71U",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=C4gxoTaI71U",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Shortest Path in DAG",
-    "problemLink": "https://takeuforward.org/data-structure/shortest-path-in-directed-acyclic-graph-topological-sort-g-27/",
-    "resourceLinks": [
+    id: 358,
+    problemName: "Shortest Path in DAG",
+    problemLink:
+      "https://takeuforward.org/data-structure/shortest-path-in-directed-acyclic-graph-topological-sort-g-27/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/shortest-path-in-dag?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/shortest-path-in-dag?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=ZUFQfFaU-8U",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=ZUFQfFaU-8U",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Djisktra's Algorithm",
-    "problemLink": "https://takeuforward.org/data-structure/dijkstras-algorithm-using-set-g-33/",
-    "resourceLinks": [
+    id: 359,
+    problemName: "Djisktra's Algorithm",
+    problemLink:
+      "https://takeuforward.org/data-structure/dijkstras-algorithm-using-set-g-33/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/dijkstra's-algorithm?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/dijkstra's-algorithm?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=rp1SMw7HSO8",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=rp1SMw7HSO8",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Why priority Queue is used in Djisktra's Algorithm",
-    "problemLink": "https://takeuforward.org/data-structure/dijkstras-algorithm-using-priority-queue-g-32/",
-    "resourceLinks": [
+    id: 360,
+    problemName: "Why priority Queue is used in Djisktra's Algorithm",
+    problemLink:
+      "https://takeuforward.org/data-structure/dijkstras-algorithm-using-priority-queue-g-32/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/dijkstra's-algorithm?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/dijkstra's-algorithm?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=rp1SMw7HSO8",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=rp1SMw7HSO8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Shortest path in a binary maze",
-    "problemLink": "https://takeuforward.org/data-structure/g-36-shortest-distance-in-a-binary-maze/",
-    "resourceLinks": [
+    id: 361,
+    problemName: "Shortest path in a binary maze",
+    problemLink:
+      "https://takeuforward.org/data-structure/g-36-shortest-distance-in-a-binary-maze/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/shortest-path-with-minimum-effort?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/shortest-path-with-minimum-effort?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
-    "ytLink": "https://www.youtube.com/watch?v=U5Mw4eyUmw4",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+    ytLink: "https://www.youtube.com/watch?v=U5Mw4eyUmw4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Path with minimum effort",
-    "problemLink": "https://takeuforward.org/data-structure/g-37-path-with-minimum-effort/",
-    "resourceLinks": [
+    id: 362,
+    problemName: "Path with minimum effort",
+    problemLink:
+      "https://takeuforward.org/data-structure/g-37-path-with-minimum-effort/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/path-with-minimum-effort?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/path-with-minimum-effort?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/path-with-minimum-effort/",
-    "ytLink": "https://www.youtube.com/watch?v=0ytpZyiZFhA",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/path-with-minimum-effort/",
+    ytLink: "https://www.youtube.com/watch?v=0ytpZyiZFhA",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Cheapest flights within k stops",
-    "problemLink": "https://takeuforward.org/data-structure/g-38-cheapest-flights-within-k-stops/",
-    "resourceLinks": [
+    id: 363,
+    problemName: "Cheapest flights within k stops",
+    problemLink:
+      "https://takeuforward.org/data-structure/g-38-cheapest-flights-within-k-stops/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/cheapest-flight-within-k-stops?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/cheapest-flight-within-k-stops?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
-    "ytLink": "https://www.youtube.com/watch?v=9XybHVqTHcQ",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    ytLink: "https://www.youtube.com/watch?v=9XybHVqTHcQ",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Network Delay time",
-    "problemLink": "https://takeuforward.org/data-structure/network-delay-time",
-    "resourceLinks": [
+    id: 364,
+    problemName: "Network Delay time",
+    problemLink: "https://takeuforward.org/data-structure/network-delay-time",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/network-delay-time?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/network-delay-time?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/network-delay-time/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/network-delay-time/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Number of ways to arrive at destination",
-    "problemLink": "https://takeuforward.org/data-structure/g-40-number-of-ways-to-arrive-at-destination/",
-    "resourceLinks": [
+    id: 365,
+    problemName: "Number of ways to arrive at destination",
+    problemLink:
+      "https://takeuforward.org/data-structure/g-40-number-of-ways-to-arrive-at-destination/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/number-of-ways-to-arrive-at-destination?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/number-of-ways-to-arrive-at-destination?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/",
-    "ytLink": "https://www.youtube.com/watch?v=_-0mx0SmYxA",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/",
+    ytLink: "https://www.youtube.com/watch?v=_-0mx0SmYxA",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Minimum steps to reach end from start by performing multiplication and mod operations with array elements",
-    "problemLink": "https://takeuforward.org/graph/g-39-minimum-multiplications-to-reach-end/",
-    "resourceLinks": [
+    id: 366,
+    problemName:
+      "Minimum steps to reach end from start by performing multiplication and mod operations with array elements",
+    problemLink:
+      "https://takeuforward.org/graph/g-39-minimum-multiplications-to-reach-end/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-multiplications-to-reach-end?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-multiplications-to-reach-end?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=_BvEJ3VIDWw",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=_BvEJ3VIDWw",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Bellman Ford Algorithm",
-    "problemLink": "https://takeuforward.org/data-structure/bellman-ford-algorithm-g-41/",
-    "resourceLinks": [
+    id: 367,
+    problemName: "Bellman Ford Algorithm",
+    problemLink:
+      "https://takeuforward.org/data-structure/bellman-ford-algorithm-g-41/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/bellman-ford-algorithm?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/bellman-ford-algorithm?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=0vVofAhAYjc",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=0vVofAhAYjc",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Floyd Warshal Algorithm",
-    "problemLink": "https://takeuforward.org/data-structure/floyd-warshall-algorithm-g-42/",
-    "resourceLinks": [
+    id: 368,
+    problemName: "Floyd Warshal Algorithm",
+    problemLink:
+      "https://takeuforward.org/data-structure/floyd-warshall-algorithm-g-42/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/floyd-warshall-algorithm?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/floyd-warshall-algorithm?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=YbY8cVwWAvw",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=YbY8cVwWAvw",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Find the city with the smallest number of neighbors in a threshold distance",
-    "problemLink": "https://takeuforward.org/data-structure/find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance-g-43/",
-    "resourceLinks": [
+    id: 369,
+    problemName:
+      "Find the city with the smallest number of neighbors in a threshold distance",
+    problemLink:
+      "https://takeuforward.org/data-structure/find-the-city-with-the-smallest-number-of-neighbours-at-a-threshold-distance-g-43/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-the-city-with-the-smallest-number-of-neighbors?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-the-city-with-the-smallest-number-of-neighbors?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
-    "ytLink": "https://www.youtube.com/watch?v=9XybHVqTHcQ",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+    ytLink: "https://www.youtube.com/watch?v=9XybHVqTHcQ",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Minimum Spanning Tree",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-spanning-tree-theory-g-44/",
-    "resourceLinks": [
+    id: 370,
+    problemName: "Minimum Spanning Tree",
+    problemLink:
+      "https://takeuforward.org/data-structure/minimum-spanning-tree-theory-g-44/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/mst-theory?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/mst-theory?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=ZSPjZuZWCME",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=ZSPjZuZWCME",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Prim's Algorithm",
-    "problemLink": "https://takeuforward.org/data-structure/prims-algorithm-minimum-spanning-tree-c-and-java-g-45/",
-    "resourceLinks": [
+    id: 371,
+    problemName: "Prim's Algorithm",
+    problemLink:
+      "https://takeuforward.org/data-structure/prims-algorithm-minimum-spanning-tree-c-and-java-g-45/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-the-mst-weight?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-the-mst-weight?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=mJcZjjKzeqk",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=mJcZjjKzeqk",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Disjoint Set [Union by Rank]",
-    "problemLink": "https://takeuforward.org/data-structure/disjoint-set-union-by-rank-union-by-size-path-compression-g-46/",
-    "resourceLinks": [
+    id: 372,
+    problemName: "Disjoint Set [Union by Rank]",
+    problemLink:
+      "https://takeuforward.org/data-structure/disjoint-set-union-by-rank-union-by-size-path-compression-g-46/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/disjoint-set-?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/disjoint-set-?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=aBxjDBC4M1U",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=aBxjDBC4M1U",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Disjoint Set [Union by Size]",
-    "problemLink": "https://takeuforward.org/data-structure/disjoint-set-union-by-rank-union-by-size-path-compression-g-46/",
-    "resourceLinks": [
+    id: 373,
+    problemName: "Disjoint Set [Union by Size]",
+    problemLink:
+      "https://takeuforward.org/data-structure/disjoint-set-union-by-rank-union-by-size-path-compression-g-46/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/disjoint-set-?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/disjoint-set-?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=aBxjDBC4M1U",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=aBxjDBC4M1U",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Kruskal's Algorithm",
-    "problemLink": "https://takeuforward.org/data-structure/kruskals-algorithm-minimum-spanning-tree-g-47/",
-    "resourceLinks": [
+    id: 374,
+    problemName: "Kruskal's Algorithm",
+    problemLink:
+      "https://takeuforward.org/data-structure/kruskals-algorithm-minimum-spanning-tree-g-47/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/find-the-mst-weight?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/find-the-mst-weight?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=DMnDM_sxVig",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=DMnDM_sxVig",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Number of operations to make network connected",
-    "problemLink": "https://takeuforward.org/data-structure/number-of-operations-to-make-network-connected-dsu-g-49/",
-    "resourceLinks": [
+    id: 375,
+    problemName: "Number of operations to make network connected",
+    problemLink:
+      "https://takeuforward.org/data-structure/number-of-operations-to-make-network-connected-dsu-g-49/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/number-of-operations-to-make-network-connected?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/number-of-operations-to-make-network-connected?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
-    "ytLink": "https://www.youtube.com/watch?v=FYrl7iz9_ZU",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+    ytLink: "https://www.youtube.com/watch?v=FYrl7iz9_ZU",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Most stones removed with same rows or columns",
-    "problemLink": "https://takeuforward.org/data-structure/most-stones-removed-with-same-row-or-column-dsu-g-53/",
-    "resourceLinks": [
+    id: 376,
+    problemName: "Most stones removed with same rows or columns",
+    problemLink:
+      "https://takeuforward.org/data-structure/most-stones-removed-with-same-row-or-column-dsu-g-53/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/most-stones-removed-with-same-row-or-column?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/most-stones-removed-with-same-row-or-column?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
-    "ytLink": "https://www.youtube.com/watch?v=OwMNX8SPavM",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+    ytLink: "https://www.youtube.com/watch?v=OwMNX8SPavM",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Accounts merge",
-    "problemLink": "https://takeuforward.org/data-structure/accounts-merge-dsu-g-50/",
-    "resourceLinks": [
+    id: 377,
+    problemName: "Accounts merge",
+    problemLink:
+      "https://takeuforward.org/data-structure/accounts-merge-dsu-g-50/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/accounts-merge?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/accounts-merge?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/accounts-merge/",
-    "ytLink": "https://www.youtube.com/watch?v=FMwpt_aQOGw",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/accounts-merge/",
+    ytLink: "https://www.youtube.com/watch?v=FMwpt_aQOGw",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Number of island II",
-    "problemLink": "https://takeuforward.org/graph/number-of-islands-ii-online-queries-dsu-g-51/",
-    "resourceLinks": [
+    id: 378,
+    problemName: "Number of island II",
+    problemLink:
+      "https://takeuforward.org/graph/number-of-islands-ii-online-queries-dsu-g-51/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/number-of-islands-ii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/number-of-islands-ii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/number-of-islands-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=Rn6B-Q4SNyA",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/number-of-islands-ii/",
+    ytLink: "https://www.youtube.com/watch?v=Rn6B-Q4SNyA",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Making a Large Island",
-    "problemLink": "https://takeuforward.org/data-structure/making-a-large-island-dsu-g-52/",
-    "resourceLinks": [
+    id: 379,
+    problemName: "Making a Large Island",
+    problemLink:
+      "https://takeuforward.org/data-structure/making-a-large-island-dsu-g-52/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/making-a-large-island?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/making-a-large-island?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/making-a-large-island/",
-    "ytLink": "https://www.youtube.com/watch?v=lgiz0Oup6gM",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/making-a-large-island/",
+    ytLink: "https://www.youtube.com/watch?v=lgiz0Oup6gM",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Swim in rising water",
-    "problemLink": "https://takeuforward.org/data-structure/swim-in-rising-water",
-    "resourceLinks": [
+    id: 380,
+    problemName: "Swim in rising water",
+    problemLink: "https://takeuforward.org/data-structure/swim-in-rising-water",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/swim-in-rising-water?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/swim-in-rising-water?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/swim-in-rising-water/",
-    "ytLink": "",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/swim-in-rising-water/",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Bridges in Graph",
-    "problemLink": "https://takeuforward.org/graph/bridges-in-graph-using-tarjans-algorithm-of-time-in-and-low-time-g-55/",
-    "resourceLinks": [
+    id: 381,
+    problemName: "Bridges in Graph",
+    problemLink:
+      "https://takeuforward.org/graph/bridges-in-graph-using-tarjans-algorithm-of-time-in-and-low-time-g-55/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/bridges-in-graph?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/bridges-in-graph?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/critical-connections-in-a-network/discuss/382385/find-bridges-in-a-graph",
-    "ytLink": "https://www.youtube.com/watch?v=qrAub5z8FeA",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/critical-connections-in-a-network/discuss/382385/find-bridges-in-a-graph",
+    ytLink: "https://www.youtube.com/watch?v=qrAub5z8FeA",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Articulation Point",
-    "problemLink": "https://takeuforward.org/data-structure/articulation-point-in-graph-g-56/",
-    "resourceLinks": [
+    id: 382,
+    problemName: "Articulation Point",
+    problemLink:
+      "https://takeuforward.org/data-structure/articulation-point-in-graph-g-56/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/articulation-point-in-graph?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/articulation-point-in-graph?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=j1QDfU21iZk",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=j1QDfU21iZk",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Kosaraju's Algorithm",
-    "problemLink": "https://takeuforward.org/graph/strongly-connected-components-kosarajus-algorithm-g-54/",
-    "resourceLinks": [
+    id: 383,
+    problemName: "Kosaraju's Algorithm",
+    problemLink:
+      "https://takeuforward.org/graph/strongly-connected-components-kosarajus-algorithm-g-54/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/kosaraju's-algorithm?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/kosaraju's-algorithm?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=R6uoSjZ2imo",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=R6uoSjZ2imo",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Dynamic Programming Introduction",
-    "problemLink": "https://takeuforward.org/data-structure/dynamic-programming-introduction/",
-    "resourceLinks": [
+    id: 384,
+    problemName: "Dynamic Programming Introduction",
+    problemLink:
+      "https://takeuforward.org/data-structure/dynamic-programming-introduction/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/introduction-to-dp"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/introduction-to-dp",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=tyB0ztf0DNY",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=tyB0ztf0DNY",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Climbing Stars",
-    "problemLink": "https://takeuforward.org/data-structure/dynamic-programming-climbing-stairs/",
-    "resourceLinks": [
+    id: 385,
+    problemName: "Climbing Stars",
+    problemLink:
+      "https://takeuforward.org/data-structure/dynamic-programming-climbing-stairs/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/climbing-stairs?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/climbing-stairs?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/climbing-stairs/",
-    "ytLink": "https://www.youtube.com/watch?v=mLfjzJsN8us",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/climbing-stairs/",
+    ytLink: "https://www.youtube.com/watch?v=mLfjzJsN8us",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Frog Jump(DP-3)",
-    "problemLink": "https://takeuforward.org/data-structure/dynamic-programming-frog-jump-dp-3/",
-    "resourceLinks": [
+    id: 386,
+    problemName: "Frog Jump(DP-3)",
+    problemLink:
+      "https://takeuforward.org/data-structure/dynamic-programming-frog-jump-dp-3/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/frog-jump?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/frog-jump?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=EgG3jsGoPvQ",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=EgG3jsGoPvQ",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Frog Jump with k distances(DP-4)",
-    "problemLink": "https://takeuforward.org/data-structure/dynamic-programming-frog-jump-with-k-distances-dp-4/",
-    "resourceLinks": [
+    id: 387,
+    problemName: "Frog Jump with k distances(DP-4)",
+    problemLink:
+      "https://takeuforward.org/data-structure/dynamic-programming-frog-jump-with-k-distances-dp-4/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/frog-jump-with-k-distances?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/frog-jump-with-k-distances?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=Kmh3rhyEtB8",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=Kmh3rhyEtB8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Maximum sum of non-adjacent elements (DP 5)",
-    "problemLink": "https://takeuforward.org/data-structure/maximum-sum-of-non-adjacent-elements-dp-5/",
-    "resourceLinks": [
+    id: 388,
+    problemName: "Maximum sum of non-adjacent elements (DP 5)",
+    problemLink:
+      "https://takeuforward.org/data-structure/maximum-sum-of-non-adjacent-elements-dp-5/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/maximum-sum-of-non-adjacent-elements?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/maximum-sum-of-non-adjacent-elements?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/house-robber/",
-    "ytLink": "https://www.youtube.com/watch?v=GrMBfJNk_NY",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/house-robber/",
+    ytLink: "https://www.youtube.com/watch?v=GrMBfJNk_NY",
+    difficulty: "Medium",
   },
   {
-    "problemName": "House Robber (DP 6)",
-    "problemLink": "https://takeuforward.org/data-structure/dynamic-programming-house-robber-dp-6/",
-    "resourceLinks": [
+    id: 389,
+    problemName: "House Robber (DP 6)",
+    problemLink:
+      "https://takeuforward.org/data-structure/dynamic-programming-house-robber-dp-6/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/house-robber?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/house-robber?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/house-robber-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=3WaxQMELSkw",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/house-robber-ii/",
+    ytLink: "https://www.youtube.com/watch?v=3WaxQMELSkw",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Ninja's Training (DP 7)",
-    "problemLink": "https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/",
-    "resourceLinks": [
+    id: 390,
+    problemName: "Ninja's Training (DP 7)",
+    problemLink:
+      "https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/ninja's-training?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/ninja's-training?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=AE39gJYuRog",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=AE39gJYuRog",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Grid Unique Paths : DP on Grids (DP8)",
-    "problemLink": "https://takeuforward.org/data-structure/grid-unique-paths-dp-on-grids-dp8/",
-    "resourceLinks": [
+    id: 391,
+    problemName: "Grid Unique Paths : DP on Grids (DP8)",
+    problemLink:
+      "https://takeuforward.org/data-structure/grid-unique-paths-dp-on-grids-dp8/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/grid-unique-paths?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/grid-unique-paths?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/unique-paths/",
-    "ytLink": "https://www.youtube.com/watch?v=sdE0A2Oxofw",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/unique-paths/",
+    ytLink: "https://www.youtube.com/watch?v=sdE0A2Oxofw",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Grid Unique Paths 2 (DP 9)",
-    "problemLink": "https://takeuforward.org/data-structure/grid-unique-paths-2-dp-9/",
-    "resourceLinks": [
+    id: 392,
+    problemName: "Grid Unique Paths 2 (DP 9)",
+    problemLink:
+      "https://takeuforward.org/data-structure/grid-unique-paths-2-dp-9/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/unique-paths-ii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/unique-paths-ii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/unique-paths-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=TmhpgXScLyY",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/unique-paths-ii/",
+    ytLink: "https://www.youtube.com/watch?v=TmhpgXScLyY",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Minimum path sum in Grid (DP 10)",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-path-sum-in-a-grid-dp-10/",
-    "resourceLinks": [
+    id: 393,
+    problemName: "Minimum path sum in Grid (DP 10)",
+    problemLink:
+      "https://takeuforward.org/data-structure/minimum-path-sum-in-a-grid-dp-10/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-path-sum-in-grid?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-path-sum-in-grid?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/minimum-path-sum/",
-    "ytLink": "https://www.youtube.com/watch?v=_rgTlyky1uQ",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/minimum-path-sum/",
+    ytLink: "https://www.youtube.com/watch?v=_rgTlyky1uQ",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Minimum path sum in Triangular Grid (DP 11)",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-path-sum-in-triangular-grid-dp-11/",
-    "resourceLinks": [
+    id: 394,
+    problemName: "Minimum path sum in Triangular Grid (DP 11)",
+    problemLink:
+      "https://takeuforward.org/data-structure/minimum-path-sum-in-triangular-grid-dp-11/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/triangle?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/triangle?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/triangle/",
-    "ytLink": "https://www.youtube.com/watch?v=SrP-PiLSYC0",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/triangle/",
+    ytLink: "https://www.youtube.com/watch?v=SrP-PiLSYC0",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Minimum/Maximum Falling Path Sum (DP-12)",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-maximum-falling-path-sum-dp-12/",
-    "resourceLinks": [
+    id: 395,
+    problemName: "Minimum/Maximum Falling Path Sum (DP-12)",
+    problemLink:
+      "https://takeuforward.org/data-structure/minimum-maximum-falling-path-sum-dp-12/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-falling-path-sum?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-falling-path-sum?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/minimum-falling-path-sum/",
-    "ytLink": "https://www.youtube.com/watch?v=N_aJ5qQbYA0",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/minimum-falling-path-sum/",
+    ytLink: "https://www.youtube.com/watch?v=N_aJ5qQbYA0",
+    difficulty: "Medium",
   },
   {
-    "problemName": "3-d DP : Ninja and his friends (DP-13)",
-    "problemLink": "https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-friends-dp-13/",
-    "resourceLinks": [
+    id: 396,
+    problemName: "3-d DP : Ninja and his friends (DP-13)",
+    problemLink:
+      "https://takeuforward.org/data-structure/3-d-dp-ninja-and-his-friends-dp-13/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/ninja-and-his-friends?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/ninja-and-his-friends?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=QGfn7JeXK54",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=QGfn7JeXK54",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Subset sum equal to target (DP- 14)",
-    "problemLink": "https://takeuforward.org/data-structure/subset-sum-equal-to-target-dp-14/",
-    "resourceLinks": [
+    id: 397,
+    problemName: "Subset sum equal to target (DP- 14)",
+    problemLink:
+      "https://takeuforward.org/data-structure/subset-sum-equal-to-target-dp-14/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/subset-sum-equals-to-target?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/subset-sum-equals-to-target?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=fWX9xDmIzRI",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=fWX9xDmIzRI",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Partition Equal Subset Sum (DP- 15)",
-    "problemLink": "https://takeuforward.org/data-structure/partition-equal-subset-sum-dp-15/",
-    "resourceLinks": [
+    id: 398,
+    problemName: "Partition Equal Subset Sum (DP- 15)",
+    problemLink:
+      "https://takeuforward.org/data-structure/partition-equal-subset-sum-dp-15/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/partition-equal-subset-sum?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/partition-equal-subset-sum?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/partition-equal-subset-sum/",
-    "ytLink": "https://www.youtube.com/watch?v=7win3dcgo3k",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/partition-equal-subset-sum/",
+    ytLink: "https://www.youtube.com/watch?v=7win3dcgo3k",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Partition Set Into 2 Subsets With Min Absolute Sum Diff (DP- 16)",
-    "problemLink": "https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16/",
-    "resourceLinks": [
+    id: 399,
+    problemName:
+      "Partition Set Into 2 Subsets With Min Absolute Sum Diff (DP- 16)",
+    problemLink:
+      "https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/partition-a-set-into-two-subsets-with-minimum-absolute-sum-difference?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/partition-a-set-into-two-subsets-with-minimum-absolute-sum-difference?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/",
-    "ytLink": "https://www.youtube.com/watch?v=GS_OqZb2CWc",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/",
+    ytLink: "https://www.youtube.com/watch?v=GS_OqZb2CWc",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Count Subsets with Sum K (DP - 17)",
-    "problemLink": "https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/",
-    "resourceLinks": [
+    id: 400,
+    problemName: "Count Subsets with Sum K (DP - 17)",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-subsets-with-sum-k-dp-17/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-subsets-with-sum-k?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-subsets-with-sum-k?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=ZHyb-A2Mte4",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=ZHyb-A2Mte4",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Count Partitions with Given Difference (DP - 18)",
-    "problemLink": "https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18/",
-    "resourceLinks": [
+    id: 401,
+    problemName: "Count Partitions with Given Difference (DP - 18)",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-partitions-with-given-difference-dp-18/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-partitions-with-given-difference?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-partitions-with-given-difference?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=zoilQD1kYSg",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=zoilQD1kYSg",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Assign Cookies",
-    "problemLink": "https://takeuforward.org/data-structure/assign-cookies",
-    "resourceLinks": [
+    id: 402,
+    problemName: "Assign Cookies",
+    problemLink: "https://takeuforward.org/data-structure/assign-cookies",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/assign-cookies?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/assign-cookies?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/assign-cookies/",
-    "ytLink": "https://www.youtube.com/watch?v=DIX2p7vb9co",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/assign-cookies/",
+    ytLink: "https://www.youtube.com/watch?v=DIX2p7vb9co",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Minimum Coins (DP - 20)",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-coins-dp-20/",
-    "resourceLinks": [
+    id: 403,
+    problemName: "Minimum Coins (DP - 20)",
+    problemLink: "https://takeuforward.org/data-structure/minimum-coins-dp-20/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-coins?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-coins?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/coin-change/",
-    "ytLink": "https://www.youtube.com/watch?v=myPeWb3Y68A",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/coin-change/",
+    ytLink: "https://www.youtube.com/watch?v=myPeWb3Y68A",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Target Sum (DP - 21)",
-    "problemLink": "https://takeuforward.org/data-structure/target-sum-dp-21/",
-    "resourceLinks": [
+    id: 404,
+    problemName: "Target Sum (DP - 21)",
+    problemLink: "https://takeuforward.org/data-structure/target-sum-dp-21/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/target-sum?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/target-sum?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/target-sum/",
-    "ytLink": "https://www.youtube.com/watch?v=b3GD8263-PQ",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/target-sum/",
+    ytLink: "https://www.youtube.com/watch?v=b3GD8263-PQ",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Coin Change 2 (DP - 22)",
-    "problemLink": "https://takeuforward.org/data-structure/coin-change-2-dp-22/",
-    "resourceLinks": [
+    id: 405,
+    problemName: "Coin Change 2 (DP - 22)",
+    problemLink: "https://takeuforward.org/data-structure/coin-change-2-dp-22/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/coin-change-ii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/coin-change-ii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/coin-change-2/",
-    "ytLink": "https://www.youtube.com/watch?v=HgyouUi11zk",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/coin-change-2/",
+    ytLink: "https://www.youtube.com/watch?v=HgyouUi11zk",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Unbounded Knapsack (DP - 23)",
-    "problemLink": "https://takeuforward.org/data-structure/unbounded-knapsack-dp-23/",
-    "resourceLinks": [
+    id: 406,
+    problemName: "Unbounded Knapsack (DP - 23)",
+    problemLink:
+      "https://takeuforward.org/data-structure/unbounded-knapsack-dp-23/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/unbounded-knapsack?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/unbounded-knapsack?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=OgvOZ6OrJoY",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=OgvOZ6OrJoY",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Rod Cutting Problem | (DP - 24)",
-    "problemLink": "https://takeuforward.org/data-structure/rod-cutting-problem-dp-24/",
-    "resourceLinks": [
+    id: 407,
+    problemName: "Rod Cutting Problem | (DP - 24)",
+    problemLink:
+      "https://takeuforward.org/data-structure/rod-cutting-problem-dp-24/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/rod-cutting-problem?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/rod-cutting-problem?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=mO8XpGoJwuo",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=mO8XpGoJwuo",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Longest Common Subsequence | (DP - 25)",
-    "problemLink": "https://takeuforward.org/data-structure/longest-common-subsequence-dp-25/",
-    "resourceLinks": [
+    id: 408,
+    problemName: "Longest Common Subsequence | (DP - 25)",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-common-subsequence-dp-25/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-common-subsequence?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-common-subsequence?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/longest-common-subsequence/",
-    "ytLink": "https://www.youtube.com/watch?v=NPZn9jBrX8U",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/longest-common-subsequence/",
+    ytLink: "https://www.youtube.com/watch?v=NPZn9jBrX8U",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Print Longest Common Subsequence | (DP - 26)",
-    "problemLink": "https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26/",
-    "resourceLinks": [
+    id: 409,
+    problemName: "Print Longest Common Subsequence | (DP - 26)",
+    problemLink:
+      "https://takeuforward.org/data-structure/print-longest-common-subsequence-dp-26/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-common-subsequence?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-common-subsequence?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=-zI4mrF2Pb4",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=-zI4mrF2Pb4",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Longest Common Substring | (DP - 27)",
-    "problemLink": "https://takeuforward.org/data-structure/longest-common-substring-dp-27/",
-    "resourceLinks": [
+    id: 410,
+    problemName: "Longest Common Substring | (DP - 27)",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-common-substring-dp-27/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-common-substring?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-common-substring?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=_wP9mWNPL5w",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=_wP9mWNPL5w",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Longest Palindromic Subsequence | (DP-28)",
-    "problemLink": "https://takeuforward.org/data-structure/longest-palindromic-subsequence-dp-28/",
-    "resourceLinks": [
+    id: 411,
+    problemName: "Longest Palindromic Subsequence | (DP-28)",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-palindromic-subsequence-dp-28/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-palindromic-subsequence?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-palindromic-subsequence?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/longest-palindromic-subsequence/",
-    "ytLink": "https://www.youtube.com/watch?v=6i_T5kkfv4A",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/longest-palindromic-subsequence/",
+    ytLink: "https://www.youtube.com/watch?v=6i_T5kkfv4A",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Minimum insertions to make string palindrome | DP-29",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-insertions-to-make-string-palindrome-dp-29/",
-    "resourceLinks": [
+    id: 412,
+    problemName: "Minimum insertions to make string palindrome | DP-29",
+    problemLink:
+      "https://takeuforward.org/data-structure/minimum-insertions-to-make-string-palindrome-dp-29/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-insertions-to-make-string-palindrome?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-insertions-to-make-string-palindrome?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/",
-    "ytLink": "https://www.youtube.com/watch?v=xPBLEj41rFU",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/",
+    ytLink: "https://www.youtube.com/watch?v=xPBLEj41rFU",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Minimum Insertions/Deletions to Convert String | (DP- 30)",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-insertions-deletions-to-convert-string-dp-30/",
-    "resourceLinks": [
+    id: 413,
+    problemName: "Minimum Insertions/Deletions to Convert String | (DP- 30)",
+    problemLink:
+      "https://takeuforward.org/data-structure/minimum-insertions-deletions-to-convert-string-dp-30/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-insertions-or-deletions-to-convert-string-a-to-b?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-insertions-or-deletions-to-convert-string-a-to-b?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/delete-operation-for-two-strings/",
-    "ytLink": "https://www.youtube.com/watch?v=yMnH0jrir0Q",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/delete-operation-for-two-strings/",
+    ytLink: "https://www.youtube.com/watch?v=yMnH0jrir0Q",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Shortest Common Supersequence | (DP - 31)",
-    "problemLink": "https://takeuforward.org/data-structure/shortest-common-supersequence-dp-31/",
-    "resourceLinks": [
+    id: 414,
+    problemName: "Shortest Common Supersequence | (DP - 31)",
+    problemLink:
+      "https://takeuforward.org/data-structure/shortest-common-supersequence-dp-31/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/shortest-common-supersequence?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/shortest-common-supersequence?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/shortest-common-supersequence/",
-    "ytLink": "https://www.youtube.com/watch?v=xElxAuBcvsU",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/shortest-common-supersequence/",
+    ytLink: "https://www.youtube.com/watch?v=xElxAuBcvsU",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Distinct Subsequences| (DP-32)",
-    "problemLink": "https://takeuforward.org/data-structure/distinct-subsequences-dp-32/",
-    "resourceLinks": [
+    id: 415,
+    problemName: "Distinct Subsequences| (DP-32)",
+    problemLink:
+      "https://takeuforward.org/data-structure/distinct-subsequences-dp-32/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/distinct-subsequences?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/distinct-subsequences?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/distinct-subsequences/",
-    "ytLink": "https://www.youtube.com/watch?v=nVG7eTiD2bY",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/distinct-subsequences/",
+    ytLink: "https://www.youtube.com/watch?v=nVG7eTiD2bY",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Edit Distance | (DP-33)",
-    "problemLink": "https://takeuforward.org/data-structure/edit-distance-dp-33/",
-    "resourceLinks": [
+    id: 416,
+    problemName: "Edit Distance | (DP-33)",
+    problemLink: "https://takeuforward.org/data-structure/edit-distance-dp-33/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/edit-distance?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/edit-distance?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/edit-distance/",
-    "ytLink": "https://www.youtube.com/watch?v=fJaKO8FbDdo",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/edit-distance/",
+    ytLink: "https://www.youtube.com/watch?v=fJaKO8FbDdo",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Wildcard Matching | (DP-34)",
-    "problemLink": "https://takeuforward.org/data-structure/wildcard-matching-dp-34/",
-    "resourceLinks": [
+    id: 417,
+    problemName: "Wildcard Matching | (DP-34)",
+    problemLink:
+      "https://takeuforward.org/data-structure/wildcard-matching-dp-34/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/wildcard-matching?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/wildcard-matching?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/wildcard-matching/",
-    "ytLink": "https://www.youtube.com/watch?v=ZmlQ3vgAOMo",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/wildcard-matching/",
+    ytLink: "https://www.youtube.com/watch?v=ZmlQ3vgAOMo",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Best Time to Buy and Sell Stock |(DP-35)",
-    "problemLink": "https://takeuforward.org/data-structure/stock-buy-and-sell-dp-35/",
-    "resourceLinks": [
+    id: 418,
+    problemName: "Best Time to Buy and Sell Stock |(DP-35)",
+    problemLink:
+      "https://takeuforward.org/data-structure/stock-buy-and-sell-dp-35/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/best-time-to-buy-and-sell-stock?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/best-time-to-buy-and-sell-stock?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
-    "ytLink": "https://www.youtube.com/watch?v=excAOvwF_Wk",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    ytLink: "https://www.youtube.com/watch?v=excAOvwF_Wk",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Buy and Sell Stock - II|(DP-36)",
-    "problemLink": "https://takeuforward.org/data-structure/buy-and-sell-stock-ii-dp-36/",
-    "resourceLinks": [
+    id: 419,
+    problemName: "Buy and Sell Stock - II|(DP-36)",
+    problemLink:
+      "https://takeuforward.org/data-structure/buy-and-sell-stock-ii-dp-36/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/best-time-to-buy-and-sell-stock-ii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/best-time-to-buy-and-sell-stock-ii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=nGJmxkUJQGs",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+    ytLink: "https://www.youtube.com/watch?v=nGJmxkUJQGs",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Buy and Sell Stocks III|(DP-37)",
-    "problemLink": "https://takeuforward.org/data-structure/buy-and-sell-stock-iii-dp-37/",
-    "resourceLinks": [
+    id: 420,
+    problemName: "Buy and Sell Stocks III|(DP-37)",
+    problemLink:
+      "https://takeuforward.org/data-structure/buy-and-sell-stock-iii-dp-37/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/best-time-to-buy-and-sell-stock-iii?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/best-time-to-buy-and-sell-stock-iii?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/",
-    "ytLink": "https://www.youtube.com/watch?v=-uQGzhYj8BQ",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/",
+    ytLink: "https://www.youtube.com/watch?v=-uQGzhYj8BQ",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Buy and Stock Sell IV |(DP-38)",
-    "problemLink": "https://takeuforward.org/data-structure/buy-and-sell-stock-iv-dp-38/",
-    "resourceLinks": [
+    id: 421,
+    problemName: "Buy and Stock Sell IV |(DP-38)",
+    problemLink:
+      "https://takeuforward.org/data-structure/buy-and-sell-stock-iv-dp-38/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/best-time-to-buy-and-sell-stock-iv?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/best-time-to-buy-and-sell-stock-iv?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
-    "ytLink": "https://www.youtube.com/watch?v=IV1dHbk5CDc",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+    ytLink: "https://www.youtube.com/watch?v=IV1dHbk5CDc",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Buy and Sell Stocks With Cooldown|(DP-39)",
-    "problemLink": "https://takeuforward.org/data-structure/buy-and-sell-stocks-with-cooldown-dp-39/",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
-    "ytLink": "https://www.youtube.com/watch?v=IGIe46xw3YY",
-    "difficulty": "Hard"
+    id: 422,
+    problemName: "Buy and Sell Stocks With Cooldown|(DP-39)",
+    problemLink:
+      "https://takeuforward.org/data-structure/buy-and-sell-stocks-with-cooldown-dp-39/",
+    resourceLinks: [],
+    leetCodeLink:
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+    ytLink: "https://www.youtube.com/watch?v=IGIe46xw3YY",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Buy and Sell Stocks With Transaction Fee|(DP-40)",
-    "problemLink": "https://takeuforward.org/data-structure/buy-and-sell-stocks-with-transaction-fees-dp-40/",
-    "resourceLinks": [
+    id: 423,
+    problemName: "Buy and Sell Stocks With Transaction Fee|(DP-40)",
+    problemLink:
+      "https://takeuforward.org/data-structure/buy-and-sell-stocks-with-transaction-fees-dp-40/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/best-time-to-buy-and-sell-stock-with-cooldown-and-transaction-fees?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/best-time-to-buy-and-sell-stock-with-cooldown-and-transaction-fees?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
-    "ytLink": "https://www.youtube.com/watch?v=k4eK-vEmnKg",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
+    ytLink: "https://www.youtube.com/watch?v=k4eK-vEmnKg",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Longest Increasing Subsequence |(DP-41)",
-    "problemLink": "https://takeuforward.org/data-structure/longest-increasing-subsequence-dp-41/",
-    "resourceLinks": [
+    id: 424,
+    problemName: "Longest Increasing Subsequence |(DP-41)",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-increasing-subsequence-dp-41/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-increasing-subsequence?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-increasing-subsequence?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/longest-increasing-subsequence/",
-    "ytLink": "https://www.youtube.com/watch?v=ekcwMsSIzVc",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/longest-increasing-subsequence/",
+    ytLink: "https://www.youtube.com/watch?v=ekcwMsSIzVc",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Printing Longest Increasing Subsequence|(DP-42)",
-    "problemLink": "https://takeuforward.org/data-structure/printing-longest-increasing-subsequence-dp-42/",
-    "resourceLinks": [
+    id: 425,
+    problemName: "Printing Longest Increasing Subsequence|(DP-42)",
+    problemLink:
+      "https://takeuforward.org/data-structure/printing-longest-increasing-subsequence-dp-42/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/print-longest-increasing-subsequence?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/print-longest-increasing-subsequence?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=IFfYfonAFGc",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=IFfYfonAFGc",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Longest Increasing Subsequence |(DP-43)",
-    "problemLink": "https://takeuforward.org/data-structure/longest-increasing-subsequence-binary-search-dp-43/",
-    "resourceLinks": [
+    id: 426,
+    problemName: "Longest Increasing Subsequence |(DP-43)",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-increasing-subsequence-binary-search-dp-43/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-increasing-subsequence?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-increasing-subsequence?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=on2hvxBXJH4",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=on2hvxBXJH4",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Largest Divisible Subset|(DP-44)",
-    "problemLink": "https://takeuforward.org/data-structure/longest-divisible-subset-dp-44/",
-    "resourceLinks": [
+    id: 427,
+    problemName: "Largest Divisible Subset|(DP-44)",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-divisible-subset-dp-44/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/largest-divisible-subset?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/largest-divisible-subset?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/largest-divisible-subset/",
-    "ytLink": "https://www.youtube.com/watch?v=gDuZwBW9VvM",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/largest-divisible-subset/",
+    ytLink: "https://www.youtube.com/watch?v=gDuZwBW9VvM",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Longest String Chain|(DP-45)",
-    "problemLink": "https://takeuforward.org/data-structure/longest-string-chain-dp-45/",
-    "resourceLinks": [
+    id: 428,
+    problemName: "Longest String Chain|(DP-45)",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-string-chain-dp-45/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-string-chain?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-string-chain?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/longest-string-chain/",
-    "ytLink": "https://www.youtube.com/watch?v=YY8iBaYcc4g",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/longest-string-chain/",
+    ytLink: "https://www.youtube.com/watch?v=YY8iBaYcc4g",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Longest Bitonic Subsequence |(DP-46)",
-    "problemLink": "https://takeuforward.org/data-structure/longest-bitonic-subsequence-dp-46/",
-    "resourceLinks": [
+    id: 429,
+    problemName: "Longest Bitonic Subsequence |(DP-46)",
+    problemLink:
+      "https://takeuforward.org/data-structure/longest-bitonic-subsequence-dp-46/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-bitonic-subsequence?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-bitonic-subsequence?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=y4vN0WNdrlg",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=y4vN0WNdrlg",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Number of Longest Increasing Subsequences|(DP-47)",
-    "problemLink": "https://takeuforward.org/data-structure/number-of-longest-increasing-subsequences-dp-47/",
-    "resourceLinks": [
+    id: 430,
+    problemName: "Number of Longest Increasing Subsequences|(DP-47)",
+    problemLink:
+      "https://takeuforward.org/data-structure/number-of-longest-increasing-subsequences-dp-47/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/number-of-longest-increasing-subsequences?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/number-of-longest-increasing-subsequences?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
-    "ytLink": "https://www.youtube.com/watch?v=cKVl1TFdNXg",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
+    ytLink: "https://www.youtube.com/watch?v=cKVl1TFdNXg",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Matrix Chain Multiplication|(DP-48)",
-    "problemLink": "https://takeuforward.org/dynamic-programming/matrix-chain-multiplication-dp-48/",
-    "resourceLinks": [
+    id: 431,
+    problemName: "Matrix Chain Multiplication|(DP-48)",
+    problemLink:
+      "https://takeuforward.org/dynamic-programming/matrix-chain-multiplication-dp-48/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/matrix-chain-multiplication?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/matrix-chain-multiplication?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=vRVfmbCFW7Y",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=vRVfmbCFW7Y",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Matrix Chain Multiplication | Bottom-Up|(DP-49)",
-    "problemLink": "https://takeuforward.org/data-structure/matrix-chain-multiplication-tabulation-method-dp-49/",
-    "resourceLinks": [
+    id: 432,
+    problemName: "Matrix Chain Multiplication | Bottom-Up|(DP-49)",
+    problemLink:
+      "https://takeuforward.org/data-structure/matrix-chain-multiplication-tabulation-method-dp-49/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/matrix-chain-multiplication?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/matrix-chain-multiplication?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=pDCXsbAw5Cg",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=pDCXsbAw5Cg",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Minimum Cost to Cut the Stick|(DP-50)",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-cost-to-cut-the-stick-dp-50/",
-    "resourceLinks": [
+    id: 433,
+    problemName: "Minimum Cost to Cut the Stick|(DP-50)",
+    problemLink:
+      "https://takeuforward.org/data-structure/minimum-cost-to-cut-the-stick-dp-50/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-cost-to-cut-the-stick?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-cost-to-cut-the-stick?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/",
-    "ytLink": "https://www.youtube.com/watch?v=xwomavsC86c",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/",
+    ytLink: "https://www.youtube.com/watch?v=xwomavsC86c",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Burst Balloons|(DP-51)",
-    "problemLink": "https://takeuforward.org/data-structure/burst-balloons-partition-dp-dp-51/",
-    "resourceLinks": [
+    id: 434,
+    problemName: "Burst Balloons|(DP-51)",
+    problemLink:
+      "https://takeuforward.org/data-structure/burst-balloons-partition-dp-dp-51/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/burst-balloons?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/burst-balloons?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/burst-balloons/",
-    "ytLink": "https://www.youtube.com/watch?v=Yz4LlDSlkns",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/burst-balloons/",
+    ytLink: "https://www.youtube.com/watch?v=Yz4LlDSlkns",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Evaluate Boolean Expression to True|(DP-52)",
-    "problemLink": "https://takeuforward.org/data-structure/evaluate-boolean-expression-to-true-partition-dp-dp-52/",
-    "resourceLinks": [
+    id: 435,
+    problemName: "Evaluate Boolean Expression to True|(DP-52)",
+    problemLink:
+      "https://takeuforward.org/data-structure/evaluate-boolean-expression-to-true-partition-dp-dp-52/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/different-ways-to-evaluate-a-boolean-expression?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/different-ways-to-evaluate-a-boolean-expression?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/parsing-a-boolean-expression/",
-    "ytLink": "https://www.youtube.com/watch?v=MM7fXopgyjw",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/parsing-a-boolean-expression/",
+    ytLink: "https://www.youtube.com/watch?v=MM7fXopgyjw",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Palindrome Partitioning - II|(DP-53)",
-    "problemLink": "https://takeuforward.org/data-structure/palindrome-partitioning-ii-front-partition-dp-53/",
-    "resourceLinks": [
+    id: 436,
+    problemName: "Palindrome Partitioning - II|(DP-53)",
+    problemLink:
+      "https://takeuforward.org/data-structure/palindrome-partitioning-ii-front-partition-dp-53/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/palindrome-partitioning-ii-?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/palindrome-partitioning-ii-?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/palindrome-partitioning-ii/",
-    "ytLink": "https://www.youtube.com/watch?v=_H8V5hJUGd0",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/palindrome-partitioning-ii/",
+    ytLink: "https://www.youtube.com/watch?v=_H8V5hJUGd0",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Partition Array for Maximum Sum|(DP-54)",
-    "problemLink": "https://takeuforward.org/data-structure/partition-array-for-maximum-sum-front-partition-dp-54/",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/partition-array-for-maximum-sum/",
-    "ytLink": "https://www.youtube.com/watch?v=PhWWJmaKfMc",
-    "difficulty": "Hard"
+    id: 437,
+    problemName: "Partition Array for Maximum Sum|(DP-54)",
+    problemLink:
+      "https://takeuforward.org/data-structure/partition-array-for-maximum-sum-front-partition-dp-54/",
+    resourceLinks: [],
+    leetCodeLink:
+      "https://leetcode.com/problems/partition-array-for-maximum-sum/",
+    ytLink: "https://www.youtube.com/watch?v=PhWWJmaKfMc",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Maximum Rectangle Area with all 1's|(DP-55)",
-    "problemLink": "https://takeuforward.org/data-structure/maximum-rectangle-area-with-all-1s-dp-on-rectangles-dp-55/",
-    "resourceLinks": [
+    id: 438,
+    problemName: "Maximum Rectangle Area with all 1's|(DP-55)",
+    problemLink:
+      "https://takeuforward.org/data-structure/maximum-rectangle-area-with-all-1s-dp-on-rectangles-dp-55/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/maximum-rectangles?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/maximum-rectangles?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/maximal-rectangle/",
-    "ytLink": "https://www.youtube.com/watch?v=tOylVCugy9k",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/maximal-rectangle/",
+    ytLink: "https://www.youtube.com/watch?v=tOylVCugy9k",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Count Square Submatrices with All Ones|(DP-56)",
-    "problemLink": "https://takeuforward.org/data-structure/count-square-submatrices-with-all-1s-dp-on-rectangles-dp-56/",
-    "resourceLinks": [],
-    "leetCodeLink": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
-    "ytLink": "https://www.youtube.com/watch?v=auS1fynpnjo",
-    "difficulty": "Hard"
+    id: 439,
+    problemName: "Count Square Submatrices with All Ones|(DP-56)",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-square-submatrices-with-all-1s-dp-on-rectangles-dp-56/",
+    resourceLinks: [],
+    leetCodeLink:
+      "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
+    ytLink: "https://www.youtube.com/watch?v=auS1fynpnjo",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Implement TRIE | INSERT | SEARCH | STARTSWITH",
-    "problemLink": "https://takeuforward.org/data-structure/implement-trie-1/",
-    "resourceLinks": [
+    id: 440,
+    problemName: "Implement TRIE | INSERT | SEARCH | STARTSWITH",
+    problemLink: "https://takeuforward.org/data-structure/implement-trie-1/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/trie-implementation-and-operations?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/trie-implementation-and-operations?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/implement-trie-prefix-tree/",
-    "ytLink": "https://www.youtube.com/watch?v=dBGUmUQhjaM",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/implement-trie-prefix-tree/",
+    ytLink: "https://www.youtube.com/watch?v=dBGUmUQhjaM",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Implement Trie - 2 (Prefix Tree)",
-    "problemLink": "https://takeuforward.org/data-structure/implement-trie-ii/",
-    "resourceLinks": [
+    id: 441,
+    problemName: "Implement Trie - 2 (Prefix Tree)",
+    problemLink: "https://takeuforward.org/data-structure/implement-trie-ii/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/trie-implementation-and-advanced-operations?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/trie-implementation-and-advanced-operations?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Longest String with All Prefixes",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 442,
+    problemName: "Longest String with All Prefixes",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-word-with-all-prefixes?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-word-with-all-prefixes?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=AWnBa91lThI",
-    "difficulty": "Medium"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=AWnBa91lThI",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Number of Distinct Substrings in a String",
-    "problemLink": "https://takeuforward.org/data-structure/number-of-distinct-substrings-in-a-string-using-trie/",
-    "resourceLinks": [
+    id: 443,
+    problemName: "Number of Distinct Substrings in a String",
+    problemLink:
+      "https://takeuforward.org/data-structure/number-of-distinct-substrings-in-a-string-using-trie/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/number-of-distinct-substrings-in-a-string?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/number-of-distinct-substrings-in-a-string?tab=editorial",
+      },
     ],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=RV0QeTyHZxo",
-    "difficulty": "Hard"
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=RV0QeTyHZxo",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Bit PreRequisites for TRIE Problems",
-    "problemLink": "",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "https://www.youtube.com/watch?v=5iyuU4hQFrw",
-    "difficulty": "Hard"
+    id: 444,
+    problemName: "Bit PreRequisites for TRIE Problems",
+    problemLink: "",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "https://www.youtube.com/watch?v=5iyuU4hQFrw",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Maximum XOR of two numbers in an array",
-    "problemLink": "https://takeuforward.org/data-structure/maximum-xor-of-two-numbers-in-an-array/",
-    "resourceLinks": [
+    id: 445,
+    problemName: "Maximum XOR of two numbers in an array",
+    problemLink:
+      "https://takeuforward.org/data-structure/maximum-xor-of-two-numbers-in-an-array/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/maximum-xor-of-two-numbers-in-an-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/maximum-xor-of-two-numbers-in-an-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
-    "ytLink": "https://www.youtube.com/watch?v=EIhAwfHubE8",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+    ytLink: "https://www.youtube.com/watch?v=EIhAwfHubE8",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Maximum XOR With an Element From Array",
-    "problemLink": "https://takeuforward.org/trie/maximum-xor-queries-trie/",
-    "resourceLinks": [
+    id: 446,
+    problemName: "Maximum XOR With an Element From Array",
+    problemLink: "https://takeuforward.org/trie/maximum-xor-queries-trie/",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/maximum-xor-with-an-element-from-an-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/maximum-xor-with-an-element-from-an-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
-    "ytLink": "https://www.youtube.com/watch?v=Q8LhG9Pi5KM",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
+    ytLink: "https://www.youtube.com/watch?v=Q8LhG9Pi5KM",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Minimum number of bracket reversals needed to make an expression balanced",
-    "problemLink": "https://takeuforward.org/data-structure/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced",
-    "resourceLinks": [
+    id: 447,
+    problemName:
+      "Minimum number of bracket reversals needed to make an expression balanced",
+    problemLink:
+      "https://takeuforward.org/data-structure/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/minimum-number-of-bracket-reversals-to-make-an-expression-balanced?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/minimum-number-of-bracket-reversals-to-make-an-expression-balanced?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink:
+      "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Count and say",
-    "problemLink": "https://takeuforward.org/data-structure/count-and-say",
-    "resourceLinks": [
+    id: 448,
+    problemName: "Count and say",
+    problemLink: "https://takeuforward.org/data-structure/count-and-say",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/count-and-say?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/count-and-say?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/count-and-say/",
-    "ytLink": "",
-    "difficulty": "Medium"
+    leetCodeLink: "https://leetcode.com/problems/count-and-say/",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Hashing In Strings | Theory",
-    "problemLink": "https://takeuforward.org/data-structure/hashing-in-strings",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Medium"
+    id: 449,
+    problemName: "Hashing In Strings | Theory",
+    problemLink: "https://takeuforward.org/data-structure/hashing-in-strings",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Medium",
   },
   {
-    "problemName": "Rabin Karp",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 450,
+    problemName: "Rabin Karp",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/rabin-karp-algorithm?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/rabin-karp-algorithm?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/repeated-string-match/discuss/416144/Rabin-Karp-algorithm-C%2B%2B-implementation",
-    "ytLink": "",
-    "difficulty": "Hard"
+    leetCodeLink:
+      "https://leetcode.com/problems/repeated-string-match/discuss/416144/Rabin-Karp-algorithm-C%2B%2B-implementation",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Z-Function",
-    "problemLink": "https://takeuforward.org/data-structure/z-function",
-    "resourceLinks": [
+    id: 451,
+    problemName: "Z-Function",
+    problemLink: "https://takeuforward.org/data-structure/z-function",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/z-function?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/z-function?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/implement-strstr/",
-    "ytLink": "",
-    "difficulty": "Easy"
+    leetCodeLink: "https://leetcode.com/problems/implement-strstr/",
+    ytLink: "",
+    difficulty: "Easy",
   },
   {
-    "problemName": "KMP algo / LPS(pi) array",
-    "problemLink": "https://takeuforward.org/data-structure/kmp-algorithm-or-lps-array",
-    "resourceLinks": [
+    id: 452,
+    problemName: "KMP algo / LPS(pi) array",
+    problemLink:
+      "https://takeuforward.org/data-structure/kmp-algorithm-or-lps-array",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/kmp-algorithm-or-lps-array?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/kmp-algorithm-or-lps-array?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/implement-strstr/",
-    "ytLink": "",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/implement-strstr/",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Shortest Palindrome",
-    "problemLink": "",
-    "resourceLinks": [
+    id: 453,
+    problemName: "Shortest Palindrome",
+    problemLink: "",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/shortest-palindrome?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/shortest-palindrome?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/shortest-palindrome/",
-    "ytLink": "",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/shortest-palindrome/",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Longest happy prefix",
-    "problemLink": "https://takeuforward.org/data-structure/longest-happy-prefix",
-    "resourceLinks": [
+    id: 454,
+    problemName: "Longest happy prefix",
+    problemLink: "https://takeuforward.org/data-structure/longest-happy-prefix",
+    resourceLinks: [
       {
-        "text": "",
-        "href": "https://takeuforward.org/plus/dsa/problems/longest-happy-prefix?tab=editorial"
-      }
+        text: "",
+        href: "https://takeuforward.org/plus/dsa/problems/longest-happy-prefix?tab=editorial",
+      },
     ],
-    "leetCodeLink": "https://leetcode.com/problems/longest-happy-prefix/",
-    "ytLink": "",
-    "difficulty": "Hard"
+    leetCodeLink: "https://leetcode.com/problems/longest-happy-prefix/",
+    ytLink: "",
+    difficulty: "Hard",
   },
   {
-    "problemName": "Count palindromic subsequence in given string",
-    "problemLink": "https://takeuforward.org/data-structure/count-palindromic-subsequence-in-given-string",
-    "resourceLinks": [],
-    "leetCodeLink": "",
-    "ytLink": "",
-    "difficulty": "Hard"
-  }
-]
+    id: 455,
+    problemName: "Count palindromic subsequence in given string",
+    problemLink:
+      "https://takeuforward.org/data-structure/count-palindromic-subsequence-in-given-string",
+    resourceLinks: [],
+    leetCodeLink: "",
+    ytLink: "",
+    difficulty: "Hard",
+  },
+];
 
 export default data;
