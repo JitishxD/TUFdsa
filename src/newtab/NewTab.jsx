@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import leetCodeProblems from "../problem-data/leetCodeAllProblemDump.json";
-import a2zData from "../problem-data/problems";
+import a2zData from "../problem-data/DSAa2zProblems";
 import Header from "./Components/Header";
 import StatsCards from "./Components/StatsCards";
 import RandomProblemCard from "./Components/RandomProblemCard";
@@ -64,7 +64,7 @@ export const NewTab = () => {
     loadData();
 
     // Listen for storage changes to sync random problem across contexts
-    const storageListener = (changes, areaName) => {
+    const storageListener = async (changes, areaName) => {
       if (areaName === "sync" && changes.currentRandomProblem) {
         const newVal = changes.currentRandomProblem.newValue;
         if (newVal) {
@@ -76,19 +76,29 @@ export const NewTab = () => {
           }
         }
       }
-      if (areaName === "sync" && changes.randomSolveHistory) {
-        const newHistory = changes.randomSolveHistory.newValue || {};
-        setRandomSolveHistory(newHistory);
-        setSolvedMap(createSolvedMapFromHistory(newHistory));
-        // Recalculate stats
-        updateStats(newHistory, a2zSolveHistory);
-      }
-      if (areaName === "sync" && changes.a2zSolveHistory) {
-        const newHistory = changes.a2zSolveHistory.newValue || {};
-        setA2zSolveHistory(newHistory);
-        setA2zSolvedMap(createSolvedMapFromHistory(newHistory));
-        // Recalculate stats
-        updateStats(randomSolveHistory, newHistory);
+      if (
+        areaName === "sync" &&
+        (changes.randomSolveHistory || changes.a2zSolveHistory)
+      ) {
+        // Reload both histories from storage to avoid stale state
+        const result = await chrome.storage.sync.get([
+          "randomSolveHistory",
+          "a2zSolveHistory",
+        ]);
+        const randomHistory = result.randomSolveHistory || {};
+        const a2zHistory = result.a2zSolveHistory || {};
+
+        if (changes.randomSolveHistory) {
+          setRandomSolveHistory(randomHistory);
+          setSolvedMap(createSolvedMapFromHistory(randomHistory));
+        }
+        if (changes.a2zSolveHistory) {
+          setA2zSolveHistory(a2zHistory);
+          setA2zSolvedMap(createSolvedMapFromHistory(a2zHistory));
+        }
+
+        // Recalculate stats with fresh data
+        updateStats(randomHistory, a2zHistory);
       }
       // Listen for settings changes (torture mode, etc.)
       if (areaName === "sync" && changes.userSettings) {

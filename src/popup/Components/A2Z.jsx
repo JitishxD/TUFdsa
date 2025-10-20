@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import data from "../../problem-data/problems";
+import data from "../../problem-data/DSAa2zProblems";
 import "../Styles/Popup.css";
 import {
   toggleProblemSolved,
@@ -26,6 +26,18 @@ function A2Z({ onBack }) {
         setCurrentIndex(firstUnsolvedIndex);
       }
     });
+
+    // Listen for storage changes to sync with other contexts (newtab, etc.)
+    const storageListener = (changes, areaName) => {
+      if (areaName === "sync" && changes.a2zSolveHistory) {
+        const newHistory = changes.a2zSolveHistory.newValue || {};
+        setA2zSolveHistory(newHistory);
+        setSolvedMap(createSolvedMapFromHistory(newHistory));
+      }
+    };
+
+    chrome.storage.onChanged.addListener(storageListener);
+    return () => chrome.storage.onChanged.removeListener(storageListener);
   }, []); // Find the first unsolved problem (starting from id 1)
   const getFirstUnsolvedProblem = () => {
     return data.find((problem) => !solvedMap[problem.id]);
