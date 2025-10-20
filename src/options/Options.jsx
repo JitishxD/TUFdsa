@@ -31,6 +31,19 @@ export const Options = () => {
   useEffect(() => {
     loadAllData();
     loadSettings();
+
+    // Listen for settings changes from other components (like popup)
+    const handleStorageChange = (changes, area) => {
+      if (area === "sync" && changes.userSettings) {
+        setSettings(changes.userSettings.newValue);
+      }
+    };
+
+    chrome.storage.onChanged.addListener(handleStorageChange);
+
+    return () => {
+      chrome.storage.onChanged.removeListener(handleStorageChange);
+    };
   }, []);
 
   // Auto-save settings whenever they change

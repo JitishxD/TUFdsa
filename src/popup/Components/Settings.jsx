@@ -15,8 +15,6 @@ export function Settings({ onBack }) {
     hyperTortureMode: false,
   });
 
-  const [saved, setSaved] = useState(false);
-
   // Load settings from Chrome storage on mount
   useEffect(() => {
     chrome.storage.sync.get(["userSettings"], (result) => {
@@ -24,15 +22,25 @@ export function Settings({ onBack }) {
         setSettings(result.userSettings);
       }
     });
+
+    // Listen for settings changes from other components
+    const handleStorageChange = (changes, area) => {
+      if (area === "sync" && changes.userSettings) {
+        setSettings(changes.userSettings.newValue);
+      }
+    };
+
+    chrome.storage.onChanged.addListener(handleStorageChange);
+
+    return () => {
+      chrome.storage.onChanged.removeListener(handleStorageChange);
+    };
   }, []);
 
-  // Save settings to Chrome storage
-  const saveSettings = () => {
-    chrome.storage.sync.set({ userSettings: settings }, () => {
-      setSaved(true);
-      setTimeout(() => setSaved(false), 2000);
-    });
-  };
+  // Auto-save settings whenever they change
+  useEffect(() => {
+    chrome.storage.sync.set({ userSettings: settings });
+  }, [settings]);
 
   const handleToggle = (key) => {
     setSettings((prev) => ({
@@ -66,7 +74,7 @@ export function Settings({ onBack }) {
             🎨 Appearance
           </h3>
 
-          <div className="flex items-center justify-between mb-3">
+          <div className="flex items-center justify-between">
             <div>
               <p className="text-sm text-white">Dark Mode</p>
               <p className="text-xs text-gray-500">Use dark theme</p>
@@ -80,27 +88,6 @@ export function Settings({ onBack }) {
               <div
                 className={`w-5 h-5 bg-white rounded-full transition transform ${
                   settings.darkMode ? "translate-x-6" : "translate-x-1"
-                }`}
-              />
-            </button>
-          </div>
-
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm text-white">Show Difficulty</p>
-              <p className="text-xs text-gray-500">
-                Display problem difficulty
-              </p>
-            </div>
-            <button
-              onClick={() => handleToggle("showDifficulty")}
-              className={`w-12 h-6 rounded-full transition ${
-                settings.showDifficulty ? "bg-indigo-600" : "bg-gray-600"
-              }`}
-            >
-              <div
-                className={`w-5 h-5 bg-white rounded-full transition transform ${
-                  settings.showDifficulty ? "translate-x-6" : "translate-x-1"
                 }`}
               />
             </button>
@@ -259,6 +246,27 @@ export function Settings({ onBack }) {
             </button>
           </div>
 
+          <div className="flex items-center justify-between mb-3">
+            <div>
+              <p className="text-sm text-white">Show Difficulty</p>
+              <p className="text-xs text-gray-500">
+                Display problem difficulty
+              </p>
+            </div>
+            <button
+              onClick={() => handleToggle("showDifficulty")}
+              className={`w-12 h-6 rounded-full transition ${
+                settings.showDifficulty ? "bg-indigo-600" : "bg-gray-600"
+              }`}
+            >
+              <div
+                className={`w-5 h-5 bg-white rounded-full transition transform ${
+                  settings.showDifficulty ? "translate-x-6" : "translate-x-1"
+                }`}
+              />
+            </button>
+          </div>
+
           <div className="mb-3">
             <label className="text-sm text-white block mb-2">
               Preferred Difficulty
@@ -309,26 +317,20 @@ export function Settings({ onBack }) {
         </div>
       </div>
 
-      {/* Save Notification */}
-      {saved && (
-        <div className="bg-green-900 border border-green-600 text-green-200 px-4 py-2 rounded-lg text-sm text-center mt-4">
-          ✅ Settings saved successfully!
-        </div>
-      )}
+      {/* Auto-save indicator */}
+      <div className="flex justify-center mt-4">
+        <p className="text-gray-400 text-sm italic">
+          ✓ Settings are automatically saved
+        </p>
+      </div>
 
-      {/* Action Buttons */}
-      <div className="flex gap-3 mt-4">
+      {/* Action Button */}
+      <div className="flex mt-3">
         <button
           onClick={onBack}
-          className="flex-1 bg-[#2b2b33] hover:bg-[#383844] text-gray-300 px-4 py-2 rounded-lg transition"
+          className="w-full bg-[#2b2b33] hover:bg-[#383844] text-gray-300 px-4 py-2 rounded-lg transition"
         >
           ← Back
-        </button>
-        <button
-          onClick={saveSettings}
-          className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition font-medium"
-        >
-          💾 Save Settings
         </button>
       </div>
     </div>

@@ -27,48 +27,6 @@ const SettingsTab = ({ settings, handleToggle, handleChange }) => {
               />
             </button>
           </div>
-
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-white font-medium">Show Difficulty</p>
-              <p className="text-sm text-gray-400">
-                Display problem difficulty levels
-              </p>
-            </div>
-            <button
-              onClick={() => handleToggle("showDifficulty")}
-              className={`w-14 h-7 rounded-full transition ${
-                settings.showDifficulty ? "bg-indigo-600" : "bg-gray-600"
-              }`}
-            >
-              <div
-                className={`w-5 h-5 bg-white rounded-full transition-transform ${
-                  settings.showDifficulty ? "translate-x-8" : "translate-x-1"
-                }`}
-              />
-            </button>
-          </div>
-
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-white font-medium">Show Topics</p>
-              <p className="text-sm text-gray-400">
-                Display problem topic tags
-              </p>
-            </div>
-            <button
-              onClick={() => handleToggle("showTopics")}
-              className={`w-14 h-7 rounded-full transition ${
-                settings.showTopics ? "bg-indigo-600" : "bg-gray-600"
-              }`}
-            >
-              <div
-                className={`w-5 h-5 bg-white rounded-full transition-transform ${
-                  settings.showTopics ? "translate-x-8" : "translate-x-1"
-                }`}
-              />
-            </button>
-          </div>
         </div>
       </div>
 
@@ -203,6 +161,48 @@ const SettingsTab = ({ settings, handleToggle, handleChange }) => {
               <div
                 className={`w-5 h-5 bg-white rounded-full transition-transform ${
                   settings.autoSolveNext ? "translate-x-8" : "translate-x-1"
+                }`}
+              />
+            </button>
+          </div>
+
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-white font-medium">Show Topics</p>
+              <p className="text-sm text-gray-400">
+                Display problem topic tags
+              </p>
+            </div>
+            <button
+              onClick={() => handleToggle("showTopics")}
+              className={`w-14 h-7 rounded-full transition ${
+                settings.showTopics ? "bg-indigo-600" : "bg-gray-600"
+              }`}
+            >
+              <div
+                className={`w-5 h-5 bg-white rounded-full transition-transform ${
+                  settings.showTopics ? "translate-x-8" : "translate-x-1"
+                }`}
+              />
+            </button>
+          </div>
+
+          <div className="flex items-center justify-between">
+            <div>
+              <p className="text-white font-medium">Show Difficulty</p>
+              <p className="text-sm text-gray-400">
+                Display problem difficulty levels
+              </p>
+            </div>
+            <button
+              onClick={() => handleToggle("showDifficulty")}
+              className={`w-14 h-7 rounded-full transition ${
+                settings.showDifficulty ? "bg-indigo-600" : "bg-gray-600"
+              }`}
+            >
+              <div
+                className={`w-5 h-5 bg-white rounded-full transition-transform ${
+                  settings.showDifficulty ? "translate-x-8" : "translate-x-1"
                 }`}
               />
             </button>
