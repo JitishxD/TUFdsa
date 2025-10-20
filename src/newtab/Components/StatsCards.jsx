@@ -2,7 +2,7 @@ import React from "react";
 
 const StatsCards = ({ stats }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
       <div className="bg-[#1b1b22] rounded-lg p-4 border border-gray-800 hover:border-indigo-500 transition">
         <div className="flex items-center justify-between">
           <div>
@@ -24,6 +24,18 @@ const StatsCards = ({ stats }) => {
             </p>
           </div>
           <div className="text-4xl">🔥</div>
+        </div>
+      </div>
+
+      <div className="bg-[#1b1b22] rounded-lg p-4 border border-gray-800 hover:border-orange-500 transition">
+        <div className="flex items-center justify-between">
+          <div>
+            <p className="text-gray-400 text-xs mb-1">Best Streak</p>
+            <p className="text-3xl font-bold text-orange-400">
+              {stats.bestStreak}
+            </p>
+          </div>
+          <div className="text-4xl">🏆</div>
         </div>
       </div>
 

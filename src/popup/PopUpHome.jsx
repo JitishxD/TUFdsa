@@ -1,11 +1,59 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import RandomProblem from "./Components/RandomProblem";
 import A2Z from "./Components/A2Z";
 import Settings from "./Components/Settings";
+import { calculateStats } from "../utils/statsTracker";
 
 export function PopUpHome() {
   const [currentPage, setCurrentPage] = useState("PopUpHome");
   // "PopUpHome" | "RandomProblem" | "A2Z" | "Settings"
+  const [stats, setStats] = useState({
+    totalSolved: 0,
+    solvedToday: 0,
+    currentStreak: 0,
+    bestStreak: 0,
+  });
+
+  useEffect(() => {
+    // Load stats on mount
+    loadStats();
+
+    // Listen for storage changes to update stats in real-time
+    const storageListener = (changes, areaName) => {
+      if (
+        areaName === "sync" &&
+        (changes.randomSolveHistory ||
+          changes.a2zSolveHistory ||
+          changes.bestStreak)
+      ) {
+        loadStats();
+      }
+    };
+
+    chrome.storage.onChanged.addListener(storageListener);
+    return () => chrome.storage.onChanged.removeListener(storageListener);
+  }, []);
+
+  const loadStats = async () => {
+    try {
+      const result = await chrome.storage.sync.get([
+        "randomSolveHistory",
+        "a2zSolveHistory",
+        "bestStreak",
+      ]);
+      const randomHistory = result.randomSolveHistory || {};
+      const a2zHistory = result.a2zSolveHistory || {};
+      const bestStreak = result.bestStreak || 0;
+      const calculatedStats = calculateStats(
+        randomHistory,
+        a2zHistory,
+        bestStreak
+      );
+      setStats(calculatedStats);
+    } catch (error) {
+      console.error("Error loading stats:", error);
+    }
+  };
 
   const handleContinue = () => setCurrentPage("RandomProblem");
   const handleA2Z = () => setCurrentPage("A2Z");
@@ -95,14 +143,18 @@ export function PopUpHome() {
           </div>
 
           {/* Streak Section */}
-          <div className="flex justify-between w-full mt-6 text-center">
-            <div className="w-1/2">
+          <div className="flex justify-between w-full mt-6 text-center gap-4">
+            <div className="w-1/3">
               <p className="text-gray-400 text-sm">Current Streak:</p>
-              <p className="text-xl font-bold">0</p>
+              <p className="text-xl font-bold">{stats.currentStreak} 🔥</p>
             </div>
-            <div className="w-1/2">
+            <div className="w-1/3">
               <p className="text-gray-400 text-sm">Best Streak:</p>
-              <p className="text-xl font-bold">0</p>
+              <p className="text-xl font-bold">{stats.bestStreak} 🏆</p>
+            </div>
+            <div className="w-1/3">
+              <p className="text-gray-400 text-sm">Solved Today:</p>
+              <p className="text-xl font-bold">{stats.solvedToday} ✅</p>
             </div>
           </div>
 

@@ -99,27 +99,6 @@ const RandomProblemCard = ({
               : "Mark as Solved"}
           </button>
         </div>
-
-        {/* Metadata Section */}
-        <div className="mt-4 pt-3 border-t border-gray-700">
-          <p className="text-xs text-gray-400 mb-2 font-semibold">
-            Problem Info:
-          </p>
-          <div className="grid grid-cols-2 gap-2 text-xs">
-            <div className="bg-[#2b2b33] p-2 rounded">
-              <span className="text-gray-500">Problem ID:</span>
-              <p className="text-white font-mono font-semibold">
-                {dailyProblem.problem_id}
-              </p>
-            </div>
-            <div className="bg-[#2b2b33] p-2 rounded">
-              <span className="text-gray-500">LC Number:</span>
-              <p className="text-white font-mono font-semibold">
-                #{dailyProblem.frontend_id}
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

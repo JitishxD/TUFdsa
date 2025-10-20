@@ -2,18 +2,23 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "../Styles/Popup.css";
 import leetCodeProblems from "../../problem-data/leetCodeAllProblemDump.json";
+import {
+  toggleProblemSolved,
+  createSolvedMapFromHistory,
+} from "../../utils/statsTracker";
 
 export function RandomProblem({ onBack }) {
   const [currentProblem, setCurrentProblem] = useState(null);
   const [solvedMap, setSolvedMap] = useState({}); // { problemId: true/false }
+  const [randomSolveHistory, setRandomSolveHistory] = useState({});
   const [loading, setLoading] = useState(true);
 
   // Load solved status and current problem from Chrome storage on mount
   useEffect(() => {
     const initialize = (result) => {
-      if (result.solvedMap) {
-        setSolvedMap(result.solvedMap);
-      }
+      const history = result.randomSolveHistory || {};
+      setRandomSolveHistory(history);
+      setSolvedMap(createSolvedMapFromHistory(history));
 
       // If there's a stored problem, use it; otherwise pick a random one
       if (result.currentRandomProblem) {
@@ -27,11 +32,11 @@ export function RandomProblem({ onBack }) {
     // Try promise-based get first, fallback to callback
     try {
       chrome.storage.sync
-        .get(["solvedMap", "currentRandomProblem"])
+        .get(["randomSolveHistory", "currentRandomProblem"])
         .then(initialize);
     } catch (e) {
       chrome.storage.sync.get(
-        ["solvedMap", "currentRandomProblem"],
+        ["randomSolveHistory", "currentRandomProblem"],
         initialize
       );
     }
@@ -42,9 +47,10 @@ export function RandomProblem({ onBack }) {
         const newVal = changes.currentRandomProblem.newValue;
         if (newVal) setCurrentProblem(newVal);
       }
-      if (areaName === "sync" && changes.solvedMap) {
-        const newSolved = changes.solvedMap.newValue || {};
-        setSolvedMap(newSolved);
+      if (areaName === "sync" && changes.randomSolveHistory) {
+        const newHistory = changes.randomSolveHistory.newValue || {};
+        setRandomSolveHistory(newHistory);
+        setSolvedMap(createSolvedMapFromHistory(newHistory));
       }
     };
 
@@ -75,10 +81,12 @@ export function RandomProblem({ onBack }) {
   };
 
   const toggleSolved = (problemId) => {
-    setSolvedMap((prev) => ({
-      ...prev,
-      [problemId]: !prev[problemId],
-    }));
+    const updatedHistory = toggleProblemSolved(randomSolveHistory, problemId);
+    setRandomSolveHistory(updatedHistory);
+    setSolvedMap(createSolvedMapFromHistory(updatedHistory));
+
+    // Save to Chrome storage
+    chrome.storage.sync.set({ randomSolveHistory: updatedHistory });
   };
 
   if (loading || !currentProblem) {

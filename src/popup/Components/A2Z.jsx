@@ -1,28 +1,32 @@
 import React, { useState, useEffect } from "react";
 import data from "../../problem-data/problems";
 import "../Styles/Popup.css";
+import {
+  toggleProblemSolved,
+  createSolvedMapFromHistory,
+} from "../../utils/statsTracker";
 
 function A2Z({ onBack }) {
   const [solvedMap, setSolvedMap] = useState({}); // { problemId: true/false }
+  const [a2zSolveHistory, setA2zSolveHistory] = useState({});
   const [currentIndex, setCurrentIndex] = useState(0); // For navigation
 
   // Load data from Chrome storage on mount
   useEffect(() => {
-    chrome.storage.sync.get(["a2zSolvedMap"], (result) => {
-      const loadedSolvedMap = result.a2zSolvedMap || {};
-      setSolvedMap(loadedSolvedMap);
+    chrome.storage.sync.get(["a2zSolveHistory"], (result) => {
+      const history = result.a2zSolveHistory || {};
+      setA2zSolveHistory(history);
+      setSolvedMap(createSolvedMapFromHistory(history));
 
       // Find first unsolved problem and set as current index
       const firstUnsolvedIndex = data.findIndex(
-        (problem) => !loadedSolvedMap[problem.id]
+        (problem) => !history[problem.id]
       );
       if (firstUnsolvedIndex !== -1) {
         setCurrentIndex(firstUnsolvedIndex);
       }
     });
-  }, []);
-
-  // Find the first unsolved problem (starting from id 1)
+  }, []); // Find the first unsolved problem (starting from id 1)
   const getFirstUnsolvedProblem = () => {
     return data.find((problem) => !solvedMap[problem.id]);
   };
@@ -38,35 +42,13 @@ function A2Z({ onBack }) {
     setCurrentIndex((prev) => (prev === data.length - 1 ? 0 : prev + 1));
   };
 
-  const markAsSolved = (problemId) => {
-    const updatedSolvedMap = { ...solvedMap, [problemId]: true };
-
-    setSolvedMap(updatedSolvedMap);
-
-    // Save to Chrome storage
-    chrome.storage.sync.set({
-      a2zSolvedMap: updatedSolvedMap,
-    });
-  };
-
-  const unmarkAsSolved = (problemId) => {
-    const updatedSolvedMap = { ...solvedMap };
-    delete updatedSolvedMap[problemId];
-
-    setSolvedMap(updatedSolvedMap);
-
-    // Save to Chrome storage
-    chrome.storage.sync.set({
-      a2zSolvedMap: updatedSolvedMap,
-    });
-  };
-
   const toggleSolved = (problemId) => {
-    if (solvedMap[problemId]) {
-      unmarkAsSolved(problemId);
-    } else {
-      markAsSolved(problemId);
-    }
+    const updatedHistory = toggleProblemSolved(a2zSolveHistory, problemId);
+    setA2zSolveHistory(updatedHistory);
+    setSolvedMap(createSolvedMapFromHistory(updatedHistory));
+
+    // Save to Chrome storage
+    chrome.storage.sync.set({ a2zSolveHistory: updatedHistory });
   };
 
   if (!currentProblem) {

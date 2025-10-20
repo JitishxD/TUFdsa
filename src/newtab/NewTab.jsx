@@ -9,6 +9,11 @@ import TortureModeWarning from "./Components/TortureModeWarning";
 import QuickLinks from "./Components/QuickLinks";
 import SettingsButton from "./Components/SettingsButton";
 import RemoteUpdateToast from "./Components/RemoteUpdateToast";
+import {
+  calculateStats,
+  toggleProblemSolved,
+  createSolvedMapFromHistory,
+} from "../utils/statsTracker";
 import "./Styles/NewTab.css";
 
 export const NewTab = () => {
@@ -19,11 +24,14 @@ export const NewTab = () => {
   const [a2zProblem, setA2zProblem] = useState(null);
   const [a2zSolvedMap, setA2zSolvedMap] = useState({});
   const [solvedMap, setSolvedMap] = useState({});
+  const [randomSolveHistory, setRandomSolveHistory] = useState({});
+  const [a2zSolveHistory, setA2zSolveHistory] = useState({});
   const [a2zCurrentIndex, setA2zCurrentIndex] = useState(0);
   const [stats, setStats] = useState({
     solvedToday: 0,
     totalSolved: 0,
     currentStreak: 0,
+    bestStreak: 0,
   });
   const [settings, setSettings] = useState({
     tortureMode: false,
@@ -68,15 +76,19 @@ export const NewTab = () => {
           }
         }
       }
-      if (areaName === "sync" && changes.solvedMap) {
-        const newSolved = changes.solvedMap.newValue || {};
-        setSolvedMap(newSolved);
-        // update stats totalSolved based on both solved maps
-        setStats((prev) => ({
-          ...prev,
-          totalSolved:
-            Object.keys(newSolved).length + Object.keys(a2zSolvedMap).length,
-        }));
+      if (areaName === "sync" && changes.randomSolveHistory) {
+        const newHistory = changes.randomSolveHistory.newValue || {};
+        setRandomSolveHistory(newHistory);
+        setSolvedMap(createSolvedMapFromHistory(newHistory));
+        // Recalculate stats
+        updateStats(newHistory, a2zSolveHistory);
+      }
+      if (areaName === "sync" && changes.a2zSolveHistory) {
+        const newHistory = changes.a2zSolveHistory.newValue || {};
+        setA2zSolveHistory(newHistory);
+        setA2zSolvedMap(createSolvedMapFromHistory(newHistory));
+        // Recalculate stats
+        updateStats(randomSolveHistory, newHistory);
       }
       // Listen for settings changes (torture mode, etc.)
       if (areaName === "sync" && changes.userSettings) {
@@ -126,25 +138,35 @@ export const NewTab = () => {
         setSettings(settingsData.userSettings);
       }
 
-      // Load solved problems
-      const solvedData = await chrome.storage.sync.get([
-        "solvedMap",
-        "a2zSolvedMap",
+      // Load solve histories (new system with timestamps)
+      const historyData = await chrome.storage.sync.get([
+        "randomSolveHistory",
+        "a2zSolveHistory",
+        "bestStreak",
       ]);
-      const solvedMap = solvedData.solvedMap || {};
-      const a2zSolved = solvedData.a2zSolvedMap || {};
+      const randomHistory = historyData.randomSolveHistory || {};
+      const a2zHistory = historyData.a2zSolveHistory || {};
+      const bestStreak = historyData.bestStreak || 0;
 
-      setSolvedMap(solvedMap);
-      setA2zSolvedMap(a2zSolved);
+      setRandomSolveHistory(randomHistory);
+      setA2zSolveHistory(a2zHistory);
 
-      const totalSolved =
-        Object.keys(solvedMap).length + Object.keys(a2zSolved).length;
+      // Create solved maps for UI compatibility
+      setSolvedMap(createSolvedMapFromHistory(randomHistory));
+      setA2zSolvedMap(createSolvedMapFromHistory(a2zHistory));
 
-      setStats({
-        solvedToday: 0, // You can implement this later with date tracking
-        totalSolved,
-        currentStreak: 0, // You can implement this later with streak tracking
-      });
+      // Calculate stats using the new system
+      const calculatedStats = calculateStats(
+        randomHistory,
+        a2zHistory,
+        bestStreak
+      );
+      setStats(calculatedStats);
+
+      // Save best streak if it changed
+      if (calculatedStats.bestStreak > bestStreak) {
+        chrome.storage.sync.set({ bestStreak: calculatedStats.bestStreak });
+      }
 
       // Get the current random problem from sync storage (synced with RandomProblem component)
       const randomProblemData = await chrome.storage.sync.get([
@@ -162,14 +184,34 @@ export const NewTab = () => {
       }
 
       // Load A2Z problem - find first unsolved or use index 0
+      const a2zSolvedMapFromHistory = createSolvedMapFromHistory(a2zHistory);
       const firstUnsolved = a2zData.findIndex(
-        (problem) => !a2zSolved[problem.id]
+        (problem) => !a2zSolvedMapFromHistory[problem.id]
       );
       const a2zIndex = firstUnsolved !== -1 ? firstUnsolved : 0;
       setA2zCurrentIndex(a2zIndex);
       setA2zProblem(a2zData[a2zIndex]);
     } catch (error) {
       console.error("Error loading data:", error);
+    }
+  };
+
+  // Helper function to update stats
+  const updateStats = async (randomHistory, a2zHistory) => {
+    // Load current best streak
+    const result = await chrome.storage.sync.get(["bestStreak"]);
+    const bestStreak = result.bestStreak || 0;
+
+    const calculatedStats = calculateStats(
+      randomHistory,
+      a2zHistory,
+      bestStreak
+    );
+    setStats(calculatedStats);
+
+    // Save best streak if it changed
+    if (calculatedStats.bestStreak > bestStreak) {
+      chrome.storage.sync.set({ bestStreak: calculatedStats.bestStreak });
     }
   };
 
@@ -210,44 +252,33 @@ export const NewTab = () => {
   };
 
   const toggleA2zSolved = (problemId) => {
-    const updatedSolvedMap = { ...a2zSolvedMap };
+    const updatedHistory = toggleProblemSolved(a2zSolveHistory, problemId);
 
-    if (updatedSolvedMap[problemId]) {
-      delete updatedSolvedMap[problemId];
-    } else {
-      updatedSolvedMap[problemId] = true;
-    }
-
-    setA2zSolvedMap(updatedSolvedMap);
+    setA2zSolveHistory(updatedHistory);
+    setA2zSolvedMap(createSolvedMapFromHistory(updatedHistory));
 
     // Update stats
-    const totalSolved =
-      Object.keys(updatedSolvedMap).length +
-      stats.totalSolved -
-      Object.keys(a2zSolvedMap).length;
-    setStats((prev) => ({ ...prev, totalSolved }));
+    updateStats(randomSolveHistory, updatedHistory);
 
     // Save to Chrome storage
-    chrome.storage.sync.set({ a2zSolvedMap: updatedSolvedMap });
+    chrome.storage.sync.set({ a2zSolveHistory: updatedHistory });
   };
 
   const toggleRandomSolved = (problemId) => {
     if (!problemId) return;
-    const updated = { ...solvedMap };
-    if (updated[problemId]) delete updated[problemId];
-    else updated[problemId] = true;
 
-    setSolvedMap(updated);
+    const updatedHistory = toggleProblemSolved(randomSolveHistory, problemId);
 
-    // update stats totalSolved (combine with a2z)
-    const totalSolvedCount =
-      Object.keys(updated).length + Object.keys(a2zSolvedMap).length;
-    setStats((prev) => ({ ...prev, totalSolved: totalSolvedCount }));
+    setRandomSolveHistory(updatedHistory);
+    setSolvedMap(createSolvedMapFromHistory(updatedHistory));
+
+    // Update stats
+    updateStats(updatedHistory, a2zSolveHistory);
 
     try {
-      chrome.storage.sync.set({ solvedMap: updated });
+      chrome.storage.sync.set({ randomSolveHistory: updatedHistory });
     } catch (e) {
-      chrome.storage.sync.set({ solvedMap: updated });
+      chrome.storage.sync.set({ randomSolveHistory: updatedHistory });
     }
   };
 

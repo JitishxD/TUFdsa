@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "./Styles/Options.css";
 import SettingsTab from "./Components/SettingsTab";
 import DataManagementTab from "./Components/DataManagementTab";
+import { calculateStats } from "../utils/statsTracker";
 
 export const Options = () => {
   const [activeTab, setActiveTab] = useState("settings"); // 'settings' or 'data'
@@ -75,13 +76,16 @@ export const Options = () => {
       const syncKeys = Object.keys(syncStorage).length;
       const localKeys = Object.keys(localStorage).length;
 
-      // Calculate total solved
-      const solvedMap = syncStorage.solvedMap || {};
-      const a2zSolvedMap = syncStorage.a2zSolvedMap || {};
-      const totalSolved =
-        Object.keys(solvedMap).length + Object.keys(a2zSolvedMap).length;
+      // Calculate total solved using new system
+      const randomHistory = syncStorage.randomSolveHistory || {};
+      const a2zHistory = syncStorage.a2zSolveHistory || {};
+      const calculatedStats = calculateStats(randomHistory, a2zHistory);
 
-      setStats({ sync: syncKeys, local: localKeys, totalSolved });
+      setStats({
+        sync: syncKeys,
+        local: localKeys,
+        totalSolved: calculatedStats.totalSolved,
+      });
     } catch (error) {
       showNotification("Error loading data: " + error.message, "error");
     }
