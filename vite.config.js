@@ -4,7 +4,6 @@ import react from '@vitejs/plugin-react'
 import manifest from './src/manifest.js'
 import tailwindcss from '@tailwindcss/vite'
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   return {
     build: {
