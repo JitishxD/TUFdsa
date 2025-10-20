@@ -4,38 +4,11 @@ const QuickLinks = () => {
   const defaultLinks = [
     {
       id: "default-1",
-      href: "https://leetcode.com",
-      icon: "💻",
-      label: "LeetCode",
-      hoverColor: "hover:border-indigo-500",
-      isImage: false,
-      isDefault: true,
-    },
-    {
-      id: "default-2",
       href: "https://github.com",
       icon: "/icons/github_icon.png",
       label: "GitHub",
       hoverColor: "hover:border-purple-500",
       isImage: true,
-      isDefault: true,
-    },
-    {
-      id: "default-3",
-      href: "https://stackoverflow.com",
-      icon: "📚",
-      label: "Stack Overflow",
-      hoverColor: "hover:border-yellow-500",
-      isImage: false,
-      isDefault: true,
-    },
-    {
-      id: "default-4",
-      href: "https://www.youtube.com",
-      icon: "🎥",
-      label: "YouTube",
-      hoverColor: "hover:border-red-500",
-      isImage: false,
       isDefault: true,
     },
   ];
