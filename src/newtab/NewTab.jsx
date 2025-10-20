@@ -120,7 +120,8 @@ export const NewTab = () => {
     const now = new Date();
     const hours = now.getHours();
     const minutes = String(now.getMinutes()).padStart(2, "0");
-    const timeStr = `${hours % 12 || 12}:${minutes}`;
+    const seconds = String(now.getSeconds()).padStart(2, "0");
+    const timeStr = `${hours % 12 || 12}:${minutes}:${seconds}`;
     const ampm = hours >= 12 ? "PM" : "AM";
 
     setTime(`${timeStr} ${ampm}`);
