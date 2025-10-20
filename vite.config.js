@@ -13,6 +13,13 @@ export default defineConfig(({ mode }) => {
         output: {
           chunkFileNames: 'assets/chunk-[hash].js',
         },
+        onwarn(warning, warn) {
+          // Suppress "emitted file overwrites" warnings for logo files
+          if (warning.message.includes('overwrites a previously emitted file')) {
+            return;
+          }
+          warn(warning);
+        },
       },
     },
 
