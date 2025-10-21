@@ -32,11 +32,15 @@ export const Options = () => {
     loadAllData();
     loadSettings();
 
-    // Listen for settings changes from other components (like popup)
+    // Listen for storage changes from other components (like popup)
     const handleStorageChange = (changes, area) => {
+      // Update settings when they change
       if (area === "sync" && changes.userSettings) {
         setSettings(changes.userSettings.newValue);
       }
+
+      // Reload all data when ANY sync or local storage changes
+      loadAllData();
     };
 
     chrome.storage.onChanged.addListener(handleStorageChange);
@@ -395,7 +399,6 @@ export const Options = () => {
             clearSyncData={clearSyncData}
             clearLocalData={clearLocalData}
             clearAllData={clearAllData}
-            loadAllData={loadAllData}
           />
         )}
       </div>

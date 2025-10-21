@@ -11,7 +11,6 @@ const DataManagementTab = ({
   clearSyncData,
   clearLocalData,
   clearAllData,
-  loadAllData,
 }) => {
   return (
     <div className="space-y-6">
@@ -149,16 +148,6 @@ const DataManagementTab = ({
             ❌ Clear ALL Data
           </button>
         </div>
-      </div>
-
-      {/* Refresh Button */}
-      <div className="text-center">
-        <button
-          onClick={loadAllData}
-          className="bg-[#2b2b33] hover:bg-[#383844] text-gray-300 px-6 py-3 rounded-lg transition font-medium"
-        >
-          🔄 Refresh Data
-        </button>
       </div>
     </div>
   );
