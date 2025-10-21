@@ -13,18 +13,14 @@ function A2Z({ onBack }) {
 
   // Load data from Chrome storage on mount
   useEffect(() => {
-    chrome.storage.sync.get(["a2zSolveHistory"], (result) => {
+    chrome.storage.sync.get(["a2zSolveHistory", "lastA2zIndex"], (result) => {
       const history = result.a2zSolveHistory || {};
       setA2zSolveHistory(history);
       setSolvedMap(createSolvedMapFromHistory(history));
 
-      // Find first unsolved problem and set as current index
-      const firstUnsolvedIndex = data.findIndex(
-        (problem) => !history[problem.id]
-      );
-      if (firstUnsolvedIndex !== -1) {
-        setCurrentIndex(firstUnsolvedIndex);
-      }
+      // Load the last browsed index, or default to 0
+      const lastIndex = result.lastA2zIndex ?? 0;
+      setCurrentIndex(lastIndex);
     });
 
     // Listen for storage changes to sync with other contexts (newtab, etc.)
@@ -34,24 +30,32 @@ function A2Z({ onBack }) {
         setA2zSolveHistory(newHistory);
         setSolvedMap(createSolvedMapFromHistory(newHistory));
       }
+      // Sync the current index when changed in another context
+      if (areaName === "sync" && changes.lastA2zIndex) {
+        const newIndex = changes.lastA2zIndex.newValue;
+        if (newIndex !== undefined) {
+          setCurrentIndex(newIndex);
+        }
+      }
     };
 
     chrome.storage.onChanged.addListener(storageListener);
     return () => chrome.storage.onChanged.removeListener(storageListener);
-  }, []); // Find the first unsolved problem (starting from id 1)
-  const getFirstUnsolvedProblem = () => {
-    return data.find((problem) => !solvedMap[problem.id]);
-  };
+  }, []);
 
   const currentProblem = data[currentIndex];
 
   // Navigation functions
   const prevProblem = () => {
-    setCurrentIndex((prev) => (prev === 0 ? data.length - 1 : prev - 1));
+    const newIndex = currentIndex === 0 ? data.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+    chrome.storage.sync.set({ lastA2zIndex: newIndex });
   };
 
   const nextProblem = () => {
-    setCurrentIndex((prev) => (prev === data.length - 1 ? 0 : prev + 1));
+    const newIndex = currentIndex === data.length - 1 ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+    chrome.storage.sync.set({ lastA2zIndex: newIndex });
   };
 
   const toggleSolved = (problemId) => {

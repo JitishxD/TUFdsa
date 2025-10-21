@@ -63,13 +63,13 @@ export const NewTab = () => {
     // Load data from Chrome storage
     loadData();
 
-    // Listen for storage changes to sync random problem across contexts
+    // Listen for storage changes to sync across contexts (random problem, solve histories, settings, A2Z index)
     const storageListener = async (changes, areaName) => {
       if (areaName === "sync" && changes.currentRandomProblem) {
         const newVal = changes.currentRandomProblem.newValue;
         if (newVal) {
           setDailyProblem(newVal);
-          // show a toast only if this wasn't a local change
+          // Show toast notification when problem changes in another context (popup/sidepanel)
           if (!isLocalRandomRef.current) {
             setRemoteUpdateToast(true);
             setTimeout(() => setRemoteUpdateToast(false), 2200);
@@ -105,6 +105,14 @@ export const NewTab = () => {
         const newSettings = changes.userSettings.newValue;
         if (newSettings) {
           setSettings(newSettings);
+        }
+      }
+      // Sync A2Z current index when changed in another context
+      if (areaName === "sync" && changes.lastA2zIndex) {
+        const newIndex = changes.lastA2zIndex.newValue;
+        if (newIndex !== undefined) {
+          setA2zCurrentIndex(newIndex);
+          setA2zProblem(a2zData[newIndex]);
         }
       }
     };
@@ -194,12 +202,9 @@ export const NewTab = () => {
         chrome.storage.sync.set({ currentRandomProblem: problem });
       }
 
-      // Load A2Z problem - find first unsolved or use index 0
-      const a2zSolvedMapFromHistory = createSolvedMapFromHistory(a2zHistory);
-      const firstUnsolved = a2zData.findIndex(
-        (problem) => !a2zSolvedMapFromHistory[problem.id]
-      );
-      const a2zIndex = firstUnsolved !== -1 ? firstUnsolved : 0;
+      // Load A2Z problem - use last browsed index or default to 0
+      const lastA2zIndexData = await chrome.storage.sync.get(["lastA2zIndex"]);
+      const a2zIndex = lastA2zIndexData.lastA2zIndex ?? 0;
       setA2zCurrentIndex(a2zIndex);
       setA2zProblem(a2zData[a2zIndex]);
     } catch (error) {
@@ -232,16 +237,10 @@ export const NewTab = () => {
       const randomIndex = Math.floor(Math.random() * leetCodeProblems.length);
       const problem = leetCodeProblems[randomIndex];
       setDailyProblem(problem);
-      // persist so other parts of the extension (popup) stay in sync
-      // mark this change as local so storage listener doesn't show a toast
+      // Mark as local change to prevent toast notification
       isLocalRandomRef.current = true;
-      try {
-        await chrome.storage.sync.set({ currentRandomProblem: problem });
-      } catch (e) {
-        // fallback to callback style if promises aren't available
-        chrome.storage.sync.set({ currentRandomProblem: problem });
-      }
-      // reset the local-change flag shortly after
+      await chrome.storage.sync.set({ currentRandomProblem: problem });
+      // Reset flag after storage sync completes
       setTimeout(() => (isLocalRandomRef.current = false), 300);
     } catch (error) {
       console.error("Error picking random problem:", error);
@@ -253,6 +252,7 @@ export const NewTab = () => {
       a2zCurrentIndex === 0 ? a2zData.length - 1 : a2zCurrentIndex - 1;
     setA2zCurrentIndex(newIndex);
     setA2zProblem(a2zData[newIndex]);
+    chrome.storage.sync.set({ lastA2zIndex: newIndex });
   };
 
   const nextA2zProblem = () => {
@@ -260,6 +260,7 @@ export const NewTab = () => {
       a2zCurrentIndex === a2zData.length - 1 ? 0 : a2zCurrentIndex + 1;
     setA2zCurrentIndex(newIndex);
     setA2zProblem(a2zData[newIndex]);
+    chrome.storage.sync.set({ lastA2zIndex: newIndex });
   };
 
   const toggleA2zSolved = (problemId) => {
@@ -286,11 +287,7 @@ export const NewTab = () => {
     // Update stats
     updateStats(updatedHistory, a2zSolveHistory);
 
-    try {
-      chrome.storage.sync.set({ randomSolveHistory: updatedHistory });
-    } catch (e) {
-      chrome.storage.sync.set({ randomSolveHistory: updatedHistory });
-    }
+    chrome.storage.sync.set({ randomSolveHistory: updatedHistory });
   };
 
   const getDifficultyColor = (difficulty) => {

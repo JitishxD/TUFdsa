@@ -70,8 +70,6 @@ export function PopUpHome() {
         let error = chrome.runtime.lastError;
         if (error) {
           console.error(error);
-        } else {
-          console.log("Local storage cleared successfully");
         }
       });
 
@@ -81,7 +79,6 @@ export function PopUpHome() {
         if (error) {
           console.error(error);
         } else {
-          console.log("Sync storage cleared successfully");
           alert("All progress has been reset!");
           // Reload the page to refresh the UI
           window.location.reload();

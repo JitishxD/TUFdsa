@@ -57,7 +57,6 @@ export const Options = () => {
       const saveTimeout = setTimeout(async () => {
         try {
           await chrome.storage.sync.set({ userSettings: settings });
-          console.log("Settings auto-saved:", settings);
         } catch (error) {
           console.error("Error auto-saving settings:", error);
           showNotification("Error saving settings: " + error.message, "error");
