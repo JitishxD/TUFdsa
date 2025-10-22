@@ -20,7 +20,7 @@ async function scrapeStriverA2Z() {
 
     try {
         console.log('📡 Navigating to Striver A2Z page...');
-        await page.goto('https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2', {
+        await page.goto('https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems', {
             waitUntil: 'domcontentloaded',
             timeout: 60000
         });
@@ -92,7 +92,7 @@ async function scrapeStriverA2Z() {
                 if (ytThumbnail) {
                     ytThumbnail.click();
                     console.log("ℹ️ Clicked YouTube icon for:", problemName);
-                    await sleep(10);
+                    await sleep(100);
 
                     const iframes = document.querySelectorAll("iframe");
                     if (iframes.length > 1 && iframes[1].src) {
@@ -106,7 +106,7 @@ async function scrapeStriverA2Z() {
                     );
                     if (closeBtn) {
                         closeBtn.click();
-                        await sleep(11);
+                        await sleep(100);
                     }
                 } else {
                     console.log("🚧 No YouTube link found for:", problemName);
@@ -118,7 +118,7 @@ async function scrapeStriverA2Z() {
 
                 // Difficulty
                 const difficulty = cells[8].textContent.trim();
-                const id = i+1
+                const id = i + 1
                 problems.push({
                     id,
                     problemName,
@@ -130,7 +130,7 @@ async function scrapeStriverA2Z() {
                 });
 
                 // Wait between rows to avoid overwhelming the page
-                await sleep(16);
+                await sleep(200);
             }
 
             return problems;
@@ -139,7 +139,7 @@ async function scrapeStriverA2Z() {
         console.log(`\n✅ Successfully scraped ${problems.length} problems!`);
 
         // Save to JSON file
-        const outputPath = path.join(__dirname, 'tufProblems.json');
+        const outputPath = path.join(__dirname, 'TufSDE.json');
         fs.writeFileSync(outputPath, JSON.stringify(problems, null, 2), 'utf-8');
         console.log(`💾 Data saved to: ${outputPath}`);
 

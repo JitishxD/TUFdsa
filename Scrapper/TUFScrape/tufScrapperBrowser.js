@@ -20,7 +20,8 @@ async function scrapeTable() {
   const rows = document.querySelectorAll("table tr:not(:first-child)");
   const problems = [];
   // for (const row of rows) {
-  for (i = 0; i < rows.length; i++) {
+  // for (i = 0; i < rows.length; i++) {
+  for (i = 0; i < 2; i++) {
     const row = rows[i];
 
     const cells = row.querySelectorAll("td");
