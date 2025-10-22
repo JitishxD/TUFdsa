@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import leetCodeProblems from "../problem-data/leetCodeAllProblemDump.json";
-import a2zData from "../problem-data/DSAa2zProblems";
+import a2zData from "../problem-data/DSAa2zProblems.json";
 import Header from "./Components/Header";
 import StatsCards from "./Components/StatsCards";
 import RandomProblemCard from "./Components/RandomProblemCard";
