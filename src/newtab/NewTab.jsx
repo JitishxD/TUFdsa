@@ -9,11 +9,13 @@ import TortureModeWarning from "./Components/TortureModeWarning";
 import QuickLinks from "./Components/QuickLinks";
 import SettingsButton from "./Components/SettingsButton";
 import RemoteUpdateToast from "./Components/RemoteUpdateToast";
+import FilterToast from "./Components/FilterToast";
 import {
   calculateStats,
   toggleProblemSolved,
   createSolvedMapFromHistory,
 } from "../utils/statsTracker";
+import { applyFilters } from "../utils/problemFilters";
 import "./Styles/NewTab.css";
 
 export const NewTab = () => {
@@ -39,7 +41,11 @@ export const NewTab = () => {
   });
   const [quote, setQuote] = useState("");
   const [remoteUpdateToast, setRemoteUpdateToast] = useState(false);
+  const [showFilterToast, setShowFilterToast] = useState(false);
   const isLocalRandomRef = useRef(false);
+  const [filters, setFilters] = useState([]);
+  const [matchMode, setMatchMode] = useState("all");
+  const [filteredProblems, setFilteredProblems] = useState(leetCodeProblems);
 
   const quotes = [
     "Talk is cheap. Show me the code.",
@@ -234,8 +240,11 @@ export const NewTab = () => {
   // A2Z Navigation functions
   const pickRandomProblem = async () => {
     try {
-      const randomIndex = Math.floor(Math.random() * leetCodeProblems.length);
-      const problem = leetCodeProblems[randomIndex];
+      // Use filtered problems if filters are active
+      const problemPool =
+        filteredProblems.length > 0 ? filteredProblems : leetCodeProblems;
+      const randomIndex = Math.floor(Math.random() * problemPool.length);
+      const problem = problemPool[randomIndex];
       setDailyProblem(problem);
       // Mark as local change to prevent toast notification
       isLocalRandomRef.current = true;
@@ -244,6 +253,31 @@ export const NewTab = () => {
       setTimeout(() => (isLocalRandomRef.current = false), 300);
     } catch (error) {
       console.error("Error picking random problem:", error);
+    }
+  };
+
+  const applyFiltersAndPickNew = () => {
+    const filtered = applyFilters(
+      leetCodeProblems,
+      filters,
+      solvedMap,
+      matchMode
+    );
+    setFilteredProblems(filtered);
+
+    if (filtered.length > 0) {
+      const randomIndex = Math.floor(Math.random() * filtered.length);
+      const problem = filtered[randomIndex];
+      setDailyProblem(problem);
+      chrome.storage.sync.set({ currentRandomProblem: problem });
+
+      // Show toast notification
+      setShowFilterToast(true);
+      setTimeout(() => setShowFilterToast(false), 2200);
+    } else {
+      alert(
+        "No problems match the selected filters. Please adjust your filters."
+      );
     }
   };
 
@@ -335,6 +369,9 @@ export const NewTab = () => {
         {/* Remote update toast */}
         <RemoteUpdateToast show={remoteUpdateToast} />
 
+        {/* Filter Applied Toast */}
+        <FilterToast show={showFilterToast} />
+
         {/* Stats Cards */}
         <StatsCards stats={stats} />
 
@@ -347,6 +384,11 @@ export const NewTab = () => {
             pickRandomProblem={pickRandomProblem}
             toggleRandomSolved={toggleRandomSolved}
             getDifficultyBg={getDifficultyBg}
+            filters={filters}
+            setFilters={setFilters}
+            matchMode={matchMode}
+            setMatchMode={setMatchMode}
+            onApplyFilters={applyFiltersAndPickNew}
           />
 
           {/* A2Z DSA Problem */}

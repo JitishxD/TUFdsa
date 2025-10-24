@@ -6,12 +6,20 @@ import {
   toggleProblemSolved,
   createSolvedMapFromHistory,
 } from "../../utils/statsTracker";
+import { applyFilters } from "../../utils/problemFilters";
+import FilterPanel from "./FilterPanel";
+import FilterToast from "../../newtab/Components/FilterToast";
 
 export function RandomProblem({ onBack }) {
   const [currentProblem, setCurrentProblem] = useState(null);
   const [solvedMap, setSolvedMap] = useState({}); // { problemId: true/false }
   const [randomSolveHistory, setRandomSolveHistory] = useState({});
   const [loading, setLoading] = useState(true);
+  const [showFilters, setShowFilters] = useState(false);
+  const [filters, setFilters] = useState([]);
+  const [matchMode, setMatchMode] = useState("all");
+  const [filteredProblems, setFilteredProblems] = useState(leetCodeProblems);
+  const [showFilterToast, setShowFilterToast] = useState(false);
 
   // Load solved status and current problem from Chrome storage on mount
   useEffect(() => {
@@ -76,8 +84,34 @@ export function RandomProblem({ onBack }) {
   }, [currentProblem]);
 
   const pickRandomProblem = () => {
-    const randomIndex = Math.floor(Math.random() * leetCodeProblems.length);
-    setCurrentProblem(leetCodeProblems[randomIndex]);
+    // Use filtered problems if filters are active
+    const problemPool =
+      filteredProblems.length > 0 ? filteredProblems : leetCodeProblems;
+    const randomIndex = Math.floor(Math.random() * problemPool.length);
+    setCurrentProblem(problemPool[randomIndex]);
+  };
+
+  const applyFiltersAndPickNew = () => {
+    const filtered = applyFilters(
+      leetCodeProblems,
+      filters,
+      solvedMap,
+      matchMode
+    );
+    setFilteredProblems(filtered);
+
+    if (filtered.length > 0) {
+      const randomIndex = Math.floor(Math.random() * filtered.length);
+      setCurrentProblem(filtered[randomIndex]);
+
+      // Show toast notification
+      setShowFilterToast(true);
+      setTimeout(() => setShowFilterToast(false), 2200);
+    } else {
+      alert(
+        "No problems match the selected filters. Please adjust your filters."
+      );
+    }
   };
 
   const toggleSolved = (problemId) => {
@@ -111,6 +145,35 @@ export function RandomProblem({ onBack }) {
           Talk is cheap, Show me the code!!
         </p>
       </div>
+
+      {/* Filter Toggle Button */}
+      <button
+        onClick={() => setShowFilters(!showFilters)}
+        className="mb-4 bg-gradient-to-r from-[#1b1b22] to-[#252530] hover:from-[#2b2b33] hover:to-[#2d2d3a] text-indigo-400 hover:text-indigo-300 px-4 py-2.5 rounded-lg transition-all duration-200 font-medium text-sm border border-gray-800/50 hover:border-indigo-500/50 flex items-center justify-center gap-2 shadow-md hover:shadow-lg hover:shadow-indigo-500/10"
+      >
+        <span
+          className={`transition-transform duration-200 ${showFilters ? "rotate-180" : ""}`}
+        >
+          {showFilters ? "▲" : "▼"}
+        </span>
+        <span>{showFilters ? "Hide Filters" : "Show Filters"}</span>
+        {filters.length > 0 && (
+          <span className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-xs px-2 py-0.5 rounded-full font-semibold border border-indigo-500/30 animate-pulse">
+            {filters.length}
+          </span>
+        )}
+      </button>
+
+      {/* Filter Panel */}
+      {showFilters && (
+        <FilterPanel
+          filters={filters}
+          setFilters={setFilters}
+          matchMode={matchMode}
+          setMatchMode={setMatchMode}
+          onApply={applyFiltersAndPickNew}
+        />
+      )}
 
       {/* Problem Card */}
       <div className="bg-[#1b1b22] rounded-xl p-5 w-full flex flex-col gap-4">
@@ -233,6 +296,9 @@ export function RandomProblem({ onBack }) {
       >
         ← Back
       </button>
+
+      {/* Filter Applied Toast */}
+      <FilterToast show={showFilterToast} />
     </div>
   );
 }

@@ -41,6 +41,7 @@ async function transformProblems() {
             difficulty: problem.difficulty,
             problem_slug: problem.titleSlug,
             topics: problem.topicTags ? problem.topicTags.map(tag => tag.name) : [],
+            language: problem.codeSnippets ? problem.codeSnippets.map(snippet => snippet.lang) : [],
             description: cleanHTML(problem.content) || []
         }));
 
