@@ -20,6 +20,8 @@ export function RandomProblem({ onBack }) {
   const [matchMode, setMatchMode] = useState("all");
   const [filteredProblems, setFilteredProblems] = useState(leetCodeProblems);
   const [showFilterToast, setShowFilterToast] = useState(false);
+  const isInitialLoadRef = React.useRef(true);
+  const hasAutoAppliedRef = React.useRef(false);
 
   // Load solved status and current problem from Chrome storage on mount
   useEffect(() => {
@@ -27,6 +29,12 @@ export function RandomProblem({ onBack }) {
       const history = result.randomSolveHistory || {};
       setRandomSolveHistory(history);
       setSolvedMap(createSolvedMapFromHistory(history));
+
+      // Load saved filters and filter state
+      if (result.savedFilters) {
+        setFilters(result.savedFilters.filters || []);
+        setMatchMode(result.savedFilters.matchMode || "all");
+      }
 
       // If there's a stored problem, use it; otherwise pick a random one
       if (result.currentRandomProblem) {
@@ -40,11 +48,11 @@ export function RandomProblem({ onBack }) {
     // Try promise-based get first, fallback to callback
     try {
       chrome.storage.sync
-        .get(["randomSolveHistory", "currentRandomProblem"])
+        .get(["randomSolveHistory", "currentRandomProblem", "savedFilters"])
         .then(initialize);
     } catch (e) {
       chrome.storage.sync.get(
-        ["randomSolveHistory", "currentRandomProblem"],
+        ["randomSolveHistory", "currentRandomProblem", "savedFilters"],
         initialize
       );
     }
@@ -82,6 +90,33 @@ export function RandomProblem({ onBack }) {
       chrome.storage.sync.set({ currentRandomProblem: currentProblem });
     }
   }, [currentProblem]);
+
+  // Save all filter state to storage whenever any filter property changes
+  useEffect(() => {
+    // Skip saving on initial load
+    if (isInitialLoadRef.current) {
+      isInitialLoadRef.current = false;
+      return;
+    }
+
+    chrome.storage.sync.set({
+      savedFilters: {
+        filters,
+        matchMode,
+      },
+    });
+  }, [filters, matchMode]);
+
+  // Note: We intentionally do NOT recompute filteredProblems on every filter change
+  // to keep the "Apply" button as the source of truth. We only auto-apply once on load below.
+
+  // Call onApply (applyFiltersAndPickNew) once on initial load if filters exist
+  useEffect(() => {
+    if (!loading && !hasAutoAppliedRef.current && filters.length > 0) {
+      hasAutoAppliedRef.current = true;
+      applyFiltersAndPickNew();
+    }
+  }, [filters, matchMode, solvedMap, loading]);
 
   const pickRandomProblem = () => {
     // Use filtered problems if filters are active

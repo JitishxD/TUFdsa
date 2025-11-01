@@ -42,7 +42,10 @@ export const NewTab = () => {
   const [quote, setQuote] = useState("");
   const [remoteUpdateToast, setRemoteUpdateToast] = useState(false);
   const [showFilterToast, setShowFilterToast] = useState(false);
+  const [showFilters, setShowFilters] = useState(false);
   const isLocalRandomRef = useRef(false);
+  const isInitialLoadRef = useRef(true);
+  const hasAutoAppliedRef = useRef(false);
   const [filters, setFilters] = useState([]);
   const [matchMode, setMatchMode] = useState("all");
   const [filteredProblems, setFilteredProblems] = useState(leetCodeProblems);
@@ -130,6 +133,33 @@ export const NewTab = () => {
     };
   }, []);
 
+  // Save all filter state to storage whenever any filter property changes
+  useEffect(() => {
+    // Skip saving on initial load
+    if (isInitialLoadRef.current) {
+      isInitialLoadRef.current = false;
+      return;
+    }
+
+    chrome.storage.sync.set({
+      savedFilters: {
+        filters,
+        matchMode,
+      },
+    });
+  }, [filters, matchMode]);
+
+  // Note: We intentionally do NOT recompute filteredProblems on every filter change
+  // to keep the "Apply" button as the source of truth. We only auto-apply once on load below.
+
+  // Call onApply (applyFiltersAndPickNew) once on initial page load if filters exist
+  useEffect(() => {
+    if (!hasAutoAppliedRef.current && filters.length > 0) {
+      hasAutoAppliedRef.current = true;
+      applyFiltersAndPickNew();
+    }
+  }, [filters, matchMode, solvedMap]);
+
   const updateTime = () => {
     const now = new Date();
     const hours = now.getHours();
@@ -196,7 +226,14 @@ export const NewTab = () => {
       // Get the current random problem from sync storage (synced with RandomProblem component)
       const randomProblemData = await chrome.storage.sync.get([
         "currentRandomProblem",
+        "savedFilters",
       ]);
+
+      // Load saved filters
+      if (randomProblemData.savedFilters) {
+        setFilters(randomProblemData.savedFilters.filters || []);
+        setMatchMode(randomProblemData.savedFilters.matchMode || "all");
+      }
 
       if (randomProblemData.currentRandomProblem) {
         setDailyProblem(randomProblemData.currentRandomProblem);
@@ -389,6 +426,8 @@ export const NewTab = () => {
             matchMode={matchMode}
             setMatchMode={setMatchMode}
             onApplyFilters={applyFiltersAndPickNew}
+            showFilters={showFilters}
+            setShowFilters={setShowFilters}
           />
 
           {/* A2Z DSA Problem */}

@@ -12,9 +12,9 @@ const RandomProblemCard = ({
   matchMode,
   setMatchMode,
   onApplyFilters,
+  showFilters,
+  setShowFilters,
 }) => {
-  const [showFilters, setShowFilters] = useState(false);
-
   if (!dailyProblem) return null;
 
   return (
