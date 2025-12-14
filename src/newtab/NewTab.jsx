@@ -10,6 +10,7 @@ import QuickLinks from "./Components/QuickLinks";
 import SettingsButton from "./Components/SettingsButton";
 import RemoteUpdateToast from "./Components/RemoteUpdateToast";
 import FilterToast from "./Components/FilterToast";
+import QuickAccessCard from "./Components/QuickAccessCard";
 import {
   calculateStats,
   toggleProblemSolved,
@@ -440,6 +441,11 @@ export const NewTab = () => {
             onNext={nextA2zProblem}
             onToggleSolved={toggleA2zSolved}
           />
+        </div>
+
+        {/* Quick Access Card */}
+        <div className="mb-6">
+          <QuickAccessCard />
         </div>
 
         {/* Torture Mode Warning */}
