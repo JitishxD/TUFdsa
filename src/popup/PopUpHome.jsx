@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import RandomProblem from "./Components/RandomProblem";
 import A2Z from "./Components/A2Z";
 import Settings from "./Components/Settings";
+import QuickAccess from "./Components/QuickAccess";
 import { calculateStats } from "../utils/statsTracker";
 
 export function PopUpHome() {
@@ -58,6 +59,7 @@ export function PopUpHome() {
   const handleContinue = () => setCurrentPage("RandomProblem");
   const handleA2Z = () => setCurrentPage("A2Z");
   const handleSettings = () => setCurrentPage("Settings");
+  const handleQuickAccess = () => setCurrentPage("QuickAccess");
 
   const handleReset = () => {
     if (
@@ -123,19 +125,28 @@ export function PopUpHome() {
             Another day, another LeetCode problem, so go solve it buddy
           </p>
 
-          <div className="flex gap-4">
-            <button
-              onClick={handleContinue}
-              className="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-2 rounded-lg font-medium"
-            >
-              Random Leetcode problem?
-            </button>
+          <div className="flex flex-col gap-3 w-full">
+            <div className="flex gap-3">
+              <button
+                onClick={handleContinue}
+                className="flex-1 bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg font-medium text-sm"
+              >
+                Random Problem
+              </button>
+
+              <button
+                onClick={handleA2Z}
+                className="flex-1 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-medium text-sm"
+              >
+                DSA A2Z
+              </button>
+            </div>
 
             <button
-              onClick={handleA2Z}
-              className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg font-medium"
+              onClick={handleQuickAccess}
+              className="w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg font-medium text-sm"
             >
-              DSA A2Z
+              🔍 Quick Access by Number
             </button>
           </div>
 
@@ -165,6 +176,9 @@ export function PopUpHome() {
         </div>
       )}
 
+      {currentPage === "QuickAccess" && (
+        <QuickAccess onBack={() => setCurrentPage("PopUpHome")} />
+      )}
       {currentPage === "RandomProblem" && (
         <RandomProblem onBack={() => setCurrentPage("PopUpHome")} />
       )}
