@@ -43,26 +43,11 @@ async function scrapeStriverA2Z() {
 
         // Inject and run the scraping logic
         const problems = await page.evaluate(async () => {
-            // Helper function to convert embed URL to watch URL
-            function convertEmbedToWatch(url) {
-                try {
-                    const u = new URL(url);
-                    const videoId = u.pathname.split('/')[2];
-                    const time = u.searchParams.get('t');
-                    let watchUrl = `https://www.youtube.com/watch?v=${videoId}`;
-                    if (time) watchUrl += `&t=${time}s`;
-                    return watchUrl;
-                } catch (e) {
-                    console.error('Invalid URL:', e);
-                    return null;
-                }
-            }
-
             function sleep(ms) {
                 return new Promise(resolve => setTimeout(resolve, ms));
             }
 
-            const rows = document.querySelectorAll("table tr:not(:first-child)");
+            const rows = document.querySelectorAll("table tbody tr");
             const problems = [];
 
             for (let i = 0; i < rows.length; i++) {
@@ -76,49 +61,36 @@ async function scrapeStriverA2Z() {
                 const problemName = problemAnchor ? problemAnchor.textContent.trim() : "";
                 const problemLink = problemAnchor ? problemAnchor.href : "";
 
-                console.log(`⏳ Processing row ${i + 1}/${rows.length} - Problem: "${problemName}"`);
+                console.log(`⏳ Processing row ${i + 1}/${rows.length}
+                ✅🧑‍💻 Processing Problem Name: "${problemName}"`);
 
-                // Resource links (YouTube, articles, etc.)
-                const resourceAnchors = cells[3].querySelectorAll("a");
+                // Resource links - now in cell index 4 (Editorial+YtLink)
+                const resourceContainer = cells[4];
+                const resourceAnchors = resourceContainer.querySelectorAll("a");
                 const resourceLinks = Array.from(resourceAnchors).map(a => ({
-                    text: a.textContent.trim(),
+                    text: a.getAttribute("alt") || a.textContent.trim() || "Link",
                     href: a.href
                 }));
 
-                // Try to get YouTube link
+                // YouTube link - find direct YouTube link (no click needed anymore)
                 let ytLink = "";
-                const ytThumbnail = row.querySelector('img[alt="YouTube Link"]');
-
-                if (ytThumbnail) {
-                    ytThumbnail.click();
-                    console.log("ℹ️ Clicked YouTube icon for:", problemName);
-                    await sleep(100);
-
-                    const iframes = document.querySelectorAll("iframe");
-                    if (iframes.length > 1 && iframes[1].src) {
-                        ytLink = convertEmbedToWatch(iframes[1].src);
-                        console.log("➡️ YouTube link found:", ytLink);
-                    }
-
-                    // Close modal/player
-                    const closeBtn = document.querySelector(
-                        '.rounded-lg.relative.inline-flex.items-center.justify-center.px-3\\.5.py-2.m-1.cursor-pointer.border-b-2.border-l-2.border-r-2.active\\:border-brand.active\\:shadow-none.shadow-lg.bg-gradient-to-tr.from-red-600.to-red-500.hover\\:from-red-500.hover\\:to-red-500.border-red-700.text-white'
-                    );
-                    if (closeBtn) {
-                        closeBtn.click();
-                        await sleep(100);
-                    }
+                const youtubeLinks = resourceContainer.querySelectorAll('a[href*="youtu"]');
+                if (youtubeLinks.length > 0) {
+                    ytLink = youtubeLinks[0].href;
+                    console.log("➡️ YouTube link found:", ytLink);
                 } else {
-                    console.log("🚧 No YouTube link found for:", problemName);
+                    console.log("🚧 YouTube link not found");
                 }
 
                 // Practice / LeetCode link
                 const leetCodeAnchor = cells[5]?.querySelector("a");
                 const leetCodeLink = leetCodeAnchor ? leetCodeAnchor.href : "";
 
-                // Difficulty
-                const difficulty = cells[8].textContent.trim();
-                const id = i + 1
+                // Difficulty (cell index 8) - now in a badge element
+                const difficultyElement = cells[8].querySelector(".difficulty-badge");
+                const difficulty = difficultyElement ? difficultyElement.textContent.trim() : "";
+
+                const id = i + 1;
                 problems.push({
                     id,
                     problemName,
@@ -129,8 +101,8 @@ async function scrapeStriverA2Z() {
                     difficulty
                 });
 
-                // Wait between rows to avoid overwhelming the page
-                await sleep(200);
+                // Reduced wait time since no modal interactions needed
+                await sleep(500);
             }
 
             return problems;
@@ -139,7 +111,7 @@ async function scrapeStriverA2Z() {
         console.log(`\n✅ Successfully scraped ${problems.length} problems!`);
 
         // Save to JSON file
-        const outputPath = path.join(__dirname, 'TufSDE.json');
+        const outputPath = path.join(__dirname, 'TufScrapNew.json');
         fs.writeFileSync(outputPath, JSON.stringify(problems, null, 2), 'utf-8');
         console.log(`💾 Data saved to: ${outputPath}`);
 

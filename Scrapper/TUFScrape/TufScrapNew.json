@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "problemName": "Set Matrix Zeros",
+    "problemLink": "https://takeuforward.org/data-structure/set-matrix-zero/",
+    "resourceLinks": [
+      {
+        "text": "Link",
+        "href": "https://takeuforward.org/data-structure/set-matrix-zero/"
+      },
+      {
+        "text": "Link",
+        "href": "https://youtu.be/N0MgLvceX7M"
+      }
+    ],
+    "leetCodeLink": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "ytLink": "https://youtu.be/N0MgLvceX7M",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "problemName": "Pascal's Triangle",
+    "problemLink": "https://takeuforward.org/data-structure/program-to-generate-pascals-triangle",
+    "resourceLinks": [
+      {
+        "text": "Link",
+        "href": "https://takeuforward.org/data-structure/program-to-generate-pascals-triangle"
+      },
+      {
+        "text": "Link",
+        "href": "https://youtu.be/bR7mQgwQ_o8"
+      }
+    ],
+    "leetCodeLink": "https://leetcode.com/problems/pascals-triangle/",
+    "ytLink": "https://youtu.be/bR7mQgwQ_o8",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3,
+    "problemName": "Next Permutation",
+    "problemLink": "https://takeuforward.org/data-structure/next_permutation-find-next-lexicographically-greater-permutation/",
+    "resourceLinks": [
+      {
+        "text": "Link",
+        "href": "https://takeuforward.org/data-structure/next_permutation-find-next-lexicographically-greater-permutation/"
+      },
+      {
+        "text": "Link",
+        "href": "https://youtu.be/JDOXKqF60RQ"
+      }
+    ],
+    "leetCodeLink": "https://leetcode.com/problems/next-permutation/",
+    "ytLink": "https://youtu.be/JDOXKqF60RQ",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "problemName": "Kadane's Algorithm",
+    "problemLink": "https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/",
+    "resourceLinks": [
+      {
+        "text": "Link",
+        "href": "https://takeuforward.org/data-structure/kadanes-algorithm-maximum-subarray-sum-in-an-array/"
+      },
+      {
+        "text": "Link",
+        "href": "https://youtu.be/AHZpyENo7k4"
+      }
+    ],
+    "leetCodeLink": "https://leetcode.com/problems/maximum-subarray/",
+    "ytLink": "https://youtu.be/AHZpyENo7k4",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "problemName": "Sort an array of 0's, 1's and 2's",
+    "problemLink": "https://takeuforward.org/data-structure/sort-an-array-of-0s-1s-and-2s/",
+    "resourceLinks": [
+      {
+        "text": "Link",
+        "href": "https://takeuforward.org/data-structure/sort-an-array-of-0s-1s-and-2s/"
+      },
+      {
+        "text": "Link",
+        "href": "https://www.youtube.com/watch?v=tp8JIuCXBaU&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=20"
+      }
+    ],
+    "leetCodeLink": "https://leetcode.com/problems/sort-colors/",
+    "ytLink": "https://www.youtube.com/watch?v=tp8JIuCXBaU&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=20",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 6,
+    "problemName": "Stock Buy and Sell",
+    "problemLink": "https://takeuforward.org/data-structure/stock-buy-and-sell/",
+    "resourceLinks": [
+      {
+        "text": "Link",
+        "href": "https://takeuforward.org/data-structure/stock-buy-and-sell/"
+      },
+      {
+        "text": "Link",
+        "href": "https://youtu.be/excAOvwF_Wk"
+      }
+    ],
+    "leetCodeLink": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "ytLink": "https://youtu.be/excAOvwF_Wk",
+    "difficulty": "Medium"
+  }
+]
