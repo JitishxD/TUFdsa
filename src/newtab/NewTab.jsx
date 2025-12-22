@@ -413,6 +413,11 @@ export const NewTab = () => {
         {/* Stats Cards */}
         <StatsCards stats={stats} />
 
+        {/* Quick Access Card */}
+        <div className="mb-6">
+          <QuickAccessCard />
+        </div>
+
         {/* Problems Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-6">
           {/* Random Challenge */}
@@ -441,11 +446,6 @@ export const NewTab = () => {
             onNext={nextA2zProblem}
             onToggleSolved={toggleA2zSolved}
           />
-        </div>
-
-        {/* Quick Access Card */}
-        <div className="mb-6">
-          <QuickAccessCard />
         </div>
 
         {/* Torture Mode Warning */}

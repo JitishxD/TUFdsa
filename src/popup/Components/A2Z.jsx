@@ -102,7 +102,9 @@ function A2Z({ onBack }) {
           Problem {currentIndex + 1} of {data.length}
         </h2>
         <h3
-          className={`text-xl font-semibold mb-2 ${isSolved ? "text-green-400" : "text-white"}`}
+          className={`text-xl font-semibold text-center truncate h-12 leading-12 
+            ${isSolved ? "text-green-400" : "text-white"}`}
+            title={`#${currentProblem.id}: ${currentProblem.problemName}`}
         >
           #{currentProblem.id}: {currentProblem.problemName}
         </h3>

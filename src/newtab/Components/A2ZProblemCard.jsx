@@ -27,7 +27,7 @@ const A2ZProblemCard = ({
             #{a2zProblem.id}
           </span>
           <h4
-            className={`text-base font-semibold flex-1 ${
+            className={`truncate text-base font-semibold flex-1 ${
               a2zSolvedMap[a2zProblem.id] ? "text-green-400" : "text-white"
             }`}
           >
