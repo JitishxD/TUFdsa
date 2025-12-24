@@ -11,6 +11,7 @@ import SettingsButton from "./Components/SettingsButton";
 import RemoteUpdateToast from "./Components/RemoteUpdateToast";
 import FilterToast from "./Components/FilterToast";
 import QuickAccessCard from "./Components/QuickAccessCard";
+import SearchProblemCard from "./Components/SearchProblemCard";
 import {
   calculateStats,
   toggleProblemSolved,
@@ -414,8 +415,9 @@ export const NewTab = () => {
         <StatsCards stats={stats} />
 
         {/* Quick Access Card */}
-        <div className="mb-6">
+        <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 gap-4">
           <QuickAccessCard />
+          <SearchProblemCard />
         </div>
 
         {/* Problems Grid */}
