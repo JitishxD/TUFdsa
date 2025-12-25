@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import FilterPanel from "../../popup/Components/FilterPanel";
 import DataSourceSwitcher from "./DataSourceSwitcher";
 import { normalizeProblem } from "../util";
+import { getProblemCounts } from "../../utils/problemFilters";
 
 const RandomProblemCard = ({
   dailyProblem,
@@ -20,6 +21,10 @@ const RandomProblemCard = ({
   setDataSource,
 }) => {
   if (!dailyProblem) return null;
+
+  // Compute counts using helper
+  const { total: totalProblemsCount, filtered: filteredProblemsCount } =
+    getProblemCounts(dataSource, filters, solvedMap, matchMode);
 
   const {
     isGfgProblem,
@@ -76,7 +81,7 @@ const RandomProblemCard = ({
 
       {/* Problem Card */}
       <div className="bg-[#1b1b22] rounded-xl p-5 border border-gray-800 shadow-xl hover:border-indigo-500 transition-all">
-        <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center justify-between">
           <h3 className="text-xl font-bold text-indigo-400">
             🎯 Random Challenge
           </h3>
@@ -87,6 +92,18 @@ const RandomProblemCard = ({
           >
             {problemDifficulty}
           </span>
+        </div>
+
+        <div className="text-xs text-gray-400 mt-3 mb-3 flex items-center gap-2">
+          <span className="text-gray-300">Available:</span>
+          <span className="bg-[#2b2b33] text-indigo-300 px-2 py-0.5 rounded font-semibold text-sm">
+            {totalProblemsCount}
+          </span>
+          <span className="text-gray-400">→</span>
+          <span className="bg-indigo-700 text-white px-2 py-0.5 rounded font-semibold text-sm">
+            {filteredProblemsCount}
+          </span>
+          <span className="text-gray-400">after filters</span>
         </div>
 
         <div className="mb-3">

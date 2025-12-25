@@ -7,6 +7,7 @@ import gfgData from "../problem-data/gfg_problems.json";
 export const getFilterOptions = (dataSource = "leetcode") => {
     const difficulties = new Set();
     const topics = new Set();
+    const companies = new Set();
     const languages = new Set();
 
     const sourceProblems =
@@ -25,6 +26,11 @@ export const getFilterOptions = (dataSource = "leetcode") => {
             problem.tags.topic_tags.forEach((topic) => topics.add(topic));
         }
 
+        // Company tags: GFG uses `tags.company_tags`; fallback to other possible shapes
+        if (problem.tags?.company_tags) {
+            problem.tags.company_tags.forEach((c) => companies.add(c));
+        }
+
         // Languages exist primarily in LeetCode dump
         if (problem.language) {
             problem.language.forEach((lang) => languages.add(lang));
@@ -35,6 +41,7 @@ export const getFilterOptions = (dataSource = "leetcode") => {
         difficulties: Array.from(difficulties).sort(),
         topics: Array.from(topics).sort(),
         languages: Array.from(languages).sort(),
+        companies: Array.from(companies).sort(),
     };
 };
 
@@ -55,6 +62,7 @@ export const FILTER_TYPES = {
     STATUS: "Status",
     DIFFICULTY: "Difficulty",
     TOPICS: "Topics",
+    COMPANY: "Company",
     LANGUAGE: "Language",
 };
 
@@ -67,6 +75,7 @@ export const getOperatorsForFilter = (filterType) => {
         case FILTER_TYPES.DIFFICULTY:
             return [OPERATORS.IS, OPERATORS.IS_NOT];
         case FILTER_TYPES.TOPICS:
+        case FILTER_TYPES.COMPANY:
         case FILTER_TYPES.LANGUAGE:
             return [
                 OPERATORS.CONTAINS,
@@ -90,6 +99,8 @@ export const getOptionsForFilter = (filterType, filterOptions) => {
             return filterOptions.difficulties;
         case FILTER_TYPES.TOPICS:
             return filterOptions.topics;
+        case FILTER_TYPES.COMPANY:
+            return filterOptions.companies || [];
         case FILTER_TYPES.LANGUAGE:
             return filterOptions.languages;
         default:
@@ -163,6 +174,32 @@ const matchSingleFilter = (problem, filter, solvedMap) => {
             return true;
         }
 
+        case FILTER_TYPES.COMPANY: {
+            // Handle both GFG (problem.tags.company_tags) and potential other shapes
+            const companies = isGfgProblem
+                ? (problem.tags?.company_tags || [])
+                : (problem.company_tags || problem.companies || []);
+
+            if (!companies || companies.length === 0) return false;
+
+            if (operator === OPERATORS.CONTAINS) {
+                return values.some((c) => companies.includes(c));
+            }
+            if (operator === OPERATORS.NOT_CONTAINS) {
+                return !values.some((c) => companies.includes(c));
+            }
+            if (operator === OPERATORS.IS) {
+                if (companies.length !== values.length) return false;
+                return values.every((c) => companies.includes(c));
+            }
+            if (operator === OPERATORS.IS_NOT) {
+                if (companies.length !== values.length) return true;
+                return !values.every((c) => companies.includes(c));
+            }
+
+            return true;
+        }
+
         case FILTER_TYPES.LANGUAGE: {
             if (!problem.language) return false;
 
@@ -219,6 +256,32 @@ export const applyFilters = (problems, filters, solvedMap, matchMode = "all") =>
             );
         }
     });
+};
+
+/**
+ * Get counts for a data source or an explicit problems array.
+ * If `dataSource` is provided, the internal dataset will be used.
+ * Returns an object: { total, filtered }
+ */
+export const getProblemCounts = (
+    dataSourceOrProblems,
+    filters,
+    solvedMap,
+    matchMode = "all"
+) => {
+    let problems = [];
+
+    // If a string provided, treat as dataSource key
+    if (typeof dataSourceOrProblems === "string") {
+        problems = dataSourceOrProblems === "gfg" ? (gfgData.problems || []) : (leetCodeProblems || []);
+    } else if (Array.isArray(dataSourceOrProblems)) {
+        problems = dataSourceOrProblems;
+    }
+
+    const total = Array.isArray(problems) ? problems.length : 0;
+    // Reuse applyFilters to compute filtered list
+    const filtered = applyFilters(problems, filters, solvedMap, matchMode) || [];
+    return { total, filtered: Array.isArray(filtered) ? filtered.length : 0 };
 };
 
 /**
