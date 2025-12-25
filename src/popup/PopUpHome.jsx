@@ -3,11 +3,12 @@ import RandomProblem from "./Components/RandomProblem";
 import A2Z from "./Components/A2Z";
 import Settings from "./Components/Settings";
 import QuickAccess from "./Components/QuickAccess";
+import SearchProblem from "./Components/SearchProblem";
 import { calculateStats } from "../utils/statsTracker";
 
 export function PopUpHome() {
   const [currentPage, setCurrentPage] = useState("PopUpHome");
-  // "PopUpHome" | "RandomProblem" | "A2Z" | "Settings"
+  // "PopUpHome" | "RandomProblem" | "A2Z" | "Settings" | "QuickAccess" | "SearchProblem"
   const [stats, setStats] = useState({
     totalSolved: 0,
     solvedToday: 0,
@@ -60,6 +61,7 @@ export function PopUpHome() {
   const handleA2Z = () => setCurrentPage("A2Z");
   const handleSettings = () => setCurrentPage("Settings");
   const handleQuickAccess = () => setCurrentPage("QuickAccess");
+  const handleSearchProblem = () => setCurrentPage("SearchProblem");
 
   const handleReset = () => {
     if (
@@ -148,6 +150,13 @@ export function PopUpHome() {
             >
               🔍 Quick Access by Number
             </button>
+
+            <button
+              onClick={handleSearchProblem}
+              className="w-full bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg font-medium text-sm"
+            >
+              🔎 Search Problems
+            </button>
           </div>
 
           {/* Streak Section */}
@@ -187,6 +196,9 @@ export function PopUpHome() {
       )}
       {currentPage === "Settings" && (
         <Settings onBack={() => setCurrentPage("PopUpHome")} />
+      )}
+      {currentPage === "SearchProblem" && (
+        <SearchProblem onBack={() => setCurrentPage("PopUpHome")} />
       )}
     </div>
   );
