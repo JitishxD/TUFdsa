@@ -9,6 +9,8 @@ import {
 import { applyFilters } from "../../utils/problemFilters";
 import FilterPanel from "./FilterPanel";
 import FilterToast from "../../newtab/Components/FilterToast";
+import RandomProblemCard from "../../newtab/Components/RandomProblemCard";
+import gfgData from "../../problem-data/gfg_problems.json";
 
 export function RandomProblem({ onBack }) {
   const [currentProblem, setCurrentProblem] = useState(null);
@@ -20,6 +22,7 @@ export function RandomProblem({ onBack }) {
   const [matchMode, setMatchMode] = useState("all");
   const [filteredProblems, setFilteredProblems] = useState(leetCodeProblems);
   const [showFilterToast, setShowFilterToast] = useState(false);
+  const [dataSource, setDataSource] = useState("leetcode");
   const isInitialLoadRef = React.useRef(true);
   const hasAutoAppliedRef = React.useRef(false);
 
@@ -119,16 +122,22 @@ export function RandomProblem({ onBack }) {
   }, [filters, matchMode, solvedMap, loading]);
 
   const pickRandomProblem = () => {
+    // Determine source problems based on dataSource
+    const sourceProblems =
+      dataSource === "gfg" ? gfgData.problems || [] : leetCodeProblems || [];
     // Use filtered problems if filters are active
     const problemPool =
-      filteredProblems.length > 0 ? filteredProblems : leetCodeProblems;
+      filteredProblems.length > 0 ? filteredProblems : sourceProblems;
+    if (problemPool.length === 0) return;
     const randomIndex = Math.floor(Math.random() * problemPool.length);
     setCurrentProblem(problemPool[randomIndex]);
   };
 
   const applyFiltersAndPickNew = () => {
+    const sourceProblems =
+      dataSource === "gfg" ? gfgData.problems || [] : leetCodeProblems || [];
     const filtered = applyFilters(
-      leetCodeProblems,
+      sourceProblems,
       filters,
       solvedMap,
       matchMode
@@ -158,6 +167,26 @@ export function RandomProblem({ onBack }) {
     chrome.storage.sync.set({ randomSolveHistory: updatedHistory });
   };
 
+  // When dataSource changes, update filteredProblems and pick a new problem
+  useEffect(() => {
+    const sourceProblems =
+      dataSource === "gfg" ? gfgData.problems || [] : leetCodeProblems || [];
+    setFilteredProblems(sourceProblems);
+
+    if (sourceProblems.length > 0) {
+      const randomIndex = Math.floor(Math.random() * sourceProblems.length);
+      setCurrentProblem(sourceProblems[randomIndex]);
+    } else {
+      setCurrentProblem(null);
+    }
+
+    // Clear any stored problem to avoid mismatch on reload
+    try {
+      chrome.storage.sync.remove(["currentRandomProblem"]);
+    } catch (e) {
+      chrome.storage.sync.set({ currentRandomProblem: null });
+    }
+  }, [dataSource]);
   if (loading || !currentProblem) {
     return (
       <div className="w-[360px] min-h-[460px] bg-[#0e0e12] text-white shadow-lg p-6 flex flex-col items-center justify-center font-sans">
@@ -166,163 +195,37 @@ export function RandomProblem({ onBack }) {
     );
   }
 
-  const isSolved = solvedMap[currentProblem.problem_id] || false;
-  const problemUrl = `https://leetcode.com/problems/${currentProblem.problem_slug}/`;
+  const getDifficultyBg = (difficulty) => {
+    switch (difficulty) {
+      case "Easy":
+        return "bg-green-900 text-green-300";
+      case "Medium":
+        return "bg-yellow-900 text-yellow-300";
+      case "Hard":
+        return "bg-red-900 text-red-300";
+      default:
+        return "bg-gray-900 text-gray-300";
+    }
+  };
 
   return (
     <div className="w-[360px] max-h-[600px] bg-[#0e0e12] text-white shadow-lg p-6 flex flex-col font-sans overflow-y-auto">
-      {/* Header */}
-      <div className="text-center mb-4">
-        <h1 className="text-xl font-bold text-indigo-400 mb-2">
-          🎲 Random LeetCode Challenge
-        </h1>
-        <p className="text-gray-400 text-sm">
-          Talk is cheap, Show me the code!!
-        </p>
-      </div>
-
-      {/* Filter Toggle Button */}
-      <button
-        onClick={() => setShowFilters(!showFilters)}
-        className="mb-4 bg-gradient-to-r from-[#1b1b22] to-[#252530] hover:from-[#2b2b33] hover:to-[#2d2d3a] text-indigo-400 hover:text-indigo-300 px-4 py-2.5 rounded-lg transition-all duration-200 font-medium text-sm border border-gray-800/50 hover:border-indigo-500/50 flex items-center justify-center gap-2 shadow-md hover:shadow-lg hover:shadow-indigo-500/10"
-      >
-        <span
-          className={`transition-transform duration-200 ${showFilters ? "rotate-180" : ""}`}
-        >
-          {showFilters ? "▲" : "▼"}
-        </span>
-        <span>{showFilters ? "Hide Filters" : "Show Filters"}</span>
-        {filters.length > 0 && (
-          <span className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-xs px-2 py-0.5 rounded-full font-semibold border border-indigo-500/30 animate-pulse">
-            {filters.length}
-          </span>
-        )}
-      </button>
-
-      {/* Filter Panel */}
-      {showFilters && (
-        <FilterPanel
-          filters={filters}
-          setFilters={setFilters}
-          matchMode={matchMode}
-          setMatchMode={setMatchMode}
-          onApply={applyFiltersAndPickNew}
-        />
-      )}
-
-      {/* Problem Card */}
-      <div className="bg-[#1b1b22] rounded-xl p-5 w-full flex flex-col gap-4">
-        {/* Problem Header */}
-        <div className="text-center border-b border-gray-700 pb-3">
-          <div className="flex items-center justify-center gap-2 mb-2">
-            <span className="text-xs text-gray-500 font-mono">
-              #{currentProblem.frontend_id}
-            </span>
-            <span
-              className={`text-xs font-semibold px-2 py-1 rounded ${
-                currentProblem.difficulty === "Easy"
-                  ? "bg-green-900 text-green-300"
-                  : currentProblem.difficulty === "Medium"
-                    ? "bg-yellow-900 text-yellow-300"
-                    : "bg-red-900 text-red-300"
-              }`}
-            >
-              {currentProblem.difficulty}
-            </span>
-          </div>
-          <h3 className="text-lg font-semibold text-white">
-            {currentProblem.title}
-          </h3>
-        </div>
-
-        {/* Topics */}
-        {currentProblem.topics && currentProblem.topics.length > 0 && (
-          <div>
-            <h4 className="text-xs font-semibold text-gray-400 mb-2">
-              📚 Topics:
-            </h4>
-            <div className="flex flex-wrap gap-2">
-              {currentProblem.topics.map((topic, idx) => (
-                <span
-                  key={idx}
-                  className="bg-[#2b2b33] text-indigo-300 text-xs px-2 py-1 rounded-md"
-                >
-                  {topic}
-                </span>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* Description Preview */}
-        {currentProblem.description && (
-          <div>
-            <h4 className="text-xs font-semibold text-gray-400 mb-2">
-              📝 Description:
-            </h4>
-            <p className="text-xs text-gray-300 leading-relaxed line-clamp-4">
-              {currentProblem.description}
-            </p>
-          </div>
-        )}
-
-        {/* Action Buttons */}
-        <div className="flex flex-col gap-3 pt-2">
-          <a
-            href={problemUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="bg-indigo-500 hover:bg-indigo-600 text-white px-5 py-2.5 rounded-lg transition font-medium text-center"
-          >
-            🚀 Solve on LeetCode
-          </a>
-
-          <button
-            onClick={() => toggleSolved(currentProblem.problem_id)}
-            className={`px-4 py-2.5 rounded-lg text-sm font-medium transition ${
-              isSolved
-                ? "bg-green-600 hover:bg-green-700 text-white"
-                : "bg-gray-700 hover:bg-gray-800 text-gray-200"
-            }`}
-          >
-            {isSolved ? "✅ Marked as Solved" : "Mark as Solved"}
-          </button>
-
-          <button
-            onClick={pickRandomProblem}
-            className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2.5 rounded-lg transition font-medium"
-          >
-            🎲 Get Another Random Problem
-          </button>
-        </div>
-
-        {/* Metadata */}
-        <div className="mt-2 pt-3 border-t border-gray-700">
-          <h4 className="text-xs font-semibold text-gray-400 mb-2">
-            📊 Metadata:
-          </h4>
-          <div className="grid grid-cols-2 gap-2 text-xs">
-            <div className="bg-[#2b2b33] p-2 rounded">
-              <span className="text-gray-500">Problem ID:</span>
-              <p className="text-white font-mono">
-                {currentProblem.problem_id}
-              </p>
-            </div>
-            <div className="bg-[#2b2b33] p-2 rounded">
-              <span className="text-gray-500">Frontend ID:</span>
-              <p className="text-white font-mono">
-                {currentProblem.frontend_id}
-              </p>
-            </div>
-            <div className="bg-[#2b2b33] p-2 rounded col-span-2">
-              <span className="text-gray-500">Slug:</span>
-              <p className="text-indigo-300 font-mono break-all">
-                {currentProblem.problem_slug}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <RandomProblemCard
+        dailyProblem={currentProblem}
+        solvedMap={solvedMap}
+        pickRandomProblem={pickRandomProblem}
+        toggleRandomSolved={toggleSolved}
+        getDifficultyBg={getDifficultyBg}
+        filters={filters}
+        setFilters={setFilters}
+        matchMode={matchMode}
+        setMatchMode={setMatchMode}
+        onApplyFilters={applyFiltersAndPickNew}
+        showFilters={showFilters}
+        setShowFilters={setShowFilters}
+        dataSource={dataSource}
+        setDataSource={setDataSource}
+      />
 
       {/* Back Button */}
       <button

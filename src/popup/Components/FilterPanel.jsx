@@ -14,6 +14,7 @@ const FilterPanel = ({
   setMatchMode,
   onApply,
   variant = "popup",
+  dataSource = "leetcode",
 }) => {
   // Styling variants based on popup vs newtab
   const styles =
@@ -104,10 +105,10 @@ const FilterPanel = ({
   const searchInputRefs = useRef({});
 
   useEffect(() => {
-    // Load filter options
-    const options = getFilterOptions();
+    // Load filter options for the provided data source
+    const options = getFilterOptions(dataSource);
     setFilterOptions(options);
-  }, []);
+  }, [dataSource]);
 
   // Close dropdown when clicking outside
   useEffect(() => {

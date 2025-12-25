@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import FilterPanel from "../../popup/Components/FilterPanel";
+import DataSourceSwitcher from "./DataSourceSwitcher";
+import { normalizeProblem } from "../util";
 
 const RandomProblemCard = ({
   dailyProblem,
@@ -14,11 +16,33 @@ const RandomProblemCard = ({
   onApplyFilters,
   showFilters,
   setShowFilters,
+  dataSource,
+  setDataSource,
 }) => {
   if (!dailyProblem) return null;
 
+  const {
+    isGfgProblem,
+    problemId,
+    problemTitle,
+    problemDifficulty,
+    problemTopics,
+    problemDescription,
+    problemUrl,
+    problemUniqueId,
+  } = normalizeProblem(dailyProblem, dataSource);
+
   return (
     <div>
+      {/* Data Source Switcher */}
+      <div className="mb-3">
+        <DataSourceSwitcher
+          dataSource={dataSource}
+          setDataSource={setDataSource}
+          colorScheme="purple"
+        />
+      </div>
+
       {/* Filter Toggle Button */}
       <button
         onClick={() => setShowFilters(!showFilters)}
@@ -46,6 +70,7 @@ const RandomProblemCard = ({
           setMatchMode={setMatchMode}
           onApply={onApplyFilters}
           variant="newtab"
+          dataSource={dataSource}
         />
       )}
 
@@ -57,10 +82,10 @@ const RandomProblemCard = ({
           </h3>
           <span
             className={`text-xs font-semibold px-3 py-1 rounded-full ${getDifficultyBg(
-              dailyProblem.difficulty
+              problemDifficulty
             )}`}
           >
-            {dailyProblem.difficulty}
+            {problemDifficulty}
           </span>
         </div>
 
@@ -68,21 +93,21 @@ const RandomProblemCard = ({
           {/* Problem Title with ID Badge */}
           <div className="flex items-start gap-2 mb-3">
             <span className="text-xs bg-indigo-900 text-indigo-300 px-2 py-1 rounded font-mono font-semibold">
-              #{dailyProblem.frontend_id}
+              #{problemId}
             </span>
             <h4 className="text-base font-semibold text-white flex-1">
-              {dailyProblem.title}
+              {problemTitle}
             </h4>
           </div>
 
           {/* Topics */}
-          {dailyProblem.topics && dailyProblem.topics.length > 0 && (
+          {problemTopics && problemTopics.length > 0 && (
             <div className="mb-3">
               <p className="text-xs text-gray-400 mb-2 font-semibold">
                 Topics:
               </p>
               <div className="flex flex-wrap gap-1.5">
-                {dailyProblem.topics.slice(0, 5).map((topic, idx) => (
+                {problemTopics.slice(0, 5).map((topic, idx) => (
                   <span
                     key={idx}
                     className="bg-[#2b2b33] text-indigo-300 text-xs px-2 py-1 rounded"
@@ -90,9 +115,9 @@ const RandomProblemCard = ({
                     {topic}
                   </span>
                 ))}
-                {dailyProblem.topics.length > 5 && (
+                {problemTopics.length > 5 && (
                   <span className="text-xs text-gray-500 px-2 py-1">
-                    +{dailyProblem.topics.length - 5} more
+                    +{problemTopics.length - 5} more
                   </span>
                 )}
               </div>
@@ -100,22 +125,22 @@ const RandomProblemCard = ({
           )}
 
           {/* Description */}
-          {dailyProblem.description && (
+          {problemDescription && (
             <div className="bg-[#0e0e12] p-3 rounded-lg mb-3">
               <p className="text-gray-300 text-xs leading-relaxed line-clamp-2">
-                {dailyProblem.description}
+                {problemDescription}
               </p>
             </div>
           )}
 
           {/* Primary Action Button */}
           <a
-            href={`https://leetcode.com/problems/${dailyProblem.problem_slug}/`}
+            href={problemUrl}
             target="_blank"
             rel="noreferrer"
             className="block w-full bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2.5 rounded-lg transition font-semibold text-sm text-center mb-3 shadow-md hover:shadow-lg"
           >
-            🚀 Solve on LeetCode
+            🚀 Solve on {isGfgProblem ? "GeeksforGeeks" : "LeetCode"}
           </a>
 
           {/* New Random Button */}
@@ -129,14 +154,14 @@ const RandomProblemCard = ({
           {/* Mark random as solved */}
           <div>
             <button
-              onClick={() => toggleRandomSolved(dailyProblem.problem_id)}
+              onClick={() => toggleRandomSolved(problemUniqueId)}
               className={`w-full px-4 py-2 rounded-lg transition font-semibold text-sm shadow-sm ${
-                solvedMap[dailyProblem.problem_id]
+                solvedMap[problemUniqueId]
                   ? "bg-green-600 hover:bg-green-700 text-white"
                   : "bg-gray-700 hover:bg-gray-600 text-gray-200"
               }`}
             >
-              {solvedMap[dailyProblem.problem_id]
+              {solvedMap[problemUniqueId]
                 ? "✅ Solved - Click to Unmark"
                 : "Mark as Solved"}
             </button>

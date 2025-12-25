@@ -2,6 +2,7 @@ import React, { useMemo, useState } from "react";
 import leetCodeProblems from "../../problem-data/leetCodeAllProblemDump.json";
 import gfgData from "../../problem-data/gfg_problems.json";
 import DataSourceSwitcher from "./DataSourceSwitcher";
+import { normalizeProblem } from "../util";
 
 const SearchProblemCard = () => {
   const [query, setQuery] = useState("");
@@ -142,26 +143,16 @@ const SearchProblemCard = () => {
       {results.length > 0 && (
         <div className="space-y-2 max-h-80 overflow-y-auto pr-1 custom-scrollbar">
           {results.map((problem, idx) => {
-            // Handle different data structures
-            const problemId =
-              dataSource === "gfg"
-                ? problem.index
-                : problem.problem_id || problem.frontend_id;
-            const problemTitle =
-              dataSource === "gfg" ? problem.problem_name : problem.title;
-            const problemDifficulty = problem.difficulty || "Unknown";
-            const problemTopics =
-              dataSource === "gfg"
-                ? problem.tags?.topic_tags || []
-                : problem.topics || [];
-            const problemUrl =
-              dataSource === "gfg"
-                ? problem.problem_url
-                : `https://leetcode.com/problems/${problem.problem_slug}/`;
-            const uniqueKey =
-              dataSource === "gfg"
-                ? problem.id || problem.index || idx
-                : problem.problem_id || problem.frontend_id || idx;
+            const {
+              problemId,
+              problemTitle,
+              problemDifficulty,
+              problemTopics,
+              problemUrl,
+              problemUniqueId,
+            } = normalizeProblem(problem, dataSource);
+
+            const uniqueKey = problemUniqueId ?? idx;
 
             return (
               <div

@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import leetCodeProblems from "../problem-data/leetCodeAllProblemDump.json";
+import gfgData from "../problem-data/gfg_problems.json";
 import a2zData from "../problem-data/DSAa2zProblems.json";
 import Header from "./Components/Header";
 import StatsCards from "./Components/StatsCards";
@@ -51,6 +52,7 @@ export const NewTab = () => {
   const [filters, setFilters] = useState([]);
   const [matchMode, setMatchMode] = useState("all");
   const [filteredProblems, setFilteredProblems] = useState(leetCodeProblems);
+  const [dataSource, setDataSource] = useState("leetcode"); // "leetcode" or "gfg"
 
   const quotes = [
     "Talk is cheap. Show me the code.",
@@ -162,6 +164,27 @@ export const NewTab = () => {
     }
   }, [filters, matchMode, solvedMap]);
 
+  // When data source changes, pick a new random problem from the new source
+  useEffect(() => {
+    // Skip on initial load
+    if (isInitialLoadRef.current) return;
+    
+    // Reset filtered problems when data source changes
+    const allProblems = dataSource === "gfg" 
+      ? (gfgData.problems || [])
+      : leetCodeProblems;
+    setFilteredProblems(allProblems);
+    
+    // Pick a new random problem from the new source
+    const randomIndex = Math.floor(Math.random() * allProblems.length);
+    const problem = allProblems[randomIndex];
+    setDailyProblem(problem);
+    chrome.storage.sync.set({ 
+      currentRandomProblem: problem,
+      randomProblemDataSource: dataSource 
+    });
+  }, [dataSource]);
+
   const updateTime = () => {
     const now = new Date();
     const hours = now.getHours();
@@ -229,7 +252,13 @@ export const NewTab = () => {
       const randomProblemData = await chrome.storage.sync.get([
         "currentRandomProblem",
         "savedFilters",
+        "randomProblemDataSource",
       ]);
+
+      // Load saved data source
+      if (randomProblemData.randomProblemDataSource) {
+        setDataSource(randomProblemData.randomProblemDataSource);
+      }
 
       // Load saved filters
       if (randomProblemData.savedFilters) {
@@ -240,11 +269,17 @@ export const NewTab = () => {
       if (randomProblemData.currentRandomProblem) {
         setDailyProblem(randomProblemData.currentRandomProblem);
       } else {
-        // If no random problem exists, pick one
-        const randomIndex = Math.floor(Math.random() * leetCodeProblems.length);
-        const problem = leetCodeProblems[randomIndex];
+        // If no random problem exists, pick one from the current data source
+        const allProblems = randomProblemData.randomProblemDataSource === "gfg"
+          ? (gfgData.problems || [])
+          : leetCodeProblems;
+        const randomIndex = Math.floor(Math.random() * allProblems.length);
+        const problem = allProblems[randomIndex];
         setDailyProblem(problem);
-        chrome.storage.sync.set({ currentRandomProblem: problem });
+        chrome.storage.sync.set({ 
+          currentRandomProblem: problem,
+          randomProblemDataSource: randomProblemData.randomProblemDataSource || "leetcode"
+        });
       }
 
       // Load A2Z problem - use last browsed index or default to 0
@@ -279,15 +314,23 @@ export const NewTab = () => {
   // A2Z Navigation functions
   const pickRandomProblem = async () => {
     try {
-      // Use filtered problems if filters are active
+      // Get the appropriate problems array based on data source
+      const allProblems = dataSource === "gfg" 
+        ? (gfgData.problems || [])
+        : leetCodeProblems;
+      
+      // Use filtered problems if filters are active, otherwise use all problems
       const problemPool =
-        filteredProblems.length > 0 ? filteredProblems : leetCodeProblems;
+        filteredProblems.length > 0 ? filteredProblems : allProblems;
       const randomIndex = Math.floor(Math.random() * problemPool.length);
       const problem = problemPool[randomIndex];
       setDailyProblem(problem);
       // Mark as local change to prevent toast notification
       isLocalRandomRef.current = true;
-      await chrome.storage.sync.set({ currentRandomProblem: problem });
+      await chrome.storage.sync.set({ 
+        currentRandomProblem: problem,
+        randomProblemDataSource: dataSource 
+      });
       // Reset flag after storage sync completes
       setTimeout(() => (isLocalRandomRef.current = false), 300);
     } catch (error) {
@@ -296,8 +339,13 @@ export const NewTab = () => {
   };
 
   const applyFiltersAndPickNew = () => {
+    // Get the appropriate problems array based on data source
+    const allProblems = dataSource === "gfg" 
+      ? (gfgData.problems || [])
+      : leetCodeProblems;
+    
     const filtered = applyFilters(
-      leetCodeProblems,
+      allProblems,
       filters,
       solvedMap,
       matchMode
@@ -308,7 +356,10 @@ export const NewTab = () => {
       const randomIndex = Math.floor(Math.random() * filtered.length);
       const problem = filtered[randomIndex];
       setDailyProblem(problem);
-      chrome.storage.sync.set({ currentRandomProblem: problem });
+      chrome.storage.sync.set({ 
+        currentRandomProblem: problem,
+        randomProblemDataSource: dataSource 
+      });
 
       // Show toast notification
       setShowFilterToast(true);
@@ -436,6 +487,8 @@ export const NewTab = () => {
             onApplyFilters={applyFiltersAndPickNew}
             showFilters={showFilters}
             setShowFilters={setShowFilters}
+            dataSource={dataSource}
+            setDataSource={setDataSource}
           />
 
           {/* A2Z DSA Problem */}

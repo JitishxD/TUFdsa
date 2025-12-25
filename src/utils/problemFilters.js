@@ -1,18 +1,31 @@
 import leetCodeProblems from "../problem-data/leetCodeAllProblemDump.json";
+import gfgData from "../problem-data/gfg_problems.json";
 
 /**
  * Extract unique values from the problem dataset
  */
-export const getFilterOptions = () => {
+export const getFilterOptions = (dataSource = "leetcode") => {
     const difficulties = new Set();
     const topics = new Set();
     const languages = new Set();
 
-    leetCodeProblems.forEach((problem) => {
-        if (problem.difficulty) difficulties.add(problem.difficulty);
+    const sourceProblems =
+        dataSource === "gfg" ? (gfgData.problems || []) : (leetCodeProblems || []);
+
+    sourceProblems.forEach((problem) => {
+        // Difficulty keys differ between sources; support both
+        const diff = problem.difficulty || problem.problem_level || null;
+        if (diff) difficulties.add(diff);
+
+        // Topics: LeetCode uses `topics`, GFG uses `tags.topic_tags`
         if (problem.topics) {
             problem.topics.forEach((topic) => topics.add(topic));
         }
+        if (problem.tags?.topic_tags) {
+            problem.tags.topic_tags.forEach((topic) => topics.add(topic));
+        }
+
+        // Languages exist primarily in LeetCode dump
         if (problem.language) {
             problem.language.forEach((lang) => languages.add(lang));
         }
@@ -93,9 +106,16 @@ const matchSingleFilter = (problem, filter, solvedMap) => {
     // No values selected means no filtering
     if (!values || values.length === 0) return true;
 
+    // Determine if this is a GFG problem based on data structure
+    const isGfgProblem = problem.problem_name !== undefined;
+
     switch (filterType) {
         case FILTER_TYPES.STATUS: {
-            const isSolved = solvedMap[problem.problem_id] || false;
+            // Handle both LeetCode and GFG problem IDs
+            const problemId = isGfgProblem
+                ? (problem.id || problem.index)
+                : problem.problem_id;
+            const isSolved = solvedMap[problemId] || false;
             const hasStatusMatch = values.some((status) => {
                 if (status === "Solved") return isSolved;
                 if (status === "Unsolved") return !isSolved;
@@ -115,25 +135,30 @@ const matchSingleFilter = (problem, filter, solvedMap) => {
         }
 
         case FILTER_TYPES.TOPICS: {
-            if (!problem.topics) return false;
+            // Handle both LeetCode (problem.topics) and GFG (problem.tags.topic_tags) structures
+            const topics = isGfgProblem
+                ? (problem.tags?.topic_tags || [])
+                : (problem.topics || []);
+
+            if (!topics || topics.length === 0) return false;
 
             if (operator === OPERATORS.CONTAINS) {
                 // At least one selected topic must be in problem topics
-                return values.some((topic) => problem.topics.includes(topic));
+                return values.some((topic) => topics.includes(topic));
             }
             if (operator === OPERATORS.NOT_CONTAINS) {
                 // None of the selected topics should be in problem topics
-                return !values.some((topic) => problem.topics.includes(topic));
+                return !values.some((topic) => topics.includes(topic));
             }
             if (operator === OPERATORS.IS) {
                 // Problem topics must exactly match selected topics (same set)
-                if (problem.topics.length !== values.length) return false;
-                return values.every((topic) => problem.topics.includes(topic));
+                if (topics.length !== values.length) return false;
+                return values.every((topic) => topics.includes(topic));
             }
             if (operator === OPERATORS.IS_NOT) {
                 // Problem topics must not exactly match selected topics
-                if (problem.topics.length !== values.length) return true;
-                return !values.every((topic) => problem.topics.includes(topic));
+                if (topics.length !== values.length) return true;
+                return !values.every((topic) => topics.includes(topic));
             }
             return true;
         }
