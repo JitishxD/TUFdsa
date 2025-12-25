@@ -1,9 +1,12 @@
 import { useState } from "react";
 import leetCodeProblems from "../../problem-data/leetCodeAllProblemDump.json";
+import gfgData from "../../problem-data/gfg_problems.json";
+import DataSourceSwitcher from "./DataSourceSwitcher";
 
 const QuickAccessCard = () => {
   const [problemNumber, setProblemNumber] = useState("");
   const [error, setError] = useState("");
+  const [dataSource, setDataSource] = useState("leetcode"); // "leetcode" or "gfg"
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -15,22 +18,33 @@ const QuickAccessCard = () => {
       return;
     }
 
-    // Find the problem in the dump file
-    const problem = leetCodeProblems.find(
-      (p) => p.frontend_id === num.toString()
-    );
+    let problem = null;
+    let problemUrl = "";
+
+    if (dataSource === "gfg") {
+      // GFG uses index field
+      problem = gfgData.problems.find((p) => p.index === num);
+      if (problem) {
+        problemUrl = problem.problem_url;
+      }
+    } else {
+      // LeetCode uses frontend_id
+      problem = leetCodeProblems.find(
+        (p) => p.frontend_id === num.toString()
+      );
+      if (problem) {
+        problemUrl = `https://leetcode.com/problems/${problem.problem_slug}/`;
+      }
+    }
 
     if (!problem) {
-      setError(`Problem #${num} not found`);
+      setError(`Problem #${num} not found in ${dataSource === "leetcode" ? "LeetCode" : "GeeksforGeeks"}`);
       return;
     }
 
-    // Clear error and open LeetCode page using the problem slug
+    // Clear error and open the problem page
     setError("");
-    window.open(
-      `https://leetcode.com/problems/${problem.problem_slug}/`,
-      "_blank"
-    );
+    window.open(problemUrl, "_blank");
     setProblemNumber(""); // Clear input after opening
   };
 
@@ -45,10 +59,17 @@ const QuickAccessCard = () => {
         <h3 className="text-xl font-bold text-purple-400">🔍 Quick Access</h3>
       </div>
 
+      {/* Data Source Switcher */}
+      <DataSourceSwitcher
+        dataSource={dataSource}
+        setDataSource={setDataSource}
+        colorScheme="purple"
+      />
+
       <form onSubmit={handleSubmit} className="space-y-3">
         <div>
           <label className="text-sm text-gray-400 block mb-2">
-            Enter LeetCode Problem Number
+            Enter {dataSource === "leetcode" ? "LeetCode" : "GeeksforGeeks"} Problem Number
           </label>
           <input
             type="text"
