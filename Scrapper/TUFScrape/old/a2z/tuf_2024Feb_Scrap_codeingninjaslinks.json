@@ -1,0 +1,2702 @@
+[
+  {
+    "problemName": "User Input / Output",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/find-character-case_58513"
+    ]
+  },
+  {
+    "problemName": "Data Types",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/data-type_8357232"
+    ]
+  },
+  {
+    "problemName": "If Else statements",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/if-else-decision-making_8357235"
+    ]
+  },
+  {
+    "problemName": "Switch Statement",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/switch-case-statement_8357244"
+    ]
+  },
+  {
+    "problemName": "What are arrays, strings?",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "For loops",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/nth-fibonacci-number_74156"
+    ]
+  },
+  {
+    "problemName": "While loops",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/sum-of-even-odd_624650"
+    ]
+  },
+  {
+    "problemName": "Functions (Pass by Reference and Value)",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/fa-1-ece_4606261"
+    ]
+  },
+  {
+    "problemName": "Time Complexity [Learn Basics, and then analyse in next Steps]",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Patterns",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "C++ STL",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Java Collections",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Count Digits",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/count-digits_8416387"
+    ]
+  },
+  {
+    "problemName": "Reverse a Number",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/reverse-bits_2181102"
+    ]
+  },
+  {
+    "problemName": "Check Palindrome",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/palindrome-number_624662"
+    ]
+  },
+  {
+    "problemName": "GCD Or HCF",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/hcf-and-lcm_840448"
+    ]
+  },
+  {
+    "problemName": "Armstrong Numbers",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/check-armstrong_589"
+    ]
+  },
+  {
+    "problemName": "Print all Divisors",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/sum-of-all-divisors_8360720"
+    ]
+  },
+  {
+    "problemName": "Check for Prime",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/check-prime_624934"
+    ]
+  },
+  {
+    "problemName": "Understand recursion by print something N times",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/print-1-to-n_628290"
+    ]
+  },
+  {
+    "problemName": "Print name N times using recursion",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/-print-n-times_8380707"
+    ]
+  },
+  {
+    "problemName": "Print 1 to N using recursion",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/print-1-to-n_628290"
+    ]
+  },
+  {
+    "problemName": "Print N to 1 using recursion",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/n-to-1-without-loop_8357243"
+    ]
+  },
+  {
+    "problemName": "Sum of first N numbers",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/sum-of-first-n-numbers_8876068"
+    ]
+  },
+  {
+    "problemName": "Factorial of N numbers",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/factorial-numbers-not-greater-than-n_8365435"
+    ]
+  },
+  {
+    "problemName": "Reverse an array",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/reverse-an-array_8365444"
+    ]
+  },
+  {
+    "problemName": "Check if a string is palindrome or not",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/check-palindrome-recursive_624386"
+    ]
+  },
+  {
+    "problemName": "Fibonacci Number",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/print-fibonacci-series_7421617"
+    ]
+  },
+  {
+    "problemName": "Hashing Theory",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Counting frequencies of array elements",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-frequency-in-a-range_8365446"
+    ]
+  },
+  {
+    "problemName": "Find the highest/lowest frequency element",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/k-most-occurrent-numbers_625382"
+    ]
+  },
+  {
+    "problemName": "Selection Sort",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/selection-sort_624469"
+    ]
+  },
+  {
+    "problemName": "Bubble Sort",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/bubble-sort_624380"
+    ]
+  },
+  {
+    "problemName": "Insertion Sort",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/insertion-sort_624381"
+    ]
+  },
+  {
+    "problemName": "Merge Sort",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/merge-sort_5846"
+    ]
+  },
+  {
+    "problemName": "Recursive Bubble Sort",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/bubble-sort_624380"
+    ]
+  },
+  {
+    "problemName": "Recursive Insertion Sort",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/insertion-sort_624381"
+    ]
+  },
+  {
+    "problemName": "Quick Sort",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/quick-sort_5844"
+    ]
+  },
+  {
+    "problemName": "Largest Element in an Array",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/largest-element-in-the-array-largest-element-in-the-array_5026279"
+    ]
+  },
+  {
+    "problemName": "Second Largest Element in an Array without sorting",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/ninja-and-the-second-order-elements_6581960"
+    ]
+  },
+  {
+    "problemName": "Check if the array is sorted",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/ninja-and-the-sorted-check_6581957"
+    ]
+  },
+  {
+    "problemName": "Remove duplicates from Sorted array",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/remove-duplicates-from-sorted-array_1102307"
+    ]
+  },
+  {
+    "problemName": "Left Rotate an array by one place",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/left-rotate-an-array-by-one_5026278"
+    ]
+  },
+  {
+    "problemName": "Left rotate an array by D places",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/rotate-array_1230543"
+    ]
+  },
+  {
+    "problemName": "Move Zeros to end",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/ninja-and-the-zero-s_6581958"
+    ]
+  },
+  {
+    "problemName": "Linear Search",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/linear-search_6922070"
+    ]
+  },
+  {
+    "problemName": "Find the Union",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/sorted-array_6613259"
+    ]
+  },
+  {
+    "problemName": "Find missing number in an array",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Maximum Consecutive Ones",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/traffic_6682625"
+    ]
+  },
+  {
+    "problemName": "Find the number that appears once, and other numbers twice.",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/find-the-single-element_6680465"
+    ]
+  },
+  {
+    "problemName": "Longest subarray with given sum K(positives)",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/longest-subarray-with-sum-k_6682399"
+    ]
+  },
+  {
+    "problemName": "Longest subarray with sum K (Positives + Negatives)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-subarray-with-sum-k_5713505"
+    ]
+  },
+  {
+    "problemName": "2Sum Problem",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/reading_6845742"
+    ]
+  },
+  {
+    "problemName": "Sort an array of 0's 1's and 2's",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/sort-an-array-of-0s-1s-and-2s_892977"
+    ]
+  },
+  {
+    "problemName": "Majority Element (>n/2 times)",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/majority-element_6783241"
+    ]
+  },
+  {
+    "problemName": "Kadane's Algorithm, maximum subarray sum",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/maximum-subarray-sum_630526"
+    ]
+  },
+  {
+    "problemName": "Print subarray with maximum subarray sum (extended version of above problem)",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/longest-subarray-with-sum-k_6682399"
+    ]
+  },
+  {
+    "problemName": "Stock Buy and Sell",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/best-time-to-buy-and-sell-stock_6194560"
+    ]
+  },
+  {
+    "problemName": "Rearrange the array in alternating positive and negative items",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/alternate-numbers_6783445"
+    ]
+  },
+  {
+    "problemName": "Next Permutation",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/next-greater-permutation_6929564"
+    ]
+  },
+  {
+    "problemName": "Leaders in an Array problem",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/superior-elements_6783446"
+    ]
+  },
+  {
+    "problemName": "Longest Consecutive Sequence in an Array",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/longest-successive-elements_6811740"
+    ]
+  },
+  {
+    "problemName": "Set Matrix Zeros",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/zero-matrix_1171153"
+    ]
+  },
+  {
+    "problemName": "Rotate Matrix by 90 degrees",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/rotate-the-matrix_6825090"
+    ]
+  },
+  {
+    "problemName": "Print the matrix in spiral manner",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/spiral-matrix_6922069"
+    ]
+  },
+  {
+    "problemName": "Count subarrays with given sum",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/subarray-sums-i_1467103"
+    ]
+  },
+  {
+    "problemName": "Pascal's Triangle",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/print-pascal-s-triangle_6917910"
+    ]
+  },
+  {
+    "problemName": "Majority Element (n/3 times)",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/majority-element_6915220"
+    ]
+  },
+  {
+    "problemName": "3-Sum Problem",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/three-sum_6922132"
+    ]
+  },
+  {
+    "problemName": "4-Sum Problem",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/4sum_5713771"
+    ]
+  },
+  {
+    "problemName": "Largest Subarray with 0 Sum",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/longest-subarray-with-zero-sum_6783450"
+    ]
+  },
+  {
+    "problemName": "Count number of subarrays with given xor K",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/subarrays-with-xor-k_6826258"
+    ]
+  },
+  {
+    "problemName": "Merge Overlapping Subintervals",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/merge-all-overlapping-intervals_6783452"
+    ]
+  },
+  {
+    "problemName": "Merge two sorted arrays without extra space",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/merge-two-sorted-arrays-without-extra-space_6898839"
+    ]
+  },
+  {
+    "problemName": "Find the repeating and missing number",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/missing-and-repeating-numbers_6828164"
+    ]
+  },
+  {
+    "problemName": "Count Inversions",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/number-of-inversions_6840276"
+    ]
+  },
+  {
+    "problemName": "Reverse Pairs",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/team-contest_6840309"
+    ]
+  },
+  {
+    "problemName": "Maximum Product Subarray",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/subarray-with-maximum-product_6890008"
+    ]
+  },
+  {
+    "problemName": "Binary Search to find X in sorted array",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/binary-search_972"
+    ]
+  },
+  {
+    "problemName": "Implement Lower Bound",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/lower-bound_8165382"
+    ]
+  },
+  {
+    "problemName": "Implement Upper Bound",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/implement-upper-bound_8165383"
+    ]
+  },
+  {
+    "problemName": "Search Insert Position",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/algorithm-to-find-best-insert-position-in-sorted-array_839813"
+    ]
+  },
+  {
+    "problemName": "Floor/Ceil in Sorted Array",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/ceiling-in-a-sorted-array_1825401"
+    ]
+  },
+  {
+    "problemName": "Find the first or last occurrence of a given number in a sorted array",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/first-and-last-position-of-an-element-in-sorted-array_1082549"
+    ]
+  },
+  {
+    "problemName": "Count occurrences of a number in a sorted array with duplicates",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/occurrence-of-x-in-a-sorted-array_630456"
+    ]
+  },
+  {
+    "problemName": "Search in Rotated Sorted Array I",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/search-in-rotated-sorted-array_1082554"
+    ]
+  },
+  {
+    "problemName": "Search in Rotated Sorted Array II",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/search-in-a-rotated-sorted-array-ii_7449547"
+    ]
+  },
+  {
+    "problemName": "Find minimum in Rotated Sorted Array",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/rotated-array_1093219"
+    ]
+  },
+  {
+    "problemName": "Find out how many times has an array been rotated",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/rotation_7449070"
+    ]
+  },
+  {
+    "problemName": "Single element in a Sorted Array",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/unique-element-in-sorted-array_1112654"
+    ]
+  },
+  {
+    "problemName": "Find peak element",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/find-peak-element_1081482"
+    ]
+  },
+  {
+    "problemName": "Find square root of a number in log n",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/square-root-integral_893351?leftPanelTab=0"
+    ]
+  },
+  {
+    "problemName": "Find the Nth root of a number using binary search",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/nth-root-of-m_1062679"
+    ]
+  },
+  {
+    "problemName": "Koko Eating Bananas",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/minimum-rate-to-eat-bananas_7449064"
+    ]
+  },
+  {
+    "problemName": "Minimum days to make M bouquets",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/rose-garden_2248080"
+    ]
+  },
+  {
+    "problemName": "Find the smallest Divisor",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/smallest-divisor-with-the-given-limit_1755882"
+    ]
+  },
+  {
+    "problemName": "Capacity to Ship Packages within D Days",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/capacity-to-ship-packages-within-d-days_1229379"
+    ]
+  },
+  {
+    "problemName": "Kth Missing Positive Number",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/kth-missing-element_893215"
+    ]
+  },
+  {
+    "problemName": "Aggressive Cows",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/aggressive-cows_1082559"
+    ]
+  },
+  {
+    "problemName": "Book Allocation Problem",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/allocate-books_1090540"
+    ]
+  },
+  {
+    "problemName": "Split array - Largest Sum",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/largest-subarray-sum-minimized_7461751"
+    ]
+  },
+  {
+    "problemName": "Painter's partition",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/painter-s-partition-problem_1089557"
+    ]
+  },
+  {
+    "problemName": "Minimize Max Distance to Gas Station",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/minimise-max-distance_7541449"
+    ]
+  },
+  {
+    "problemName": "Median of 2 sorted arrays",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/median-of-two-sorted-arrays_985294"
+    ]
+  },
+  {
+    "problemName": "Kth element of 2 sorted arrays",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/k-th-element-of-2-sorted-array_1164159"
+    ]
+  },
+  {
+    "problemName": "Find the row with maximum number of 1's",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/row-of-a-matrix-with-maximum-ones_982768"
+    ]
+  },
+  {
+    "problemName": "Search in a 2 D matrix",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/search-in-a-2d-matrix_980531"
+    ]
+  },
+  {
+    "problemName": "Search in a row and column wise sorted matrix",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/search-in-a-sorted-2d-matrix_6917532"
+    ]
+  },
+  {
+    "problemName": "Find Peak Element (2D Matrix)",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/find-peak-element_7449073"
+    ]
+  },
+  {
+    "problemName": "Matrix Median",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/median-of-a-row-wise-sorted-matrix_1115473"
+    ]
+  },
+  {
+    "problemName": "Remove outermost Paranthesis",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/maximum-nesting-depth-of-the-parentheses_8144741"
+    ]
+  },
+  {
+    "problemName": "Reverse words in a given string / Palindrome Check",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/reverse-words-in-a-string_696444"
+    ]
+  },
+  {
+    "problemName": "Largest odd number in a string",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Longest Common Prefix",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-common-prefix_628874"
+    ]
+  },
+  {
+    "problemName": "Isomorphic String",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/isomorphic-strings-_1117636"
+    ]
+  },
+  {
+    "problemName": "check whether one string is a rotation of another",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/check-if-one-string-is-a-rotation-of-another-string_1115683"
+    ]
+  },
+  {
+    "problemName": "Check if two strings are anagram of each other",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/anagram-pairs_626517"
+    ]
+  },
+  {
+    "problemName": "Sort Characters by frequency",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/sorting-characters-by-frequency_1263699"
+    ]
+  },
+  {
+    "problemName": "Maximum Nesting Depth of Paranthesis",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Roman Number to Integer and vice versa",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/roman-numeral-to-integer_981308"
+    ]
+  },
+  {
+    "problemName": "Implement Atoi",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/implement-atoi-function_981270"
+    ]
+  },
+  {
+    "problemName": "Count Number of Substrings",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-with-k-different-characters_1214627"
+    ]
+  },
+  {
+    "problemName": "Longest Palindromic Substring[Do it without DP]",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Sum of Beauty of all substring",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/sum-of-beauty-of-all-substrings_8143656"
+    ]
+  },
+  {
+    "problemName": "Reverse Every Word in A String",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/reverse-words_7037425"
+    ]
+  },
+  {
+    "problemName": "Introduction to LinkedList, learn about struct, and how is node represented",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/introduction-to-linked-list_8144737"
+    ]
+  },
+  {
+    "problemName": "Inserting a node in LinkedList",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/insert-node-at-the-beginning_8144739"
+    ]
+  },
+  {
+    "problemName": "Deleting a node in LinkedList",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/delete-node-of-linked-list_8160463"
+    ]
+  },
+  {
+    "problemName": "Find the length of the linkedlist [learn traversal]",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-nodes-of-linked-list_5884"
+    ]
+  },
+  {
+    "problemName": "Search an element in the LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/search-in-a-linked-list_975381"
+    ]
+  },
+  {
+    "problemName": "Introduction to DLL, learn about struct, and how is node represented",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/introduction-to-doubly-linked-list_8160413"
+    ]
+  },
+  {
+    "problemName": "Insert a node in DLL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/insert-at-end-of-doubly-linked-list_8160464"
+    ]
+  },
+  {
+    "problemName": "Delete a node in DLL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/delete-last-node-of-a-doubly-linked-list_8160469"
+    ]
+  },
+  {
+    "problemName": "Reverse a DLL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/reverse-a-doubly-linked-list_1116098"
+    ]
+  },
+  {
+    "problemName": "Middle of a LinkedList [TortoiseHare Method]",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/middle-of-linked-list_973250"
+    ]
+  },
+  {
+    "problemName": "Reverse a LinkedList [Iterative]",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/reverse-linked-list_920513"
+    ]
+  },
+  {
+    "problemName": "Reverse a LL [Recursive]",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/reverse-linked-list_920513"
+    ]
+  },
+  {
+    "problemName": "Detect a loop in LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/cycle-detection-in-a-singly-linked-list_628974"
+    ]
+  },
+  {
+    "problemName": "Find the starting point in LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/linked-list-cycle-ii_1112628"
+    ]
+  },
+  {
+    "problemName": "Length of Loop in LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/find-length-of-loop_8160455"
+    ]
+  },
+  {
+    "problemName": "Check if LL is palindrome or not",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/check-if-linked-list-is-palindrome_985248"
+    ]
+  },
+  {
+    "problemName": "Segrregate odd and even nodes in LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/segregate-even-and-odd-nodes-in-a-linked-list_1116100"
+    ]
+  },
+  {
+    "problemName": "Remove Nth node from the back of the LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/delete-kth-node-from-end_799912"
+    ]
+  },
+  {
+    "problemName": "Delete the middle node of LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/delete-middle-node_763267"
+    ]
+  },
+  {
+    "problemName": "Sort LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/sort-linked-list_625193"
+    ]
+  },
+  {
+    "problemName": "Sort a LL of 0's 1's and 2's by changing links",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/sort-linked-list-of-0s-1s-2s_1071937"
+    ]
+  },
+  {
+    "problemName": "Find the intersection point of Y LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/-intersection-of-two-linked-lists_630457"
+    ]
+  },
+  {
+    "problemName": "Add 1 to a number represented by LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/add-one-to-a-number-represented-as-linked-list_920557"
+    ]
+  },
+  {
+    "problemName": "Add 2 numbers in LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/add-two-numbers_1170520"
+    ]
+  },
+  {
+    "problemName": "Delete all occurrences of a key in DLL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list_8160461"
+    ]
+  },
+  {
+    "problemName": "Find pairs with given sum in DLL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/find-pairs-with-given-sum-in-doubly-linked-list_1164172"
+    ]
+  },
+  {
+    "problemName": "Remove duplicates from sorted DLL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/remove-duplicates-from-a-sorted-doubly-linked-list_2420283"
+    ]
+  },
+  {
+    "problemName": "Reverse LL in group of given size K",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/reverse-list-in-k-groups_983644"
+    ]
+  },
+  {
+    "problemName": "Rotate a LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/rotate-linked-list_920454"
+    ]
+  },
+  {
+    "problemName": "Flattening of LL",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/flatten-a-linked-list_1112655"
+    ]
+  },
+  {
+    "problemName": "Clone a Linked List with random and next pointer",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/clone-a-linked-list-with-random-pointers_983604"
+    ]
+  },
+  {
+    "problemName": "Recursive Implementation of atoi()",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/implement-atoi-function_981270"
+    ]
+  },
+  {
+    "problemName": "Pow(x, n)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/find-x-raised-to-power-n-_626560"
+    ]
+  },
+  {
+    "problemName": "Count Good numbers",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/good-numbers_625508"
+    ]
+  },
+  {
+    "problemName": "Sort a stack using recursion",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/sort-stack_1229505"
+    ]
+  },
+  {
+    "problemName": "Reverse a stack using recursion",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/reverse-stack-using-recursion_631875"
+    ]
+  },
+  {
+    "problemName": "Generate all binary strings",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/-binary-strings-with-no-consecutive-1s._893001"
+    ]
+  },
+  {
+    "problemName": "Generate Paranthesis",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/generate-all-parenthesis_920445"
+    ]
+  },
+  {
+    "problemName": "Print all subsequences/Power Set",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/print-subsequences_8416366"
+    ]
+  },
+  {
+    "problemName": "Learn All Patterns of Subsequences (Theory)",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/more-subsequence_8842355"
+    ]
+  },
+  {
+    "problemName": "Count all subsequences with sum K",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/subarrays-with-sum-%E2%80%98k'_6922076"
+    ]
+  },
+  {
+    "problemName": "Check if there exists a subsequence with sum K",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/subset-sum_630213"
+    ]
+  },
+  {
+    "problemName": "Combination Sum",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/combination-sum_981296"
+    ]
+  },
+  {
+    "problemName": "Combination Sum-II",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/combination-sum-ii_1112622"
+    ]
+  },
+  {
+    "problemName": "Subset Sum-I",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/subset-sum_3843086"
+    ]
+  },
+  {
+    "problemName": "Subset Sum-II",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/get-all-unique-subsets_624393"
+    ]
+  },
+  {
+    "problemName": "Combination Sum - III",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/combination-sum-iii_5038357"
+    ]
+  },
+  {
+    "problemName": "Letter Combinations of a Phone number",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/letter-phone_626178"
+    ]
+  },
+  {
+    "problemName": "Palindrome Partitioning",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/palindrome-partitioning_626181"
+    ]
+  },
+  {
+    "problemName": "Word Search",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/word-search---l_892986"
+    ]
+  },
+  {
+    "problemName": "N Queen",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/n-queens_696453"
+    ]
+  },
+  {
+    "problemName": "Rat in a Maze",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/rat-in-a-maze-_8842357"
+    ]
+  },
+  {
+    "problemName": "Word Break",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/word-break-1_758963"
+    ]
+  },
+  {
+    "problemName": "M Coloring Problem",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/m-coloring-problem_981273"
+    ]
+  },
+  {
+    "problemName": "Sudoko Solver",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/sudoku-solver_8416969"
+    ]
+  },
+  {
+    "problemName": "Expression Add Operators",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/find-x-raised-to-power-n-_626560"
+    ]
+  },
+  {
+    "problemName": "Introduction to Bit Manipulation [Theory]",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/bit-manipulation_8142533"
+    ]
+  },
+  {
+    "problemName": "Check if the i-th bit is set or not",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/check-whether-k-th-bit-is-set-or-not_5026446"
+    ]
+  },
+  {
+    "problemName": "Check if a number is odd or not",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/odd-even_7993579"
+    ]
+  },
+  {
+    "problemName": "Check if a number is power of 2 or not",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/power-of-two_893061"
+    ]
+  },
+  {
+    "problemName": "Count the number of set bits",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-total-set-bits_784"
+    ]
+  },
+  {
+    "problemName": "Set/Unset the rightmost unset bit",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/set-the-rightmost-unset-bit_8160456"
+    ]
+  },
+  {
+    "problemName": "Swap two numbers",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/swap-two-numbers_1380853"
+    ]
+  },
+  {
+    "problemName": "Divide two integers without using multiplication, division and mod operator",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/-divide-two-integers_1112617"
+    ]
+  },
+  {
+    "problemName": "Count number of bits to be flipped to convert A to B",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/flip-bits_8160405"
+    ]
+  },
+  {
+    "problemName": "Find the number that appears odd number of times",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/one-odd-occurring_4606074"
+    ]
+  },
+  {
+    "problemName": "Power Set",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/subsequences-of-string_985087"
+    ]
+  },
+  {
+    "problemName": "Find xor of numbers from L to R",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/l-to-r-xor_8160412"
+    ]
+  },
+  {
+    "problemName": "Find the two numbers appearing odd number of times",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/two-numbers-with-odd-occurrences_8160466"
+    ]
+  },
+  {
+    "problemName": "Print Prime Factors of a Number",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/prime-factorisation_1760849"
+    ]
+  },
+  {
+    "problemName": "All Divisors of a Number",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/print-all-divisors-of-a-number_1164188"
+    ]
+  },
+  {
+    "problemName": "Sieve of Eratosthenes",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/prime-factorisation_1760849"
+    ]
+  },
+  {
+    "problemName": "Find Prime Factorisation of a Number using Sieve",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/prime-factorisation_1760849"
+    ]
+  },
+  {
+    "problemName": "Power(n, x)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/power-of-numbers_8157729"
+    ]
+  },
+  {
+    "problemName": "Implement Stack using Arrays",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/stack-implementation-using-array_3210209"
+    ]
+  },
+  {
+    "problemName": "Implement Queue using Arrays",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/implement-queue-using-arrays_8390825"
+    ]
+  },
+  {
+    "problemName": "Implement Stack using Queue",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/stack-using-queue_795152"
+    ]
+  },
+  {
+    "problemName": "Implement Queue using Stack",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/day-25-:-queue-using-stack_799482"
+    ]
+  },
+  {
+    "problemName": "Implement stack using Linkedlist",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/implement-stack-with-linked-list_1279905"
+    ]
+  },
+  {
+    "problemName": "Implement queue using Linkedlist",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/implement-queue-using-linked-list_8161235"
+    ]
+  },
+  {
+    "problemName": "Check for balanced paranthesis",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/valid-parentheses_795104"
+    ]
+  },
+  {
+    "problemName": "Implement Min Stack",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/min-stack_3843991"
+    ]
+  },
+  {
+    "problemName": "Infix to Postfix Conversion using Stack",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/day-23-:-infix-to-postfix-_1382146"
+    ]
+  },
+  {
+    "problemName": "Prefix to Infix Conversion",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/prefix-to-infix_1215000"
+    ]
+  },
+  {
+    "problemName": "Prefix to Postfix Conversion",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/convert-prefix-to-postfix_8391014"
+    ]
+  },
+  {
+    "problemName": "Postfix to Prefix Conversion",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/postfix-to-prefix_1788455"
+    ]
+  },
+  {
+    "problemName": "Postfix to Infix",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/postfix-to-infix_8382386"
+    ]
+  },
+  {
+    "problemName": "Convert Infix To Prefix Notation",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/day-23-:-infix-to-postfix-_1382146"
+    ]
+  },
+  {
+    "problemName": "Next Greater Element",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/next-greater-element_670312"
+    ]
+  },
+  {
+    "problemName": "Next Greater Element 2",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/next-greater-element-ii_6212757"
+    ]
+  },
+  {
+    "problemName": "Next Smaller Element",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/immediate-smaller-element-_1062597"
+    ]
+  },
+  {
+    "problemName": "Number of NGEs to the right",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-of-greater-elements-to-the-right_8365436"
+    ]
+  },
+  {
+    "problemName": "Trapping Rainwater",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/trapping-rain-water_630519"
+    ]
+  },
+  {
+    "problemName": "Sum of subarray minimum",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/sum-of-subarray-minimums_8365431"
+    ]
+  },
+  {
+    "problemName": "Asteroid Collision",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/asteroid-collision_977232"
+    ]
+  },
+  {
+    "problemName": "Sum of subarray ranges",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/subarray-range-sum_8365419"
+    ]
+  },
+  {
+    "problemName": "Remove k Digits",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/remove-k-digits_1461221"
+    ]
+  },
+  {
+    "problemName": "Largest rectangle in a histogram",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/largest-rectangle-in-a-histogram_1058184"
+    ]
+  },
+  {
+    "problemName": "Maximal Rectangles",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/maximum-size-rectangle-sub-matrix-with-all-1's_893017"
+    ]
+  },
+  {
+    "problemName": "Sliding Window maximum",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/sliding-maximum-_701652"
+    ]
+  },
+  {
+    "problemName": "Stock span problem",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/stock-span_5243295"
+    ]
+  },
+  {
+    "problemName": "The Celebrity Problem",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/the-celebrity-problem_982769"
+    ]
+  },
+  {
+    "problemName": "LRU cache (IMPORTANT)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/lru-cache-implementation_670276"
+    ]
+  },
+  {
+    "problemName": "LFU cache",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/lfu-cache_8381892"
+    ]
+  },
+  {
+    "problemName": "Longest Substring Without Repeating Characters",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-substring-without-repeating-characters_630418"
+    ]
+  },
+  {
+    "problemName": "Max Consecutive Ones III",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/maximum-consecutive-ones_892994"
+    ]
+  },
+  {
+    "problemName": "Fruit Into Baskets",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/fruits-and-baskets_985356"
+    ]
+  },
+  {
+    "problemName": "longest repeating character replacement",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-repeating-substring_980523"
+    ]
+  },
+  {
+    "problemName": "Binary subarray with sum",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-substrings-with-k-ones_3128698"
+    ]
+  },
+  {
+    "problemName": "Count number of nice subarrays",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-distinct-subarrays-with-at-most-k-odd-elements_1069335"
+    ]
+  },
+  {
+    "problemName": "Number of substring containing all three characters",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-substring-with-abc_8160465"
+    ]
+  },
+  {
+    "problemName": "Maximum point you can obtain from cards",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/maximum-points-from-cards_8391016"
+    ]
+  },
+  {
+    "problemName": "Longest Substring with At Most K Distinct Characters",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-substring-with-at-most-k-distinct-characters_2221410"
+    ]
+  },
+  {
+    "problemName": "Subarray with k different integers",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/subarrays-with-at-most-%E2%80%98k%E2%80%99-distinct-values_1473804"
+    ]
+  },
+  {
+    "problemName": "Minimum Window Substring",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-window-substring_1215004"
+    ]
+  },
+  {
+    "problemName": "Minimum Window Subsequence",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-window-subsequence_2181133"
+    ]
+  },
+  {
+    "problemName": "Introduction to Priority Queues using Binary Heaps",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/implement-a-priority-queue-_1743878"
+    ]
+  },
+  {
+    "problemName": "Min Heap and Max Heap Implementation",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/min-heap-implementation_5480527"
+    ]
+  },
+  {
+    "problemName": "Check if an array represents a min-heap or not",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/is-heap-possible-from-the-array?_8164274"
+    ]
+  },
+  {
+    "problemName": "Convert min Heap to max Heap",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/convert-min-heap-to-max-heap_1381084"
+    ]
+  },
+  {
+    "problemName": "Kth largest element in an array [use priority queue]",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/k-largest-elements_796005"
+    ]
+  },
+  {
+    "problemName": "Kth smallest element in an array [use priority queue]",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/merge-k-sorted-arrays_975379"
+    ]
+  },
+  {
+    "problemName": "Sort K sorted array",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Merge M sorted Lists",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/merge-k-sorted-lists_992772"
+    ]
+  },
+  {
+    "problemName": "Replace each array element by its corresponding rank",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/replace-each-element-of-array-with-its-corresponding-rank_975384"
+    ]
+  },
+  {
+    "problemName": "Task Scheduler",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/task-scheduler_1070424"
+    ]
+  },
+  {
+    "problemName": "Hands of Straights",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/groups-in-ninja-land._1459215"
+    ]
+  },
+  {
+    "problemName": "Design twitter",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/design-twitter_8380711"
+    ]
+  },
+  {
+    "problemName": "Connect `n` ropes with minimal cost",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/connect-n-ropes-with-minimum-cost_625783"
+    ]
+  },
+  {
+    "problemName": "Kth largest element in a stream of running integers",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/kth-largest-element-in-a-stream_800301"
+    ]
+  },
+  {
+    "problemName": "Maximum Sum Combination",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/median-in-a-stream_975268"
+    ]
+  },
+  {
+    "problemName": "Find Median from Data Stream",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/median-in-a-stream_975268"
+    ]
+  },
+  {
+    "problemName": "K most frequent elements",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/k-most-frequent-elements_3167808"
+    ]
+  },
+  {
+    "problemName": "Assign Cookies",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/assign-cookies_8390826"
+    ]
+  },
+  {
+    "problemName": "Fractional Knapsack Problem",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/fractional-knapsack_975286"
+    ]
+  },
+  {
+    "problemName": "Greedy algorithm to find minimum number of coins",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/find-minimum-number-of-coins_975277"
+    ]
+  },
+  {
+    "problemName": "Lemonade Change",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/lemonade-change_8224112"
+    ]
+  },
+  {
+    "problemName": "Valid Paranthesis Checker",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/balanced-parentheses_8162202"
+    ]
+  },
+  {
+    "problemName": "N meetings in one room",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/maximum-meetings_1062658"
+    ]
+  },
+  {
+    "problemName": "Jump Game",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/jump-game_3164697"
+    ]
+  },
+  {
+    "problemName": "Jump Game 2",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/jump-game_893178"
+    ]
+  },
+  {
+    "problemName": "Minimum number of platforms required for a railway",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-number-of-platforms_799400"
+    ]
+  },
+  {
+    "problemName": "Job sequencing Problem",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/job-sequencing-problem_1169460"
+    ]
+  },
+  {
+    "problemName": "Candy",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/candies_893290"
+    ]
+  },
+  {
+    "problemName": "Program for Shortest Job First (or SJF) CPU Scheduling",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/sjf_1172165"
+    ]
+  },
+  {
+    "problemName": "Program for Least Recently Used (LRU) Page Replacement Algorithm",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Insert Interval",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/-insert-interval_285893"
+    ]
+  },
+  {
+    "problemName": "Merge Intervals",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/merge-intervals_699917"
+    ]
+  },
+  {
+    "problemName": "Non-overlapping Intervals",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/non-overlapping-intervals_3169341"
+    ]
+  },
+  {
+    "problemName": "Introduction to Trees",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/number-of-nodes_8162204"
+    ]
+  },
+  {
+    "problemName": "Binary Tree Representation in C++",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/create-binary-tree_8360671"
+    ]
+  },
+  {
+    "problemName": "Binary Tree Representation in Java",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/create-binary-tree_8360671"
+    ]
+  },
+  {
+    "problemName": "Binary Tree Traversals in Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/tree-traversal_981269"
+    ]
+  },
+  {
+    "problemName": "Preorder Traversal of Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/preorder-binary-tree_5948"
+    ]
+  },
+  {
+    "problemName": "Inorder Traversal of Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/inorder-traversal_3839605"
+    ]
+  },
+  {
+    "problemName": "Post-order Traversal of Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/postorder-traversal_2035933"
+    ]
+  },
+  {
+    "problemName": "Level order Traversal / Level order traversal in spiral form",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/zigzag-binary-tree-traversal_920532"
+    ]
+  },
+  {
+    "problemName": "Iterative Preorder Traversal of Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/preorder-binary-tree_5948"
+    ]
+  },
+  {
+    "problemName": "Iterative Inorder Traversal of Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/inorder-traversal_3839605"
+    ]
+  },
+  {
+    "problemName": "Post-order Traversal of Binary Tree using 2 stack",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/postorder-traversal_2035933"
+    ]
+  },
+  {
+    "problemName": "Post-order Traversal of Binary Tree using 1 stack",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/postorder-traversal_2035933"
+    ]
+  },
+  {
+    "problemName": "Preorder, Inorder, and Postorder Traversal in one Traversal",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/tree-traversals_981269"
+    ]
+  },
+  {
+    "problemName": "Height of a Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/height-of-binary-tree_4609628"
+    ]
+  },
+  {
+    "problemName": "Check if the Binary tree is height-balanced or not",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/is-height-balanced-binary-tree_975497"
+    ]
+  },
+  {
+    "problemName": "Diameter of Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/diameter-of-binary-tree_920552"
+    ]
+  },
+  {
+    "problemName": "Maximum path sum",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/maximum-sum-path-of-a-binary-tree._1214968"
+    ]
+  },
+  {
+    "problemName": "Check if two trees are identical or not",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/check-identical-trees_799364"
+    ]
+  },
+  {
+    "problemName": "Zig Zag Traversal of Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/zigzag-binary-tree-traversal_920532"
+    ]
+  },
+  {
+    "problemName": "Boundary Traversal of Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/boundary-traversal-of-binary-tree_790725"
+    ]
+  },
+  {
+    "problemName": "Vertical Order Traversal of Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/vertical-order-traversal_3622711"
+    ]
+  },
+  {
+    "problemName": "Top View of Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/top-view-of-binary-tree_799401"
+    ]
+  },
+  {
+    "problemName": "Bottom View of Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/bottom-view-of-binary-tree_893110"
+    ]
+  },
+  {
+    "problemName": "Right/Left View of Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/left-view-of-binary-tree_625707"
+    ]
+  },
+  {
+    "problemName": "Symmetric Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/symmetric-tree_981177"
+    ]
+  },
+  {
+    "problemName": "Root to Node Path in Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/all-root-to-leaf-paths-in-binary-tree._983599"
+    ]
+  },
+  {
+    "problemName": "LCA in Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/lca-of-binary-tree_920541"
+    ]
+  },
+  {
+    "problemName": "Maximum width of a Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/maximum-width-in-binary-tree_763671"
+    ]
+  },
+  {
+    "problemName": "Check for Children Sum Property",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/children-sum-property_8357239"
+    ]
+  },
+  {
+    "problemName": "Print all the Nodes at a distance of K in a Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/print-nodes-at-distance-k-from-a-given-node_842560"
+    ]
+  },
+  {
+    "problemName": "Minimum time taken to BURN the Binary Tree from a Node",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/time-to-burn-tree_1469067"
+    ]
+  },
+  {
+    "problemName": "Count total Nodes in a COMPLETE Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/nodes-in-complete-binary-tree_1281151"
+    ]
+  },
+  {
+    "problemName": "Requirements needed to construct a Unique Binary Tree | Theory",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/unique-binary-tree_8180906"
+    ]
+  },
+  {
+    "problemName": "Construct Binary Tree from inorder and preorder",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/construct-binary-tree-from-inorder-and-preorder-traversal_920539"
+    ]
+  },
+  {
+    "problemName": "Construct the Binary Tree from Postorder and Inorder Traversal",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/construct-binary-tree-from-inorder-and-postorder-traversal_1266106"
+    ]
+  },
+  {
+    "problemName": "Serialize and deserialize Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/serialize-and-deserialize-binary-tree_920328"
+    ]
+  },
+  {
+    "problemName": "Morris Preorder Traversal of a Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/preorder-binary-tree_5948"
+    ]
+  },
+  {
+    "problemName": "Morris Inorder Traversal of a Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/inorder-traversal_3839605"
+    ]
+  },
+  {
+    "problemName": "Flatten Binary Tree to LinkedList",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/flatten-binary-tree-to-linked-list_1112615"
+    ]
+  },
+  {
+    "problemName": "Introduction to Binary Search Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/binary-search-trees_8160443"
+    ]
+  },
+  {
+    "problemName": "Search in a Binary Search Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/search-in-bst_1402878"
+    ]
+  },
+  {
+    "problemName": "Find Min/Max in BST",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-element-in-bst_8160462"
+    ]
+  },
+  {
+    "problemName": "Ceil in a Binary Search Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/ceil-from-bst_920464"
+    ]
+  },
+  {
+    "problemName": "Floor in a Binary Search Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/floor-from-bst_625868"
+    ]
+  },
+  {
+    "problemName": "Insert a given Node in Binary Search Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/insert-into-a-binary-search-tree_1279913"
+    ]
+  },
+  {
+    "problemName": "Delete a Node in Binary Search Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/delete-node-in-bst_920381"
+    ]
+  },
+  {
+    "problemName": "Find K-th smallest/largest element in BST",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/kth-smallest-node-in-bst_920441"
+    ]
+  },
+  {
+    "problemName": "Check if a tree is a BST or BT",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/check-bst_5975"
+    ]
+  },
+  {
+    "problemName": "LCA in Binary Search Tree",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Construct a BST from a preorder traversal",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/construct-bst-from-preorder-traversal_2689307"
+    ]
+  },
+  {
+    "problemName": "Inorder Successor/Predecessor in BST",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/predecessor-and-successor-in-bst_893049"
+    ]
+  },
+  {
+    "problemName": "Merge 2 BST's",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/merge-two-bsts_920474"
+    ]
+  },
+  {
+    "problemName": "Two Sum In BST | Check if there exists a pair with Sum K",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/pair-sum-in-bst._920493"
+    ]
+  },
+  {
+    "problemName": "Recover BST | Correct BST with two nodes swapped",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/fix-bst_873137"
+    ]
+  },
+  {
+    "problemName": "Largest BST in Binary Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/size-of-largest-bst-in-binary-tree_893103"
+    ]
+  },
+  {
+    "problemName": "Graph and Types",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/counting-graphs_8357237"
+    ]
+  },
+  {
+    "problemName": "Graph Representation | C++",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/creating-and-printing_1214551"
+    ]
+  },
+  {
+    "problemName": "Graph Representation | Java",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/creating-and-printing_1214551"
+    ]
+  },
+  {
+    "problemName": "Connected Components | Logic Explanation",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/find-the-number-of-states_1377943"
+    ]
+  },
+  {
+    "problemName": "BFS",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/bfs-in-graph_973002"
+    ]
+  },
+  {
+    "problemName": "DFS",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/dfs-traversal_630462"
+    ]
+  },
+  {
+    "problemName": "Number of provinces (leetcode)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/find-the-number-of-states_1377943"
+    ]
+  },
+  {
+    "problemName": "Connected Components Problem in Matrix",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/find-the-number-of-states_1377943"
+    ]
+  },
+  {
+    "problemName": "Rotten Oranges",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/rotting-oranges_701655"
+    ]
+  },
+  {
+    "problemName": "Flood fill",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/flood-fill-_1082141"
+    ]
+  },
+  {
+    "problemName": "Cycle Detection in unirected Graph (bfs)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/detect-cycle-in-an-undirected-graph-_758967"
+    ]
+  },
+  {
+    "problemName": "Cycle Detection in undirected Graph (dfs)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/detect-cycle-in-an-undirected-graph-_758967"
+    ]
+  },
+  {
+    "problemName": "0/1 Matrix (Bfs Problem)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/distance-of-nearest-cell-having-1-in-a-binary-matrix_1169913"
+    ]
+  },
+  {
+    "problemName": "Surrounded Regions (dfs)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/replace-%E2%80%98o%E2%80%99-with-%E2%80%98x%E2%80%99_630517"
+    ]
+  },
+  {
+    "problemName": "Number of Enclaves [flood fill implementation - multisource]",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/matrix-traps_8365440"
+    ]
+  },
+  {
+    "problemName": "Word ladder - 1",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/word-ladder_1102319"
+    ]
+  },
+  {
+    "problemName": "Word ladder - 2",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/shortest-transition-paths_8391015"
+    ]
+  },
+  {
+    "problemName": "Number of Distinct Islands [dfs multisource]",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/distinct-islands_630460"
+    ]
+  },
+  {
+    "problemName": "Bipartite Graph (DFS)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/check-bipartite-graph-_920551"
+    ]
+  },
+  {
+    "problemName": "Cycle Detection in Directed Graph (DFS)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/detect-cycle-in-a-directed-graph-_920545"
+    ]
+  },
+  {
+    "problemName": "Topo Sort",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/topological-sorting_973003"
+    ]
+  },
+  {
+    "problemName": "Kahn's Algorithm",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/topological-sorting_973003"
+    ]
+  },
+  {
+    "problemName": "Cycle Detection in Directed Graph (BFS)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/detect-cycle-in-a-directed-graph_1062626"
+    ]
+  },
+  {
+    "problemName": "Course Schedule - I",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/course-schedule-ii_1069243"
+    ]
+  },
+  {
+    "problemName": "Course Schedule - II",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/course-schedule-ii_1069243"
+    ]
+  },
+  {
+    "problemName": "Find eventual safe states",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/safe-nodes-in-the-graph_1376703"
+    ]
+  },
+  {
+    "problemName": "Alien dictionary",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/alien-dictionary_630423"
+    ]
+  },
+  {
+    "problemName": "Shortest Path in UG with unit weights",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/single-source-shortest-path_8416371"
+    ]
+  },
+  {
+    "problemName": "Shortest Path in DAG",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/shortest-path-in-dag_8381897"
+    ]
+  },
+  {
+    "problemName": "Djisktra's Algorithm",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/dijkstra's-shortest-path_985358"
+    ]
+  },
+  {
+    "problemName": "Why priority Queue is used in Djisktra's Algorithm",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/dijkstra's-shortest-path_985358"
+    ]
+  },
+  {
+    "problemName": "Shortest path in a binary maze",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/shortest-path-in-a-binary-maze_893065"
+    ]
+  },
+  {
+    "problemName": "Path with minimum effort",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/path-with-minimum-effort_1380958"
+    ]
+  },
+  {
+    "problemName": "Cheapest flights within k stops",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/saving-money_1171195"
+    ]
+  },
+  {
+    "problemName": "Network Delay time",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/network-delay-time_1382215"
+    ]
+  },
+  {
+    "problemName": "Number of ways to arrive at destination",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/number-of-ways_8360639"
+    ]
+  },
+  {
+    "problemName": "Minimum steps to reach end from start by performing multiplication and mod operations with array elements",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-operations_8360665"
+    ]
+  },
+  {
+    "problemName": "Bellman Ford Algorithm",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/bellman-ford_2041977"
+    ]
+  },
+  {
+    "problemName": "Floyd Warshal Algorithm",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/floyd-warshall_2041979"
+    ]
+  },
+  {
+    "problemName": "Find the city with the smallest number of neighbors in a threshold distance",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance_1264289"
+    ]
+  },
+  {
+    "problemName": "Minimum Spanning Tree",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-spanning-tree_631769"
+    ]
+  },
+  {
+    "problemName": "Prim's Algorithm",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-spanning-tree_631769"
+    ]
+  },
+  {
+    "problemName": "Disjoint Set [Union by Rank]",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/data-stream-as-disjoint-intervals_1382362"
+    ]
+  },
+  {
+    "problemName": "Disjoint Set [Union by Size]",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/data-stream-as-disjoint-intervals_1382362"
+    ]
+  },
+  {
+    "problemName": "Kruskal's Algorithm",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/kruskal%E2%80%99s-minimum-spanning-tree-algorithm_1082553"
+    ]
+  },
+  {
+    "problemName": "Number of operations to make network connected",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/number-of-operations-to-make-graph-connected._1385179"
+    ]
+  },
+  {
+    "problemName": "Most stones removed with same rows or columns",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/-most-stones-removed-with-same-row-or-column_1376597"
+    ]
+  },
+  {
+    "problemName": "Accounts merge",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/accounts-merge_1089558"
+    ]
+  },
+  {
+    "problemName": "Number of island II",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/largest-island_840701"
+    ]
+  },
+  {
+    "problemName": "Making a Large Island",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/making-the-largest-island_1381282"
+    ]
+  },
+  {
+    "problemName": "Swim in rising water",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-time_8360128"
+    ]
+  },
+  {
+    "problemName": "Bridges in Graph",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/bridges-in-a-graph_893026"
+    ]
+  },
+  {
+    "problemName": "Articulation Point",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/articulation-point_840708"
+    ]
+  },
+  {
+    "problemName": "Kosaraju's Algorithm",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-strongly-connected-components-(kosaraju%E2%80%99s-algorithm)_1171151"
+    ]
+  },
+  {
+    "problemName": "Dynamic Programming Introduction",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/nth-fibonacci-number_74156"
+    ]
+  },
+  {
+    "problemName": "Climbing Stars",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-ways-to-reach-the-n-th-stairs_798650"
+    ]
+  },
+  {
+    "problemName": "Frog Jump(DP-3)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/frog-jump_3621012"
+    ]
+  },
+  {
+    "problemName": "Frog Jump with k distances(DP-4)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimal-cost_8180930"
+    ]
+  },
+  {
+    "problemName": "Maximum sum of non-adjacent elements (DP 5)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/maximum-sum-of-non-adjacent-elements_843261"
+    ]
+  },
+  {
+    "problemName": "House Robber (DP 6)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/house-robber-ii_839733"
+    ]
+  },
+  {
+    "problemName": "Ninja's Training (DP 7)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/ninja%E2%80%99s-training_3621003"
+    ]
+  },
+  {
+    "problemName": "Grid Unique Paths : DP on Grids (DP8)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/unique-paths_1081470"
+    ]
+  },
+  {
+    "problemName": "Grid Unique Paths 2 (DP 9)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/unique-paths-ii_977241"
+    ]
+  },
+  {
+    "problemName": "Minimum path sum in Grid (DP 10)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-path-sum_985349"
+    ]
+  },
+  {
+    "problemName": "Minimum path sum in Triangular Grid (DP 11)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/triangle_1229398"
+    ]
+  },
+  {
+    "problemName": "Minimum/Maximum Falling Path Sum (DP-12)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/maximum-path-sum-in-the-matrix_797998"
+    ]
+  },
+  {
+    "problemName": "3-d DP : Ninja and his friends (DP-13)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/chocolate-pickup_3125885"
+    ]
+  },
+  {
+    "problemName": "Subset sum equal to target (DP- 14)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/subset-sum-equal-to-k_1550954"
+    ]
+  },
+  {
+    "problemName": "Partition Equal Subset Sum (DP- 15)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/partition-equal-subset-sum-_892980"
+    ]
+  },
+  {
+    "problemName": "Partition Set Into 2 Subsets With Min Absolute Sum Diff (DP- 16)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum._842494"
+    ]
+  },
+  {
+    "problemName": "Count Subsets with Sum K (DP - 17)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-subsets-with-sum-k_3952532"
+    ]
+  },
+  {
+    "problemName": "Count Partitions with Given Difference (DP - 18)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/partitions-with-given-difference_3751628"
+    ]
+  },
+  {
+    "problemName": "0/1 Knapsack (DP - 19)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/0-1-knapsack_920542"
+    ]
+  },
+  {
+    "problemName": "Minimum Coins (DP - 20)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-elements_3843091"
+    ]
+  },
+  {
+    "problemName": "Target Sum (DP - 21)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/target-sum_4127362"
+    ]
+  },
+  {
+    "problemName": "Coin Change 2 (DP - 22)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/ways-to-make-coin-change_630471"
+    ]
+  },
+  {
+    "problemName": "Unbounded Knapsack (DP - 23)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/unbounded-knapsack_1215029"
+    ]
+  },
+  {
+    "problemName": "Rod Cutting Problem | (DP - 24)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/rod-cutting-problem_800284"
+    ]
+  },
+  {
+    "problemName": "Longest Common Subsequence | (DP - 25)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-common-subsequence_624879"
+    ]
+  },
+  {
+    "problemName": "Print Longest Common Subsequence | (DP - 26)",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/print-longest-common-subsequence_8416383"
+    ]
+  },
+  {
+    "problemName": "Longest Common Substring | (DP - 27)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-common-substring_1235207"
+    ]
+  },
+  {
+    "problemName": "Longest Palindromic Subsequence | (DP-28)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-palindromic-subsequence_842787"
+    ]
+  },
+  {
+    "problemName": "Minimum insertions to make string palindrome | DP-29",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-insertions-to-make-a-string-palindrome_985293"
+    ]
+  },
+  {
+    "problemName": "Minimum Insertions/Deletions to Convert String | (DP- 30)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-number-of-deletions-and-insertions_4244510"
+    ]
+  },
+  {
+    "problemName": "Shortest Common Supersequence | (DP - 31)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/shortest-common-supersequence_4244493"
+    ]
+  },
+  {
+    "problemName": "Distinct Subsequences| (DP-32)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/subsequence-counting_3755256"
+    ]
+  },
+  {
+    "problemName": "Edit Distance | (DP-33)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/shortest-common-supersequence_4244493"
+    ]
+  },
+  {
+    "problemName": "Wildcard Matching | (DP-34)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/wildcard-pattern-matching_701650"
+    ]
+  },
+  {
+    "problemName": "Best Time to Buy and Sell Stock |(DP-35)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/best-time-to-buy-and-sell-stock_893405"
+    ]
+  },
+  {
+    "problemName": "Buy and Sell Stock - II|(DP-36)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/best-time-to-buy-and-sell-stock-ii_630282"
+    ]
+  },
+  {
+    "problemName": "Buy and Sell Stocks III|(DP-37)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/best-time-to-buy-and-sell-stock-iii_1071012"
+    ]
+  },
+  {
+    "problemName": "Buy and Stock Sell IV |(DP-38)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/best-time-to-buy-and-sell-stock-iv_1080698"
+    ]
+  },
+  {
+    "problemName": "Buy and Sell Stocks With Cooldown|(DP-39)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/best-time-to-buy-and-sell-stock-with-cooldown_3125969"
+    ]
+  },
+  {
+    "problemName": "Buy and Sell Stocks With Transaction Fee|(DP-40)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/best-time-to-buy-and-sell-stock-with-transaction-fee_3118974"
+    ]
+  },
+  {
+    "problemName": "Longest Increasing Subsequence |(DP-41)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-increasing-subsequence_630459"
+    ]
+  },
+  {
+    "problemName": "Printing Longest Increasing Subsequence|(DP-42)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/printing-longest-increasing-subsequence_8360670"
+    ]
+  },
+  {
+    "problemName": "Longest Increasing Subsequence |(DP-43)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-increasing-subsequence_630459"
+    ]
+  },
+  {
+    "problemName": "Largest Divisible Subset|(DP-44)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/divisible-set_3754960"
+    ]
+  },
+  {
+    "problemName": "Longest String Chain|(DP-45)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-string-chain_3752111"
+    ]
+  },
+  {
+    "problemName": "Longest Bitonic Subsequence |(DP-46)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-bitonic-sequence_1062688"
+    ]
+  },
+  {
+    "problemName": "Number of Longest Increasing Subsequences|(DP-47)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/number-of-longest-increasing-subsequence_3751627"
+    ]
+  },
+  {
+    "problemName": "Matrix Chain Multiplication|(DP-48)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/matrix-chain-multiplication_624880"
+    ]
+  },
+  {
+    "problemName": "Matrix Chain Multiplication | Bottom-Up|(DP-49)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/matrix-chain-multiplication_624880"
+    ]
+  },
+  {
+    "problemName": "Minimum Cost to Cut the Stick|(DP-50)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/rod-cutting-problem_800284"
+    ]
+  },
+  {
+    "problemName": "Burst Balloons|(DP-51)",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/burst-balloons_628471"
+    ]
+  },
+  {
+    "problemName": "Evaluate Boolean Expression to True|(DP-52)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/boolean-evaluation_1214650"
+    ]
+  },
+  {
+    "problemName": "Palindrome Partitioning - II|(DP-53)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/palindrome-partitioning-ll_873266"
+    ]
+  },
+  {
+    "problemName": "Partition Array for Maximum Sum|(DP-54)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/partition-array-for-maximum-sum_3755255"
+    ]
+  },
+  {
+    "problemName": "Maximum Rectangle Area with all 1's|(DP-55)",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Count Square Submatrices with All Ones|(DP-56)",
+    "codestudio": [ ]
+  },
+  {
+    "problemName": "Implement TRIE | INSERT | SEARCH | STARTSWITH",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/trie-implementation_1062581"
+    ]
+  },
+  {
+    "problemName": "Implement Trie - 2 (Prefix Tree)",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/trie-delete-operation_1062663"
+    ]
+  },
+  {
+    "problemName": "Longest String with All Prefixes",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-common-prefix_2090383"
+    ]
+  },
+  {
+    "problemName": "Number of Distinct Substrings in a String",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-distinct-substrings_985292"
+    ]
+  },
+  {
+    "problemName": "Bit PreRequisites for TRIE Problems",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/bitwise-basic-operations_8382552"
+    ]
+  },
+  {
+    "problemName": "Maximum XOR of two numbers in an array",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/maximum-xor_3119012"
+    ]
+  },
+  {
+    "problemName": "Maximum XOR With an Element From Array",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/maximum-xor-with-an-element-from-array_1382020"
+    ]
+  },
+  {
+    "problemName": "Minimum number of bracket reversals needed to make an expression balanced",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-cost-to-make-string-valid_1115770"
+    ]
+  },
+  {
+    "problemName": "Count and say",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/look-and-say-sequence_668478"
+    ]
+  },
+  {
+    "problemName": "Hashing In Strings | Theory",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/first-occurence-of-a-pattern-in-a-text_8416393"
+    ]
+  },
+  {
+    "problemName": "Rabin Karp",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/stringmatch-rabincarp_1115738"
+    ]
+  },
+  {
+    "problemName": "Z-Function",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/pattern-searching-using-z-algorithm_8395752"
+    ]
+  },
+  {
+    "problemName": "KMP algo / LPS(pi) array",
+    "codestudio": [
+      "https://www.codingninjas.com/codestudio/problems/search-pattern-kmp-algorithm_8416386"
+    ]
+  },
+  {
+    "problemName": "Shortest Palindrome",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/minimum-characters-for-palindrome_893000"
+    ]
+  },
+  {
+    "problemName": "Longest happy prefix",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/longest-prefix-which-is-suffix_3146849"
+    ]
+  },
+  {
+    "problemName": "Count palindromic subsequence in given string",
+    "codestudio": [
+      "https://www.codingninjas.com/studio/problems/count-palindromic-subsequences_1062696"
+    ]
+  }
+]

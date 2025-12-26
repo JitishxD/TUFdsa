@@ -97,7 +97,9 @@ const A2ZProblemCard = ({
         </button>
 
         {/* Resource Links */}
-        {(a2zProblem.leetCodeLink ||
+        {(a2zProblem.gfgLink ||
+          a2zProblem.codestudioLink ||
+          a2zProblem.leetCodeLink ||
           a2zProblem.ytLink ||
           (a2zProblem.resourceLinks &&
             a2zProblem.resourceLinks.length > 0)) && (
@@ -106,6 +108,28 @@ const A2ZProblemCard = ({
               Resources:
             </p>
             <div className="flex flex-wrap gap-2">
+              {a2zProblem.codestudioLink && (
+                <a
+                  href={a2zProblem.codestudioLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1 bg-[#2b2b33] hover:bg-purple-900 text-purple-300 px-3 py-1.5 rounded-lg transition text-xs font-medium"
+                >
+                  <span>💻</span> CodeStudio
+                </a>
+              )}
+
+              {a2zProblem.gfgLink && (
+                <a
+                  href={a2zProblem.gfgLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1 bg-[#2b2b33] hover:bg-yellow-900 text-yellow-300 px-3 py-1.5 rounded-lg transition text-xs font-medium"
+                >
+                  <span>🌐</span> GeeksforGeeks
+                </a>
+              )}
+
               {a2zProblem.leetCodeLink && (
                 <a
                   href={a2zProblem.leetCodeLink}

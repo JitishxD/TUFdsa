@@ -1,0 +1,4725 @@
+[
+  {
+    "problemName": "User Input / Output",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/EAR7De6Goz4?t=250"
+    ],
+    "gfgLink": []
+  },
+  {
+    "problemName": "Data Types",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/EAR7De6Goz4?t=757"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Dqmgvx"
+    ]
+  },
+  {
+    "problemName": "If Else statements",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/EAR7De6Goz4?t=1258"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/java-if-else-decision-making0924/0?category%5B%5D=Java&category%5B%5D=Java&difficulty%5B%5D=-2&page=1&query=category%5B%5DJavadifficulty%5B%5D-2page1category%5B%5DJava"
+    ]
+  },
+  {
+    "problemName": "Switch Statement",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/EAR7De6Goz4?t=2110"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/java-switch-case-statement3529/1"
+    ]
+  },
+  {
+    "problemName": "What are arrays, strings?",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/EAR7De6Goz4?t=2410"
+    ],
+    "gfgLink": []
+  },
+  {
+    "problemName": "For loops",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/EAR7De6Goz4?t=3092"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/for-loop-primecheck-java/1"
+    ]
+  },
+  {
+    "problemName": "While loops",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/EAR7De6Goz4?t=3459"
+    ],
+    "gfgLink": []
+  },
+  {
+    "problemName": "Functions (Pass by Reference and Value)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/EAR7De6Goz4?t=3678"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3DqE0ac"
+    ]
+  },
+  {
+    "problemName": "Time Complexity [Learn Basics, and then analyse in next Steps]",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/FPu9Uld7W-E"
+    ],
+    "gfgLink": []
+  },
+  {
+    "problemName": "Patterns",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=tNm_NNSB3_w&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=3"
+    ],
+    "gfgLink": []
+  },
+  {
+    "problemName": "Java Collections or C++ STL",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=RRVYpIET_RU"
+    ],
+    "gfgLink": []
+  },
+  {
+    "problemName": "Count Digits",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/1xNbjMdbjug?t=588"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/count-digits5716/1"
+    ]
+  },
+  {
+    "problemName": "Reverse a Number",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/reverse-integer/"
+    ],
+    "ytLink": [
+      "https://youtu.be/1xNbjMdbjug?t=931"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/reverse-bits3556/1"
+    ]
+  },
+  {
+    "problemName": "Check Palindrome",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/palindrome-number/"
+    ],
+    "ytLink": [
+      "https://youtu.be/1xNbjMdbjug?t=1235"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/palindrome0746/1"
+    ]
+  },
+  {
+    "problemName": "GCD Or HCF",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/1xNbjMdbjug?t=2688"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/lcm-and-gcd4516/1"
+    ]
+  },
+  {
+    "problemName": "Armstrong Numbers",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/armstrong-number/"
+    ],
+    "ytLink": [
+      "https://youtu.be/1xNbjMdbjug?t=1423"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/armstrong-numbers2727/1"
+    ]
+  },
+  {
+    "problemName": "Print all Divisors",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/1xNbjMdbjug?t=1580"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/sum-of-all-divisors-from-1-to-n4738/1"
+    ]
+  },
+  {
+    "problemName": "Check for Prime",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/1xNbjMdbjug?t=2385"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1"
+    ]
+  },
+  {
+    "problemName": "Understand recursion by print something N times",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=yVdKa8dnKiE&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3K2epHv"
+    ]
+  },
+  {
+    "problemName": "Print name N times using recursion",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=un6PLygfXrA&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=2"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3y2BiWz"
+    ]
+  },
+  {
+    "problemName": "Print 1 to N using recursion",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=un6PLygfXrA&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=2"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3w3qhDh"
+    ]
+  },
+  {
+    "problemName": "Print N to 1 using recursion",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=un6PLygfXrA&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=2"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3LOkcBn"
+    ]
+  },
+  {
+    "problemName": "Sum of first N numbers",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=69ZCDFy-OUo&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=3"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3C9KZ8G"
+    ]
+  },
+  {
+    "problemName": "Factorial of N numbers",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=69ZCDFy-OUo&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=3"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QugUVo"
+    ]
+  },
+  {
+    "problemName": "Reverse an array",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=twuC1F6gLI8&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3SRqzXU"
+    ]
+  },
+  {
+    "problemName": "Check if a string is palindrome or not",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/valid-palindrome/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=twuC1F6gLI8&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3w2G4T5"
+    ]
+  },
+  {
+    "problemName": "Fibonacci Number",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/fibonacci-number/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=kvRjNm4rVBE&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=5"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QUkkk2"
+    ]
+  },
+  {
+    "problemName": "Hashing Theory",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=KEs5UyBJ39g&t=1394s",
+      "https://www.youtube.com/watch?v=KEs5UyBJ39g&t=1394s"
+    ],
+    "gfgLink": []
+  },
+  {
+    "problemName": "Counting frequencies of array elements",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/0"
+    ]
+  },
+  {
+    "problemName": "Find the highest/lowest frequency element",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1"
+    ]
+  },
+  {
+    "problemName": "Selection Sort",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/HGk_ypEuS24?t=166"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3ppA6YJ"
+    ]
+  },
+  {
+    "problemName": "Bubble Sort",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/HGk_ypEuS24?t=1061"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3w6yQx8"
+    ]
+  },
+  {
+    "problemName": "Insertion Sort",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/HGk_ypEuS24?t=1901"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3JVcqot"
+    ]
+  },
+  {
+    "problemName": "Merge Sort",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/ogjf7ORKfd8"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3A30Anw"
+    ]
+  },
+  {
+    "problemName": "Recursive Bubble Sort",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QV65vI"
+    ]
+  },
+  {
+    "problemName": "Recursive Insertion Sort",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3PxAWx1"
+    ]
+  },
+  {
+    "problemName": "Quick Sort",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/WIrA4YexLRQ"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dsEbIK"
+    ]
+  },
+  {
+    "problemName": "Largest Element in an Array",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/37E9ckMDdTk?t=527"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Pld280"
+    ]
+  },
+  {
+    "problemName": "Second Largest Element in an Array without sorting",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/37E9ckMDdTk?t=811"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3pFvBcN"
+    ]
+  },
+  {
+    "problemName": "Check if the array is sorted",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/#:~:text=Input%3A%20nums%20%3D%20%5B2%2C,no%20rotation)%20to%20make%20nums."
+    ],
+    "ytLink": [
+      "https://youtu.be/37E9ckMDdTk?t=1723"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Ap9U6F"
+    ]
+  },
+  {
+    "problemName": "Remove duplicates from Sorted array",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/remove-duplicates-from-sorted-array/#:~:text=Input%3A%20nums%20%3D%20%5B0%2C,%2C%203%2C%20and%204%20respectively."
+    ],
+    "ytLink": [
+      "https://youtu.be/37E9ckMDdTk?t=1886"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3w7b6ck"
+    ]
+  },
+  {
+    "problemName": "Left Rotate an array by one place",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/rotate-array/"
+    ],
+    "ytLink": [
+      "https://youtu.be/wvcQg43_V8U?t=61"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dnn9vC"
+    ]
+  },
+  {
+    "problemName": "Left rotate an array by D places",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/rotate-array/"
+    ],
+    "ytLink": [
+      "https://youtu.be/wvcQg43_V8U?t=485"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dyCKZg"
+    ]
+  },
+  {
+    "problemName": "Move Zeros to end",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/move-zeroes/"
+    ],
+    "ytLink": [
+      "https://youtu.be/wvcQg43_V8U?t=1633"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PrGIjT"
+    ]
+  },
+  {
+    "problemName": "Linear Search",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/wvcQg43_V8U?t=2465"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3KcpHcB"
+    ]
+  },
+  {
+    "problemName": "Find the Union and intersection of two sorted arrays",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/wvcQg43_V8U?t=2584"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Ap7Onp"
+    ]
+  },
+  {
+    "problemName": "Find missing number in an array",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/missing-number/"
+    ],
+    "ytLink": [
+      "https://youtu.be/bYWLJb3vCWY?t=58"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3A2pKTh"
+    ]
+  },
+  {
+    "problemName": "Maximum Consecutive Ones",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/max-consecutive-ones/"
+    ],
+    "ytLink": [
+      "https://youtu.be/bYWLJb3vCWY?t=1124"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3piuaAN"
+    ]
+  },
+  {
+    "problemName": "Find the number that appears once, and other numbers twice.",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/single-number/"
+    ],
+    "ytLink": [
+      "https://youtu.be/bYWLJb3vCWY?t=1369"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dudCD8"
+    ]
+  },
+  {
+    "problemName": "Longest subarray with given sum(Positives)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/frf7qxiN2qU"
+    ],
+    "gfgLink": []
+  },
+  {
+    "problemName": "Longest subarray with given sum(Positives + Negatives)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/frf7qxiN2qU"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dyZdp3"
+    ]
+  },
+  {
+    "problemName": "2Sum Problem",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/two-sum/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=UXDSeD9mN-k&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=19"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3SVYU8f"
+    ]
+  },
+  {
+    "problemName": "Sort an array of 0’s 1’s and 2’s",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/sort-colors/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=tp8JIuCXBaU&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=20"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dsROaZ"
+    ]
+  },
+  {
+    "problemName": "Majority Element (>n/2 times)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/majority-element/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=nP_ns3uSh80&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=21"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3SSpeA3"
+    ]
+  },
+  {
+    "problemName": "Kadane’s Algorithm, maximum subarray sum",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/maximum-subarray/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=AHZpyENo7k4&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=22"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dzyloY"
+    ]
+  },
+  {
+    "problemName": "Print the subarray with maximum sum",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=AHZpyENo7k4&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=22"
+    ],
+    "gfgLink": []
+  },
+  {
+    "problemName": "Stock Buy and Sell",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=excAOvwF_Wk&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=23"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Qrx6H9"
+    ]
+  },
+  {
+    "problemName": "Rearrange the array in alternating positive and negative items",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/rearrange-array-elements-by-sign/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=h4aBagy4Uok&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=24"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Qr3sSs"
+    ]
+  },
+  {
+    "problemName": "Next Permutation",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/next-permutation/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=JDOXKqF60RQ&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=25"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dug78u"
+    ]
+  },
+  {
+    "problemName": "Leaders in an Array problem",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=cHrH9CQ8pmY&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=26"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3bZqbGc"
+    ]
+  },
+  {
+    "problemName": "Longest Consecutive Sequence in an Array",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/longest-consecutive-sequence/solution/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=oO5uLE7EUlM&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=28"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3ApytAD"
+    ]
+  },
+  {
+    "problemName": "Set Matrix Zeros",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/set-matrix-zeroes/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=N0MgLvceX7M&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=28"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3SVaSig"
+    ]
+  },
+  {
+    "problemName": "Rotate Matrix by 90 degrees",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/rotate-image/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=Z0R2u6gd3GU&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=29"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PqpeV8"
+    ]
+  },
+  {
+    "problemName": "Print the matrix in spiral manner",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/spiral-matrix/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=3Zv-s9UUrFM&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=30"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3ppEJ53"
+    ]
+  },
+  {
+    "problemName": "Find number of subarrays with sum K",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/subarray-sum-equals-k/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=xvNwoz-ufXA&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=31"
+    ],
+    "gfgLink": [
+      "http://bit.ly/3Kn10eZ"
+    ]
+  },
+  {
+    "problemName": "Pascal’s Triangle",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/pascals-triangle/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=bR7mQgwQ_o8&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=32"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3C95qlR"
+    ]
+  },
+  {
+    "problemName": "Majority Element (n/3 times)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/majority-element-ii/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=vwZj1K0e9U8&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=33"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3ULsluv"
+    ]
+  },
+  {
+    "problemName": "3-Sum Problem",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/3sum/"
+    ],
+    "ytLink": [
+      "https://youtu.be/onLoX6Nhvmg"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3C9uTvQ"
+    ]
+  },
+  {
+    "problemName": "4-Sum Problem",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/4sum/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=eD95WRfh81c&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=35"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3psQR53"
+    ]
+  },
+  {
+    "problemName": "Count number of subarrays with given xor K",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=eZr-6p0B7ME&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=36"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PrvhZs"
+    ]
+  },
+  {
+    "problemName": "Merge Overlapping Subintervals",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/merge-intervals/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=IexN60k62jo&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=37"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3zRz904"
+    ]
+  },
+  {
+    "problemName": "Merge two sorted arrays without extra space",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/merge-sorted-array/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=n7uwj04E0I4&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=38"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3zRzmAo"
+    ]
+  },
+  {
+    "problemName": "Find the repeating and missing number",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=5nMGY4VUoRY&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=3"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3zWZoCs"
+    ]
+  },
+  {
+    "problemName": "Count Inversions",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/AseUmwVNaoY"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PtLWLM"
+    ]
+  },
+  {
+    "problemName": "Reverse Pairs",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/reverse-pairs/"
+    ],
+    "ytLink": [
+      "https://youtu.be/0e4bZaP3MDI"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3UVC0hE"
+    ]
+  },
+  {
+    "problemName": "Maximum Product Subarray",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/maximum-product-subarray/"
+    ],
+    "ytLink": [
+      "https://youtu.be/hnswaLJvr6g"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PrlQsU"
+    ]
+  },
+  {
+    "problemName": "Binary Search to find X in sorted array",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-search/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QtKBpO"
+    ]
+  },
+  {
+    "problemName": "Implement Lower Bound",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Cf398N"
+    ]
+  },
+  {
+    "problemName": "Implement Upper Bound",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3CgDDjE"
+    ]
+  },
+  {
+    "problemName": "Search Insert Position",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/search-insert-position/#:~:text=Search%20Insert%20Position%20%2D%20LeetCode&text=Given%20a%20sorted%20array%20of,(log%20n)%20runtime%20complexity."
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3pFDbUN"
+    ]
+  },
+  {
+    "problemName": "Floor/Ceil in Sorted Array",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": []
+  },
+  {
+    "problemName": "Find the first or last occurrence of a given number in a sorted array",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QuCFEP"
+    ]
+  },
+  {
+    "problemName": "Count occurrences of a number in a sorted array with duplicates",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SVcOqW"
+    ]
+  },
+  {
+    "problemName": "Find peak element",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks."
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Apsuf3"
+    ]
+  },
+  {
+    "problemName": "Search in Rotated Sorted Array I",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=r3pMQ8-Ad5s&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=64"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QH471y"
+    ]
+  },
+  {
+    "problemName": "Search in Rotated Sorted Array II",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Rm85Nb"
+    ]
+  },
+  {
+    "problemName": "Find minimum in Rotated Sorted Array",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Az1OJ3"
+    ]
+  },
+  {
+    "problemName": "Find out how many times has an array been rotated",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3dEvWJD"
+    ]
+  },
+  {
+    "problemName": "Single element in a Sorted Array",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/single-element-in-a-sorted-array/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3AllLTj"
+    ]
+  },
+  {
+    "problemName": "Find the row with maximum number of 1’s",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QNDw2W"
+    ]
+  },
+  {
+    "problemName": "Search in a 2 D matrix",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/search-a-2d-matrix/"
+    ],
+    "ytLink": [
+      "https://youtu.be/ZYpYur0znng"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dAwi3Z"
+    ]
+  },
+  {
+    "problemName": "Find Peak Element",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/find-a-peak-element-ii/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3A3mBmf"
+    ]
+  },
+  {
+    "problemName": "Matrix Median",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=63fPPOdIr2c&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=62"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PvwuPk"
+    ]
+  },
+  {
+    "problemName": "Find square root of a number in log n",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=WjpswYrS2nY&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=62"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3JXtGcE"
+    ]
+  },
+  {
+    "problemName": "Find the Nth root of a number using binary search",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3zWNyrL"
+    ]
+  },
+  {
+    "problemName": "Koko Eating Bananas",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/koko-eating-bananas/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3LSY491"
+    ]
+  },
+  {
+    "problemName": "Minimum days to make M bouquets",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3CJ9Ezm"
+    ]
+  },
+  {
+    "problemName": "Find the smallest Divisor",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SJogFR"
+    ]
+  },
+  {
+    "problemName": "Capacity to Ship Packages within D Days",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3PBInmS"
+    ]
+  },
+  {
+    "problemName": "Median of two sorted arrays",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=NTop3VTjmxk&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=65"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3K1HwL4"
+    ]
+  },
+  {
+    "problemName": "Aggressive Cows",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=wSOfYesTBRk&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=70"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3rBuE5Z"
+    ]
+  },
+  {
+    "problemName": "Book Allocation Problem",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=gYmWHvRHu-s&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=69"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QMrMxP"
+    ]
+  },
+  {
+    "problemName": "Split array - Largest Sum",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/split-array-largest-sum/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Qx0RGs"
+    ]
+  },
+  {
+    "problemName": "Kth Missing Positive Number",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/kth-missing-positive-number/#:~:text=Given%20an%20array%20arr%20of,13%2C...%5D."
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3bUFY9l"
+    ]
+  },
+  {
+    "problemName": "Minimize Max Distance to Gas Station",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/minimize-max-distance-to-gas-station/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3s40ybG"
+    ]
+  },
+  {
+    "problemName": "Median of 2 sorted arrays",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=NTop3VTjmxk&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=65"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QPi7Xp"
+    ]
+  },
+  {
+    "problemName": "Kth element of 2 sorted arrays",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=nv7F4PiLUzo&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=66"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Amcomr"
+    ]
+  },
+  {
+    "problemName": "Remove outermost Paranthesis",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/remove-outermost-parentheses/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3rzwRix"
+    ]
+  },
+  {
+    "problemName": "Reverse words in a given string / Palindrome Check",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/reverse-words-in-a-string/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SXyWB4"
+    ]
+  },
+  {
+    "problemName": "Largest odd number in a string",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/largest-odd-number-in-string/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3UII5yp"
+    ]
+  },
+  {
+    "problemName": "Longest Common Prefix",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/longest-common-prefix/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QKCyVu"
+    ]
+  },
+  {
+    "problemName": "Isomorphic String",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/isomorphic-strings/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QwynwI"
+    ]
+  },
+  {
+    "problemName": "check whether one string is a rotation of another",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/rotate-string/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3K0HHq5"
+    ]
+  },
+  {
+    "problemName": "Check if two strings are anagram of each other",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/valid-anagram/#:~:text=Given%20two%20strings%20s%20and,the%20original%20letters%20exactly%20once.&text=Constraints%3A,.length%20%3C%3D%205%20*%2010"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SkMyoX"
+    ]
+  },
+  {
+    "problemName": "Sort Characters by frequency",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/sort-characters-by-frequency/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3dEQp1d"
+    ]
+  },
+  {
+    "problemName": "Maximum Nesting Depth of Paranthesis",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3xYlR1F"
+    ]
+  },
+  {
+    "problemName": "Roman Number to Integer and vice versa",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/roman-to-integer/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3AqBlNv"
+    ]
+  },
+  {
+    "problemName": "Implement Atoi",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/string-to-integer-atoi/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QUHBmf"
+    ]
+  },
+  {
+    "problemName": "Count Number of Substrings",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3CfQfYi"
+    ]
+  },
+  {
+    "problemName": "Longest Palindromic Substring[Do it without DP]",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/longest-palindromic-substring/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3CeQ27D"
+    ]
+  },
+  {
+    "problemName": "Sum of Beauty of all substring",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3LRh089"
+    ]
+  },
+  {
+    "problemName": "Reverse Every Word in A String",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/reverse-words-in-a-string/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Ul0iSq"
+    ]
+  },
+  {
+    "problemName": "Introduction to LinkedList, learn about struct, and how is node represented",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3URZnst"
+    ]
+  },
+  {
+    "problemName": "Inserting a node in LinkedList",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3w9pEIt"
+    ]
+  },
+  {
+    "problemName": "Deleting a node in LinkedList",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/delete-node-in-a-linked-list/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Apg5aX"
+    ]
+  },
+  {
+    "problemName": "Find the length of the linkedlist [learn traversal]",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Po7tpf"
+    ]
+  },
+  {
+    "problemName": "Search an element in the LL",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Epriup"
+    ]
+  },
+  {
+    "problemName": "Introduction to DLL, learn about struct, and how is node represented",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3V9wY1v"
+    ]
+  },
+  {
+    "problemName": "Insert a node in DLL",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QD4hHs"
+    ]
+  },
+  {
+    "problemName": "Delete a node in DLL",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QlEoMx"
+    ]
+  },
+  {
+    "problemName": "Reverse a DLL",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3w6hUaa"
+    ]
+  },
+  {
+    "problemName": "Middle of a LinkedList [TortoiseHare Method]",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/middle-of-the-linked-list/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=sGdwSH8RK-o&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=28"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dAjkn1"
+    ]
+  },
+  {
+    "problemName": "Reverse a LinkedList [Iterative]",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/reverse-linked-list/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=iRtLEoL-r-g&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=27"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3zY03mT"
+    ]
+  },
+  {
+    "problemName": "Reverse a LL [Recursive]",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/reverse-linked-list/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=iRtLEoL-r-g&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=27"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3zY03mT"
+    ]
+  },
+  {
+    "problemName": "Detect a loop in LL",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/linked-list-cycle/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=354J83hX7RI&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=34"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QN8PLn"
+    ]
+  },
+  {
+    "problemName": "Find the starting point in LL",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/linked-list-cycle-ii/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=QfbOhn0WZ88&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=37"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3zuBr66"
+    ]
+  },
+  {
+    "problemName": "Length of Loop in LL",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3dyXL6m"
+    ]
+  },
+  {
+    "problemName": "Check if LL is palindrome or not",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/palindrome-linked-list/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=-DtNInqFUXs&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=36"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3JVrnXJ"
+    ]
+  },
+  {
+    "problemName": "Segrregate odd and even nodes in LL",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/odd-even-linked-list/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3A3aeqe"
+    ]
+  },
+  {
+    "problemName": "Remove Nth node from the back of the LL",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=Lhu3MsXZy-Q&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=30"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3pobNKM"
+    ]
+  },
+  {
+    "problemName": "Delete the middle node of LL",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/#:~:text=You%20are%20given%20the%20head,than%20or%20equal%20to%20x%20."
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QzoU7W"
+    ]
+  },
+  {
+    "problemName": "Sort LL",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/sort-list/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3dDuLdO"
+    ]
+  },
+  {
+    "problemName": "Sort a LL of 0’s 1’s and 2’s by changing links",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Ceotvr"
+    ]
+  },
+  {
+    "problemName": "Find the intersection point of Y LL",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/intersection-of-two-linked-lists/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=u4FWXfgS8jw&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=33"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3pl5R4W"
+    ]
+  },
+  {
+    "problemName": "Add 1 to a number represented by LL",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3piCTD3"
+    ]
+  },
+  {
+    "problemName": "Add 2 numbers in LL",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/add-two-numbers/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=LBVsXSMOIk4&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=32"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3JZlGb7"
+    ]
+  },
+  {
+    "problemName": "Delete all occurrences of a key in DLL",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3zuBr66"
+    ]
+  },
+  {
+    "problemName": "Find pairs with given sum in DLL",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3zWPiBj"
+    ]
+  },
+  {
+    "problemName": "Remove duplicates from sorted DLL",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3FtJUtZ"
+    ]
+  },
+  {
+    "problemName": "Reverse LL in group of given size K",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/reverse-nodes-in-k-group/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=Of0HPkk3JgI&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=34"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3zWPiBj"
+    ]
+  },
+  {
+    "problemName": "Rotate a LL",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/rotate-list/description/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=9VPm6nEbVPA&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=39"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3JXvemY"
+    ]
+  },
+  {
+    "problemName": "Flattening of LL",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=ysytSSXpAI0&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=38"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3w9TKf8"
+    ]
+  },
+  {
+    "problemName": "Clone a Linked List with random and next pointer",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/copy-list-with-random-pointer/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=VNf6VynfpdM"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PpM6np"
+    ]
+  },
+  {
+    "problemName": "Recursive Implementation of atoi()",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/string-to-integer-atoi/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3K4ySLV"
+    ]
+  },
+  {
+    "problemName": "Pow(x, n)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/powx-n/"
+    ],
+    "ytLink": [
+      "https://youtu.be/l0YC3876qxg"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QLc6uD"
+    ]
+  },
+  {
+    "problemName": "Count Good numbers",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/count-good-numbers/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3w6SucH"
+    ]
+  },
+  {
+    "problemName": "Sort a stack using recursion",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Pu0YBn"
+    ]
+  },
+  {
+    "problemName": "Reverse a stack using recursion",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3podAiY"
+    ]
+  },
+  {
+    "problemName": "Generate all binary strings",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3sI8I9W"
+    ]
+  },
+  {
+    "problemName": "Generate Paranthesis",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/generate-parentheses/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3K5keUw"
+    ]
+  },
+  {
+    "problemName": "Print all subsequences/Power Set",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/subsets/"
+    ],
+    "ytLink": [
+      "https://youtu.be/b7AYbpM5YrE"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3STXz1t"
+    ]
+  },
+  {
+    "problemName": "Learn All Patterns of Subsequences (Theory)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=eQCS_v3bw0Q&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=7"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3US225G"
+    ]
+  },
+  {
+    "problemName": "Count all subsequences with sum K",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SVf1me"
+    ]
+  },
+  {
+    "problemName": "Check if there exists a subsequence with sum K",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SVf1me"
+    ]
+  },
+  {
+    "problemName": "Combination Sum",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/combination-sum/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=OyZFFqQtu98&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=49"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3C9bJ91"
+    ]
+  },
+  {
+    "problemName": "Combination Sum-II",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/combination-sum-ii/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=G1fRTGRxXU8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=50"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3VgczZ2"
+    ]
+  },
+  {
+    "problemName": "Subset Sum-I",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=rYkfBRtMJr8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=52"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3C9GQRS"
+    ]
+  },
+  {
+    "problemName": "Subset Sum-II",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/subsets-ii/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=RIn3gOkbhQE&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=53"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3MlAvWF"
+    ]
+  },
+  {
+    "problemName": "Combination Sum - III",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/combination-sum-iii/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3CMZFul"
+    ]
+  },
+  {
+    "problemName": "Letter Combinations of a Phone number",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3K1INBO"
+    ]
+  },
+  {
+    "problemName": "Palindrome Partitioning",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/palindrome-partitioning/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=WBgsABoClE0&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=51"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3T63roP"
+    ]
+  },
+  {
+    "problemName": "Word Search",
+    "leetCodeLink": [
+      "http://localhost:5501/Scrapper/TUFScrape/data-structure/word-search-leetcode/",
+      "https://leetcode.com/problems/word-search/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Ca9xOL"
+    ]
+  },
+  {
+    "problemName": "N Queen",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/n-queens/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=i05Ju7AftcM&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=57"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QurLP8"
+    ]
+  },
+  {
+    "problemName": "Rat in a Maze",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=bLGZhJlt4y0&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=60"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3pkqK0g"
+    ]
+  },
+  {
+    "problemName": "Word Break",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/word-break/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Bqk0Ug"
+    ]
+  },
+  {
+    "problemName": "M Coloring Problem",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=wuVwUK25Rfc&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=59"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Cepqnv"
+    ]
+  },
+  {
+    "problemName": "Sudoko Solver",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/sudoku-solver/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=FWAIf_EVUKE&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=58"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PrA5hs"
+    ]
+  },
+  {
+    "problemName": "Expression Add Operators",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/expression-add-operators/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3yPPZN3"
+    ]
+  },
+  {
+    "problemName": "Introduction to Bit Manipulation [Theory]",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Eo8JVW"
+    ]
+  },
+  {
+    "problemName": "Check if the i-th bit is set or not",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3C0kAJR"
+    ]
+  },
+  {
+    "problemName": "Check if a number is odd or not",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3xDMLvF"
+    ]
+  },
+  {
+    "problemName": "Check if a number is power of 2 or not",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/power-of-two/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3R1ZPlq"
+    ]
+  },
+  {
+    "problemName": "Count the number of set bits",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SbiBZ2"
+    ]
+  },
+  {
+    "problemName": "Set/Unset the rightmost unset bit",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Sq66IM"
+    ]
+  },
+  {
+    "problemName": "Swap two numbers",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3qVixAz"
+    ]
+  },
+  {
+    "problemName": "Divide two integers without using multiplication, division and mod operator",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/divide-two-integers/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3LyUL6Q"
+    ]
+  },
+  {
+    "problemName": "Count number of bits to be flipped to convert A to B",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Skharj"
+    ]
+  },
+  {
+    "problemName": "Find the number that appears odd number of times",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/single-number/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3BEb9ya"
+    ]
+  },
+  {
+    "problemName": "Power Set",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/subsets/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=b7AYbpM5YrE&t=232s"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3fdHg04"
+    ]
+  },
+  {
+    "problemName": "Fnd xor of numbers from L to R",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3T8xUCf"
+    ]
+  },
+  {
+    "problemName": "Find the two numbers appearing odd number of times",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3DK7O3i"
+    ]
+  },
+  {
+    "problemName": "Print Prime Factors of a Number",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3C165p8"
+    ]
+  },
+  {
+    "problemName": "All Divisors of a Number",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/all-divisors-of-a-number/1"
+    ]
+  },
+  {
+    "problemName": "Sieve of Eratosthenes",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/count-primes/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3fduYVT"
+    ]
+  },
+  {
+    "problemName": "Find Prime Factorisation of a Number using Sieve",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SPGzbK"
+    ]
+  },
+  {
+    "problemName": "Power(n, x)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/powx-n/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1"
+    ]
+  },
+  {
+    "problemName": "Implement Stack using Arrays",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=GYptUgnIM_I&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=68"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QPJ39w"
+    ]
+  },
+  {
+    "problemName": "Implement Queue using Arrays",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=M6GnoUDpqEE&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=72"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3C9HLli"
+    ]
+  },
+  {
+    "problemName": "Implement Stack using Queue",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/implement-stack-using-queues/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=jDZQKzEtbYQ&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=74"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PrRI0F"
+    ]
+  },
+  {
+    "problemName": "Implement Queue using Stack",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/implement-queue-using-stacks/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=3Et9MrMc02A&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=75"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Quthki"
+    ]
+  },
+  {
+    "problemName": "Implement stack using Linkedlist",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3w6PwVv"
+    ]
+  },
+  {
+    "problemName": "Implement queue using Linkedlist",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3PA7mY0"
+    ]
+  },
+  {
+    "problemName": "Check for balanced paranthesis",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/valid-parentheses/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=wkDfsKijrZ8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=74"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3An2IIo"
+    ]
+  },
+  {
+    "problemName": "Implement Min Stack",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/min-stack/"
+    ],
+    "ytLink": [
+      "https://youtu.be/V09NfaGf2ao"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3JVhFoe"
+    ]
+  },
+  {
+    "problemName": "Infix to Postfix Conversion using Stack",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3JWYj1P"
+    ]
+  },
+  {
+    "problemName": "Prefix to Infix Conversion",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3FwxK3j"
+    ]
+  },
+  {
+    "problemName": "Prefix to Postfix Conversion",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3DrwCLI"
+    ]
+  },
+  {
+    "problemName": "Postfix to Prefix Conversion",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3UaWJxk"
+    ]
+  },
+  {
+    "problemName": "Postfix to Infix",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3sNZ1a2"
+    ]
+  },
+  {
+    "problemName": "Convert Infix To Prefix Notation",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3T0gZ4P"
+    ]
+  },
+  {
+    "problemName": "Next Greater Element",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/next-greater-element-i/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=Du881K7Jtk8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=75"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QNPQAs"
+    ]
+  },
+  {
+    "problemName": "Next Greater Element 2",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/next-greater-element-ii/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3DLe7TX"
+    ]
+  },
+  {
+    "problemName": "Next Smaller Element",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3wbhcIL"
+    ]
+  },
+  {
+    "problemName": "Number of NGEs to the right",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Np2R2H"
+    ]
+  },
+  {
+    "problemName": "Trapping Rainwater",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/trapping-rain-water/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=m18Hntz4go8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=42"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3AqMa1W"
+    ]
+  },
+  {
+    "problemName": "Sum of subarray minimum",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/sum-of-subarray-minimums/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3yS5XpZ"
+    ]
+  },
+  {
+    "problemName": "Stock span problem",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/online-stock-span/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3dzHopW"
+    ]
+  },
+  {
+    "problemName": "Asteroid Collision",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/asteroid-collision/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Tpi0Tw"
+    ]
+  },
+  {
+    "problemName": "Sum of subarray ranges",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/sum-of-subarray-ranges/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SdfheS"
+    ]
+  },
+  {
+    "problemName": "Remove k Digits",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/remove-k-digits/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3pl6taP"
+    ]
+  },
+  {
+    "problemName": "Largest rectangle in a histogram",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=X0X6G-eWgQ8&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=81"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3AnVYd5"
+    ]
+  },
+  {
+    "problemName": "Maximal Rectangles",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/maximal-rectangle/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3C6BF5p"
+    ]
+  },
+  {
+    "problemName": "Sliding Window maximum",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/sliding-window-maximum/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=CZQGRp93K4k&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=83"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3w7SSri"
+    ]
+  },
+  {
+    "problemName": "Stock Span Problem",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/online-stock-span/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SSxcZZ"
+    ]
+  },
+  {
+    "problemName": "The Celebrity Problem",
+    "leetCodeLink": [
+      "https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3dC9IIB"
+    ]
+  },
+  {
+    "problemName": "Rotten Oranges",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/rotting-oranges/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=yf3oUhkvqA0"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3R4htWb"
+    ]
+  },
+  {
+    "problemName": "LRU cache (IMPORTANT)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/lru-cache/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=xDEuM5qa0zg&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=77"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3zZneNN"
+    ]
+  },
+  {
+    "problemName": "LFU cache",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/lfu-cache/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=0PSB9y8ehbk&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=79"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3fpYDLQ"
+    ]
+  },
+  {
+    "problemName": "Longest Substring Without Repeating Characters",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=qtVh-XEpsJo&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=26"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3wegomm"
+    ]
+  },
+  {
+    "problemName": "Max Consecutive Ones III",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/max-consecutive-ones-iii/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3RjRcCO"
+    ]
+  },
+  {
+    "problemName": "Fruit Into Baskets",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3D6d94w"
+    ]
+  },
+  {
+    "problemName": "longest repeating character replacement",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/longest-repeating-character-replacement/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3WhN89U"
+    ]
+  },
+  {
+    "problemName": "Binary subarray with sum",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-subarrays-with-sum/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3S8xsCG"
+    ]
+  },
+  {
+    "problemName": "Count number of nice subarrays",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/count-number-of-nice-subarrays/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3xZvUUc"
+    ]
+  },
+  {
+    "problemName": "Number of substring containing all three characters",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3xVYTZa"
+    ]
+  },
+  {
+    "problemName": "Maximum point you can obtain from cards",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3DxaMXw"
+    ]
+  },
+  {
+    "problemName": "Longest Substring with At Most K Distinct Characters",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3T12HRu"
+    ]
+  },
+  {
+    "problemName": "Subarray with k different integers",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/subarrays-with-k-different-integers/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3DLRtee"
+    ]
+  },
+  {
+    "problemName": "Minimum Window Substring",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/minimum-window-substring/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1"
+    ]
+  },
+  {
+    "problemName": "Minimum Window Subsequence",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/minimum-window-subsequence/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3DnB4uZ"
+    ]
+  },
+  {
+    "problemName": "Introduction to Priority Queues using Binary Heaps",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3TSxAHd"
+    ]
+  },
+  {
+    "problemName": "Min Heap and Max Heap Implementation",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3weGgP3"
+    ]
+  },
+  {
+    "problemName": "Check if an array represents a min-heap or not",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3AbFrrI"
+    ]
+  },
+  {
+    "problemName": "Convert min Heap to max Heap",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3flmw7c"
+    ]
+  },
+  {
+    "problemName": "Kth largest element in an array [use priority queue]",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Avss5k"
+    ]
+  },
+  {
+    "problemName": "Kth smallest element in an array [use priority queue]",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3PvAOhK"
+    ]
+  },
+  {
+    "problemName": "Sort K sorted array",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QLpaAs"
+    ]
+  },
+  {
+    "problemName": "Merge M sorted Lists",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/merge-k-sorted-lists/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QObTXC"
+    ]
+  },
+  {
+    "problemName": "Replace each array element by its corresponding rank",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3TS3jcg"
+    ]
+  },
+  {
+    "problemName": "Task Scheduler",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/task-scheduler/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3h2Z92Z"
+    ]
+  },
+  {
+    "problemName": "Hands of Straights",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/hand-of-straights/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SUfwM8"
+    ]
+  },
+  {
+    "problemName": "Design twitter",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/design-twitter/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/design-twitter/1"
+    ]
+  },
+  {
+    "problemName": "Connect `n` ropes with minimal cost",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3t5CS7r"
+    ]
+  },
+  {
+    "problemName": "Kth largest element in a stream of running integers",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/kth-largest-element-in-a-stream/#:~:text=Implement%20KthLargest%20class%3A,largest%20element%20in%20the%20stream."
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3JZPqEV"
+    ]
+  },
+  {
+    "problemName": "Maximum Sum Combination",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3sSXvTT"
+    ]
+  },
+  {
+    "problemName": "Find Median from Data Stream",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/find-median-from-data-stream/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3QIknj4"
+    ]
+  },
+  {
+    "problemName": "K most frequent elements",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/top-k-frequent-elements/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3wcIHla"
+    ]
+  },
+  {
+    "problemName": "Assign Cookies",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/assign-cookies/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Wl3PBd"
+    ]
+  },
+  {
+    "problemName": "Fractional Knapsack Problem",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=F_DDzYnxO14&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=49"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PsqOFL"
+    ]
+  },
+  {
+    "problemName": "Greedy algorithm to find minimum number of coins",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=mVg9CfJvayM&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=48"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Ka7xYU"
+    ]
+  },
+  {
+    "problemName": "Lemonade Change",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/lemonade-change/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3DoFGRx"
+    ]
+  },
+  {
+    "problemName": "Valid Paranthesis Checker",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/valid-parenthesis-string/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3K6ulZA"
+    ]
+  },
+  {
+    "problemName": "N meetings in one room",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=II6ziNnub1Q&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=45"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3A6Ob1Y"
+    ]
+  },
+  {
+    "problemName": "Jump Game",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/jump-game/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3AbFYKe"
+    ]
+  },
+  {
+    "problemName": "Jump Game 2",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/jump-game-ii/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3Av2ezM"
+    ]
+  },
+  {
+    "problemName": "Minimum number of platforms required for a railway",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=dxVcMDI7vyI&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=46"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3bXX5Hm"
+    ]
+  },
+  {
+    "problemName": "Job sequencing Problem",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=LjPx4wQaRIs&list=PLgUwDviBIf0p4ozDR_kJJkONnb1wdx2Ma&index=47"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Pttpzj"
+    ]
+  },
+  {
+    "problemName": "Candy",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/candy/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3h14wzm"
+    ]
+  },
+  {
+    "problemName": "Program for Shortest Job First (or SJF) CPU Scheduling",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3DYCIFb"
+    ]
+  },
+  {
+    "problemName": "Program for Least Recently Used (LRU) Page Replacement Algorithm",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3dtFqHG"
+    ]
+  },
+  {
+    "problemName": "Insert Interval",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/insert-interval/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3VeNtc1"
+    ]
+  },
+  {
+    "problemName": "Merge Intervals",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/merge-intervals/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=2JzRBPFYbKE&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=6"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3K6pRlt"
+    ]
+  },
+  {
+    "problemName": "Non-overlapping Intervals",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/non-overlapping-intervals/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3UM6liN"
+    ]
+  },
+  {
+    "problemName": "Introduction to Trees",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/_ANrF3FJm7I"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3EsRmTM"
+    ]
+  },
+  {
+    "problemName": "Binary Tree Representation in C++",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/ctCpP0RFDFc"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3gn5Soh"
+    ]
+  },
+  {
+    "problemName": "Binary Tree Representation in Java",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/hyLyW7rP24I"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3gn5Soh"
+    ]
+  },
+  {
+    "problemName": "Binary Tree Traversals in Binary Tree",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/jmy0LaGET1I"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Cb4VIh"
+    ]
+  },
+  {
+    "problemName": "Preorder Traversal of Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/RlUu72JrOCQ"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Cb4VIh"
+    ]
+  },
+  {
+    "problemName": "Inorder Traversal of Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/Z_NEgBgbRVI"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QzNDbU"
+    ]
+  },
+  {
+    "problemName": "Post-order Traversal of Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/COQOU6klsBg"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3SZauQ4"
+    ]
+  },
+  {
+    "problemName": "Level order Traversal / Level order traversal in spiral form",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/EoAsWbO7sqg"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3K6t9VR"
+    ]
+  },
+  {
+    "problemName": "Iterative Preorder Traversal of Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/Bfqd8BsPVuw"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Cb4VIh"
+    ]
+  },
+  {
+    "problemName": "Iterative Inorder Traversal of Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/lxTGsVXjwvM"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QzNDbU"
+    ]
+  },
+  {
+    "problemName": "Post-order Traversal of Binary Tree using 2 stack",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/2YBhNLodD8Q"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Cb5Wjz"
+    ]
+  },
+  {
+    "problemName": "Post-order Traversal of Binary Tree using 1 stack",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/NzIGLLwZBS8"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3SZauQ4"
+    ]
+  },
+  {
+    "problemName": "Preorder, Inorder, and Postorder Traversal in one Traversal",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/ySp2epYvgTE"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3T3oW9M",
+      "https://bit.ly/3T3oW9M",
+      "https://bit.ly/3T3oW9M"
+    ]
+  },
+  {
+    "problemName": "Height of a Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/eD3tmO66aBA"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3CitiDM"
+    ]
+  },
+  {
+    "problemName": "Check if the Binary tree is height-balanced or not",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/balanced-binary-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/Yt50Jfbd8Po"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3K9YbfB"
+    ]
+  },
+  {
+    "problemName": "Diameter of Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/diameter-of-binary-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/Rezetez59Nk"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3wcfG9l"
+    ]
+  },
+  {
+    "problemName": "Maximum path sum",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+    ],
+    "ytLink": [
+      "https://youtu.be/WszrfSwMz58"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QAFjbW"
+    ]
+  },
+  {
+    "problemName": "Check if two trees are identical or not",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/same-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/BhuvF_-PWS0"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3c2K52Z"
+    ]
+  },
+  {
+    "problemName": "Zig Zag Traversal of Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/3OXWEdlIGl4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3K4mwn5"
+    ]
+  },
+  {
+    "problemName": "Boundary Traversal of Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/boundary-of-binary-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/0ca1nvR0be4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3AsfgOK"
+    ]
+  },
+  {
+    "problemName": "Vertical Order Traversal of Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/q_a6lpbKJdw"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3pqu1er"
+    ]
+  },
+  {
+    "problemName": "Top View of Binary Tree",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/Et9OCDNvJ78"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PsvE5T"
+    ]
+  },
+  {
+    "problemName": "Bottom View of Binary Tree",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/0FtVY6I4pB8"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Asftl0"
+    ]
+  },
+  {
+    "problemName": "Right/Left View of Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-right-side-view/"
+    ],
+    "ytLink": [
+      "https://youtu.be/KV4mRzTjlAk"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PCqyE9"
+    ]
+  },
+  {
+    "problemName": "Symmetric Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/symmetric-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/nKggiEpBE"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PCqBzP"
+    ]
+  },
+  {
+    "problemName": "Root to Node Path in Binary Tree",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/fmflMqVOC7k"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QA600D"
+    ]
+  },
+  {
+    "problemName": "LCA in Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/_-QHfMDde90"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3popvgG"
+    ]
+  },
+  {
+    "problemName": "Maximum width of a Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/maximum-width-of-binary-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/ZbybYvcVLks"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dxUfZP"
+    ]
+  },
+  {
+    "problemName": "Check for Children Sum Property",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/fnmisPM6cVo"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dEr73g"
+    ]
+  },
+  {
+    "problemName": "Print all the Nodes at a distance of K in a Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/i9ORlEy6EsI"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QytIu6"
+    ]
+  },
+  {
+    "problemName": "Minimum time taken to BURN the Binary Tree from a Node",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/2r5wLmQfD6g",
+      "https://www.codingninjas.com/codestudio/problems/time-to-burn-tree_630563?source=youtube&campaign=Striver_Tree_Videos"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3wcg7k1"
+    ]
+  },
+  {
+    "problemName": "Count total Nodes in a COMPLETE Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/count-complete-tree-nodes/"
+    ],
+    "ytLink": [
+      "https://youtu.be/u-yWemKGWO0"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3EoPFXM"
+    ]
+  },
+  {
+    "problemName": "Requirements needed to construct a Unique Binary Tree | Theory",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/9GMECGQgWrQ"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3UVCR1U"
+    ]
+  },
+  {
+    "problemName": "Construct Binary Tree from inorder and preorder",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/aZNaLrVebKQ"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3AoZ4N5"
+    ]
+  },
+  {
+    "problemName": "Construct the Binary Tree from Postorder and Inorder Traversal",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/LgLRTaEMRVc"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3wbFiTI"
+    ]
+  },
+  {
+    "problemName": "Serialize and deserialize Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/-YbXySKJsX8"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PqPDSE"
+    ]
+  },
+  {
+    "problemName": "Morris Preorder Traversal of a Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/80Zug6D1_r4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3EORTB9"
+    ]
+  },
+  {
+    "problemName": "Morris Inorder Traversal of a Binary Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/80Zug6D1_r4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3tJQiGk"
+    ]
+  },
+  {
+    "problemName": "Flatten Binary Tree to LinkedList",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/"
+    ],
+    "ytLink": [
+      "https://youtu.be/sWf7k1x9XR4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PFzwko"
+    ]
+  },
+  {
+    "problemName": "Introduction to Binary Search Tree",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/p7-9UvDQZ3w"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3gprRLk"
+    ]
+  },
+  {
+    "problemName": "Search in a Binary Search Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/search-in-a-binary-search-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/KcNt6v_56cc"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Bwj68U"
+    ]
+  },
+  {
+    "problemName": "Find Min/Max in BST",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3f9XkzZ"
+    ]
+  },
+  {
+    "problemName": "Ceil in a Binary Search Tree",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/KSsk8AhdOZA"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3BULqTJ"
+    ]
+  },
+  {
+    "problemName": "Floor in a Binary Search Tree",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/xm_W1ub-K-w"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3TSbXXE"
+    ]
+  },
+  {
+    "problemName": "Insert a given Node in Binary Search Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/insert-into-a-binary-search-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/FiFiNvM29ps"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3SoX3aH"
+    ]
+  },
+  {
+    "problemName": "Delete a Node in Binary Search Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/delete-node-in-a-bst/"
+    ],
+    "ytLink": [
+      "https://youtu.be/kouxiP_H5WE"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dwYsxi"
+    ]
+  },
+  {
+    "problemName": "Find K-th smallest/largest element in BST",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+    ],
+    "ytLink": [
+      "https://youtu.be/9TJYWh0adfk"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3LxFMdo"
+    ]
+  },
+  {
+    "problemName": "Check if a tree is a BST or BT",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/validate-binary-search-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/f-sj7I5oXEI"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3poHDqN"
+    ]
+  },
+  {
+    "problemName": "LCA in Binary Search Tree",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/cX_kPV_foZc"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3qRwTC1"
+    ]
+  },
+  {
+    "problemName": "Construct a BST from a preorder traversal",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/"
+    ],
+    "ytLink": [
+      "https://youtu.be/UmJT3j26t1I"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3BSI1Un"
+    ]
+  },
+  {
+    "problemName": "Inorder Successor/Predecessor in BST",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/inorder-successor-in-bst/"
+    ],
+    "ytLink": [
+      "https://youtu.be/SXKAD2svfmI"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1"
+    ]
+  },
+  {
+    "problemName": "Merge 2 BST’s",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/binary-search-tree-iterator/"
+    ],
+    "ytLink": [
+      "https://youtu.be/D2jMcmxU4bs"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3qWZrtS"
+    ]
+  },
+  {
+    "problemName": "Two Sum In BST | Check if there exists a pair with Sum K",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/"
+    ],
+    "ytLink": [
+      "https://youtu.be/ssL3sHwPeb4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3BUyCg6"
+    ]
+  },
+  {
+    "problemName": "Recover BST | Correct BST with two nodes swapped",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/recover-binary-search-tree/"
+    ],
+    "ytLink": [
+      "https://youtu.be/ZWGW7FminDM"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PBJwea"
+    ]
+  },
+  {
+    "problemName": "Largest BST in Binary Tree",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/X0oXMdtUDwo"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3LxECPd"
+    ]
+  },
+  {
+    "problemName": "Graph and Types",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/M3_pLsDdeuU"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3gpY19t"
+    ]
+  },
+  {
+    "problemName": "Graph Representation | C++",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/3oI-34aPMWM"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dGuwyv"
+    ]
+  },
+  {
+    "problemName": "Graph Representation | Java",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/3oI-34aPMWM"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dGuwyv"
+    ]
+  },
+  {
+    "problemName": "Connected Components | Logic Explanation",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/lea-Wl_uWXY"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3AxzhDG"
+    ]
+  },
+  {
+    "problemName": "BFS",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/-tgVpUgsQ5k"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1"
+    ]
+  },
+  {
+    "problemName": "DFS",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/Qzf1a--rhp8"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1"
+    ]
+  },
+  {
+    "problemName": "Number of provinces (leetcode)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/number-of-provinces/#:~:text=A%20province%20is%20a%20group,the%20total%20number%20of%20provinces."
+    ],
+    "ytLink": [
+      "https://youtu.be/ACzkVtewUYA"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/number-of-provinces/1"
+    ]
+  },
+  {
+    "problemName": "Connected Components Problem in Matrix",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3AxzhDG"
+    ]
+  },
+  {
+    "problemName": "Rotten Oranges",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/rotting-oranges/"
+    ],
+    "ytLink": [
+      "https://youtu.be/yf3oUhkvqA0"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1"
+    ]
+  },
+  {
+    "problemName": "Flood fill",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/flood-fill/"
+    ],
+    "ytLink": [
+      "https://youtu.be/C-2_uSRli8o"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/flood-fill-algorithm1856/1"
+    ]
+  },
+  {
+    "problemName": "Cycle Detection in unirected Graph (bfs)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/BPlrALf1LDU"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1"
+    ]
+  },
+  {
+    "problemName": "Cycle Detection in undirected Graph (dfs)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/zQ3zgFypzX4"
+    ],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1"
+    ]
+  },
+  {
+    "problemName": "0/1 Matrix (Bfs Problem)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/01-matrix/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=edXdVwkYHF8"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Lw8Emp"
+    ]
+  },
+  {
+    "problemName": "Surrounded Regions (dfs)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/surrounded-regions/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=BtdgAys4yMk"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3T3oDLR"
+    ]
+  },
+  {
+    "problemName": "Number of Enclaves [flood fill implementation - multisource]",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/number-of-enclaves/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=rxKcepXQgU4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3LA59uX"
+    ]
+  },
+  {
+    "problemName": "Word ladder - 1",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/word-ladder/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3BE8tke"
+    ]
+  },
+  {
+    "problemName": "Word ladder - 2",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/word-ladder-ii/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3fdDxzC"
+    ]
+  },
+  {
+    "problemName": "Number of Distinct Islands [dfs multisource]",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/number-of-distinct-islands-ii/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://practice.geeksforgeeks.org/problems/number-of-distinct-islands/1"
+    ]
+  },
+  {
+    "problemName": "Bipartite Graph (DFS)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/is-graph-bipartite/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=KG5YFfR0j8A"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QZN2jf"
+    ]
+  },
+  {
+    "problemName": "Cycle Detection in Directed Graph (DFS)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/course-schedule-ii/discuss/293048/detecting-cycle-in-directed-graph-problem"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3S01qt8"
+    ]
+  },
+  {
+    "problemName": "Topo Sort",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=5lZ0iJMrUMk&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=21"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3S02dKC"
+    ]
+  },
+  {
+    "problemName": "Kahn’s Algorithm",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=73sneFXuTEg&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=22"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3c690mm"
+    ]
+  },
+  {
+    "problemName": "Cycle Detection in Directed Graph (BFS)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=iTBaI90lpDQ&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=23"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3DK3elS"
+    ]
+  },
+  {
+    "problemName": "Course Schedule - I",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/course-schedule/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=WAOfKpxYHR8&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=24"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3SpUd5m"
+    ]
+  },
+  {
+    "problemName": "Course Schedule - II",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/course-schedule-ii/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=WAOfKpxYHR8&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=24"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3w8ZBBl"
+    ]
+  },
+  {
+    "problemName": "Find eventual safe states",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/find-eventual-safe-states/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=2gtg3VsDGyc&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=25"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3S6TE0w"
+    ]
+  },
+  {
+    "problemName": "Alien dictionary",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/alien-dictionary/solution/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=U3N_je7tWAs&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=26"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3LwfXdP"
+    ]
+  },
+  {
+    "problemName": "Shortest Path in UG with unit weights",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=C4gxoTaI71U&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=28"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3UVQD4C"
+    ]
+  },
+  {
+    "problemName": "Shortest Path in DAG",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=ZUFQfFaU-8U&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=27"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Eo1mhq"
+    ]
+  },
+  {
+    "problemName": "Djisktra’s Algorithm",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=rp1SMw7HSO8&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=35"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3UsjnST"
+    ]
+  },
+  {
+    "problemName": "Why priority Queue is used in Djisktra’s Algorithm",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=V6H1qAeB-l4&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=32"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3UsjnST"
+    ]
+  },
+  {
+    "problemName": "Shortest path in a binary maze",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/shortest-path-in-binary-matrix/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=U5Mw4eyUmw4&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=36"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3ArrkzD"
+    ]
+  },
+  {
+    "problemName": "Path with minimum effort",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/path-with-minimum-effort/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=0ytpZyiZFhA&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=37"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3OpIfbh"
+    ]
+  },
+  {
+    "problemName": "Cheapest flights within k stops",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/cheapest-flights-within-k-stops/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=9XybHVqTHcQ&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=38"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3OnPWi4"
+    ]
+  },
+  {
+    "problemName": "Network Delay time",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/network-delay-time/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3pr6ObZ"
+    ]
+  },
+  {
+    "problemName": "Number of ways to arrive at destination",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=_-0mx0SmYxA&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=40"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Soi85j-arrive-at-destination/1"
+    ]
+  },
+  {
+    "problemName": "Minimum steps to reach end from start by performing multiplication and mod operations with array elements",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=_BvEJ3VIDWw&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=39"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QAEsrY"
+    ]
+  },
+  {
+    "problemName": "Bellman Ford Algorithm",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=0vVofAhAYjc&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=41"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3C0SxKs"
+    ]
+  },
+  {
+    "problemName": "Floyd Warshal Algorithm",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=YbY8cVwWAvw&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=42"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3LwgdJP"
+    ]
+  },
+  {
+    "problemName": "Find the city with the smallest number of neighbors in a threshold distance",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/"
+    ],
+    "ytLink": [
+      "https://youtu.be/PwMVNSJ5SLI"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Lwr5Y4"
+    ]
+  },
+  {
+    "problemName": "Minimum Spanning Tree",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=ZSPjZuZWCME&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=43"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3R2Xhn1"
+    ]
+  },
+  {
+    "problemName": "Prim’s Algorithm",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=mJcZjjKzeqk&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=44"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3R2Xhn1"
+    ]
+  },
+  {
+    "problemName": "Disjoint Set [Union by Rank]",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/aBxjDBC4M1U"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QSGvHz"
+    ]
+  },
+  {
+    "problemName": "Disjoint Set [Union by Size]",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/aBxjDBC4M1U"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QSGvHz"
+    ]
+  },
+  {
+    "problemName": "Kruskal’s Algorithm",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/DMnDM_sxVig"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3R2Xhn1"
+    ]
+  },
+  {
+    "problemName": "Number of operations to make network connected",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/number-of-operations-to-make-network-connected/"
+    ],
+    "ytLink": [
+      "https://youtu.be/FYrl7iz9_ZU"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Esuzrd"
+    ]
+  },
+  {
+    "problemName": "Most stones removed with same rows or columns",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/"
+    ],
+    "ytLink": [
+      "https://youtu.be/OwMNX8SPavM"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Ep4Tfo"
+    ]
+  },
+  {
+    "problemName": "Accounts merge",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/accounts-merge/"
+    ],
+    "ytLink": [
+      "https://youtu.be/FMwpt_aQOGw"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3C03qMi"
+    ]
+  },
+  {
+    "problemName": "Number of island II",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/number-of-islands-ii/"
+    ],
+    "ytLink": [
+      "https://youtu.be/Rn6B-Q4SNyA"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3A7BofH"
+    ]
+  },
+  {
+    "problemName": "Making a Large Island",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/making-a-large-island/"
+    ],
+    "ytLink": [
+      "https://youtu.be/lgiz0Oup6gM"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3i1yOmk"
+    ]
+  },
+  {
+    "problemName": "Swim in rising water",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/swim-in-rising-water/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3VftZ7i"
+    ]
+  },
+  {
+    "problemName": "Bridges in Graph",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/critical-connections-in-a-network/discuss/382385/find-bridges-in-a-graph"
+    ],
+    "ytLink": [
+      "https://youtu.be/qrAub5z8FeA"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3dFdvVe"
+    ]
+  },
+  {
+    "problemName": "Articulation Point",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/j1QDfU21iZk"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3T2LPKu"
+    ]
+  },
+  {
+    "problemName": "Kosaraju’s Algorithm",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/R6uoSjZ2imo"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3TbvByL"
+    ]
+  },
+  {
+    "problemName": "Dynamic Programming Introduction",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/tyB0ztf0DNY"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3UWkWrS"
+    ]
+  },
+  {
+    "problemName": "Climbing Stars",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/climbing-stairs/"
+    ],
+    "ytLink": [
+      "https://youtu.be/mLfjzJsN8us"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3DLrBQ2"
+    ]
+  },
+  {
+    "problemName": "Frog Jump(DP-3)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=EgG3jsGoPvQ"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Xn0Kkw"
+    ]
+  },
+  {
+    "problemName": "Frog Jump with k distances(DP-4)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=Kmh3rhyEtB8"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3GyNRya"
+    ]
+  },
+  {
+    "problemName": "Maximum sum of non-adjacent elements (DP 5)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=GrMBfJNk_NY"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QOMRs1"
+    ]
+  },
+  {
+    "problemName": "House Robber (DP 6)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=3WaxQMELSkw"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QCCpDQ"
+    ]
+  },
+  {
+    "problemName": "Ninja’s Training (DP 7)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=AE39gJYuRog"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3glc9kp"
+    ]
+  },
+  {
+    "problemName": "Grid Unique Paths : DP on Grids (DP8)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/unique-paths/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=sdE0A2Oxofw"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3BsNkJO"
+    ]
+  },
+  {
+    "problemName": "Grid Unique Paths 2 (DP 9)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/unique-paths-ii/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=TmhpgXScLyY"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3tNYlBU"
+    ]
+  },
+  {
+    "problemName": "Minimum path sum in Grid (DP 10)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/minimum-path-sum/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=_rgTlyky1uQ"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3c1H9Uf"
+    ]
+  },
+  {
+    "problemName": "Minimum path sum in Triangular Grid (DP 11)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/triangle/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=SrP-PiLSYC0"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3VaQIkI"
+    ]
+  },
+  {
+    "problemName": "Minimum/Maximum Falling Path Sum (DP-12)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/minimum-falling-path-sum/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=N_aJ5qQbYA0"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3PwqvtO"
+    ]
+  },
+  {
+    "problemName": "3-d DP : Ninja and his friends (DP-13)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=QGfn7JeXK54"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3U9k6XT"
+    ]
+  },
+  {
+    "problemName": "Subset sum equal to target (DP- 14)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=fWX9xDmIzRI"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3S6ljPd"
+    ]
+  },
+  {
+    "problemName": "Partition Equal Subset Sum (DP- 15)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/partition-equal-subset-sum/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=7win3dcgo3k"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3E14123"
+    ]
+  },
+  {
+    "problemName": "Partition Set Into 2 Subsets With Min Absolute Sum Diff (DP- 16)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=GS_OqZb2CWc"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3S6uVtg"
+    ]
+  },
+  {
+    "problemName": "Count Subsets with Sum K (DP – 17)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=ZHyb-A2Mte4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3AwVr8I"
+    ]
+  },
+  {
+    "problemName": "Count Partitions with Given Difference (DP – 18)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=zoilQD1kYSg"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3gkAM0s"
+    ]
+  },
+  {
+    "problemName": "0/1 Knapsack (DP – 19)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=GqOmJHQZivw"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3BZTjXT"
+    ]
+  },
+  {
+    "problemName": "Minimum Coins (DP – 20)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/coin-change/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=myPeWb3Y68A"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3UG0egq"
+    ]
+  },
+  {
+    "problemName": "Target Sum (DP – 21)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/target-sum/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=b3GD8263-PQ"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3BxB2jr"
+    ]
+  },
+  {
+    "problemName": "Coin Change 2 (DP – 22)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/coin-change-2/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=HgyouUi11zk"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3SZJWOl"
+    ]
+  },
+  {
+    "problemName": "Unbounded Knapsack (DP – 23)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/OgvOZ6OrJoY"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Cbc5fz"
+    ]
+  },
+  {
+    "problemName": "Rod Cutting Problem | (DP – 24)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/mO8XpGoJwuo"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3R1TXZh"
+    ]
+  },
+  {
+    "problemName": "Longest Common Subsequence | (DP – 25)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/longest-common-subsequence/"
+    ],
+    "ytLink": [
+      "https://youtu.be/NPZn9jBrX8U"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3f6eDlE"
+    ]
+  },
+  {
+    "problemName": "Print Longest Common Subsequence | (DP – 26)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/-zI4mrF2Pb4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3T1Va4U"
+    ]
+  },
+  {
+    "problemName": "Longest Common Substring | (DP – 27)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/_wP9mWNPL5w"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3qYUeBK"
+    ]
+  },
+  {
+    "problemName": "Longest Palindromic Subsequence | (DP-28)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/longest-palindromic-subsequence/"
+    ],
+    "ytLink": [
+      "https://youtu.be/6i_T5kkfv4A"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3SndYdP"
+    ]
+  },
+  {
+    "problemName": "Minimum insertions to make string palindrome | DP-29",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=xPBLEj41rFU"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3S6ekWx"
+    ]
+  },
+  {
+    "problemName": "Minimum Insertions/Deletions to Convert String | (DP- 30)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/delete-operation-for-two-strings/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=yMnH0jrir0Q"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3UwoktW"
+    ]
+  },
+  {
+    "problemName": "Shortest Common Supersequence | (DP – 31)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/shortest-common-supersequence/"
+    ],
+    "ytLink": [
+      "https://youtu.be/xElxAuBcvsU"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3R8AIxc"
+    ]
+  },
+  {
+    "problemName": "Distinct Subsequences| (DP-32)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/distinct-subsequences/"
+    ],
+    "ytLink": [
+      "https://youtu.be/nVG7eTiD2bY"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Lz0Wry"
+    ]
+  },
+  {
+    "problemName": "Edit Distance | (DP-33)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/edit-distance/"
+    ],
+    "ytLink": [
+      "https://youtu.be/fJaKO8FbDdo"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3qZueWY"
+    ]
+  },
+  {
+    "problemName": "Wildcard Matching | (DP-34)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/wildcard-matching/"
+    ],
+    "ytLink": [
+      "https://youtu.be/ZmlQ3vgAOMo"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3R2Zfnp"
+    ]
+  },
+  {
+    "problemName": "Best Time to Buy and Sell Stock |(DP-35)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+    ],
+    "ytLink": [
+      "https://youtu.be/excAOvwF_Wk"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3xI7ajb"
+    ]
+  },
+  {
+    "problemName": "Buy and Sell Stock – II|(DP-36)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/"
+    ],
+    "ytLink": [
+      "https://youtu.be/nGJmxkUJQGs"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3gkV5en"
+    ]
+  },
+  {
+    "problemName": "Buy and Sell Stocks III|(DP-37)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/"
+    ],
+    "ytLink": [
+      "https://youtu.be/-uQGzhYj8BQ"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3qZaYZs"
+    ]
+  },
+  {
+    "problemName": "Buy and Stock Sell IV |(DP-38)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/"
+    ],
+    "ytLink": [
+      "https://youtu.be/IV1dHbk5CDc"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3SpU1TE"
+    ]
+  },
+  {
+    "problemName": "Buy and Sell Stocks With Cooldown|(DP-39)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/"
+    ],
+    "ytLink": [
+      "https://youtu.be/IGIe46xw3YY"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3GycvyA"
+    ]
+  },
+  {
+    "problemName": "Buy and Sell Stocks With Transaction Fee|(DP-40)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/"
+    ],
+    "ytLink": [
+      "https://youtu.be/k4eK-vEmnKg"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3AwUkpe"
+    ]
+  },
+  {
+    "problemName": "Longest Increasing Subsequence |(DP-41)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/longest-increasing-subsequence/"
+    ],
+    "ytLink": [
+      "https://youtu.be/ekcwMsSIzVc"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3eYunab"
+    ]
+  },
+  {
+    "problemName": "Printing Longest Increasing Subsequence|(DP-42)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/IFfYfonAFGc"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3XiRbmG"
+    ]
+  },
+  {
+    "problemName": "Longest Increasing Subsequence |(DP-43)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/on2hvxBXJH4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Pxf84L"
+    ]
+  },
+  {
+    "problemName": "Largest Divisible Subset|(DP-44)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/largest-divisible-subset/"
+    ],
+    "ytLink": [
+      "https://youtu.be/gDuZwBW9VvM"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3hYsWKC"
+    ]
+  },
+  {
+    "problemName": "Longest String Chain|(DP-45)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/longest-string-chain/"
+    ],
+    "ytLink": [
+      "https://youtu.be/YY8iBaYcc4g"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3TSqOkS"
+    ]
+  },
+  {
+    "problemName": "Longest Bitonic Subsequence |(DP-46)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/y4vN0WNdrlg"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3BARIGF"
+    ]
+  },
+  {
+    "problemName": "Number of Longest Increasing Subsequences|(DP-47)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/number-of-longest-increasing-subsequence/"
+    ],
+    "ytLink": [
+      "https://youtu.be/cKVl1TFdNXg"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3EohD60"
+    ]
+  },
+  {
+    "problemName": "Matrix Chain Multiplication|(DP-48)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/vRVfmbCFW7Y"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Cgg36D"
+    ]
+  },
+  {
+    "problemName": "Matrix Chain Multiplication | Bottom-Up|(DP-49)",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/pDCXsbAw5Cg"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Cgg36D"
+    ]
+  },
+  {
+    "problemName": "Minimum Cost to Cut the Stick|(DP-50)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/"
+    ],
+    "ytLink": [
+      "https://youtu.be/xwomavsC86c"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3K3ItCE"
+    ]
+  },
+  {
+    "problemName": "Burst Balloons|(DP-51)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/burst-balloons/"
+    ],
+    "ytLink": [
+      "https://youtu.be/Yz4LlDSlkns"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3A9LdKp"
+    ]
+  },
+  {
+    "problemName": "Evaluate Boolean Expression to True|(DP-52)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/parsing-a-boolean-expression/"
+    ],
+    "ytLink": [
+      "https://youtu.be/MM7fXopgyjw"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QFAe2o"
+    ]
+  },
+  {
+    "problemName": "Palindrome Partitioning – II|(DP-53)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/palindrome-partitioning-ii/"
+    ],
+    "ytLink": [
+      "https://youtu.be/_H8V5hJUGd0"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3QP6gsc"
+    ]
+  },
+  {
+    "problemName": "Partition Array for Maximum Sum|(DP-54)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/partition-array-for-maximum-sum/"
+    ],
+    "ytLink": [
+      "https://youtu.be/PhWWJmaKfMc"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3AUSIGj"
+    ]
+  },
+  {
+    "problemName": "Maximum Rectangle Area with all 1’s|(DP-55)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/maximal-rectangle/"
+    ],
+    "ytLink": [
+      "https://youtu.be/tOylVCugy9k"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3BY0ShY"
+    ]
+  },
+  {
+    "problemName": "Count Square Submatrices with All Ones|(DP-56)",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/count-square-submatrices-with-all-ones/"
+    ],
+    "ytLink": [
+      "https://youtu.be/auS1fynpnjo"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3UW7u7o"
+    ]
+  },
+  {
+    "problemName": "Implement TRIE | INSERT | SEARCH | STARTSWITH",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/implement-trie-prefix-tree/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=dBGUmUQhjaM&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3pqacEj"
+    ]
+  },
+  {
+    "problemName": "Implement Trie – 2 (Prefix Tree)",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SUAiwJ"
+    ]
+  },
+  {
+    "problemName": "Longest String with All Prefixes",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=AWnBa91lThI&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp&index=3"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Qx5AYB"
+    ]
+  },
+  {
+    "problemName": "Number of Distinct Substrings in a String",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=RV0QeTyHZxo&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp&index=4"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3UoqdsB"
+    ]
+  },
+  {
+    "problemName": "Bit PreRequisites for TRIE Problems",
+    "leetCodeLink": [],
+    "ytLink": [
+      "https://youtu.be/5iyuU4hQFrw"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Vw4XB1"
+    ]
+  },
+  {
+    "problemName": "Maximum XOR of two numbers in an array",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=EIhAwfHubE8&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp&index=6"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3Bypqwp"
+    ]
+  },
+  {
+    "problemName": "Maximum XOR With an Element From Array",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/"
+    ],
+    "ytLink": [
+      "https://www.youtube.com/watch?v=Q8LhG9Pi5KM&list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp&index=7"
+    ],
+    "gfgLink": [
+      "https://bit.ly/3tNYB3Y"
+    ]
+  },
+  {
+    "problemName": "Minimum number of bracket reversals needed to make an expression balanced",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3RiQ82d"
+    ]
+  },
+  {
+    "problemName": "Count and say",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/count-and-say/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3AFdLwR"
+    ]
+  },
+  {
+    "problemName": "Hashing In Strings | Theory",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3glak75"
+    ]
+  },
+  {
+    "problemName": "Rabin Karp",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3SkQqGw"
+    ]
+  },
+  {
+    "problemName": "Z-Function",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3dBLAGb"
+    ]
+  },
+  {
+    "problemName": "KMP algo / LPS(pi) array",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3fdJzQM"
+    ]
+  },
+  {
+    "problemName": "Shortest Palindrome",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/shortest-palindrome/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3PxCaIE"
+    ]
+  },
+  {
+    "problemName": "Longest happy prefix",
+    "leetCodeLink": [
+      "https://leetcode.com/problems/longest-happy-prefix/"
+    ],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3ptCpKi"
+    ]
+  },
+  {
+    "problemName": "Count palindromic subsequence in given string",
+    "leetCodeLink": [],
+    "ytLink": [],
+    "gfgLink": [
+      "https://bit.ly/3xHw6Hs"
+    ]
+  }
+]
