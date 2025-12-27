@@ -1,6 +1,7 @@
 import fs from "fs";
 
-const dataGfg = JSON.parse(fs.readFileSync('./tuf_2024Feb_Scrap_gfglinks.json', 'utf-8'));
+// const dataGfg = JSON.parse(fs.readFileSync('./tuf_2024Feb_Scrap_gfglinks.json', 'utf-8'));
+const dataGfg = JSON.parse(fs.readFileSync('./gfgDirectLinks.json', 'utf-8'));
 const dataCode = JSON.parse(fs.readFileSync('./tuf_2024Feb_Scrap_codeingninjaslinks.json', 'utf-8'));
 const data2 = JSON.parse(fs.readFileSync('../../tufProblems.json', 'utf-8'));
 
