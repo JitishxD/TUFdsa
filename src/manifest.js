@@ -29,6 +29,10 @@ export default defineManifest({
       matches: ['http://*/*', 'https://*/*'],
       js: ['src/contentScript/index.js'],
     },
+    {
+      matches: ['http://*.leetcode.com/*', 'https://*.leetcode.com/**'],
+      js: ['src/contentScript/askAiHelper.js'],
+    },
   ],
   side_panel: {
     default_path: 'sidepanel.html',
@@ -39,7 +43,7 @@ export default defineManifest({
       matches: [],
     },
   ],
-  permissions: ['sidePanel', 'storage'],
+  permissions: ['sidePanel', 'storage', 'tabs', 'scripting', 'activeTab'],
 
   chrome_url_overrides: {
     newtab: 'newtab.html',

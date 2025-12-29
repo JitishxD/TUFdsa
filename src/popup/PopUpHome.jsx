@@ -5,6 +5,7 @@ import Settings from "./Components/Settings";
 import QuickAccess from "./Components/QuickAccess";
 import SearchProblem from "./Components/SearchProblem";
 import { calculateStats } from "../utils/statsTracker";
+import AI from "./Components/AI";
 
 export function PopUpHome() {
   const [currentPage, setCurrentPage] = useState("PopUpHome");
@@ -145,6 +146,13 @@ export function PopUpHome() {
             </div>
 
             <button
+              onClick={() => setCurrentPage("AI")}
+              className="w-full bg-indigo-800 hover:bg-indigo-900 text-white px-4 py-2 rounded-lg font-medium text-sm"
+            >
+              🤖 Ask AI
+            </button>
+
+            <button
               onClick={handleQuickAccess}
               className="w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg font-medium text-sm"
             >
@@ -199,6 +207,9 @@ export function PopUpHome() {
       )}
       {currentPage === "SearchProblem" && (
         <SearchProblem onBack={() => setCurrentPage("PopUpHome")} />
+      )}
+      {currentPage === "AI" && (
+        <AI onBack={() => setCurrentPage("PopUpHome")} />
       )}
     </div>
   );
