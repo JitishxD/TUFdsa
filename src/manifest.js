@@ -30,7 +30,22 @@ export default defineManifest({
       js: ['src/contentScript/index.js'],
     },
     {
-      matches: ['http://*.leetcode.com/*', 'https://*.leetcode.com/**'],
+      // NOTE: Chrome MV3 match patterns must end with `*`, not `**`.
+      matches: [
+        'https://leetcode.com/*',
+        'https://*.leetcode.com/*',
+        'http://leetcode.com/*',
+        'http://*.leetcode.com/*',
+        'https://geeksforgeeks.org/*',
+        'https://www.geeksforgeeks.org/*',
+        'https://practice.geeksforgeeks.org/*',
+        'https://*.geeksforgeeks.org/*',
+        'http://naukri.com/code360/*',
+        'http://*.naukri.com/code360/*',
+        'https://*.naukri.com/code360/*',
+        'http://www.naukri.com/code360/*',
+        'https://www.naukri.com/code360/*',
+      ],
       js: ['src/contentScript/askAiHelper.js'],
     },
   ],

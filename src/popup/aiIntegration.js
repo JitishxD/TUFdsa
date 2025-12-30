@@ -13,9 +13,19 @@ export async function fetchCodeFromContentScript() {
 						const activeTab = tabs[0];
 						chrome.tabs.sendMessage(
 							activeTab.id,
-							{ type: "GET_LEETCODE_USER_CODE" },
+							{ type: "GET_USER_CODE" },
 							(response) => {
-								if (response && response.type === "LEETCODE_USER_CODE" && response.code != null) {
+								// If no content script is injected in this tab,
+								// Chrome will set runtime.lastError.
+								if (chrome.runtime && chrome.runtime.lastError) {
+									console.warn(
+										"[AI Helper] Could not reach content script:",
+										chrome.runtime.lastError.message
+									);
+									resolve(null);
+									return;
+								}
+								if (response && response.type === "USER_CODE" && response.code != null) {
 									resolve(response.code);
 								} else {
 									resolve(null);
