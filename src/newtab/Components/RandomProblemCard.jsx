@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import FilterPanel from "../../popup/Components/FilterPanel";
 import DataSourceSwitcher from "./DataSourceSwitcher";
 import { normalizeProblem } from "../util";
 import { getProblemCounts } from "../../utils/problemFilters";
+import { getDifficultyBg } from "../../utils/uiHelpers";
 
 const RandomProblemCard = ({
   dailyProblem,
   solvedMap,
   pickRandomProblem,
   toggleRandomSolved,
-  getDifficultyBg,
   filters,
   setFilters,
   matchMode,
@@ -20,14 +20,13 @@ const RandomProblemCard = ({
   dataSource,
   setDataSource,
 }) => {
-  if (!dailyProblem) return null;
-
   // Compute counts using helper
   const { total: totalProblemsCount, filtered: filteredProblemsCount } =
     getProblemCounts(dataSource, filters, solvedMap, matchMode);
 
   const {
     isGfgProblem,
+    isCode360Problem,
     problemId,
     problemTitle,
     problemDifficulty,
@@ -150,15 +149,46 @@ const RandomProblemCard = ({
             </div>
           )}
 
+          {/* Show message when no problem available */}
+          {!dailyProblem && (
+            <div className="bg-[#0e0e12] p-4 rounded-lg mb-3 border border-yellow-800/50">
+              <p className="text-yellow-300 text-sm text-center font-medium">
+                ⚠️ No problems match the selected filters
+              </p>
+              <p className="text-gray-400 text-xs text-center mt-2">
+                Please adjust your filters or try a different data source
+              </p>
+            </div>
+          )}
+
           {/* Primary Action Button */}
-          <a
-            href={problemUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="block w-full bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2.5 rounded-lg transition font-semibold text-sm text-center mb-3 shadow-md hover:shadow-lg"
-          >
-            🚀 Solve on {isGfgProblem ? "GeeksforGeeks" : "LeetCode"}
-          </a>
+          {dailyProblem ? (
+            <a
+              href={problemUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="block w-full bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2.5 rounded-lg transition font-semibold text-sm text-center mb-3 shadow-md hover:shadow-lg"
+            >
+              🚀 Solve on{" "}
+              {isGfgProblem
+                ? "GeeksforGeeks"
+                : isCode360Problem
+                  ? "Code360"
+                  : "LeetCode"}
+            </a>
+          ) : (
+            <button
+              disabled
+              className="block w-full bg-gray-700 text-gray-400 px-4 py-2.5 rounded-lg font-semibold text-sm text-center mb-3 cursor-not-allowed"
+            >
+              🚀 Solve on{" "}
+              {dataSource === "gfg"
+                ? "GeeksforGeeks"
+                : dataSource === "code360"
+                  ? "Code360"
+                  : "LeetCode"}
+            </button>
+          )}
 
           {/* New Random Button */}
           <button
@@ -169,20 +199,22 @@ const RandomProblemCard = ({
           </button>
 
           {/* Mark random as solved */}
-          <div>
-            <button
-              onClick={() => toggleRandomSolved(problemUniqueId)}
-              className={`w-full px-4 py-2 rounded-lg transition font-semibold text-sm shadow-sm ${
-                solvedMap[problemUniqueId]
-                  ? "bg-green-600 hover:bg-green-700 text-white"
-                  : "bg-gray-700 hover:bg-gray-600 text-gray-200"
-              }`}
-            >
-              {solvedMap[problemUniqueId]
-                ? "✅ Solved - Click to Unmark"
-                : "Mark as Solved"}
-            </button>
-          </div>
+          {dailyProblem && (
+            <div>
+              <button
+                onClick={() => toggleRandomSolved(problemUniqueId)}
+                className={`w-full px-4 py-2 rounded-lg transition font-semibold text-sm shadow-sm ${
+                  solvedMap[problemUniqueId]
+                    ? "bg-green-600 hover:bg-green-700 text-white"
+                    : "bg-gray-700 hover:bg-gray-600 text-gray-200"
+                }`}
+              >
+                {solvedMap[problemUniqueId]
+                  ? "✅ Solved - Click to Unmark"
+                  : "Mark as Solved"}
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>

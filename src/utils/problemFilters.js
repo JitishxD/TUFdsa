@@ -1,5 +1,6 @@
 import leetCodeProblems from "../problem-data/leetCodeAllProblemDump.json";
 import gfgData from "../problem-data/gfg_problems.json";
+import code360Data from "../problem-data/code360_problems_indexed.json";
 
 /**
  * Extract unique values from the problem dataset
@@ -10,25 +11,41 @@ export const getFilterOptions = (dataSource = "leetcode") => {
     const companies = new Set();
     const languages = new Set();
 
-    const sourceProblems =
-        dataSource === "gfg" ? (gfgData.problems || []) : (leetCodeProblems || []);
+    let sourceProblems;
+    if (dataSource === "gfg") {
+        sourceProblems = gfgData.problems || [];
+    } else if (dataSource === "code360") {
+        sourceProblems = code360Data.problems || [];
+    } else {
+        sourceProblems = leetCodeProblems || [];
+    }
 
     sourceProblems.forEach((problem) => {
         // Difficulty keys differ between sources; support both
         const diff = problem.difficulty || problem.problem_level || null;
         if (diff) difficulties.add(diff);
 
-        // Topics: LeetCode uses `topics`, GFG uses `tags.topic_tags`
+        // Topics: LeetCode uses `topics`, GFG uses `tags.topic_tags`, Code360 uses `practice_topics`
         if (problem.topics) {
             problem.topics.forEach((topic) => topics.add(topic));
         }
         if (problem.tags?.topic_tags) {
             problem.tags.topic_tags.forEach((topic) => topics.add(topic));
         }
+        if (dataSource === "code360" && problem.practice_topics) {
+            problem.practice_topics.forEach((topic) => {
+                if (topic) topics.add(topic);
+            });
+        }
 
-        // Company tags: GFG uses `tags.company_tags`; fallback to other possible shapes
+        // Company tags: GFG uses `tags.company_tags`, Code360 uses `company_list` array with `name` field
         if (problem.tags?.company_tags) {
             problem.tags.company_tags.forEach((c) => companies.add(c));
+        }
+        if (dataSource === "code360" && Array.isArray(problem.company_list)) {
+            problem.company_list.forEach((company) => {
+                if (company?.name) companies.add(company.name);
+            });
         }
 
         // Languages exist primarily in LeetCode dump
@@ -117,15 +134,18 @@ const matchSingleFilter = (problem, filter, solvedMap) => {
     // No values selected means no filtering
     if (!values || values.length === 0) return true;
 
-    // Determine if this is a GFG problem based on data structure
+    // Determine problem type based on data structure
     const isGfgProblem = problem.problem_name !== undefined;
+    const isCode360Problem = problem.slug !== undefined && problem.name !== undefined;
 
     switch (filterType) {
         case FILTER_TYPES.STATUS: {
-            // Handle both LeetCode and GFG problem IDs
+            // Handle LeetCode, GFG, and Code360 problem IDs
             const problemId = isGfgProblem
                 ? (problem.id || problem.index)
-                : problem.problem_id;
+                : isCode360Problem
+                    ? (problem.id || problem.index)
+                    : problem.problem_id;
             const isSolved = solvedMap[problemId] || false;
             const hasStatusMatch = values.some((status) => {
                 if (status === "Solved") return isSolved;
@@ -139,17 +159,20 @@ const matchSingleFilter = (problem, filter, solvedMap) => {
         }
 
         case FILTER_TYPES.DIFFICULTY: {
-            const hasDifficultyMatch = values.includes(problem.difficulty);
+            const difficulty = problem.difficulty || problem.problem_level || null;
+            const hasDifficultyMatch = values.includes(difficulty);
             if (operator === OPERATORS.IS) return hasDifficultyMatch;
             if (operator === OPERATORS.IS_NOT) return !hasDifficultyMatch;
             return true;
         }
 
         case FILTER_TYPES.TOPICS: {
-            // Handle both LeetCode (problem.topics) and GFG (problem.tags.topic_tags) structures
+            // Handle LeetCode (problem.topics), GFG (problem.tags.topic_tags), and Code360 (problem.practice_topics) structures
             const topics = isGfgProblem
                 ? (problem.tags?.topic_tags || [])
-                : (problem.topics || []);
+                : isCode360Problem
+                    ? (problem.practice_topics || []).filter(Boolean)
+                    : (problem.topics || []);
 
             if (!topics || topics.length === 0) return false;
 
@@ -175,10 +198,12 @@ const matchSingleFilter = (problem, filter, solvedMap) => {
         }
 
         case FILTER_TYPES.COMPANY: {
-            // Handle both GFG (problem.tags.company_tags) and potential other shapes
+            // Handle GFG (problem.tags.company_tags), Code360 (problem.company_list with name field), and LeetCode
             const companies = isGfgProblem
                 ? (problem.tags?.company_tags || [])
-                : (problem.company_tags || problem.companies || []);
+                : isCode360Problem
+                    ? (Array.isArray(problem.company_list) ? problem.company_list.map(c => c?.name).filter(Boolean) : [])
+                    : (problem.company_tags || problem.companies || []);
 
             if (!companies || companies.length === 0) return false;
 
@@ -273,7 +298,13 @@ export const getProblemCounts = (
 
     // If a string provided, treat as dataSource key
     if (typeof dataSourceOrProblems === "string") {
-        problems = dataSourceOrProblems === "gfg" ? (gfgData.problems || []) : (leetCodeProblems || []);
+        if (dataSourceOrProblems === "gfg") {
+            problems = gfgData.problems || [];
+        } else if (dataSourceOrProblems === "code360") {
+            problems = code360Data.problems || [];
+        } else {
+            problems = leetCodeProblems || [];
+        }
     } else if (Array.isArray(dataSourceOrProblems)) {
         problems = dataSourceOrProblems;
     }

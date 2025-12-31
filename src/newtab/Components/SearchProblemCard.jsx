@@ -1,12 +1,13 @@
 import React, { useMemo, useState } from "react";
 import leetCodeProblems from "../../problem-data/leetCodeAllProblemDump.json";
 import gfgData from "../../problem-data/gfg_problems.json";
+import code360Data from "../../problem-data/code360_problems_indexed.json";
 import DataSourceSwitcher from "./DataSourceSwitcher";
 import { normalizeProblem } from "../util";
 
 const SearchProblemCard = () => {
   const [query, setQuery] = useState("");
-  const [dataSource, setDataSource] = useState("leetcode"); // "leetcode" or "gfg"
+  const [dataSource, setDataSource] = useState("leetcode"); // "leetcode", "gfg", or "code360"
 
   const trimmedQuery = query.trim().toLowerCase();
 
@@ -14,6 +15,9 @@ const SearchProblemCard = () => {
   const problems = useMemo(() => {
     if (dataSource === "gfg") {
       return gfgData.problems || [];
+    }
+    if (dataSource === "code360") {
+      return code360Data.problems || [];
     }
     return leetCodeProblems || [];
   }, [dataSource]);
@@ -54,6 +58,10 @@ const SearchProblemCard = () => {
         rawTitle = p?.problem_name ?? "";
         rawDesc = ""; // GFG doesn't have description in the JSON
         topics = p?.tags?.topic_tags || [];
+      } else if (dataSource === "code360") {
+        rawTitle = p?.name ?? "";
+        rawDesc = ""; // Code360 doesn't have description in the JSON
+        topics = (p?.practice_topics || []).filter(Boolean);
       } else {
         rawTitle = p?.title ?? "";
         rawDesc = Array.isArray(p?.description)
@@ -129,7 +137,12 @@ const SearchProblemCard = () => {
         {!trimmedQuery && (
           <p className="mt-2 text-xs text-gray-500">
             Start typing to search across all{" "}
-            {dataSource === "leetcode" ? "LeetCode" : "GeeksforGeeks"} problems.
+            {dataSource === "leetcode"
+              ? "LeetCode"
+              : dataSource === "gfg"
+                ? "GeeksforGeeks"
+                : "Code360"}{" "}
+            problems.
           </p>
         )}
       </div>

@@ -1,6 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import leetCodeProblems from "../problem-data/leetCodeAllProblemDump.json";
-import gfgData from "../problem-data/gfg_problems.json";
 import a2zData from "../problem-data/DSAa2zProblems.json";
 import Header from "./Components/Header";
 import StatsCards from "./Components/StatsCards";
@@ -18,18 +16,16 @@ import {
   toggleProblemSolved,
   createSolvedMapFromHistory,
 } from "../utils/statsTracker";
-import { applyFilters } from "../utils/problemFilters";
+import { useRandomProblem } from "../utils/useRandomProblem";
+import { getDifficultyBg } from "../utils/uiHelpers";
 import "./Styles/NewTab.css";
 
 export const NewTab = () => {
   const [time, setTime] = useState("");
   const [date, setDate] = useState("");
   const [greeting, setGreeting] = useState("");
-  const [dailyProblem, setDailyProblem] = useState(null);
   const [a2zProblem, setA2zProblem] = useState(null);
   const [a2zSolvedMap, setA2zSolvedMap] = useState({});
-  const [solvedMap, setSolvedMap] = useState({});
-  const [randomSolveHistory, setRandomSolveHistory] = useState({});
   const [a2zSolveHistory, setA2zSolveHistory] = useState({});
   const [a2zCurrentIndex, setA2zCurrentIndex] = useState(0);
   const [stats, setStats] = useState({
@@ -44,15 +40,41 @@ export const NewTab = () => {
   });
   const [quote, setQuote] = useState("");
   const [remoteUpdateToast, setRemoteUpdateToast] = useState(false);
-  const [showFilterToast, setShowFilterToast] = useState(false);
-  const [showFilters, setShowFilters] = useState(false);
   const isLocalRandomRef = useRef(false);
-  const isInitialLoadRef = useRef(true);
-  const hasAutoAppliedRef = useRef(false);
-  const [filters, setFilters] = useState([]);
-  const [matchMode, setMatchMode] = useState("all");
-  const [filteredProblems, setFilteredProblems] = useState(leetCodeProblems);
-  const [dataSource, setDataSource] = useState("leetcode"); // "leetcode" or "gfg"
+
+  // Use shared hook for random problem logic
+  const {
+    currentProblem: dailyProblem,
+    solvedMap,
+    showFilters,
+    setShowFilters,
+    filters,
+    setFilters,
+    matchMode,
+    setMatchMode,
+    dataSource,
+    setDataSource,
+    showFilterToast,
+    pickRandomProblem: basePickRandomProblem,
+    applyFiltersAndPickNew: baseApplyFiltersAndPickNew,
+    toggleSolved: baseToggleSolved,
+  } = useRandomProblem();
+
+  // Wrap pickRandomProblem to add isLocalRandomRef logic
+  const pickRandomProblem = async () => {
+    isLocalRandomRef.current = true;
+    await basePickRandomProblem();
+    setTimeout(() => (isLocalRandomRef.current = false), 300);
+  };
+
+  // Wrap applyFiltersAndPickNew (no need for isLocalRandomRef here as it shows toast)
+  const applyFiltersAndPickNew = baseApplyFiltersAndPickNew;
+
+  // Wrap toggleSolved to update stats
+  const toggleRandomSolved = (problemId) => {
+    baseToggleSolved(problemId);
+    // Stats will be updated via storage listener
+  };
 
   const quotes = [
     "Talk is cheap. Show me the code.",
@@ -76,12 +98,12 @@ export const NewTab = () => {
     // Load data from Chrome storage
     loadData();
 
-    // Listen for storage changes to sync across contexts (random problem, solve histories, settings, A2Z index)
+    // Listen for storage changes to sync across contexts (solve histories, settings, A2Z index)
+    // Note: random problem changes are handled by the useRandomProblem hook
     const storageListener = async (changes, areaName) => {
       if (areaName === "sync" && changes.currentRandomProblem) {
         const newVal = changes.currentRandomProblem.newValue;
         if (newVal) {
-          setDailyProblem(newVal);
           // Show toast notification when problem changes in another context (popup/sidepanel)
           if (!isLocalRandomRef.current) {
             setRemoteUpdateToast(true);
@@ -101,17 +123,14 @@ export const NewTab = () => {
         const randomHistory = result.randomSolveHistory || {};
         const a2zHistory = result.a2zSolveHistory || {};
 
-        if (changes.randomSolveHistory) {
-          setRandomSolveHistory(randomHistory);
-          setSolvedMap(createSolvedMapFromHistory(randomHistory));
-        }
         if (changes.a2zSolveHistory) {
           setA2zSolveHistory(a2zHistory);
           setA2zSolvedMap(createSolvedMapFromHistory(a2zHistory));
         }
 
         // Recalculate stats with fresh data
-        updateStats(randomHistory, a2zHistory);
+        const bestStreakData = await chrome.storage.sync.get(["bestStreak"]);
+        updateStats(randomHistory, a2zHistory, bestStreakData.bestStreak || 0);
       }
       // Listen for settings changes (torture mode, etc.)
       if (areaName === "sync" && changes.userSettings) {
@@ -137,53 +156,7 @@ export const NewTab = () => {
     };
   }, []);
 
-  // Save all filter state to storage whenever any filter property changes
-  useEffect(() => {
-    // Skip saving on initial load
-    if (isInitialLoadRef.current) {
-      isInitialLoadRef.current = false;
-      return;
-    }
-
-    chrome.storage.sync.set({
-      savedFilters: {
-        filters,
-        matchMode,
-      },
-    });
-  }, [filters, matchMode]);
-
-  // Note: We intentionally do NOT recompute filteredProblems on every filter change
-  // to keep the "Apply" button as the source of truth. We only auto-apply once on load below.
-
-  // Call onApply (applyFiltersAndPickNew) once on initial page load if filters exist
-  useEffect(() => {
-    if (!hasAutoAppliedRef.current && filters.length > 0) {
-      hasAutoAppliedRef.current = true;
-      applyFiltersAndPickNew();
-    }
-  }, [filters, matchMode, solvedMap]);
-
-  // When data source changes, pick a new random problem from the new source
-  useEffect(() => {
-    // Skip on initial load
-    if (isInitialLoadRef.current) return;
-    
-    // Reset filtered problems when data source changes
-    const allProblems = dataSource === "gfg" 
-      ? (gfgData.problems || [])
-      : leetCodeProblems;
-    setFilteredProblems(allProblems);
-    
-    // Pick a new random problem from the new source
-    const randomIndex = Math.floor(Math.random() * allProblems.length);
-    const problem = allProblems[randomIndex];
-    setDailyProblem(problem);
-    chrome.storage.sync.set({ 
-      currentRandomProblem: problem,
-      randomProblemDataSource: dataSource 
-    });
-  }, [dataSource]);
+  // Filter and dataSource changes are handled by useRandomProblem hook
 
   const updateTime = () => {
     const now = new Date();
@@ -219,6 +192,7 @@ export const NewTab = () => {
       }
 
       // Load solve histories (new system with timestamps)
+      // Note: random problem history is handled by useRandomProblem hook
       const historyData = await chrome.storage.sync.get([
         "randomSolveHistory",
         "a2zSolveHistory",
@@ -228,11 +202,7 @@ export const NewTab = () => {
       const a2zHistory = historyData.a2zSolveHistory || {};
       const bestStreak = historyData.bestStreak || 0;
 
-      setRandomSolveHistory(randomHistory);
       setA2zSolveHistory(a2zHistory);
-
-      // Create solved maps for UI compatibility
-      setSolvedMap(createSolvedMapFromHistory(randomHistory));
       setA2zSolvedMap(createSolvedMapFromHistory(a2zHistory));
 
       // Calculate stats using the new system
@@ -248,40 +218,6 @@ export const NewTab = () => {
         chrome.storage.sync.set({ bestStreak: calculatedStats.bestStreak });
       }
 
-      // Get the current random problem from sync storage (synced with RandomProblem component)
-      const randomProblemData = await chrome.storage.sync.get([
-        "currentRandomProblem",
-        "savedFilters",
-        "randomProblemDataSource",
-      ]);
-
-      // Load saved data source
-      if (randomProblemData.randomProblemDataSource) {
-        setDataSource(randomProblemData.randomProblemDataSource);
-      }
-
-      // Load saved filters
-      if (randomProblemData.savedFilters) {
-        setFilters(randomProblemData.savedFilters.filters || []);
-        setMatchMode(randomProblemData.savedFilters.matchMode || "all");
-      }
-
-      if (randomProblemData.currentRandomProblem) {
-        setDailyProblem(randomProblemData.currentRandomProblem);
-      } else {
-        // If no random problem exists, pick one from the current data source
-        const allProblems = randomProblemData.randomProblemDataSource === "gfg"
-          ? (gfgData.problems || [])
-          : leetCodeProblems;
-        const randomIndex = Math.floor(Math.random() * allProblems.length);
-        const problem = allProblems[randomIndex];
-        setDailyProblem(problem);
-        chrome.storage.sync.set({ 
-          currentRandomProblem: problem,
-          randomProblemDataSource: randomProblemData.randomProblemDataSource || "leetcode"
-        });
-      }
-
       // Load A2Z problem - use last browsed index or default to 0
       const lastA2zIndexData = await chrome.storage.sync.get(["lastA2zIndex"]);
       const a2zIndex = lastA2zIndexData.lastA2zIndex ?? 0;
@@ -293,10 +229,10 @@ export const NewTab = () => {
   };
 
   // Helper function to update stats
-  const updateStats = async (randomHistory, a2zHistory) => {
-    // Load current best streak
-    const result = await chrome.storage.sync.get(["bestStreak"]);
-    const bestStreak = result.bestStreak || 0;
+  const updateStats = async (randomHistory, a2zHistory, currentBestStreak) => {
+    const bestStreak = currentBestStreak !== undefined 
+      ? currentBestStreak 
+      : (await chrome.storage.sync.get(["bestStreak"])).bestStreak || 0;
 
     const calculatedStats = calculateStats(
       randomHistory,
@@ -311,65 +247,8 @@ export const NewTab = () => {
     }
   };
 
-  // A2Z Navigation functions
-  const pickRandomProblem = async () => {
-    try {
-      // Get the appropriate problems array based on data source
-      const allProblems = dataSource === "gfg" 
-        ? (gfgData.problems || [])
-        : leetCodeProblems;
-      
-      // Use filtered problems if filters are active, otherwise use all problems
-      const problemPool =
-        filteredProblems.length > 0 ? filteredProblems : allProblems;
-      const randomIndex = Math.floor(Math.random() * problemPool.length);
-      const problem = problemPool[randomIndex];
-      setDailyProblem(problem);
-      // Mark as local change to prevent toast notification
-      isLocalRandomRef.current = true;
-      await chrome.storage.sync.set({ 
-        currentRandomProblem: problem,
-        randomProblemDataSource: dataSource 
-      });
-      // Reset flag after storage sync completes
-      setTimeout(() => (isLocalRandomRef.current = false), 300);
-    } catch (error) {
-      console.error("Error picking random problem:", error);
-    }
-  };
-
-  const applyFiltersAndPickNew = () => {
-    // Get the appropriate problems array based on data source
-    const allProblems = dataSource === "gfg" 
-      ? (gfgData.problems || [])
-      : leetCodeProblems;
-    
-    const filtered = applyFilters(
-      allProblems,
-      filters,
-      solvedMap,
-      matchMode
-    );
-    setFilteredProblems(filtered);
-
-    if (filtered.length > 0) {
-      const randomIndex = Math.floor(Math.random() * filtered.length);
-      const problem = filtered[randomIndex];
-      setDailyProblem(problem);
-      chrome.storage.sync.set({ 
-        currentRandomProblem: problem,
-        randomProblemDataSource: dataSource 
-      });
-
-      // Show toast notification
-      setShowFilterToast(true);
-      setTimeout(() => setShowFilterToast(false), 2200);
-    } else {
-      alert(
-        "No problems match the selected filters. Please adjust your filters."
-      );
-    }
-  };
+  // Random problem functions are now provided by useRandomProblem hook
+  // (wrapped above to add isLocalRandomRef logic)
 
   const prevA2zProblem = () => {
     const newIndex =
@@ -387,58 +266,56 @@ export const NewTab = () => {
     chrome.storage.sync.set({ lastA2zIndex: newIndex });
   };
 
-  const toggleA2zSolved = (problemId) => {
+  const toggleA2zSolved = async (problemId) => {
     const updatedHistory = toggleProblemSolved(a2zSolveHistory, problemId);
 
     setA2zSolveHistory(updatedHistory);
     setA2zSolvedMap(createSolvedMapFromHistory(updatedHistory));
 
-    // Update stats
-    updateStats(randomSolveHistory, updatedHistory);
+    // Update stats - get randomSolveHistory from storage
+    const result = await chrome.storage.sync.get([
+      "randomSolveHistory",
+      "bestStreak",
+    ]);
+    const randomHistory = result.randomSolveHistory || {};
+    const bestStreak = result.bestStreak || 0;
+    updateStats(randomHistory, updatedHistory, bestStreak);
 
     // Save to Chrome storage
     chrome.storage.sync.set({ a2zSolveHistory: updatedHistory });
   };
 
-  const toggleRandomSolved = (problemId) => {
-    if (!problemId) return;
+  // toggleRandomSolved is now provided by useRandomProblem hook
+  // (wrapped above as toggleRandomSolved to update stats)
+  
+  // Update stats when solve histories change
+  useEffect(() => {
+    const updateStatsFromStorage = async () => {
+      const result = await chrome.storage.sync.get([
+        "randomSolveHistory",
+        "a2zSolveHistory",
+        "bestStreak",
+      ]);
+      const randomHistory = result.randomSolveHistory || {};
+      const a2zHistory = result.a2zSolveHistory || {};
+      const bestStreak = result.bestStreak || 0;
+      updateStats(randomHistory, a2zHistory, bestStreak);
+    };
+    
+    // Listen for solve history changes to update stats
+    const listener = (changes, areaName) => {
+      if (
+        areaName === "sync" &&
+        (changes.randomSolveHistory || changes.a2zSolveHistory)
+      ) {
+        updateStatsFromStorage();
+      }
+    };
+    chrome.storage.onChanged.addListener(listener);
+    return () => chrome.storage.onChanged.removeListener(listener);
+  }, []);
 
-    const updatedHistory = toggleProblemSolved(randomSolveHistory, problemId);
-
-    setRandomSolveHistory(updatedHistory);
-    setSolvedMap(createSolvedMapFromHistory(updatedHistory));
-
-    // Update stats
-    updateStats(updatedHistory, a2zSolveHistory);
-
-    chrome.storage.sync.set({ randomSolveHistory: updatedHistory });
-  };
-
-  const getDifficultyColor = (difficulty) => {
-    switch (difficulty) {
-      case "Easy":
-        return "text-green-400";
-      case "Medium":
-        return "text-yellow-400";
-      case "Hard":
-        return "text-red-400";
-      default:
-        return "text-gray-400";
-    }
-  };
-
-  const getDifficultyBg = (difficulty) => {
-    switch (difficulty) {
-      case "Easy":
-        return "bg-green-900 text-green-300";
-      case "Medium":
-        return "bg-yellow-900 text-yellow-300";
-      case "Hard":
-        return "bg-red-900 text-red-300";
-      default:
-        return "bg-gray-900 text-gray-300";
-    }
-  };
+  // getDifficultyBg and getDifficultyColor are now imported from utils/uiHelpers
 
   return (
     <div className="min-h-screen bg-[#0e0e12] text-white p-6 relative overflow-hidden">

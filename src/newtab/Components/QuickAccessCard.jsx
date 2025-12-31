@@ -1,12 +1,13 @@
 import { useState } from "react";
 import leetCodeProblems from "../../problem-data/leetCodeAllProblemDump.json";
 import gfgData from "../../problem-data/gfg_problems.json";
+import code360Data from "../../problem-data/code360_problems_indexed.json";
 import DataSourceSwitcher from "./DataSourceSwitcher";
 
 const QuickAccessCard = () => {
   const [problemNumber, setProblemNumber] = useState("");
   const [error, setError] = useState("");
-  const [dataSource, setDataSource] = useState("leetcode"); // "leetcode" or "gfg"
+  const [dataSource, setDataSource] = useState("leetcode"); // "leetcode", "gfg", or "code360"
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -27,18 +28,28 @@ const QuickAccessCard = () => {
       if (problem) {
         problemUrl = problem.problem_url;
       }
+    } else if (dataSource === "code360") {
+      // Code360 uses index field
+      problem = code360Data.problems.find((p) => p.index === num);
+      if (problem) {
+        problemUrl = `https://www.naukri.com/code360/problems/${problem.slug}`;
+      }
     } else {
       // LeetCode uses frontend_id
-      problem = leetCodeProblems.find(
-        (p) => p.frontend_id === num.toString()
-      );
+      problem = leetCodeProblems.find((p) => p.frontend_id === num.toString());
       if (problem) {
         problemUrl = `https://leetcode.com/problems/${problem.problem_slug}/`;
       }
     }
 
     if (!problem) {
-      setError(`Problem #${num} not found in ${dataSource === "leetcode" ? "LeetCode" : "GeeksforGeeks"}`);
+      const sourceName =
+        dataSource === "leetcode"
+          ? "LeetCode"
+          : dataSource === "gfg"
+            ? "GeeksforGeeks"
+            : "Code360";
+      setError(`Problem #${num} not found in ${sourceName}`);
       return;
     }
 
@@ -69,7 +80,13 @@ const QuickAccessCard = () => {
       <form onSubmit={handleSubmit} className="space-y-3">
         <div>
           <label className="text-sm text-gray-400 block mb-2">
-            Enter {dataSource === "leetcode" ? "LeetCode" : "GeeksforGeeks"} Problem Number
+            Enter{" "}
+            {dataSource === "leetcode"
+              ? "LeetCode"
+              : dataSource === "gfg"
+                ? "GeeksforGeeks"
+                : "Code360"}{" "}
+            Problem Number
           </label>
           <input
             type="text"
