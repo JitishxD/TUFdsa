@@ -238,7 +238,7 @@ export function useRandomProblem() {
     useEffect(() => {
         if (isInitialLoadRef.current) return;
         applyFiltersAndPickNew();
-    }, [dataSource, applyFiltersAndPickNew]);
+    }, [dataSource]);
 
     return {
         // State
