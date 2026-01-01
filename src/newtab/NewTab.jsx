@@ -12,7 +12,7 @@ import FilterToast from "./Components/FilterToast";
 import QuickAccessCard from "./Components/QuickAccessCard";
 import SearchProblemCard from "./Components/SearchProblemCard";
 import {
-  calculateStats,
+  calculateStatsWithOptions,
   toggleProblemSolved,
   createSolvedMapFromHistory,
 } from "../utils/statsTracker";
@@ -33,6 +33,8 @@ export const NewTab = () => {
     totalSolved: 0,
     currentStreak: 0,
     bestStreak: 0,
+    isActiveToday: false,
+    isAtRisk: false,
   });
   const [settings, setSettings] = useState({
     tortureMode: false,
@@ -129,8 +131,7 @@ export const NewTab = () => {
         }
 
         // Recalculate stats with fresh data
-        const bestStreakData = await chrome.storage.sync.get(["bestStreak"]);
-        updateStats(randomHistory, a2zHistory, bestStreakData.bestStreak || 0);
+        updateStats(randomHistory, a2zHistory);
       }
       // Listen for settings changes (torture mode, etc.)
       if (areaName === "sync" && changes.userSettings) {
@@ -196,27 +197,19 @@ export const NewTab = () => {
       const historyData = await chrome.storage.sync.get([
         "randomSolveHistory",
         "a2zSolveHistory",
-        "bestStreak",
       ]);
       const randomHistory = historyData.randomSolveHistory || {};
       const a2zHistory = historyData.a2zSolveHistory || {};
-      const bestStreak = historyData.bestStreak || 0;
 
       setA2zSolveHistory(a2zHistory);
       setA2zSolvedMap(createSolvedMapFromHistory(a2zHistory));
 
       // Calculate stats using the new system
-      const calculatedStats = calculateStats(
+      const calculatedStats = calculateStatsWithOptions(
         randomHistory,
-        a2zHistory,
-        bestStreak
+        a2zHistory
       );
       setStats(calculatedStats);
-
-      // Save best streak if it changed
-      if (calculatedStats.bestStreak > bestStreak) {
-        chrome.storage.sync.set({ bestStreak: calculatedStats.bestStreak });
-      }
 
       // Load A2Z problem - use last browsed index or default to 0
       const lastA2zIndexData = await chrome.storage.sync.get(["lastA2zIndex"]);
@@ -229,22 +222,12 @@ export const NewTab = () => {
   };
 
   // Helper function to update stats
-  const updateStats = async (randomHistory, a2zHistory, currentBestStreak) => {
-    const bestStreak = currentBestStreak !== undefined 
-      ? currentBestStreak 
-      : (await chrome.storage.sync.get(["bestStreak"])).bestStreak || 0;
-
-    const calculatedStats = calculateStats(
+  const updateStats = async (randomHistory, a2zHistory) => {
+    const calculatedStats = calculateStatsWithOptions(
       randomHistory,
-      a2zHistory,
-      bestStreak
+      a2zHistory
     );
     setStats(calculatedStats);
-
-    // Save best streak if it changed
-    if (calculatedStats.bestStreak > bestStreak) {
-      chrome.storage.sync.set({ bestStreak: calculatedStats.bestStreak });
-    }
   };
 
   // Random problem functions are now provided by useRandomProblem hook
@@ -273,13 +256,9 @@ export const NewTab = () => {
     setA2zSolvedMap(createSolvedMapFromHistory(updatedHistory));
 
     // Update stats - get randomSolveHistory from storage
-    const result = await chrome.storage.sync.get([
-      "randomSolveHistory",
-      "bestStreak",
-    ]);
+    const result = await chrome.storage.sync.get(["randomSolveHistory"]);
     const randomHistory = result.randomSolveHistory || {};
-    const bestStreak = result.bestStreak || 0;
-    updateStats(randomHistory, updatedHistory, bestStreak);
+    updateStats(randomHistory, updatedHistory);
 
     // Save to Chrome storage
     chrome.storage.sync.set({ a2zSolveHistory: updatedHistory });
@@ -287,21 +266,19 @@ export const NewTab = () => {
 
   // toggleRandomSolved is now provided by useRandomProblem hook
   // (wrapped above as toggleRandomSolved to update stats)
-  
+
   // Update stats when solve histories change
   useEffect(() => {
     const updateStatsFromStorage = async () => {
       const result = await chrome.storage.sync.get([
         "randomSolveHistory",
         "a2zSolveHistory",
-        "bestStreak",
       ]);
       const randomHistory = result.randomSolveHistory || {};
       const a2zHistory = result.a2zSolveHistory || {};
-      const bestStreak = result.bestStreak || 0;
-      updateStats(randomHistory, a2zHistory, bestStreak);
+      updateStats(randomHistory, a2zHistory);
     };
-    
+
     // Listen for solve history changes to update stats
     const listener = (changes, areaName) => {
       if (

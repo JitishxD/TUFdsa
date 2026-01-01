@@ -4,7 +4,7 @@ import A2Z from "./Components/A2Z";
 import Settings from "./Components/Settings";
 import QuickAccess from "./Components/QuickAccess";
 import SearchProblem from "./Components/SearchProblem";
-import { calculateStats } from "../utils/statsTracker";
+import { calculateStatsWithOptions } from "../utils/statsTracker";
 import AI from "./Components/AI";
 
 export function PopUpHome() {
@@ -15,6 +15,8 @@ export function PopUpHome() {
     solvedToday: 0,
     currentStreak: 0,
     bestStreak: 0,
+    isActiveToday: false,
+    isAtRisk: false,
   });
 
   useEffect(() => {
@@ -25,9 +27,7 @@ export function PopUpHome() {
     const storageListener = (changes, areaName) => {
       if (
         areaName === "sync" &&
-        (changes.randomSolveHistory ||
-          changes.a2zSolveHistory ||
-          changes.bestStreak)
+        (changes.randomSolveHistory || changes.a2zSolveHistory)
       ) {
         loadStats();
       }
@@ -42,15 +42,12 @@ export function PopUpHome() {
       const result = await chrome.storage.sync.get([
         "randomSolveHistory",
         "a2zSolveHistory",
-        "bestStreak",
       ]);
       const randomHistory = result.randomSolveHistory || {};
       const a2zHistory = result.a2zSolveHistory || {};
-      const bestStreak = result.bestStreak || 0;
-      const calculatedStats = calculateStats(
+      const calculatedStats = calculateStatsWithOptions(
         randomHistory,
-        a2zHistory,
-        bestStreak
+        a2zHistory
       );
       setStats(calculatedStats);
     } catch (error) {
@@ -171,7 +168,17 @@ export function PopUpHome() {
           <div className="flex justify-between w-full mt-6 text-center gap-4">
             <div className="w-1/3">
               <p className="text-gray-400 text-sm">Current Streak:</p>
-              <p className="text-xl font-bold">{stats.currentStreak} 🔥</p>
+              <p
+                className={`text-xl font-bold ${
+                  stats.isAtRisk && !stats.isActiveToday ? "text-amber-400" : ""
+                }`}
+              >
+                {stats.currentStreak}{" "}
+                {stats.isAtRisk && !stats.isActiveToday ? "⚠️" : "🔥"}
+              </p>
+              {stats.isAtRisk && !stats.isActiveToday && (
+                <p className="text-amber-400 text-xs">Solve today!</p>
+              )}
             </div>
             <div className="w-1/3">
               <p className="text-gray-400 text-sm">Best Streak:</p>

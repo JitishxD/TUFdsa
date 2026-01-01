@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./Styles/Options.css";
 import SettingsTab from "./Components/SettingsTab";
 import DataManagementTab from "./Components/DataManagementTab";
-import { calculateStats } from "../utils/statsTracker";
+import { calculateStatsWithOptions } from "../utils/statsTracker";
 
 export const Options = () => {
   const [activeTab, setActiveTab] = useState("settings"); // 'settings' or 'data'
@@ -95,7 +95,10 @@ export const Options = () => {
       // Calculate total solved using new system
       const randomHistory = syncStorage.randomSolveHistory || {};
       const a2zHistory = syncStorage.a2zSolveHistory || {};
-      const calculatedStats = calculateStats(randomHistory, a2zHistory);
+      const calculatedStats = calculateStatsWithOptions(
+        randomHistory,
+        a2zHistory
+      );
 
       setStats({
         sync: syncKeys,
