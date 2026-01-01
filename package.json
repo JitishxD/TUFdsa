@@ -19,6 +19,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "fmt": "prettier --write '**/*.{jsx,js,json,css,scss,md}'",
     "zip": "npm run build && node src/zip.js"
   },
@@ -28,19 +30,21 @@
     "react-markdown": "^10.1.0"
   },
   "devDependencies": {
-    "tailwindcss": "^4.1.14",
-    "@tailwindcss/vite": "^4.1.14",
     "@crxjs/vite-plugin": "^2.0.0-beta.26",
+    "@tailwindcss/vite": "^4.1.14",
     "@types/react": "^18.2.28",
     "@types/react-dom": "^18.2.13",
     "@vitejs/plugin-react": "^4.1.0",
     "axios": "^1.13.2",
-    "puppeteer": "^24.26.0",
+    "baseline-browser-mapping": "^2.9.11",
     "glob": "^10.3.10",
     "gulp": "^5.0.0",
     "gulp-zip": "^6.0.0",
+    "jsdom": "^27.4.0",
     "prettier": "^3.0.3",
+    "puppeteer": "^24.26.0",
+    "tailwindcss": "^4.1.14",
     "vite": "^7.1.10",
-    "baseline-browser-mapping": "^2.9.11"
+    "vitest": "^4.0.16"
   }
 }

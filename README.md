@@ -340,8 +340,9 @@ npm run zip
 
 ```
 TUFDsa/
-├── 📄 package.json          # Dependencies and scripts
+├── 📄 package.json           # Dependencies and scripts
 ├── 📄 vite.config.js         # Vite + CRXJS configuration
+├── 📄 vitest.config.js       # Vitest config file
 ├── 📄 jsconfig.json          # TypeScript/JS configuration
 │
 ├── 📂 src/                   # Source code
@@ -514,6 +515,15 @@ We welcome contributions! Here's how to get started:
 | `feature/*` | New features          |
 | `fix/*`     | Bug fixes             |
 | `docs/*`    | Documentation updates |
+
+
+### Testing
+
+The tests are in [src/utils/streakCalculator.test.js](src/utils/streakCalculator.test.js) and imports the implementation from `statsTracker.js`.
+
+```bash
+npm run test
+```
 
 ### Commit Conventions
 
