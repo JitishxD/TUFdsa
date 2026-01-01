@@ -6,7 +6,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("app")).render(
   <React.StrictMode>
     <DevTools />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
 chrome.devtools.panels.create(
@@ -15,5 +15,5 @@ chrome.devtools.panels.create(
   "src/devtools/devtools.html",
   function () {
     // DevTools panel created
-  }
+  },
 );

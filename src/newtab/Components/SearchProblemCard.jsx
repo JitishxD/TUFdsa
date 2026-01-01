@@ -179,7 +179,7 @@ const SearchProblemCard = () => {
                     </span>
                     <span
                       className={`text-[10px] px-2 py-0.5 rounded-full font-semibold ${getDifficultyBg(
-                        problemDifficulty
+                        problemDifficulty,
                       )}`}
                     >
                       {problemDifficulty}

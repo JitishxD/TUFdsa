@@ -47,7 +47,7 @@ export function PopUpHome() {
       const a2zHistory = result.a2zSolveHistory || {};
       const calculatedStats = calculateStatsWithOptions(
         randomHistory,
-        a2zHistory
+        a2zHistory,
       );
       setStats(calculatedStats);
     } catch (error) {
@@ -64,7 +64,7 @@ export function PopUpHome() {
   const handleReset = () => {
     if (
       confirm(
-        "Are you sure you want to reset all progress? This cannot be undone."
+        "Are you sure you want to reset all progress? This cannot be undone.",
       )
     ) {
       // Clear local storage

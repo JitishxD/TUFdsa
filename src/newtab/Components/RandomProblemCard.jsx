@@ -86,7 +86,7 @@ const RandomProblemCard = ({
           </h3>
           <span
             className={`text-xs font-semibold px-3 py-1 rounded-full ${getDifficultyBg(
-              problemDifficulty
+              problemDifficulty,
             )}`}
           >
             {problemDifficulty}

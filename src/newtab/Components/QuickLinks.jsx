@@ -101,7 +101,7 @@ const QuickLinks = () => {
 
     if (editingLink) {
       const updatedLinks = customLinks.map((link) =>
-        link.id === editingLink.id ? { ...link, ...formData } : link
+        link.id === editingLink.id ? { ...link, ...formData } : link,
       );
       saveCustomLinks(updatedLinks);
       resetForm();
@@ -311,7 +311,7 @@ const QuickLinks = () => {
                     e.preventDefault();
                     if (
                       confirm(
-                        `Are you sure you want to delete "${link.label}"?`
+                        `Are you sure you want to delete "${link.label}"?`,
                       )
                     ) {
                       handleDeleteLink(link.id);

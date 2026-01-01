@@ -26,7 +26,7 @@ const graphqlQuery = (titleSlug) => ({
       }
     }
   `,
-  variables: { titleSlug }
+  variables: { titleSlug },
 });
 
 const fetchQuestionData = async (titleSlug) => {
@@ -81,7 +81,6 @@ const fetchAllData = async () => {
 
     await fs.writeFile("allProblemMeta.json", JSON.stringify(allData, null, 2));
     console.log("🎉 All data saved to allProblemMeta.json");
-
   } catch (err) {
     console.error("❌ Error:", err);
   }

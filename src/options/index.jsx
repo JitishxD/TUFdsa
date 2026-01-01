@@ -6,5 +6,5 @@ import "./Styles/index.css";
 ReactDOM.createRoot(document.getElementById("app")).render(
   <React.StrictMode>
     <Options />
-  </React.StrictMode>
+  </React.StrictMode>,
 );

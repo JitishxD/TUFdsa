@@ -25,7 +25,7 @@
   },
   {
     "problemName": "What are arrays, strings?",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "For loops",
@@ -47,19 +47,19 @@
   },
   {
     "problemName": "Time Complexity [Learn Basics, and then analyse in next Steps]",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Patterns",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "C++ STL",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Java Collections",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Count Digits",
@@ -159,7 +159,7 @@
   },
   {
     "problemName": "Hashing Theory",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Counting frequencies of array elements",
@@ -271,7 +271,7 @@
   },
   {
     "problemName": "Find missing number in an array",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Maximum Consecutive Ones",
@@ -659,7 +659,7 @@
   },
   {
     "problemName": "Largest odd number in a string",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Longest Common Prefix",
@@ -693,7 +693,7 @@
   },
   {
     "problemName": "Maximum Nesting Depth of Paranthesis",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Roman Number to Integer and vice versa",
@@ -715,7 +715,7 @@
   },
   {
     "problemName": "Longest Palindromic Substring[Do it without DP]",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Sum of Beauty of all substring",
@@ -1463,7 +1463,7 @@
   },
   {
     "problemName": "Sort K sorted array",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Merge M sorted Lists",
@@ -1593,13 +1593,11 @@
   },
   {
     "problemName": "Program for Shortest Job First (or SJF) CPU Scheduling",
-    "codestudio": [
-      "https://www.codingninjas.com/studio/problems/sjf_1172165"
-    ]
+    "codestudio": ["https://www.codingninjas.com/studio/problems/sjf_1172165"]
   },
   {
     "problemName": "Program for Least Recently Used (LRU) Page Replacement Algorithm",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Insert Interval",
@@ -1909,7 +1907,7 @@
   },
   {
     "problemName": "LCA in Binary Search Tree",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Construct a BST from a preorder traversal",
@@ -2597,11 +2595,11 @@
   },
   {
     "problemName": "Maximum Rectangle Area with all 1's|(DP-55)",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Count Square Submatrices with All Ones|(DP-56)",
-    "codestudio": [ ]
+    "codestudio": []
   },
   {
     "problemName": "Implement TRIE | INSERT | SEARCH | STARTSWITH",

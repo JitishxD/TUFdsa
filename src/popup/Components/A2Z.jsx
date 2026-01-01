@@ -104,7 +104,7 @@ function A2Z({ onBack }) {
         <h3
           className={`text-xl font-semibold text-center truncate h-12 leading-12 
             ${isSolved ? "text-green-400" : "text-white"}`}
-            title={`#${currentProblem.id}: ${currentProblem.problemName}`}
+          title={`#${currentProblem.id}: ${currentProblem.problemName}`}
         >
           #{currentProblem.id}: {currentProblem.problemName}
         </h3>

@@ -97,7 +97,7 @@ export const Options = () => {
       const a2zHistory = syncStorage.a2zSolveHistory || {};
       const calculatedStats = calculateStatsWithOptions(
         randomHistory,
-        a2zHistory
+        a2zHistory,
       );
 
       setStats({
@@ -240,7 +240,7 @@ export const Options = () => {
   const clearSyncData = async () => {
     if (
       confirm(
-        "Are you sure you want to clear ALL sync storage data? This cannot be undone!"
+        "Are you sure you want to clear ALL sync storage data? This cannot be undone!",
       )
     ) {
       try {
@@ -250,7 +250,7 @@ export const Options = () => {
       } catch (error) {
         showNotification(
           "Error clearing sync storage: " + error.message,
-          "error"
+          "error",
         );
       }
     }
@@ -260,7 +260,7 @@ export const Options = () => {
   const clearLocalData = async () => {
     if (
       confirm(
-        "Are you sure you want to clear ALL local storage data? This cannot be undone!"
+        "Are you sure you want to clear ALL local storage data? This cannot be undone!",
       )
     ) {
       try {
@@ -270,7 +270,7 @@ export const Options = () => {
       } catch (error) {
         showNotification(
           "Error clearing local storage: " + error.message,
-          "error"
+          "error",
         );
       }
     }
@@ -280,7 +280,7 @@ export const Options = () => {
   const clearAllData = async () => {
     if (
       confirm(
-        "⚠️ WARNING: This will delete ALL extension data (sync + local). This cannot be undone! Are you absolutely sure?"
+        "⚠️ WARNING: This will delete ALL extension data (sync + local). This cannot be undone! Are you absolutely sure?",
       )
     ) {
       try {

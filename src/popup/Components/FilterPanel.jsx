@@ -114,7 +114,7 @@ const FilterPanel = ({
   useEffect(() => {
     const handleClickOutside = (event) => {
       const clickedInside = Object.values(dropdownRefs.current).some(
-        (ref) => ref && ref.contains(event.target)
+        (ref) => ref && ref.contains(event.target),
       );
       if (!clickedInside) {
         setExpandedFilter(null);
@@ -147,7 +147,7 @@ const FilterPanel = ({
           return updated;
         }
         return f;
-      })
+      }),
     );
   };
 
@@ -162,7 +162,7 @@ const FilterPanel = ({
           return { ...f, values: newValues };
         }
         return f;
-      })
+      }),
     );
   };
 
@@ -173,7 +173,7 @@ const FilterPanel = ({
           return { ...f, values: f.values.filter((v) => v !== value) };
         }
         return f;
-      })
+      }),
     );
   };
 
@@ -207,7 +207,7 @@ const FilterPanel = ({
     if (!query.trim()) return options;
 
     return options.filter((option) =>
-      option.toLowerCase().includes(query.toLowerCase())
+      option.toLowerCase().includes(query.toLowerCase()),
     );
   };
 

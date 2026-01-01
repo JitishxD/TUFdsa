@@ -207,7 +207,7 @@ export const NewTab = () => {
       // Calculate stats using the new system
       const calculatedStats = calculateStatsWithOptions(
         randomHistory,
-        a2zHistory
+        a2zHistory,
       );
       setStats(calculatedStats);
 
@@ -225,7 +225,7 @@ export const NewTab = () => {
   const updateStats = async (randomHistory, a2zHistory) => {
     const calculatedStats = calculateStatsWithOptions(
       randomHistory,
-      a2zHistory
+      a2zHistory,
     );
     setStats(calculatedStats);
   };

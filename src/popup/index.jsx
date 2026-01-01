@@ -6,5 +6,5 @@ import PopUpHome from "./PopUpHome";
 ReactDOM.createRoot(document.getElementById("app")).render(
   <React.StrictMode>
     <PopUpHome />
-  </React.StrictMode>
+  </React.StrictMode>,
 );

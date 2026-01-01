@@ -4,55 +4,58 @@ const inputFile = "allProblemMeta.json";
 const outputFile = "main.json";
 
 function cleanHTML(content) {
-    if (!content) return "";
+  if (!content) return "";
 
-    // Preserve <pre> blocks with line breaks
-    content = content.replace(/<pre>([\s\S]*?)<\/pre>/g, (_, code) => {
-        return "\n```\n" + code.replace(/&quot;/g, '"') + "\n```\n";
-    });
+  // Preserve <pre> blocks with line breaks
+  content = content.replace(/<pre>([\s\S]*?)<\/pre>/g, (_, code) => {
+    return "\n```\n" + code.replace(/&quot;/g, '"') + "\n```\n";
+  });
 
-    // Replace <p> with line breaks
-    content = content.replace(/<\/p>/g, "\n").replace(/<p[^>]*>/g, "");
+  // Replace <p> with line breaks
+  content = content.replace(/<\/p>/g, "\n").replace(/<p[^>]*>/g, "");
 
-    // Remove all other HTML tags
-    content = content.replace(/<[^>]+>/g, "");
+  // Remove all other HTML tags
+  content = content.replace(/<[^>]+>/g, "");
 
-    // Decode common HTML entities
-    content = content.replace(/&nbsp;/g, " ")
-        .replace(/&lt;/g, "<")
-        .replace(/&gt;/g, ">")
-        .replace(/&amp;/g, "&");
+  // Decode common HTML entities
+  content = content
+    .replace(/&nbsp;/g, " ")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&");
 
-    // Normalize multiple line breaks
-    content = content.replace(/\n{2,}/g, "\n\n").trim();
+  // Normalize multiple line breaks
+  content = content.replace(/\n{2,}/g, "\n\n").trim();
 
-    return content;
+  return content;
 }
 
 async function transformProblems() {
-    try {
-        const data = await fs.readFile(inputFile, "utf-8");
-        const problems = JSON.parse(data);
+  try {
+    const data = await fs.readFile(inputFile, "utf-8");
+    const problems = JSON.parse(data);
 
-        const transformed = problems.map((problem) => ({
-            title: problem.title,
-            problem_id: problem.questionId,
-            frontend_id: problem.questionFrontendId,
-            difficulty: problem.difficulty,
-            problem_slug: problem.titleSlug,
-            topics: problem.topicTags ? problem.topicTags.map(tag => tag.name) : [],
-            language: problem.codeSnippets ? problem.codeSnippets.map(snippet => snippet.lang) : [],
-            description: cleanHTML(problem.content) || []
-        }));
+    const transformed = problems.map((problem) => ({
+      title: problem.title,
+      problem_id: problem.questionId,
+      frontend_id: problem.questionFrontendId,
+      difficulty: problem.difficulty,
+      problem_slug: problem.titleSlug,
+      topics: problem.topicTags ? problem.topicTags.map((tag) => tag.name) : [],
+      language: problem.codeSnippets
+        ? problem.codeSnippets.map((snippet) => snippet.lang)
+        : [],
+      description: cleanHTML(problem.content) || [],
+    }));
 
-        // Sort ascending by frontend_id (numeric)
-        transformed.sort((a, b) => Number(a.frontend_id) - Number(b.frontend_id));
+    // Sort ascending by frontend_id (numeric)
+    transformed.sort((a, b) => Number(a.frontend_id) - Number(b.frontend_id));
 
-        await fs.writeFile(outputFile, JSON.stringify(transformed, null, 2));
-        console.log(`Transformed and sorted data saved to ${outputFile}`);
-    } catch (err) {
-        console.error("Error:", err);
-    }
+    await fs.writeFile(outputFile, JSON.stringify(transformed, null, 2));
+    console.log(`Transformed and sorted data saved to ${outputFile}`);
+  } catch (err) {
+    console.error("Error:", err);
+  }
 }
 
 transformProblems();

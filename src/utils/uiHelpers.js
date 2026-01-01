@@ -37,4 +37,3 @@ export const getDifficultyColor = (difficulty) => {
       return "text-gray-400";
   }
 };
-
