@@ -3,6 +3,10 @@ import { crx } from '@crxjs/vite-plugin'
 import react from '@vitejs/plugin-react'
 import manifest from './src/manifest.js'
 import tailwindcss from '@tailwindcss/vite'
+import { fileURLToPath } from 'node:url'
+import { dirname, resolve } from 'node:path'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig(({ mode }) => {
   return {
@@ -10,6 +14,13 @@ export default defineConfig(({ mode }) => {
       emptyOutDir: true,
       outDir: 'build',
       rollupOptions: {
+        input: {
+          'src/popup/popup': resolve(__dirname, 'src/popup/popup.html'),
+          'src/options/options': resolve(__dirname, 'src/options/options.html'),
+          'src/newtab/newtab': resolve(__dirname, 'src/newtab/newtab.html'),
+          'src/sidepanel/sidepanel': resolve(__dirname, 'src/sidepanel/sidepanel.html'),
+          'src/devtools/devtools': resolve(__dirname, 'src/devtools/devtools.html'),
+        },
         output: {
           chunkFileNames: 'assets/chunk-[hash].js',
         },

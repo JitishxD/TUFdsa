@@ -10,9 +10,9 @@ ReactDOM.createRoot(document.getElementById("app")).render(
 );
 
 chrome.devtools.panels.create(
-  "ReactCrx",
+  "TUFdsa",
   "",
-  "../../devtools.html",
+  "src/devtools/devtools.html",
   function () {
     // DevTools panel created
   }

@@ -3,7 +3,7 @@ import React from "react";
 const SettingsButton = () => {
   return (
     <a
-      href="/options.html"
+      href="/src/options/options.html"
       target="_blank"
       className="fixed top-6 right-6 z-20 bg-[#1b1b22] hover:bg-[#2b2b33] border border-gray-800 hover:border-indigo-500 p-3 rounded-lg transition-all shadow-lg group"
       title="Settings & Options"
