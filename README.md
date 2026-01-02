@@ -269,7 +269,7 @@ User clicks "Ask AI" with code
 
 ### Prerequisites
 
-- **Node.js** >= 14.18.0
+- **Node.js** >= 20.19.0
 - **npm** or **yarn**
 - **Google Chrome** (latest recommended)
 
