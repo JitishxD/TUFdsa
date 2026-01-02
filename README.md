@@ -516,7 +516,6 @@ We welcome contributions! Here's how to get started:
 | `fix/*`     | Bug fixes             |
 | `docs/*`    | Documentation updates |
 
-
 ### Testing
 
 The tests are in [src/utils/streakCalculator.test.js](src/utils/streakCalculator.test.js) and imports the implementation from `statsTracker.js`.
