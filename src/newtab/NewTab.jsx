@@ -10,6 +10,7 @@ import SettingsButton from "./Components/SettingsButton";
 import RemoteUpdateToast from "./Components/RemoteUpdateToast";
 import FilterToast from "./Components/FilterToast";
 import QuickAccessCard from "./Components/QuickAccessCard";
+import PotdCard from "./Components/PotdCard";
 import SearchProblemCard from "./Components/SearchProblemCard";
 import {
   calculateStatsWithOptions,
@@ -319,8 +320,13 @@ export const NewTab = () => {
         {/* Stats Cards */}
         <StatsCards stats={stats} />
 
-        {/* Quick Access Card */}
-        <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 gap-4">
+        {/* POTD */}
+        <div className="grid grid-cols-1 mb-10">
+          <PotdCard />
+        </div>
+
+        {/* Quick Access & Search */}
+        <div className="mb-6 grid grid-cols-1 md:grid-cols-2 gap-4">
           <QuickAccessCard />
           <SearchProblemCard />
         </div>
