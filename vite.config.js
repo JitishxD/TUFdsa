@@ -9,7 +9,18 @@ import { dirname, resolve } from "node:path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig(({ mode }) => {
+  const isDev = mode === "development";
+
   return {
+    server: isDev
+      ? {
+          port: 5173,
+          strictPort: true,
+          cors: {
+            origin: [/chrome-extension:\/\//],
+          },
+        }
+      : undefined,
     build: {
       emptyOutDir: true,
       outDir: "build",

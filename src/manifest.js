@@ -64,6 +64,9 @@ export default defineManifest({
     },
   ],
   permissions: ["sidePanel", "storage", "tabs", "scripting", "activeTab"],
+  ...(isDev && {
+    host_permissions: ["http://localhost:5173/*"],
+  }),
   optional_host_permissions: [
     "https://api.cohere.ai/*",
     "https://www.timecomplexity.ai/*",
