@@ -64,6 +64,10 @@ export default defineManifest({
     },
   ],
   permissions: ["sidePanel", "storage", "tabs", "scripting", "activeTab"],
+  optional_host_permissions: [
+    "https://api.cohere.ai/*",
+    "https://www.timecomplexity.ai/*",
+  ],
 
   chrome_url_overrides: {
     newtab: "src/newtab/newtab.html",

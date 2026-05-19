@@ -6,6 +6,7 @@ import QuickAccess from "./Components/QuickAccess";
 import SearchProblem from "./Components/SearchProblem";
 import { calculateStatsWithOptions } from "../utils/statsTracker";
 import AI from "./Components/AI";
+import TimeComplexity from "./Components/TimeComplexity";
 
 export function PopUpHome() {
   const [currentPage, setCurrentPage] = useState("PopUpHome");
@@ -150,6 +151,13 @@ export function PopUpHome() {
             </button>
 
             <button
+              onClick={() => setCurrentPage("TimeComplexity")}
+              className="w-full bg-teal-700 hover:bg-teal-800 text-white px-4 py-2 rounded-lg font-medium text-sm"
+            >
+              ⏱️ TimeComplexity.ai
+            </button>
+
+            <button
               onClick={handleQuickAccess}
               className="w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg font-medium text-sm"
             >
@@ -217,6 +225,9 @@ export function PopUpHome() {
       )}
       {currentPage === "AI" && (
         <AI onBack={() => setCurrentPage("PopUpHome")} />
+      )}
+      {currentPage === "TimeComplexity" && (
+        <TimeComplexity onBack={() => setCurrentPage("PopUpHome")} />
       )}
     </div>
   );
