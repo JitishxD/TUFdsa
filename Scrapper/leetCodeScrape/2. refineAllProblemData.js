@@ -20,4 +20,6 @@ fs.writeFileSync(
   "utf8",
 );
 
-console.log("✅ Conversion complete! Output saved to output.json");
+console.log(
+  `✅ Conversion complete! ${simplified.length} problems saved to refinedAllData.json`,
+);
