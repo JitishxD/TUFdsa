@@ -14,6 +14,7 @@ async function scrapeStriverA2Z() {
     headless: false, // Set to true for headless mode
     defaultViewport: null,
     args: ["--start-maximized"],
+    protocolTimeout: 600000, // 10 minutes
   });
 
   const page = await browser.newPage();
@@ -21,7 +22,7 @@ async function scrapeStriverA2Z() {
   try {
     console.log("📡 Navigating to Striver A2Z page...");
     await page.goto(
-      "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems",
+      "https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z",
       {
         waitUntil: "domcontentloaded",
         timeout: 60000,
@@ -30,6 +31,7 @@ async function scrapeStriverA2Z() {
 
     console.log("✅ Page loaded successfully!");
     console.log("⏳ Waiting for table to load...");
+    console.log(`run this in console: document.querySelectorAll('[data-slot="accordion-trigger"][data-state="closed"]').forEach(btn => btn.click());`);
 
     // Wait for table to be present
     await page.waitForSelector("table", { timeout: 30000 });
@@ -67,7 +69,7 @@ async function scrapeStriverA2Z() {
         const problemAnchor = cells[1].querySelector("a");
         const problemName = problemAnchor
           ? problemAnchor.textContent.trim()
-          : "";
+          : cells[1].childNodes[0].innerText;
         const problemLink = problemAnchor ? problemAnchor.href : "";
 
         console.log(`⏳ Processing row ${i + 1}/${rows.length}
@@ -114,7 +116,7 @@ async function scrapeStriverA2Z() {
         });
 
         // Reduced wait time since no modal interactions needed
-        await sleep(500);
+        await sleep(100);
       }
 
       return problems;
