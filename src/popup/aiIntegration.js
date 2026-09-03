@@ -51,10 +51,16 @@ export async function fetchCodeFromContentScript() {
 }
 
 export function makeCohereRequest(apiKey, question) {
-  const apiUrl = "https://api.cohere.ai/v1/chat";
+  const apiUrl = "https://api.cohere.com/v2/chat";
+
   const data = {
-    model: "command-a-03-2025",
-    message: question,
+    model: "command-a-plus-05-2026",
+    messages: [
+      {
+        role: "user",
+        content: question,
+      },
+    ],
     temperature: 0.7,
     k: 0,
     p: 0.1,
@@ -88,18 +94,20 @@ export function makeCohereRequest(apiKey, question) {
       }
 
       const text =
-        body?.text ??
-        body?.output ??
-        (Array.isArray(body?.outputs) && body.outputs[0]?.content) ??
-        (typeof body === "string" ? body : JSON.stringify(body));
-      return { success: true, text };
-    })
-    .catch((error) => {
+        body?.message?.content?.find(
+          (item) => item.type === "text"
+        )?.text ?? "";
+
       return {
-        success: false,
-        error: error && error.message ? error.message : String(error),
+        success: true,
+        text,
+        body,
       };
-    });
+    })
+    .catch((error) => ({
+      success: false,
+      error: error?.message || String(error),
+    }));
 }
 
 export async function makeCohereRequestWithPermission(apiKey, payload) {
